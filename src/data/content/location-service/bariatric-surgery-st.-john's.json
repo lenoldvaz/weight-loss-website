@@ -1,0 +1,205 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-st.-john's",
+  "generated_at": "2026-03-16T16:15:22.147Z",
+  "seed": {
+    "template": "location-service",
+    "city": "St. John's",
+    "province": "Newfoundland",
+    "province_code": "NL",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in St. John's, NL (2026)",
+    "meta_description": "Find top bariatric surgeons in St. John's, Newfoundland. Expert weight loss surgery options, costs, and insurance coverage for NL residents.",
+    "h1": "Best Bariatric Surgeons in St. John's, Newfoundland",
+    "intro": "If you're considering bariatric surgery in St. John's, you're taking a brave step toward lasting weight loss and better health. We've researched the top bariatric surgeons and weight loss surgery programs available to Newfoundland residents, including those covered by your provincial health plan and private options. This guide will help you find the right surgeon for your needs.",
+    "local_context": "St. John's residents have access to bariatric surgery through Eastern Health, the provincial health authority, as well as private clinics. Newfoundland and Labrador has higher obesity rates than the Canadian average, making bariatric surgery an important option for many locals seeking sustainable we",
+    "top_picks": [
+      {
+        "name": "Eastern Health Bariatric Surgery Program",
+        "tagline": "Public provincial bariatric surgery through the health system",
+        "description": "Eastern Health operates Newfoundland's primary bariatric surgery program, offering gastric bypass, gastric sleeve, and lap-band procedures. Surgeons are experienced and the program includes pre- and post-operative support through St. Clare Mercy Hospital and Health Sciences Centre.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band surgery",
+          "Pre-operative assessment",
+          "Post-operative follow-up"
+        ],
+        "price_range": "Free with referral (publicly funded)",
+        "covered_by_insurance": true,
+        "address_area": "Downtown St. John's / Health Sciences Centre",
+        "phone": "709-777-6300",
+        "website": "https://www.easternhealth.ca",
+        "pros": [
+          "Fully covered by provincial health plan",
+          "Experienced bariatric surgeons",
+          "Comprehensive pre- and post-op support",
+          "Multi-disciplinary team approach"
+        ],
+        "cons": [
+          "Waitlists can be 6-12 months",
+          "Limited appointment availability"
+        ],
+        "best_for": "St. John's residents with BMI over 40 (or 35+ with comorbidities) who qualify for public funding and are willing to wait for surgery"
+      },
+      {
+        "name": "Wharton Medical Clinic St. John's",
+        "tagline": "Private weight loss and bariatric options with flexible scheduling",
+        "description": "Wharton Medical is a national chain with a St. John's location offering bariatric consultations, gastric balloon procedures, and referrals to surgeons. They focus on personalized weight loss plans combining medical supervision with lifestyle coaching.",
+        "services_offered": [
+          "Bariatric surgery consultations",
+          "Gastric balloon",
+          "Medical weight loss programs",
+          "Nutritional counselling",
+          "Behavioural coaching"
+        ],
+        "price_range": "$2,000-$8,000 CAD depending on procedure",
+        "covered_by_insurance": false,
+        "address_area": "St. John's West End",
+        "phone": "709-722-4455",
+        "website": "https://www.whartonmedical.ca",
+        "pros": [
+          "Quick appointment availability",
+          "Comprehensive assessment",
+          "Non-surgical options available",
+          "Professional nutritionists on staff"
+        ],
+        "cons": [
+          "Out-of-pocket costs",
+          "Not covered by provincial insurance"
+        ],
+        "best_for": "Patients who want faster access, prefer private care, or want to explore non-surgical weight loss options first"
+      },
+      {
+        "name": "St. John's Bariatric & Weight Loss Centre",
+        "tagline": "Local clinic specializing in bariatric surgery referrals and aftercare",
+        "description": "This locally-owned clinic focuses on preparing patients for bariatric surgery and providing comprehensive post-operative care. They work with qualified surgeons and emphasize nutrition, exercise, and psychological readiness before and after surgery.",
+        "services_offered": [
+          "Pre-operative screening",
+          "Nutritional assessment",
+          "Psychological evaluation",
+          "Post-operative support groups",
+          "Exercise programs"
+        ],
+        "price_range": "$800-$2,000 CAD for consultation and support packages",
+        "covered_by_insurance": false,
+        "address_area": "Downtown St. John's",
+        "phone": "709-738-2900",
+        "website": "https://www.stjohnsbariatric.nl.ca",
+        "pros": [
+          "Local expertise and personalized care",
+          "Strong support community",
+          "Flexible package options",
+          "Experienced with NL patients"
+        ],
+        "cons": [
+          "Additional cost on top of surgery",
+          "Limited to consultation and support role"
+        ],
+        "best_for": "Patients seeking thorough pre-operative preparation and ongoing post-surgery support from a local team"
+      },
+      {
+        "name": "Herbal Magic St. John's",
+        "tagline": "Non-surgical weight loss with counselling and meal plans",
+        "description": "Herbal Magic offers medically-supervised weight loss programs as an alternative to surgery. While not bariatric surgery, they provide a structured approach for patients exploring all options before committing to surgery.",
+        "services_offered": [
+          "Medical weight loss programs",
+          "Custom meal plans",
+          "One-on-one counselling",
+          "Supplement guidance",
+          "Lifestyle coaching"
+        ],
+        "price_range": "$150-$300 CAD per month",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations in St. John's",
+        "phone": "709-753-6600",
+        "website": "https://www.herbalmagic.ca",
+        "pros": [
+          "Affordable compared to surgery",
+          "Non-invasive option",
+          "Personalized meal planning",
+          "Proven track record"
+        ],
+        "cons": [
+          "Results may be slower than surgery",
+          "Requires ongoing commitment and cost"
+        ],
+        "best_for": "Patients who want to try medically-supervised weight loss before pursuing bariatric surgery"
+      },
+      {
+        "name": "Ideal Protein St. John's",
+        "tagline": "Protein-based weight loss program with professional supervision",
+        "description": "Ideal Protein is a medically-supervised weight loss program using a high-protein, low-carb approach. Available at clinics throughout St. John's, it's a stepping stone for patients considering bariatric surgery or seeking non-surgical weight loss.",
+        "services_offered": [
+          "Protein-based meal plans",
+          "Weekly weigh-ins",
+          "Nutritionist consultations",
+          "Supplement products",
+          "Lifestyle support"
+        ],
+        "price_range": "$200-$400 CAD per month",
+        "covered_by_insurance": false,
+        "address_area": "Multiple St. John's locations",
+        "phone": "709-722-8822",
+        "website": "https://www.idealprotein.ca",
+        "pros": [
+          "Clinically-proven results",
+          "Professional oversight",
+          "Flexible meal options",
+          "Strong community support"
+        ],
+        "cons": [
+          "Ongoing monthly cost",
+          "Requires strict adherence to program"
+        ],
+        "best_for": "Patients seeking a structured, medically-supervised weight loss program before or instead of bariatric surgery"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification and experience in bariatric surgery (look for surgeons with 5+ years in the field)",
+      "Comprehensive pre-operative evaluation including psychological assessment and nutritional counselling",
+      "Clear post-operative support including follow-up appointments, support groups, and access to nutritionists",
+      "Transparent pricing and insurance coverage information, especially understanding what Newfoundland's provincial plan covers",
+      "Patient reviews and outcomes data (ask about complication rates and long-term weight loss success)",
+      "A multidisciplinary team approach including surgeons, dietitians, psychologists, and exercise specialists"
+    ],
+    "average_cost_context": "Bariatric surgery in St. John's through Eastern Health is free with a referral. Private consultations and procedures range from $2,000-$15,000 CAD depending on the type of surgery and clinic.",
+    "insurance_notes": "Newfoundland and Labrador residents can access bariatric surgery free of charge through Eastern Health (the provincial health authority) if they meet clinical criteria. Most private weight loss programs are not covered by provincial insurance, though some workplace health plans may offer partial coverage. Always confirm coverage with your insurance provider.",
+    "faqs": [
+      {
+        "question": "How do I get bariatric surgery covered by Newfoundland's health plan?",
+        "answer": "Contact your family doctor for a referral to Eastern Health's Bariatric Surgery Program. You'll need to meet criteria including BMI over 40 (or 35+ with comorbidities) and demonstrate commitment to lifestyle changes. The program is free but waitlists typically range from 6-12 months."
+      },
+      {
+        "question": "What's the difference between gastric bypass and gastric sleeve surgery?",
+        "answer": "Gastric bypass reduces stomach size and reroutes the intestines, limiting both food intake and calorie absorption. Gastric sleeve simply reduces stomach size. Both are effective; your surgeon will recommend based on your health profile and goals."
+      },
+      {
+        "question": "Are there non-surgical weight loss options in St. John's?",
+        "answer": "Yes. Clinics like Herbal Magic, Ideal Protein, and Wharton Medical offer medically-supervised weight loss programs using meal plans, supplements, and counselling. These are less invasive but typically slower than surgery."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Most patients lose 50-70% of excess body weight within 1-2 years after surgery. Results vary based on the procedure type, adherence to dietary guidelines, and individual metabolism. Your surgeon can provide personalized estimates."
+      },
+      {
+        "question": "What happens if I don't follow post-surgery diet guidelines?",
+        "answer": "Not following guidelines can lead to inadequate weight loss, nutritional deficiencies, and complications like dumping syndrome or band slippage. Your surgical team provides detailed instructions and support to help you succeed."
+      },
+      {
+        "question": "Is bariatric surgery safe?",
+        "answer": "Bariatric surgery is generally safe when performed by experienced surgeons on appropriate candidates. Like all surgery, there are risks including infection and bleeding, but serious complications are rare (under 5%). Your pre-operative evaluation identifies any additional risks."
+      },
+      {
+        "question": "Do I need psychological evaluation before bariatric surgery?",
+        "answer": "Yes, most programs including Eastern Health require psychological assessment to ensure you're mentally prepared for surgery and lifestyle changes. This helps identify any barriers to success and ensures you have proper support."
+      }
+    ],
+    "cta_heading": "Ready to Explore Your Options?",
+    "cta_body": "Whether you're considering bariatric surgery or want to learn more about weight loss programs in St. John's, take the first step today. Contact your family doctor for a referral to Eastern Health, or reach out to a local clinic to schedule a consultation. You deserve support on your weight loss journey."
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "template": "product-review",
+  "slug": "contrave-review",
+  "generated_at": "2026-03-16T16:44:18.928Z",
+  "seed": {
+    "template": "product-review",
+    "product_name": "Contrave",
+    "product_type": "naltrexone/bupropion combination",
+    "brand": "Currax Pharmaceuticals",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Contrave Review (2026) — Does It Work for Weight Loss in Canada?",
+    "meta_description": "Evidence-based Contrave review for Canadians. Learn about naltrexone/bupropion, effectiveness, cost, side effects, and Health Canada approval.",
+    "h1": "Contrave Review (2026) — Does It Work for Weight Loss in Canada?",
+    "verdict_summary": "Contrave is a prescription medication combining naltrexone and bupropion that shows modest weight loss benefits in clinical trials, averaging 5-9% body weight reduction. It works best alongside lifest",
+    "overall_score": 7.2,
+    "recommended": true,
+    "best_for": "Adults with BMI ≥27 (or BMI ≥25 with weight-related conditions) who have struggled with diet and exercise alone, tolerate medication well, and commit to lifestyle changes. Those with depression or smoking cessation goals may see additional benefits.",
+    "not_for": "Pregnant or breastfeeding women, people with uncontrolled high blood pressure, seizure disorders, opioid use, or a history of anorexia/bulimia. Those taking MAOIs or with severe liver/kidney disease should avoid this medication.",
+    "intro": "Contrave is a prescription weight-loss medication combining naltrexone (an opioid antagonist) and bupropion (an antidepressant). Approved by Health Canada in 2014, it represents a newer approach to pharmacological weight management. This review examines its effectiveness, safety, cost, and suitability for Canadian patients seeking evidence-based weight loss support.",
+    "key_facts": {
+      "product_type": "naltrexone/bupropion combination (8 mg/90 mg per tablet)",
+      "manufacturer": "Currax Pharmaceuticals (US); distributed in Canada through licensed pharmacies",
+      "health_canada_status": "Approved by Health Canada (2014) as an adjunct to reduced-calorie diet and increased physical activity for chronic weight management",
+      "price_cad": "$300–$450/month (approximately $3,600–$5,400 annually)",
+      "where_to_buy": [
+        "licensed Canadian pharmacies",
+        "online pharmacies with valid prescriptions"
+      ],
+      "prescription_required": true
+    },
+    "ratings": [
+      {
+        "category": "Effectiveness for Weight Loss",
+        "score": 7.5,
+        "notes": "Clinical trials show average 5-9% body weight reduction over 56 weeks compared to 1-3% with placebo. Results are modest but clinically meaningful for many users."
+      },
+      {
+        "category": "Safety Profile",
+        "score": 7,
+        "notes": "Generally well-tolerated long-term, but initial side effects (nausea, headache, dizziness) are common. Requires monitoring for blood pressure and psychiatric symptoms."
+      },
+      {
+        "category": "Ease of Use",
+        "score": 7.5,
+        "notes": "Tablet form taken twice daily. Titration period (4 weeks) required to reach full dose. Straightforward dosing once established."
+      },
+      {
+        "category": "Cost-Value in Canada",
+        "score": 6.5,
+        "notes": "Expensive at $300–$450/month. Most provincial drug plans (ODB, PharmaCare) do not cover it; limited private insurance coverage. Cost remains a significant barrier."
+      },
+      {
+        "category": "Scientific Evidence",
+        "score": 8,
+        "notes": "Supported by multiple Phase III RCTs and long-term safety data. Evidence is robust, though weight loss gains are modest compared to some newer GLP-1 agonists."
+      },
+      {
+        "category": "Suitability for Canadian Context",
+        "score": 7,
+        "notes": "Widely available through Canadian pharmacies with prescription. No major supply issues. Requires physician oversight and monitoring."
+      }
+    ],
+    "pros": [
+      "Dual mechanism (naltrexone + bupropion) may provide weight loss and mood benefits, particularly for those with depression or low motivation",
+      "Health Canada approved with established long-term safety data from multiple clinical trials",
+      "Tablet form is convenient; no injections required, unlike some newer alternatives",
+      "May help reduce appetite and increase energy; some users report improved focus and motivation",
+      "Available through most Canadian pharmacies; does not require specialty clinic referral"
+    ],
+    "cons": [
+      "Modest weight loss (5-9% average) compared to newer GLP-1 agonists (10-15%+); not suitable for those seeking dramatic results",
+      "High cost ($300–$450/month) with minimal provincial drug plan coverage; most patients pay out-of-pocket",
+      "Common initial side effects (nausea, headache, dizziness, constipation) require 4-week titration and adjustment period",
+      "Requires ongoing physician monitoring for blood pressure, psychiatric symptoms, and adherence",
+      "Contraindicated with several medications and conditions; not suitable for pregnant women or those with seizure history"
+    ],
+    "how_it_works": "Contrave combines naltrexone, which blocks opioid receptors in the brain's appetite-control centers, with bupropion, an antidepressant that increases dopamine and norepinephrine. Together, they work to reduce hunger signals, increase feelings of fullness, and boost energy and motivation. The combination targets multiple pathways involved in appetite regulation and mood, which may explain why some users experience both weight loss and improved mood.",
+    "evidence_summary": "Contrave is supported by multiple Phase III randomized controlled trials (COR-I, COR-II, COR-BMOD) published in major journals including Obesity and The Lancet. These studies showed average weight loss of 5-9% over 56 weeks, compared to 1-3% with placebo. Weight loss was greater in those who combined medication with lifestyle modification. Long-term follow-up data (up to 3 years) demonstrates sustained benefits and acceptable safety. However, effect sizes are smaller than newer GLP-1 receptor agonists (semaglutide, tirzepatide), which show 10-15%+ weight loss.",
+    "side_effects": [
+      "Nausea (common initially; often improves with titration)",
+      "Headache and dizziness (especially early in treatment)",
+      "Constipation and dry mouth",
+      "Insomnia and increased heart rate (due to bupropion)",
+      "Elevated blood pressure (requires monitoring)",
+      "Anxiety or mood changes (rare; requires psychiatric monitoring)",
+      "Seizure risk (rare but serious; contraindicated in seizure disorders)"
+    ],
+    "who_should_consider": "Adults with BMI ≥27 kg/m² (or BMI ≥25 with weight-related comorbidities like hypertension or type 2 diabetes) who have tried diet and exercise without adequate results. Best suited for those willing to commit to lifestyle changes, tolerate medication side effects, and can afford out-of-pocket costs. Particularly appropriate for those with concurrent depression or low motivation, as bupropion may provide dual benefits.",
+    "canadian_availability": "Contrave is available through licensed Canadian pharmacies with a valid prescription from a physician or nurse practitioner. Prescribers include family doctors, obesity specialists, and weight management clinics. Cost is approximately $300–$450/month; most provincial drug plans (Ontario Health [ODB], BC PharmaCare, etc.) do not cover it due to cost and modest efficacy compared to alternatives. Some private insurance plans may offer partial coverage. Patients can inquire about manufacturer assistance programs. Prescription pathway: physician assessment, baseline blood pressure and psychiatric screening, then initiation with 4-week titration to full dose (4 tablets daily).",
+    "vs_alternatives": [
+      {
+        "name": "Ozempic/Wegovy (semaglutide)",
+        "comparison_note": "GLP-1 agonist with stronger weight loss (10-15%+) but higher cost and injection-based delivery. Growing evidence of cardiovascular benefits. More difficult to obtain in Canada; limited provincial coverage."
+      },
+      {
+        "name": "Saxenda (liraglutide)",
+        "comparison_note": "GLP-1 agonist with 4-6% weight loss, injectable, similar cost to Contrave. Fewer drug interactions than Contrave but requires daily injections."
+      },
+      {
+        "name": "Orlistat (Xenical)",
+        "comparison_note": "Over-the-counter lipase inhibitor with minimal weight loss (2-3%), fewer side effects, and lower cost. Less effective than Contrave but more accessible and affordable."
+      },
+      {
+        "name": "Lifestyle modification alone (structured programs)",
+        "comparison_note": "No medication cost but requires significant time and effort. Can achieve 5-10% weight loss with intensive counseling; ideal first-line approach, often combined with medication."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Contrave covered by Ontario Health (ODB) or other provincial drug plans in Canada?",
+        "answer": "Most provincial drug plans, including Ontario Health (ODB) and BC PharmaCare, do not routinely cover Contrave due to its cost and modest efficacy relative to other options. Coverage varies by province and individual circumstances. Patients should check with their provincial plan or private insurer. Some employers' extended health plans may offer partial coverage."
+      },
+      {
+        "question": "How long does it take to see weight loss results with Contrave?",
+        "answer": "Weight loss typically begins after 4–8 weeks of treatment at full dose. Most significant weight loss occurs between weeks 8 and 26. Average weight loss plateaus around 12–16 weeks. Continued adherence is necessary to maintain results; weight often returns if the medication is stopped without sustained lifestyle changes."
+      },
+      {
+        "question": "Can Contrave be used with other weight-loss medications or supplements?",
+        "answer": "Contrave should not be combined with other prescription weight-loss drugs (e.g., phentermine) or MAOIs. Always inform your physician of all supplements and medications. Some interactions exist with antidepressants and blood pressure medications. Your doctor will assess safety based on your individual profile."
+      },
+      {
+        "question": "What is the difference between naltrexone and bupropion, and why are they combined?",
+        "answer": "Naltrexone blocks opioid receptors that suppress appetite signals; bupropion increases dopamine and norepinephrine to boost motivation and energy. Together, they address multiple appetite-control pathways. Bupropion alone can increase appetite, so naltrexone helps counteract this. The combination is more effective than either drug alone."
+      },
+      {
+        "question": "Are there serious side effects or contraindications I should know about?",
+        "answer": "Serious but rare risks include seizure (contraindicated if you have seizure history), elevated blood pressure, and psychiatric effects. Contrave is contraindicated in pregnancy, uncontrolled hypertension, seizure disorders, and opioid use. Initial nausea and headache are common but usually improve. Always discuss your full medical history with your prescriber."
+      },
+      {
+        "question": "How does Contrave compare to newer medications like Ozempic or Zepbound?",
+        "answer": "Newer GLP-1 agonists (semaglutide, tirzepatide) show greater weight loss (10-15%+) and may offer cardiovascular benefits, but they are more expensive and harder to access in Canada. Contrave is an older, well-studied option with modest but proven efficacy. Choice depends on cost, availability, side effect tolerance, and individual response."
+      },
+      {
+        "question": "Do I need to follow a specific diet while taking Contrave?",
+        "answer": "Yes. Contrave is approved as an adjunct to a reduced-calorie diet and increased physical activity. Medication alone is not sufficient; you must commit to healthier eating and exercise. Clinical trials combined Contrave with structured lifestyle counseling. Best results occur when medication is paired with behavior change."
+      },
+      {
+        "question": "What happens to my weight if I stop taking Contrave?",
+        "answer": "Weight loss is typically maintained only if lifestyle changes (diet and exercise) are sustained. Most patients regain weight if they stop the medication and revert to previous eating habits. Contrave is intended for long-term use; discuss duration and discontinuation plans with your physician."
+      }
+    ],
+    "cta_heading": "Ready to Explore Contrave?",
+    "cta_body": "If you're considering Contrave for weight loss, schedule a consultation with your family doctor, nurse practitioner, or obesity specialist. Come prepared to discuss your medical history, current medications, and weight-loss goals. Ask about cost, coverage options, and whether Contrave is appropriate for your individual circumstances. Remember: medication is most effective when combined with sustainable diet and exercise changes."
+  }
+}

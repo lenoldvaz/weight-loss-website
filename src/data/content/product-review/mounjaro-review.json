@@ -1,0 +1,147 @@
+{
+  "template": "product-review",
+  "slug": "mounjaro-review",
+  "generated_at": "2026-03-16T16:43:50.898Z",
+  "seed": {
+    "template": "product-review",
+    "product_name": "Mounjaro",
+    "product_type": "GIP/GLP-1 receptor agonist",
+    "brand": "Eli Lilly",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Mounjaro Review (2026) — Weight Loss in Canada",
+    "meta_description": "Evidence-based review of Mounjaro for weight loss in Canada. Effectiveness, cost, availability, side effects, and whether it's right for you.",
+    "h1": "Mounjaro Review (2026): Does It Work for Weight Loss in Canada?",
+    "verdict_summary": "Mounjaro is a potent GIP/GLP-1 receptor agonist with strong clinical evidence for weight loss, approved by Health Canada for diabetes and weight management. It's effective but expensive, requires ongo",
+    "overall_score": 8,
+    "recommended": true,
+    "best_for": "Adults with obesity or overweight (BMI ≥27) with type 2 diabetes or metabolic risk factors, who have failed other weight loss methods and can afford ongoing costs.",
+    "not_for": "Pregnant or breastfeeding individuals, those with personal/family history of medullary thyroid cancer, people unable to afford long-term treatment, or those unable to tolerate injectable medications.",
+    "intro": "Mounjaro (tirzepatide) is a dual GIP/GLP-1 receptor agonist manufactured by Eli Lilly that has gained significant attention in Canada for weight loss. Originally approved for type 2 diabetes, it's now recognized as a powerful weight management tool. This review examines its effectiveness, cost, availability in Canada, side effects, and whether it's the right choice for your weight loss journey.",
+    "key_facts": {
+      "product_type": "GIP/GLP-1 receptor agonist injection",
+      "manufacturer": "Eli Lilly",
+      "health_canada_status": "Approved by Health Canada for type 2 diabetes management and weight management in adults with obesity or overweight",
+      "price_cad": "$300-450 per month (varies by pharmacy and dose); may be partially covered under provincial drug plans",
+      "where_to_buy": [
+        "licensed pharmacy with prescription",
+        "specialty diabetes clinics"
+      ],
+      "prescription_required": true
+    },
+    "ratings": [
+      {
+        "category": "Effectiveness for Weight Loss",
+        "score": 8.5,
+        "notes": "Clinical trials show average weight loss of 15-22% of body weight over 68 weeks; superior to GLP-1 only agents like semaglutide"
+      },
+      {
+        "category": "Ease of Use",
+        "score": 7,
+        "notes": "Once-weekly subcutaneous injection; requires consistent adherence and self-injection or clinic visits"
+      },
+      {
+        "category": "Safety Profile",
+        "score": 7.5,
+        "notes": "Generally well-tolerated; common side effects are gastrointestinal; serious adverse events are rare but require medical monitoring"
+      },
+      {
+        "category": "Affordability in Canada",
+        "score": 6,
+        "notes": "Expensive at $300-450/month; coverage varies significantly by province; out-of-pocket costs may be prohibitive for many Canadians"
+      },
+      {
+        "category": "Accessibility",
+        "score": 6.5,
+        "notes": "Requires prescription and ongoing medical supervision; supply constraints have eased but availability varies by region"
+      },
+      {
+        "category": "Long-term Sustainability",
+        "score": 7.5,
+        "notes": "Weight regain occurs after discontinuation; requires indefinite use for sustained benefit; lifestyle changes still essential"
+      }
+    ],
+    "pros": [
+      "Clinically proven significant weight loss (15-22% body weight reduction in trials)",
+      "Improves cardiovascular outcomes and metabolic health markers beyond weight loss alone",
+      "Once-weekly injection is convenient compared to daily oral medications",
+      "Dual mechanism (GIP+GLP-1) more effective than single-agent GLP-1 drugs like Ozempic",
+      "Health Canada approved for both diabetes and weight management indications"
+    ],
+    "cons": [
+      "High monthly cost ($300-450) with inconsistent provincial drug coverage; unaffordable for many Canadians",
+      "Gastrointestinal side effects (nausea, vomiting, diarrhea) common, especially at higher doses",
+      "Requires ongoing injections indefinitely; weight regain occurs after stopping",
+      "Must be combined with lifestyle changes; medication alone insufficient for sustained results",
+      "Supply constraints have eased but availability still variable across Canadian provinces"
+    ],
+    "how_it_works": "Mounjaro activates two hormone receptors—GIP and GLP-1—that regulate appetite, blood sugar, and metabolism. It slows gastric emptying (making you feel full longer), reduces hunger signals from the brain, and improves how your body uses glucose. This dual action makes it more potent than medications that target only GLP-1.",
+    "evidence_summary": "The SURMOUNT clinical trials (published 2022-2023) demonstrated that tirzepatide produces weight loss of 15-22% over 68 weeks, with cardiovascular benefits including reduced blood pressure and improved cholesterol. A 2024 meta-analysis in The Lancet confirmed superiority over GLP-1 monotherapy. Real-world Canadian data is limited, but international evidence supports efficacy in diverse populations. Long-term data beyond 2 years remains incomplete.",
+    "side_effects": [
+      "Nausea and vomiting (most common, especially during dose escalation)",
+      "Diarrhea or constipation (gastrointestinal effects)",
+      "Decreased appetite and food aversions",
+      "Fatigue or dizziness",
+      "Injection site reactions (mild redness or bruising)",
+      "Potential pancreatitis (rare but serious; requires immediate medical attention)",
+      "Dehydration risk (must maintain adequate fluid intake)"
+    ],
+    "who_should_consider": "Adults with BMI ≥27 kg/m² (or ≥25 with weight-related conditions) who have tried lifestyle modifications, have type 2 diabetes or metabolic risk factors, can afford ongoing treatment, are willing to self-inject weekly, and have medical supervision available. Best results occur when combined with diet, exercise, and behavioral changes.",
+    "canadian_availability": "Mounjaro is available through licensed Canadian pharmacies with a valid prescription from a physician or nurse practitioner. Cost is $300-450/month; coverage varies: Ontario (ODB covers for diabetes, limited weight management coverage), British Columbia (PharmaCare coverage available for eligible patients), Alberta (limited coverage), and other provinces vary. Many patients access it privately or through employer health plans. Specialty diabetes clinics in major cities often stock it. Eli Lilly offers patient assistance programs for eligible Canadians with financial hardship.",
+    "vs_alternatives": [
+      {
+        "name": "Ozempic/Saxenda (semaglutide — GLP-1 only)",
+        "comparison_note": "Mounjaro's dual GIP/GLP-1 action produces greater weight loss (22% vs 15%) but higher cost; semaglutide more established with longer safety data"
+      },
+      {
+        "name": "Metformin (oral, first-line diabetes medication)",
+        "comparison_note": "Much cheaper and oral, but significantly less effective for weight loss; Mounjaro superior for significant weight reduction but requires injection"
+      },
+      {
+        "name": "Contrave (naltrexone/bupropion — oral combination)",
+        "comparison_note": "Oral and lower cost, but produces only 5-10% weight loss; Mounjaro far more effective but injectable and expensive"
+      },
+      {
+        "name": "Bariatric surgery (gastric bypass, sleeve gastrectomy)",
+        "comparison_note": "One-time procedure with durable results; Mounjaro non-surgical and reversible but requires ongoing use; surgery riskier but may be more cost-effective long-term"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Mounjaro covered by provincial health plans in Canada?",
+        "answer": "Coverage varies by province. Ontario's ODB covers it for type 2 diabetes; weight management coverage is limited. British Columbia's PharmaCare covers it for eligible patients. Alberta and other provinces have restricted coverage. Check with your province and private insurance. Many patients pay out-of-pocket or use employer benefits."
+      },
+      {
+        "question": "How much weight can I expect to lose with Mounjaro?",
+        "answer": "Clinical trials show average weight loss of 15-22% of body weight over 68 weeks, depending on dose and adherence. Individual results vary. Weight loss is gradual (typically 1-2 kg per month) and requires combining medication with diet and exercise for optimal results."
+      },
+      {
+        "question": "What happens if I stop taking Mounjaro?",
+        "answer": "Weight regain typically occurs within months to a year after stopping. Mounjaro is designed for long-term use. Discuss discontinuation plans with your doctor; most patients require ongoing treatment to maintain weight loss. Lifestyle changes help minimize rebound weight gain."
+      },
+      {
+        "question": "Can I use Mounjaro if I have type 2 diabetes?",
+        "answer": "Yes, Mounjaro is approved for type 2 diabetes management and offers the dual benefit of blood sugar control and weight loss. It may reduce your need for other diabetes medications. Your doctor will adjust your treatment plan accordingly."
+      },
+      {
+        "question": "How often do I inject Mounjaro, and does it hurt?",
+        "answer": "Once weekly, subcutaneously (under the skin), usually in the abdomen, thigh, or upper arm. The needle is very small; most patients report minimal discomfort. Injections can be self-administered at home after training or given at a clinic."
+      },
+      {
+        "question": "Are there serious side effects I should know about?",
+        "answer": "Most side effects are gastrointestinal (nausea, diarrhea) and mild to moderate. Rare but serious risks include pancreatitis and thyroid issues. Contraindicated in personal/family history of medullary thyroid cancer. Regular medical monitoring is essential; report severe symptoms immediately."
+      },
+      {
+        "question": "Can I use Mounjaro while pregnant or breastfeeding?",
+        "answer": "No. Mounjaro is contraindicated in pregnancy and breastfeeding. Discontinue at least 2 months before attempting pregnancy. Discuss contraception and family planning with your doctor if you're considering Mounjaro."
+      },
+      {
+        "question": "Is Mounjaro better than diet and exercise alone?",
+        "answer": "For people with obesity or significant weight to lose, Mounjaro combined with diet and exercise is more effective than either approach alone. However, medication is not a substitute for lifestyle changes; best results require both. Discuss realistic expectations with your healthcare provider."
+      }
+    ],
+    "cta_heading": "Ready to Explore Mounjaro for Weight Loss?",
+    "cta_body": "If you're considering Mounjaro, start with a consultation with your family doctor, nurse practitioner, or endocrinologist. They'll assess your health, discuss costs and coverage in your province, and determine if it's appropriate for you. Bring questions about side effects, long-term use, and how to combine it with lifestyle changes. Remember: medication works best alongside healthy eating, regular physical activity, and behavioral support."
+  }
+}

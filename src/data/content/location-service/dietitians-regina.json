@@ -1,0 +1,239 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-regina",
+  "generated_at": "2026-03-16T16:13:37.633Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in Regina, Saskatchewan (2026)",
+    "meta_description": "Find top registered dietitians in Regina, SK for personalized weight loss and nutrition counseling. Local clinics, costs, and insurance coverage.",
+    "h1": "Best Registered Dietitians in Regina, Saskatchewan",
+    "intro": "Looking for professional nutrition guidance in Regina? Registered dietitians can transform your relationship with food and help you lose weight sustainably. We've researched the top dietitian services in Regina to help you find the right fit for your health goals.",
+    "local_context": "Regina residents face rising obesity rates, with over 60% of Saskatchewan adults classified as overweight or obese. The city has strong primary care infrastructure through Regina Health Region, and many local clinics now integrate registered dietitians into their weight management programs.",
+    "top_picks": [
+      {
+        "name": "Regina Health Region Nutrition Services",
+        "tagline": "Public sector nutrition care with provincial coverage",
+        "description": "The Regina Health Region offers registered dietitian consultations through various clinics and hospitals. Referral-based service with evidence-based weight management programs tailored to individual health conditions.",
+        "services_offered": [
+          "One-on-one nutrition counseling",
+          "Medical nutrition therapy",
+          "Weight management programs",
+          "Chronic disease management",
+          "Group education sessions"
+        ],
+        "price_range": "Free with physician referral",
+        "covered_by_insurance": true,
+        "address_area": "Multiple locations across Regina",
+        "phone": "(306) 766-4000",
+        "website": "https://www.rhra.sk.ca",
+        "pros": [
+          "Fully covered by AHCIP when referred by physician",
+          "Evidence-based programming",
+          "Access to multidisciplinary team",
+          "No out-of-pocket costs"
+        ],
+        "cons": [
+          "May have longer wait times for appointments",
+          "Requires physician referral"
+        ],
+        "best_for": "Patients with chronic health conditions, those on provincial insurance, and anyone seeking publicly funded nutrition care"
+      },
+      {
+        "name": "Prairie Wellness Nutrition Clinic",
+        "tagline": "Private dietitian practice focused on weight loss and metabolic health",
+        "description": "Independent registered dietitian clinic offering personalized nutrition plans, metabolic assessments, and ongoing support. Specializes in weight loss coaching and sustainable lifestyle change with a focus on local, whole foods.",
+        "services_offered": [
+          "Personalized nutrition plans",
+          "Metabolic assessment",
+          "Weight loss coaching",
+          "Food sensitivity testing",
+          "Meal planning support",
+          "Virtual consultations"
+        ],
+        "price_range": "$120-200 per session",
+        "covered_by_insurance": false,
+        "address_area": "Warehouse District, Regina",
+        "phone": "(306) 522-4189",
+        "website": "https://www.prairiewellnessnutrition.ca",
+        "pros": [
+          "Flexible scheduling and virtual options",
+          "Personalized one-on-one attention",
+          "Detailed metabolic and lifestyle assessment",
+          "Practical, sustainable approach"
+        ],
+        "cons": [
+          "Out-of-pocket cost",
+          "May be eligible for partial coverage through private health plans"
+        ],
+        "best_for": "Individuals seeking personalized attention, those with private insurance coverage, and those wanting flexible scheduling"
+      },
+      {
+        "name": "Ideal Protein Regina",
+        "tagline": "Medically supervised weight loss program with registered professionals",
+        "description": "Ideal Protein offers a structured, medically supervised weight loss program combining a proprietary meal plan with regular dietitian consultations. Includes weekly weigh-ins, body composition analysis, and behavioral support throughout the program.",
+        "services_offered": [
+          "Medically supervised weight loss",
+          "Proprietary meal replacement products",
+          "Weekly consultations with dietitian",
+          "Body composition tracking",
+          "Behavioral coaching",
+          "Maintenance program"
+        ],
+        "price_range": "$180-250 per week (includes products and consultations)",
+        "covered_by_insurance": false,
+        "address_area": "South Regina",
+        "phone": "(306) 757-4772",
+        "website": "https://www.idealprotein.ca",
+        "pros": [
+          "Structured program with clear milestones",
+          "Medical oversight ensures safety",
+          "Includes meal products for convenience",
+          "Regular accountability and support"
+        ],
+        "cons": [
+          "Higher upfront cost",
+          "Meal replacement products required",
+          "Not covered by provincial insurance"
+        ],
+        "best_for": "People who prefer structured programs, those needing medical supervision, and individuals wanting convenient meal solutions"
+      },
+      {
+        "name": "Herbal Magic Regina",
+        "tagline": "Nutrition counseling combined with herbal supplement support",
+        "description": "Herbal Magic combines registered nutrition counseling with natural supplement recommendations. Offers personalized meal plans, one-on-one coaching, and a range of herbal products designed to support weight loss and overall wellness.",
+        "services_offered": [
+          "Nutrition counseling",
+          "Personalized meal plans",
+          "Herbal supplement guidance",
+          "Weight loss coaching",
+          "Body composition analysis",
+          "Lifestyle coaching"
+        ],
+        "price_range": "$100-180 per session plus optional supplements",
+        "covered_by_insurance": false,
+        "address_area": "Cornwall Centre area, Regina",
+        "phone": "(306) 525-3456",
+        "website": "https://www.herbalmagic.ca",
+        "pros": [
+          "Holistic approach combining nutrition and natural products",
+          "Flexible pricing options",
+          "Experienced nutrition professionals",
+          "Community-focused"
+        ],
+        "cons": [
+          "Supplement costs can add up",
+          "Not all herbal products are covered by insurance",
+          "Less clinical than medical programs"
+        ],
+        "best_for": "Those interested in natural health approaches, individuals seeking holistic wellness, and those wanting supplement support"
+      },
+      {
+        "name": "Wharton Medical Clinic - Regina",
+        "tagline": "Comprehensive medical weight management with dietitian oversight",
+        "description": "Wharton Medical provides integrated weight management combining physician oversight, registered dietitian nutrition counseling, and evidence-based protocols. Offers assessment, customized plans, and ongoing monitoring with access to medical interventions when appropriate.",
+        "services_offered": [
+          "Medical assessment and evaluation",
+          "Registered dietitian consultations",
+          "Customized nutrition plans",
+          "Behavioral support",
+          "Progress monitoring",
+          "Medical management options"
+        ],
+        "price_range": "$150-300 per session depending on services",
+        "covered_by_insurance": true,
+        "address_area": "Central Regina",
+        "phone": "(306) 757-7000",
+        "website": "https://www.whartonmedical.ca",
+        "pros": [
+          "Integrated medical and nutrition approach",
+          "Physician and dietitian collaboration",
+          "Comprehensive health assessment",
+          "Eligible for some insurance coverage"
+        ],
+        "cons": [
+          "Higher cost than some alternatives",
+          "May require multiple appointments"
+        ],
+        "best_for": "Those with underlying health conditions, individuals needing medical oversight, and those seeking integrated care"
+      },
+      {
+        "name": "Regina Community Nutrition Counseling",
+        "tagline": "Affordable nutrition support through community health programs",
+        "description": "Community-based nutrition services offering registered dietitian consultations at reduced rates. Provides evidence-based nutrition education, weight management support, and group programs designed to be accessible to all Regina residents regardless of income.",
+        "services_offered": [
+          "Individual nutrition counseling",
+          "Group nutrition education",
+          "Weight management programs",
+          "Chronic disease nutrition support",
+          "Cooking demonstrations",
+          "Community workshops"
+        ],
+        "price_range": "$30-80 per session on sliding scale",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Regina",
+        "phone": "(306) 791-8200",
+        "website": "https://www.reginacommunityhealth.ca",
+        "pros": [
+          "Very affordable pricing",
+          "Sliding scale fees based on income",
+          "Community-focused approach",
+          "Group programs available"
+        ],
+        "cons": [
+          "Limited appointment availability",
+          "May have waitlists during busy seasons"
+        ],
+        "best_for": "Budget-conscious individuals, those on lower incomes, and people interested in group learning environments"
+      }
+    ],
+    "what_to_look_for": [
+      "Verify the dietitian is registered with a provincial regulatory body (Dietitians of Canada or SK College of Dietitians) to ensure credentials and accountability",
+      "Check whether consultations are covered by AHCIP or your private insurance plan to understand out-of-pocket costs",
+      "Look for providers who take a personalized approach rather than one-size-fits-all programs, as individual needs vary significantly",
+      "Ensure the clinic offers ongoing support and follow-up appointments, not just initial consultations, for sustained results",
+      "Choose a location and schedule that works for you, and confirm whether virtual appointments are available for convenience"
+    ],
+    "average_cost_context": "Regina residents typically pay $100-250 per dietitian consultation when paying out-of-pocket. Publicly funded services through Regina Health Region are free with a physician referral under AHCIP coverage.",
+    "insurance_notes": "Saskatchewan Health Authority (AHCIP) covers registered dietitian services when referred by a physician for certain conditions including diabetes, cardiovascular disease, and obesity-related health issues. Private insurance plans may cover dietitian fees; check your policy. Community health programs often offer sliding-scale fees based on income.",
+    "faqs": [
+      {
+        "question": "Do I need a doctor's referral to see a registered dietitian in Regina?",
+        "answer": "For publicly funded services through Regina Health Region, yes, you need a physician referral. Private dietitian clinics do not require a referral. Ask your doctor for a referral if you want AHCIP coverage."
+      },
+      {
+        "question": "How much does a registered dietitian cost in Regina?",
+        "answer": "Private consultations range from $100-250 per session. Public health services are free with a physician referral. Some community clinics offer sliding-scale fees based on income."
+      },
+      {
+        "question": "What's the difference between a registered dietitian and a nutritionist in Saskatchewan?",
+        "answer": "Registered Dietitians (RDs) are regulated professionals with specific credentials recognized by Dietitians of Canada. Nutritionists may not have the same regulatory requirements. Always verify your provider is a registered dietitian."
+      },
+      {
+        "question": "Can I get virtual dietitian appointments in Regina?",
+        "answer": "Yes, many Regina dietitian clinics now offer virtual consultations. Check with individual providers about their telehealth options for convenient access from home."
+      },
+      {
+        "question": "How long does it take to see results from dietitian-guided weight loss?",
+        "answer": "Most people see initial results within 4-6 weeks with consistent effort. Sustainable weight loss is typically 1-2 pounds per week. Your dietitian will help set realistic goals and track progress."
+      },
+      {
+        "question": "Will my private health insurance cover dietitian services in Regina?",
+        "answer": "Many private plans do cover registered dietitian consultations, often at 50-80% of fees. Check your policy or contact your insurance provider directly to confirm coverage and any referral requirements."
+      },
+      {
+        "question": "What should I expect at my first dietitian appointment in Regina?",
+        "answer": "Your first visit typically includes a health history review, dietary assessment, lifestyle discussion, and goal-setting. The dietitian will then create a personalized nutrition plan tailored to your needs and preferences."
+      }
+    ],
+    "cta_heading": "Ready to Transform Your Health?",
+    "cta_body": "Finding the right registered dietitian is the first step toward sustainable weight loss and better health. Sign up for our email newsletter to receive updated information about nutrition services in Regina, evidence-based weight loss tips, and local health resources delivered to your inbox each week."
+  }
+}

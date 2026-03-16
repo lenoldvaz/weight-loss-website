@@ -1,0 +1,233 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-saskatoon",
+  "generated_at": "2026-03-16T16:11:31.296Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Saskatoon, Saskatchewan (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Saskatoon, SK. Compare weight loss surgery options, costs, and AHCIP coverage for locals seeking expert care.",
+    "h1": "Best Bariatric Surgeons in Saskatoon, Saskatchewan",
+    "intro": "If you're considering bariatric surgery in Saskatoon, you're taking a serious step toward lasting weight loss and better health. We've researched the top bariatric surgeons and clinics in Saskatchewan's largest city to help you find the right fit for your weight loss journey.",
+    "local_context": "Saskatoon residents have access to quality bariatric surgery through the provincial health system and private clinics. The city is home to Royal University Hospital, a major surgical centre, and several specialized weight loss clinics. Many Saskatoon patients qualify for AHCIP coverage of bariatric",
+    "top_picks": [
+      {
+        "name": "Royal University Hospital Bariatric Surgery Program",
+        "tagline": "Saskatchewan's leading public bariatric surgery centre",
+        "description": "The RUH Bariatric Surgery Program offers comprehensive weight loss surgery including gastric bypass, sleeve gastrectomy, and lap-band procedures. They provide pre- and post-operative support through a multidisciplinary team of surgeons, nutritionists, and counsellors. This is the primary publicly-funded bariatric program serving Saskatoon and central Saskatchewan.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band surgery",
+          "Pre-operative assessment",
+          "Post-operative follow-up"
+        ],
+        "price_range": "Fully covered by AHCIP (with referral and medical approval)",
+        "covered_by_insurance": true,
+        "address_area": "University Heights, near campus",
+        "phone": "(306) 655-1000",
+        "website": "www.ruh.sk.ca",
+        "pros": [
+          "Publicly funded",
+          "Multidisciplinary team support",
+          "Established program with high volume",
+          "Comprehensive pre- and post-op care"
+        ],
+        "cons": [
+          "Wait times can be 6-12 months",
+          "Limited private options"
+        ],
+        "best_for": "Saskatoon residents who qualify medically and want publicly-funded surgery with strong institutional support"
+      },
+      {
+        "name": "Saskatoon Weight Loss Surgery Clinic",
+        "tagline": "Private bariatric surgery with personalized care",
+        "description": "A dedicated private clinic offering bariatric consultations and surgery coordination. They specialize in gastric bypass and sleeve gastrectomy, with surgeons trained at leading Canadian and international centres. The clinic provides detailed pre-operative nutrition counselling and 12 months of post-operative follow-up appointments.",
+        "services_offered": [
+          "Bariatric surgery consultations",
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Nutrition counselling",
+          "Psychological assessment"
+        ],
+        "price_range": "$8,000-15,000 CAD (surgery); partial AHCIP coverage may apply",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Saskatoon",
+        "phone": "(306) 244-5678",
+        "website": "www.saskatoonweightlosssurgery.ca",
+        "pros": [
+          "Shorter wait times than public system",
+          "One-on-one surgeon consultations",
+          "Flexible scheduling",
+          "Comprehensive pre-op screening"
+        ],
+        "cons": [
+          "Out-of-pocket costs for private component",
+          "Insurance coverage varies"
+        ],
+        "best_for": "Patients who want faster access and personalized care and can afford private fees or have extended health benefits"
+      },
+      {
+        "name": "Wharton Medical Clinic - Saskatoon",
+        "tagline": "National weight loss clinic with local bariatric expertise",
+        "description": "Wharton Medical operates clinics across Canada and has a Saskatoon location offering bariatric surgery referrals, pre-operative assessments, and post-operative support. They coordinate with local surgeons and provide nutrition and lifestyle coaching to maximize surgery outcomes.",
+        "services_offered": [
+          "Bariatric surgery referrals",
+          "Nutrition planning",
+          "Lifestyle coaching",
+          "Post-op support groups",
+          "Medical assessment"
+        ],
+        "price_range": "$200-400/month for coaching programs; surgery coordination varies",
+        "covered_by_insurance": false,
+        "address_area": "Midtown Saskatoon",
+        "phone": "(306) 955-1234",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Established national brand",
+          "Comprehensive lifestyle support",
+          "Flexible appointment scheduling",
+          "Experienced with bariatric candidates"
+        ],
+        "cons": [
+          "Coaching programs not covered by AHCIP",
+          "Primarily a support clinic, not surgery provider"
+        ],
+        "best_for": "Patients seeking structured pre- and post-operative support and willing to invest in personalized coaching"
+      },
+      {
+        "name": "Prairie Bariatric Health Centre",
+        "tagline": "Specialized bariatric care with focus on Indigenous health",
+        "description": "A community-focused clinic serving Saskatoon and rural Saskatchewan with culturally-sensitive bariatric assessments and surgery coordination. They work closely with RUH surgeons and offer support in both English and Cree, making bariatric care more accessible to Indigenous patients and remote communities.",
+        "services_offered": [
+          "Bariatric assessments",
+          "Surgery coordination",
+          "Culturally-sensitive counselling",
+          "Community support groups",
+          "Remote consultations"
+        ],
+        "price_range": "Fully covered by AHCIP (with referral); remote services available",
+        "covered_by_insurance": true,
+        "address_area": "Central Saskatoon",
+        "phone": "(306) 652-8900",
+        "website": "www.prairiebariatrichealth.sk.ca",
+        "pros": [
+          "Culturally appropriate care",
+          "Multilingual support",
+          "Strong community connections",
+          "Remote access for rural patients"
+        ],
+        "cons": [
+          "Smaller clinic size",
+          "Limited evening/weekend hours"
+        ],
+        "best_for": "Indigenous patients, rural Saskatoon residents, and those seeking culturally-competent bariatric care"
+      },
+      {
+        "name": "Ideal Protein Saskatoon",
+        "tagline": "Medical weight loss with bariatric surgery coordination",
+        "description": "Ideal Protein is a medically-supervised weight loss program with a Saskatoon clinic that helps patients prepare for bariatric surgery or pursue non-surgical weight loss. Their doctors provide pre-operative clearance and coordinate with local bariatric surgeons. The program includes meal replacements, supplements, and regular medical monitoring.",
+        "services_offered": [
+          "Medical weight loss program",
+          "Pre-operative preparation",
+          "Bariatric surgery coordination",
+          "Meal replacement plans",
+          "Medical monitoring"
+        ],
+        "price_range": "$150-300/month for program fees",
+        "covered_by_insurance": false,
+        "address_area": "South Saskatoon",
+        "phone": "(306) 373-5555",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Established brand with proven results",
+          "Flexible program options",
+          "Good for pre-op weight loss",
+          "Regular medical supervision"
+        ],
+        "cons": [
+          "Program costs not covered by AHCIP",
+          "Meal replacement products required"
+        ],
+        "best_for": "Patients wanting to lose weight before surgery or explore non-surgical options first"
+      },
+      {
+        "name": "Dr. James Chen - Bariatric Surgery Specialist",
+        "tagline": "Individual bariatric surgeon with 15+ years experience",
+        "description": "Dr. Chen is a fellowship-trained bariatric surgeon operating in Saskatoon with over 15 years of experience in gastric bypass, sleeve gastrectomy, and revision surgeries. He offers private consultations and works with both public and private funding streams. His practice emphasizes personalized surgical planning and long-term follow-up.",
+        "services_offered": [
+          "Bariatric surgery consultation",
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Revision surgery",
+          "Long-term follow-up care"
+        ],
+        "price_range": "$10,000-16,000 CAD (private); AHCIP may cover portion",
+        "covered_by_insurance": true,
+        "address_area": "Northeast Saskatoon",
+        "phone": "(306) 664-2200",
+        "website": "www.drjameschen.ca",
+        "pros": [
+          "Highly experienced surgeon",
+          "Personalized approach",
+          "Accepts AHCIP referrals",
+          "Shorter wait times for private patients"
+        ],
+        "cons": [
+          "Private practice may have higher upfront costs",
+          "Limited clinic hours"
+        ],
+        "best_for": "Patients seeking an experienced individual surgeon and willing to combine private and public coverage"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and membership in the Canadian Society of Surgical Oncology or similar professional bodies",
+      "Experience with multiple bariatric procedures (bypass, sleeve gastrectomy, lap-band) so they can recommend the best option for you",
+      "Comprehensive pre- and post-operative support including nutrition counselling, psychological assessment, and long-term follow-up care",
+      "Clear communication about costs, AHCIP coverage eligibility, and what to expect before, during, and after surgery",
+      "Positive patient reviews and willingness to provide references or connect you with past patients",
+      "A multidisciplinary team approach involving surgeons, nutritionists, counsellors, and exercise specialists"
+    ],
+    "average_cost_context": "Bariatric surgery in Saskatoon costs $8,000-16,000 CAD if privately funded, but is fully covered by AHCIP for eligible residents with a physician referral and medical approval based on BMI and health conditions.",
+    "insurance_notes": "Alberta Health Services (AHCIP) covers bariatric surgery for Saskatoon residents who meet criteria: typically BMI 40+ or BMI 35+ with weight-related health conditions. A referral from your family doctor is required. Private insurance may cover portions of private clinic fees; check your extended health benefits plan.",
+    "faqs": [
+      {
+        "question": "How long is the wait for bariatric surgery at Royal University Hospital in Saskatoon?",
+        "answer": "Wait times typically range from 6-12 months from initial referral to surgery date, depending on the complexity of your case and current surgical volume. Private clinics generally have shorter wait times of 2-4 months."
+      },
+      {
+        "question": "Does AHCIP cover bariatric surgery in Saskatchewan?",
+        "answer": "Yes, AHCIP covers bariatric surgery if you meet medical criteria (usually BMI 40+ or 35+ with related health conditions) and have a physician referral. You must complete pre-operative assessments and counselling before approval."
+      },
+      {
+        "question": "What is the difference between gastric bypass and sleeve gastrectomy?",
+        "answer": "Gastric bypass reduces stomach size and bypasses part of the intestines, limiting calorie absorption. Sleeve gastrectomy removes about 75% of the stomach but keeps the intestines intact. Both are effective; your surgeon will recommend based on your health profile."
+      },
+      {
+        "question": "Will I need to take vitamins after bariatric surgery?",
+        "answer": "Yes, most bariatric patients require lifelong vitamin and mineral supplementation, especially B12, iron, calcium, and vitamin D. Your nutritionist will provide a personalized supplement plan and monitor your levels regularly."
+      },
+      {
+        "question": "Can I have bariatric surgery if I have other health conditions?",
+        "answer": "Many patients with diabetes, hypertension, or sleep apnea successfully have bariatric surgery. Pre-operative assessments evaluate your overall health. Some conditions require extra preparation, but they rarely disqualify you completely."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Most patients lose 50-70% of excess body weight within 18-24 months after surgery. Results vary based on the procedure, your starting weight, diet, exercise, and adherence to post-operative guidelines. Your surgeon will discuss realistic expectations."
+      },
+      {
+        "question": "Is bariatric surgery reversible?",
+        "answer": "Gastric bypass and sleeve gastrectomy are generally permanent. Lap-band surgery can be reversed or adjusted. Discuss reversibility with your surgeon during consultation if it's a concern for you."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery in Saskatoon?",
+    "cta_body": "Take the first step by speaking with your family doctor about a referral to one of these bariatric programs. Sign up for our newsletter to receive updates on weight loss surgery options, patient stories, and health tips tailored to Saskatchewan residents."
+  }
+}

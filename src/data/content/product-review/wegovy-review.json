@@ -1,0 +1,148 @@
+{
+  "template": "product-review",
+  "slug": "wegovy-review",
+  "generated_at": "2026-03-16T16:42:37.660Z",
+  "seed": {
+    "template": "product-review",
+    "product_name": "Wegovy",
+    "product_type": "GLP-1 receptor agonist",
+    "brand": "Novo Nordisk",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Wegovy Review 2026 — Does It Work for Weight Loss in Canada?",
+    "meta_description": "Evidence-based Wegovy review for Canadians. Learn how this GLP-1 injection works, costs, side effects, and whether it's right for you.",
+    "h1": "Wegovy Review 2026: Effectiveness, Cost & Safety in Canada",
+    "verdict_summary": "Wegovy is a clinically proven GLP-1 medication that helps many Canadians lose significant weight when combined with lifestyle changes. Strong evidence supports its use, but cost, side effects, and pre",
+    "overall_score": 7.8,
+    "recommended": true,
+    "best_for": "Adults with BMI ≥27 (with weight-related conditions) or BMI ≥30, committed to lifestyle changes, who can afford or access coverage, and tolerate injectable medications",
+    "not_for": "Pregnant/breastfeeding women, those with personal/family history of thyroid cancer, medullary thyroid carcinoma, or severe kidney disease; people unable to commit to dietary changes",
+    "intro": "Wegovy (semaglutide) is a prescription injectable medication approved by Health Canada for weight management. It works by mimicking a hormone that regulates appetite and blood sugar. Clinical trials show users lose 15-22% of body weight on average. However, cost, side effects, and the need for ongoing medical supervision are key factors Canadians should understand before considering this treatment",
+    "key_facts": {
+      "product_type": "GLP-1 receptor agonist injection",
+      "manufacturer": "Novo Nordisk",
+      "health_canada_status": "Approved by Health Canada (2021) for chronic weight management in adults with obesity or overweight with weight-related conditions",
+      "price_cad": "$300–$400 per month (approximately); varies by dose and pharmacy",
+      "where_to_buy": [
+        "prescription pharmacy",
+        "specialty pharmacy networks"
+      ],
+      "prescription_required": true
+    },
+    "ratings": [
+      {
+        "category": "Effectiveness",
+        "score": 8.5,
+        "notes": "Clinical trials show 15–22% average body weight loss over 68 weeks; superior to most other weight-loss medications"
+      },
+      {
+        "category": "Safety Profile",
+        "score": 7.2,
+        "notes": "Generally well-tolerated but nausea, vomiting, and GI side effects common in early weeks; rare serious risks require monitoring"
+      },
+      {
+        "category": "Ease of Use",
+        "score": 7,
+        "notes": "Once-weekly injection is convenient; requires prescription and ongoing medical oversight; self-injection training needed"
+      },
+      {
+        "category": "Affordability in Canada",
+        "score": 5.8,
+        "notes": "Out-of-pocket cost prohibitive for many; limited provincial coverage (Ontario ODB covers for type 2 diabetes only); private insurance varies"
+      },
+      {
+        "category": "Long-term Sustainability",
+        "score": 7.4,
+        "notes": "Weight regain likely if stopped; requires indefinite use; lifestyle changes essential for best results"
+      },
+      {
+        "category": "Evidence Quality",
+        "score": 9,
+        "notes": "Extensive clinical trial data (STEP trials); peer-reviewed, published in major medical journals; strong real-world evidence emerging"
+      }
+    ],
+    "pros": [
+      "Clinically proven to produce significant weight loss (15–22% average) in most users",
+      "Once-weekly injection is convenient and discreet compared to daily pills",
+      "May improve blood sugar control and reduce cardiovascular risk in some patients",
+      "Helps reduce appetite and food cravings, making dietary adherence easier",
+      "Well-established safety monitoring through healthcare providers"
+    ],
+    "cons": [
+      "High out-of-pocket cost ($300–$400/month); limited provincial drug plan coverage in Canada",
+      "Nausea, vomiting, and gastrointestinal side effects common, especially early on",
+      "Weight regain likely if medication is discontinued; requires indefinite use",
+      "Requires prescription and ongoing medical supervision; not suitable for all",
+      "Potential for rare but serious side effects (pancreatitis, thyroid concerns); contraindicated in certain conditions"
+    ],
+    "how_it_works": "Wegovy contains semaglutide, a synthetic version of GLP-1, a hormone that regulates appetite and blood sugar. It works by slowing stomach emptying, increasing feelings of fullness, and signaling the brain to reduce hunger. This leads to lower calorie intake and sustained weight loss when combined with diet and exercise.",
+    "evidence_summary": "The STEP clinical trials (published in New England Journal of Medicine and Obesity) demonstrated that semaglutide produces 15–22% average weight loss over 68 weeks, significantly outperforming placebo and other weight-loss drugs. Real-world Canadian data is emerging; effectiveness varies based on individual metabolism, adherence, and lifestyle changes. Evidence supports use in type 2 diabetes and cardiovascular risk reduction.",
+    "side_effects": [
+      "Nausea (most common, especially in first 4–8 weeks)",
+      "Vomiting and gastrointestinal upset",
+      "Constipation or diarrhea",
+      "Abdominal pain or bloating",
+      "Headache or dizziness",
+      "Fatigue or low energy",
+      "Loss of appetite (intended but can be excessive)",
+      "Rare: pancreatitis, gallbladder issues, thyroid concerns"
+    ],
+    "who_should_consider": "Adults with BMI ≥27 (with weight-related health conditions like type 2 diabetes or hypertension) or BMI ≥30, who are committed to lifestyle changes, can afford or access coverage, have no contraindications, and prefer injectable medications under medical supervision.",
+    "canadian_availability": "Wegovy is available by prescription across Canada through community and specialty pharmacies. Cost ranges $300–$400/month; Ontario covers semaglutide through ODB only for type 2 diabetes management, not weight loss. Other provinces offer limited coverage. Private insurance may partially cover; check your plan. Novo Nordisk offers patient assistance programs for eligible low-income Canadians. Requires initial physician consultation and ongoing monitoring.",
+    "vs_alternatives": [
+      {
+        "name": "Ozempic (semaglutide for diabetes)",
+        "comparison_note": "Same active ingredient as Wegovy but approved for type 2 diabetes; lower doses; similar effectiveness but different indication and cost structure"
+      },
+      {
+        "name": "Saxenda (liraglutide)",
+        "comparison_note": "Older GLP-1 agonist; daily injection required; less effective than Wegovy (5–6% weight loss); lower cost in some provinces"
+      },
+      {
+        "name": "Orlistat (Xenical)",
+        "comparison_note": "Over-the-counter lipase inhibitor; minimal weight loss (3–5%); fewer side effects but much less effective than Wegovy; no prescription needed"
+      },
+      {
+        "name": "Phentermine",
+        "comparison_note": "Older appetite suppressant; short-term use only (12 weeks); modest weight loss; more side effects; lower cost but less evidence"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Wegovy covered by provincial health insurance in Canada?",
+        "answer": "Limited coverage. Ontario's ODB covers semaglutide for type 2 diabetes management only, not weight loss. Other provinces offer minimal or no coverage. Private insurance varies. Most Canadians pay out-of-pocket or use patient assistance programs."
+      },
+      {
+        "question": "How long does it take to see weight loss results with Wegovy?",
+        "answer": "Most people notice appetite reduction within days; visible weight loss typically begins within 2–4 weeks. Significant loss (10%+ of body weight) usually occurs by 8–12 weeks with consistent use and lifestyle changes."
+      },
+      {
+        "question": "What happens if I stop taking Wegovy?",
+        "answer": "Weight regain is common within months of stopping. Studies show most weight returns within 1–2 years if medication is discontinued without sustained lifestyle changes. Wegovy is intended for long-term use."
+      },
+      {
+        "question": "Are there serious side effects I should know about?",
+        "answer": "Most side effects are mild to moderate (nausea, constipation). Rare serious risks include pancreatitis and gallbladder issues. It's contraindicated in personal/family history of medullary thyroid carcinoma. Medical supervision and monitoring are essential."
+      },
+      {
+        "question": "Can I get Wegovy if I have type 2 diabetes?",
+        "answer": "Yes. Semaglutide (Ozempic brand) is approved for type 2 diabetes and may be covered by provincial plans in that context. Wegovy is the weight-management formulation. Discuss with your doctor which is appropriate for you."
+      },
+      {
+        "question": "Do I need to diet and exercise while taking Wegovy?",
+        "answer": "Yes. Wegovy works best combined with healthy eating and regular physical activity. It reduces hunger but doesn't replace lifestyle changes. Clinical trial success depended on participants making dietary and exercise modifications."
+      },
+      {
+        "question": "How much does Wegovy cost in Canada without insurance?",
+        "answer": "Approximately $300–$400 per month depending on dose and pharmacy. Annual cost is $3,600–$4,800. Novo Nordisk's patient assistance program may help eligible low-income Canadians access it at reduced cost."
+      },
+      {
+        "question": "Is Wegovy safe for long-term use?",
+        "answer": "Current evidence supports long-term safety based on clinical trials lasting up to 2 years. Ongoing medical monitoring is required. Long-term data (5+ years) is still emerging. Discuss risks and benefits with your physician."
+      }
+    ],
+    "cta_heading": "Ready to Learn More About Wegovy?",
+    "cta_body": "Talk to your doctor or a registered dietitian about whether Wegovy is right for you. Bring this review to your appointment, discuss your health history, and explore whether you qualify for provincial coverage or patient assistance programs. Weight loss is a journey—professional guidance ensures the safest, most effective approach."
+  }
+}

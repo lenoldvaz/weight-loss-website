@@ -1,0 +1,149 @@
+{
+  "template": "product-review",
+  "slug": "saxenda-review",
+  "generated_at": "2026-03-16T16:43:26.196Z",
+  "seed": {
+    "template": "product-review",
+    "product_name": "Saxenda",
+    "product_type": "GLP-1 receptor agonist",
+    "brand": "Novo Nordisk",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Saxenda Review (2026) — Does It Work for Weight Loss in Canada?",
+    "meta_description": "Evidence-based Saxenda review for Canadians. Learn how this GLP-1 injection works, costs, side effects, and whether it's right for you.",
+    "h1": "Saxenda Review (2026) — Does It Work for Weight Loss in Canada?",
+    "verdict_summary": "Saxenda is an evidence-backed GLP-1 medication that helps many Canadians lose weight through appetite suppression. It requires a prescription, costs $300-500/month, and works best alongside lifestyle",
+    "overall_score": 7.5,
+    "recommended": true,
+    "best_for": "Adults with a BMI ≥30 or ≥27 with weight-related health conditions, who are committed to diet and exercise changes and can tolerate injectable medications.",
+    "not_for": "People with personal or family history of medullary thyroid cancer, multiple endocrine neoplasia type 2, pregnancy/breastfeeding, or those unwilling to commit to lifestyle modifications.",
+    "intro": "Saxenda (liraglutide) is a prescription GLP-1 receptor agonist approved by Health Canada for chronic weight management. Originally developed for type 2 diabetes, it has become a popular weight-loss tool in Canada. This review examines the evidence, costs, side effects, and whether Saxenda is right for you.",
+    "key_facts": {
+      "product_type": "GLP-1 receptor agonist injection",
+      "manufacturer": "Novo Nordisk",
+      "health_canada_status": "Approved by Health Canada for chronic weight management in adults with BMI ≥30 or ≥27 with comorbidities",
+      "price_cad": "$300-500 per month (approximately $3,600-6,000 annually)",
+      "where_to_buy": [
+        "Licensed Canadian pharmacies",
+        "Specialty pharmacies with prescription"
+      ],
+      "prescription_required": true
+    },
+    "ratings": [
+      {
+        "category": "Effectiveness",
+        "score": 8,
+        "notes": "Clinical trials show average 5-6% body weight loss; some users achieve 10%+ with adherence and lifestyle changes."
+      },
+      {
+        "category": "Safety Profile",
+        "score": 7.5,
+        "notes": "Generally well-tolerated but gastrointestinal side effects are common, especially during titration. Serious adverse events are rare."
+      },
+      {
+        "category": "Ease of Use",
+        "score": 7,
+        "notes": "Once-daily subcutaneous injection is straightforward, but requires consistent adherence. Dose titration takes 12 weeks."
+      },
+      {
+        "category": "Cost-Effectiveness",
+        "score": 6.5,
+        "notes": "High out-of-pocket cost for most Canadians; limited provincial coverage. Some employer plans and patient assistance programs available."
+      },
+      {
+        "category": "Accessibility in Canada",
+        "score": 7,
+        "notes": "Available through licensed pharmacies with prescription, but supply constraints and high cost limit access for many."
+      },
+      {
+        "category": "Long-Term Sustainability",
+        "score": 7,
+        "notes": "Weight loss plateaus if lifestyle changes aren't maintained. Requires ongoing commitment and medical supervision."
+      }
+    ],
+    "pros": [
+      "Strong clinical evidence: 5-6% average weight loss in trials; some users achieve 10%+ loss",
+      "Improves cardiovascular outcomes and blood sugar control, especially in those with prediabetes",
+      "Once-daily injection is convenient compared to multiple daily pills",
+      "Well-established safety profile with over 20 years of clinical use (originally as diabetes medication)",
+      "May reduce appetite and food cravings significantly, supporting behavioral change",
+      "Available in Canada through licensed pharmacies with a valid prescription"
+    ],
+    "cons": [
+      "High cost ($3,600-6,000 annually) with limited provincial drug coverage; most Canadians pay out-of-pocket",
+      "Common gastrointestinal side effects (nausea, vomiting, constipation, diarrhea) especially during dose escalation",
+      "Weight regain likely if stopped without sustained lifestyle changes; requires long-term commitment",
+      "Contraindicated for those with personal/family history of medullary thyroid cancer or MEN2",
+      "Supply shortages have affected Canadian availability; requires advance prescription planning"
+    ],
+    "how_it_works": "Saxenda mimics glucagon-like peptide-1 (GLP-1), a hormone that regulates appetite and blood sugar. It slows stomach emptying, increases feelings of fullness, and reduces hunger signals in the brain. This leads to reduced calorie intake and weight loss over time.",
+    "evidence_summary": "Multiple randomized controlled trials (SCALE and SCALE-Maintenance studies) demonstrate that Saxenda combined with lifestyle modifications produces 5-6% average weight loss over 56 weeks. The LEADER trial showed cardiovascular benefits. Health Canada's approval is based on this robust clinical evidence. Weight loss is most significant in the first 6 months.",
+    "side_effects": [
+      "Nausea (most common, especially during dose titration; usually subsides)",
+      "Vomiting or loss of appetite",
+      "Constipation or diarrhea",
+      "Abdominal pain or discomfort",
+      "Headache",
+      "Dizziness or fatigue",
+      "Increased heart rate (tachycardia) in some users",
+      "Pancreatitis (rare but serious; seek immediate medical attention if severe abdominal pain occurs)"
+    ],
+    "who_should_consider": "Adults with BMI ≥30 kg/m² or ≥27 kg/m² with weight-related health conditions (hypertension, type 2 diabetes, sleep apnea) who are motivated to make sustainable diet and exercise changes and can afford the medication or access patient assistance programs.",
+    "canadian_availability": "Saxenda is available through Canadian licensed pharmacies with a prescription from a physician or nurse practitioner. It is not covered by most provincial drug plans (Ontario's ODB, BC PharmaCare, Alberta Blue Cross, etc.), though some private insurance and employer plans may provide coverage. Novo Nordisk offers patient assistance programs for eligible Canadians. Discuss with your healthcare provider about access options and potential cost support.",
+    "vs_alternatives": [
+      {
+        "name": "Ozempic/Wegovy (semaglutide)",
+        "comparison_note": "Similar GLP-1 mechanism but once-weekly injection; similar cost; some evidence suggests slightly better weight loss; supply constraints in Canada."
+      },
+      {
+        "name": "Orlistat (Xenical)",
+        "comparison_note": "Over-the-counter option; much cheaper (~$50/month); less effective (3% average loss); different mechanism (fat absorption blocker); more GI side effects."
+      },
+      {
+        "name": "Phentermine",
+        "comparison_note": "Older stimulant medication; shorter-term use only (12 weeks); less expensive; less evidence for sustained weight loss; not suitable for those with high blood pressure."
+      },
+      {
+        "name": "Lifestyle interventions alone (diet, exercise, behavioral therapy)",
+        "comparison_note": "No medication cost; sustainable if adherent; slower weight loss (2-3%); most effective when combined with Saxenda rather than alone."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much weight will I lose with Saxenda?",
+        "answer": "Most people lose 5-6% of body weight on average over 56 weeks. Some achieve 10%+ loss, especially with strict diet and exercise adherence. Results vary based on genetics, lifestyle, and starting weight."
+      },
+      {
+        "question": "Is Saxenda covered by provincial drug plans in Canada?",
+        "answer": "Most provincial plans (ODB, PharmaCare, etc.) do not cover Saxenda for weight loss, though some may cover it for diabetes. Check with your province and private insurer. Novo Nordisk offers patient assistance programs."
+      },
+      {
+        "question": "What happens when I stop taking Saxenda?",
+        "answer": "Weight regain is common if lifestyle changes aren't maintained. Studies show weight typically returns within 1-2 years without continued medication and behavioral support. Long-term use may be necessary."
+      },
+      {
+        "question": "How long does it take to see results?",
+        "answer": "Weight loss typically begins within 2-4 weeks, with the most significant loss in the first 3-6 months. Dose titration takes 12 weeks (starting at 0.6 mg, increasing weekly to 3.0 mg)."
+      },
+      {
+        "question": "Can I use Saxenda if I have type 2 diabetes?",
+        "answer": "Yes, Saxenda can be used in people with type 2 diabetes and may improve blood sugar control. However, you may need to adjust other diabetes medications. Consult your doctor before starting."
+      },
+      {
+        "question": "Are the side effects permanent?",
+        "answer": "Most side effects (nausea, constipation) are temporary and diminish after the first few weeks. Serious side effects are rare. Discuss any persistent symptoms with your healthcare provider."
+      },
+      {
+        "question": "Do I need to change my diet and exercise while on Saxenda?",
+        "answer": "Yes, absolutely. Saxenda works best combined with a reduced-calorie diet and regular physical activity. Medication alone without lifestyle changes produces minimal results."
+      },
+      {
+        "question": "Is Saxenda safe for long-term use?",
+        "answer": "Yes, long-term safety data supports extended use (up to 3+ years in clinical trials). However, it is contraindicated in those with personal/family history of medullary thyroid cancer or MEN2. Regular medical supervision is essential."
+      }
+    ],
+    "cta_heading": "Ready to Explore Saxenda for Weight Loss?",
+    "cta_body": "Saxenda can be an effective tool for weight loss when combined with lifestyle changes, but it's not right for everyone. Schedule a consultation with your Canadian healthcare provider to discuss whether Saxenda is appropriate for you, review costs and coverage options, and explore patient assistance programs available in your province."
+  }
+}

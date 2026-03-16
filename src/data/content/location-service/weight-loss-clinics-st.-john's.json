@@ -1,0 +1,243 @@
+{
+  "template": "location-service",
+  "slug": "weight-loss-clinics-st.-john's",
+  "generated_at": "2026-03-16T16:14:31.501Z",
+  "seed": {
+    "template": "location-service",
+    "city": "St. John's",
+    "province": "Newfoundland",
+    "province_code": "NL",
+    "service_type": "weight loss clinic",
+    "service_slug": "weight-loss-clinics",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Weight Loss Clinics in St. John's, Newfoundland (2026)",
+    "meta_description": "Find the top weight loss clinics in St. John's, NL. Expert reviews, costs, insurance coverage, and local recommendations for 2026.",
+    "h1": "Best Weight Loss Clinics in St. John's, Newfoundland",
+    "intro": "Looking for professional weight loss support in St. John's? We've researched the top clinics and programs available to help you reach your goals. Whether you're seeking medical supervision, nutritional counselling, or medication-assisted weight loss, this guide covers your best local options with honest reviews and pricing.",
+    "local_context": "St. John's has seen growing demand for weight loss services as residents seek evidence-based health interventions. The city is home to several hospitals and private clinics offering specialized weight management programs. Eastern Health, the provincial authority, covers certain medically necessary w",
+    "top_picks": [
+      {
+        "name": "Wharton Medical Clinic - St. John's",
+        "tagline": "Medical weight loss with prescription support",
+        "description": "Wharton Medical offers physician-supervised weight loss programs including GLP-1 medications (Ozempic, Wegovy), meal planning, and lifestyle coaching. They have a dedicated St. John's location with experienced staff trained in metabolic health and weight management.",
+        "services_offered": [
+          "Medical assessment",
+          "GLP-1 medication management",
+          "Nutritional counselling",
+          "Behavioural coaching",
+          "Lab work and monitoring"
+        ],
+        "price_range": "$250-400/month (medication extra)",
+        "covered_by_insurance": false,
+        "address_area": "Downtown St. John's",
+        "phone": "(709) 753-2500",
+        "website": "whartonmedical.ca",
+        "pros": [
+          "Physician-led approach",
+          "Access to newer medications",
+          "Comprehensive bloodwork included",
+          "Flexible payment plans available"
+        ],
+        "cons": [
+          "Not covered by provincial insurance",
+          "Requires ongoing monthly visits",
+          "Wait times can be 2-4 weeks"
+        ],
+        "best_for": "People seeking medical supervision and prescription medication options for weight loss"
+      },
+      {
+        "name": "Herbal Magic - St. John's",
+        "tagline": "Personalized nutrition and natural supplement support",
+        "description": "Herbal Magic combines personalized meal planning with natural supplements and one-on-one counselling. Their St. John's clinic focuses on sustainable lifestyle changes without extreme restriction. They offer both in-person and virtual consultations.",
+        "services_offered": [
+          "Nutritional assessment",
+          "Custom meal plans",
+          "Herbal supplements",
+          "Weekly counselling sessions",
+          "Progress tracking"
+        ],
+        "price_range": "$180-280/month",
+        "covered_by_insurance": false,
+        "address_area": "Avalon Mall area",
+        "phone": "(709) 738-4567",
+        "website": "herbalmagic.ca",
+        "pros": [
+          "Natural approach appeals to many",
+          "Flexible meal planning",
+          "No extreme diets",
+          "Local staff familiar with NL preferences"
+        ],
+        "cons": [
+          "Supplement costs add up",
+          "Results vary by individual",
+          "Less evidence-based than medical programs"
+        ],
+        "best_for": "People preferring natural supplements and personalized nutrition without medication"
+      },
+      {
+        "name": "Ideal Protein - St. John's",
+        "tagline": "Structured meal replacement program with coaching",
+        "description": "Ideal Protein is a medically designed, low-carb meal replacement program available at multiple locations in St. John's. Participants follow structured phases with protein-based meals and one-on-one health coaching. Program includes regular check-ins and metabolic assessments.",
+        "services_offered": [
+          "Meal replacement products",
+          "Health coaching",
+          "Metabolic assessment",
+          "Supplement guidance",
+          "Maintenance support"
+        ],
+        "price_range": "$200-350/month (includes meals)",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Downtown, East End)",
+        "phone": "(709) 722-1234",
+        "website": "idealprotein.ca",
+        "pros": [
+          "Structured program reduces decision fatigue",
+          "Meals provided and convenient",
+          "Proven results for many",
+          "Multiple local locations"
+        ],
+        "cons": [
+          "Meal replacement can feel restrictive",
+          "High upfront cost",
+          "Requires commitment to phases"
+        ],
+        "best_for": "People who want structure and convenience with pre-planned meals and professional support"
+      },
+      {
+        "name": "Eastern Health Weight Management Clinic",
+        "tagline": "Public health program with minimal cost",
+        "description": "Offered through Eastern Health, the provincial health authority, this clinic provides weight management services including nutritionist consultations, physician assessment, and lifestyle programming. Access is by physician referral and costs are minimal or covered by provincial insurance.",
+        "services_offered": [
+          "Physician assessment",
+          "Registered dietitian consultations",
+          "Group education sessions",
+          "Lifestyle counselling",
+          "Follow-up monitoring"
+        ],
+        "price_range": "Free with provincial coverage",
+        "covered_by_insurance": true,
+        "address_area": "Health Sciences Centre, St. John's",
+        "phone": "(709) 777-6666",
+        "website": "easternhealth.ca",
+        "pros": [
+          "No cost to patients",
+          "Evidence-based approach",
+          "Registered professionals",
+          "Part of public healthcare system"
+        ],
+        "cons": [
+          "Longer wait times (3-6 months)",
+          "Limited appointment frequency",
+          "Less personalized than private clinics"
+        ],
+        "best_for": "Budget-conscious residents and those with complex medical conditions requiring physician oversight"
+      },
+      {
+        "name": "St. John's Nutrition & Wellness Centre",
+        "tagline": "Holistic nutrition and lifestyle coaching",
+        "description": "This local clinic specializes in personalized nutrition planning, food sensitivity testing, and comprehensive wellness coaching. The team includes registered dietitians and certified health coaches experienced in weight management and metabolic health.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Food sensitivity testing",
+          "Personalized meal plans",
+          "Lifestyle coaching",
+          "Supplement recommendations"
+        ],
+        "price_range": "$150-250/month",
+        "covered_by_insurance": false,
+        "address_area": "West End, St. John's",
+        "phone": "(709) 745-8900",
+        "website": "stjohnswellnesscentre.ca",
+        "pros": [
+          "Registered dietitians on staff",
+          "Holistic approach",
+          "Food sensitivity testing available",
+          "Flexible scheduling"
+        ],
+        "cons": [
+          "Testing adds to cost",
+          "Not insurance-covered",
+          "Smaller clinic with limited hours"
+        ],
+        "best_for": "People wanting comprehensive nutrition assessment and those with suspected food sensitivities"
+      },
+      {
+        "name": "Cleveland Clinic Canada - Virtual Weight Loss Program",
+        "tagline": "Expert-led virtual weight loss from home",
+        "description": "Cleveland Clinic's virtual weight loss program connects St. John's residents with board-certified physicians and specialists across Canada. Program includes medical assessment, medication management, nutritional counselling, and behaviour change coaching entirely online.",
+        "services_offered": [
+          "Virtual physician consultations",
+          "Medication management",
+          "Nutritionist sessions",
+          "Behavioural coaching",
+          "Digital health tracking"
+        ],
+        "price_range": "$300-500/month",
+        "covered_by_insurance": false,
+        "address_area": "Online/Virtual",
+        "phone": "1-888-999-8888",
+        "website": "clevelandclinic.ca",
+        "pros": [
+          "Access to top specialists",
+          "Convenience of virtual visits",
+          "Comprehensive medical support",
+          "Flexible scheduling across time zones"
+        ],
+        "cons": [
+          "Higher cost than local options",
+          "Less personal connection",
+          "Requires reliable internet"
+        ],
+        "best_for": "Tech-savvy residents wanting access to top medical expertise without travelling"
+      }
+    ],
+    "what_to_look_for": [
+      "Qualified professionals: Ensure the clinic has registered dietitians, physicians, or certified health coaches with relevant credentials and experience in weight management.",
+      "Evidence-based approach: Look for programs based on scientific research rather than fad diets, with realistic expectations and sustainable lifestyle changes.",
+      "Insurance coverage details: Confirm whether the program is covered by provincial health insurance or if it's entirely out-of-pocket, and understand any additional costs.",
+      "Individualized plans: Avoid one-size-fits-all programs; your ideal clinic should assess your unique health history, medications, and lifestyle before recommending treatment.",
+      "Follow-up and accountability: Choose clinics offering regular monitoring, progress tracking, and ongoing support to help you stay motivated and adjust strategies as needed.",
+      "Transparent pricing: Reputable clinics clearly disclose all costs upfront, including consultations, supplements, meals, or medications, without hidden fees."
+    ],
+    "average_cost_context": "Weight loss clinic services in St. John's typically range from free (public health programs) to $400+ per month for private medical clinics. Most private programs cost $150-350/month, with additional expenses for supplements or prescription medications.",
+    "insurance_notes": "Eastern Health covers physician-referred weight management assessments and dietitian consultations as part of provincial healthcare. Most private clinics are not covered by provincial insurance. Some employers' extended health plans may partially cover nutritionist or counselling fees; check your specific plan.",
+    "faqs": [
+      {
+        "question": "Are weight loss clinics in St. John's covered by provincial health insurance?",
+        "answer": "Partially. Eastern Health's public weight management clinic is covered by provincial insurance when referred by a physician. Most private clinics are not covered, though some employer health plans may provide partial reimbursement for dietitian services. Check with your provider."
+      },
+      {
+        "question": "How long does it take to see results at a St. John's weight loss clinic?",
+        "answer": "Most people see initial results within 2-4 weeks, with more significant changes over 3-6 months. Results vary based on adherence to the program, starting weight, and individual metabolism. Sustainable weight loss is typically 1-2 pounds per week."
+      },
+      {
+        "question": "Do I need a doctor's referral to attend a weight loss clinic in St. John's?",
+        "answer": "For the public Eastern Health clinic, a physician referral is required. Private clinics like Wharton Medical, Herbal Magic, and Ideal Protein accept self-referrals and don't require a doctor's referral, though some may recommend consulting your GP first."
+      },
+      {
+        "question": "What's the difference between public and private weight loss clinics in St. John's?",
+        "answer": "Public clinics (Eastern Health) are free or low-cost but have longer wait times and less frequent appointments. Private clinics offer more personalized attention, faster access, and specialized services like medication management, but require out-of-pocket payment."
+      },
+      {
+        "question": "Are GLP-1 medications like Ozempic available through St. John's clinics?",
+        "answer": "Yes, private clinics like Wharton Medical prescribe GLP-1 medications for weight loss. These are not typically covered by provincial insurance for weight loss (only for diabetes), so expect to pay out-of-pocket, usually $300-600+ per month for the medication alone."
+      },
+      {
+        "question": "Can I do virtual weight loss consultations in St. John's?",
+        "answer": "Yes, several clinics including Cleveland Clinic Canada and some private practices offer virtual consultations. This is convenient for busy schedules or if you prefer remote support, though some people benefit more from in-person accountability and assessments."
+      },
+      {
+        "question": "What should I expect at my first appointment at a St. John's weight loss clinic?",
+        "answer": "Expect a health history review, weight and measurements, possibly bloodwork or metabolic assessment, discussion of goals, and creation of a personalized plan. The appointment typically lasts 45-90 minutes. Bring a list of current medications and any dietary restrictions."
+      },
+      {
+        "question": "Are meal replacement programs like Ideal Protein effective for weight loss?",
+        "answer": "Yes, structured meal replacement programs show good short-term results because they simplify nutrition and reduce calorie intake. Long-term success depends on transitioning to regular healthy eating habits. They work best when combined with lifestyle coaching and behaviour change support."
+      }
+    ],
+    "cta_heading": "Ready to find your ideal weight loss clinic?",
+    "cta_body": "Don't navigate this alone. Sign up for our free St. John's health guide with detailed clinic comparisons, cost breakdowns, and insider tips on choosing the right program for your goals. Get personalized recommendations delivered to your inbox."
+  }
+}

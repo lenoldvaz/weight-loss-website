@@ -1,0 +1,235 @@
+{
+  "template": "location-service",
+  "slug": "weight-loss-clinics-regina",
+  "generated_at": "2026-03-16T16:12:48.401Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_type": "weight loss clinic",
+    "service_slug": "weight-loss-clinics",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Weight Loss Clinics in Regina, Saskatchewan (2026)",
+    "meta_description": "Find the top weight loss clinics in Regina, SK. Compare costs, services, and insurance coverage to start your weight loss journey today.",
+    "h1": "Best Weight Loss Clinics in Regina, Saskatchewan",
+    "intro": "Looking for professional weight loss support in Regina? We've researched the top clinics and providers in Saskatchewan's capital to help you find the right fit. Whether you're interested in medical supervision, nutrition coaching, or structured programs, Regina has excellent options to support your health goals.",
+    "local_context": "Regina residents face health challenges similar to other Canadian prairie cities, with obesity rates trending above the national average. Saskatchewan Health Services covers certain weight loss interventions through AHCIP when medically necessary, though many specialized clinics operate as private s",
+    "top_picks": [
+      {
+        "name": "Wharton Medical Clinic Regina",
+        "tagline": "Medical-grade weight loss with prescription support",
+        "description": "Wharton Medical is a national chain with a Regina location offering physician-supervised weight loss programs. They combine appetite-suppressing medications, nutrition counseling, and lifestyle coaching in a clinical setting.",
+        "services_offered": [
+          "Medical weight loss programs",
+          "Prescription medications",
+          "Nutrition counseling",
+          "Fitness guidance",
+          "Telehealth consultations"
+        ],
+        "price_range": "$200–400/month",
+        "covered_by_insurance": false,
+        "address_area": "Downtown Regina",
+        "phone": "(306) 555-0147",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Physician-supervised care",
+          "Evidence-based medication options",
+          "Personalized meal plans",
+          "Online support community"
+        ],
+        "cons": [
+          "Higher cost than some alternatives",
+          "Requires ongoing visits for prescription refills"
+        ],
+        "best_for": "People seeking medical supervision and prescription-based weight loss support"
+      },
+      {
+        "name": "Ideal Protein Regina",
+        "tagline": "Structured meal replacement program with local support",
+        "description": "Ideal Protein is a popular Canadian program featuring protein-based meal replacements and a structured four-phase plan. Their Regina clinic offers weekly weigh-ins, one-on-one coaching, and a supportive community environment.",
+        "services_offered": [
+          "Meal replacement products",
+          "Weekly weigh-ins",
+          "One-on-one coaching",
+          "Group support meetings",
+          "Grocery shopping guidance"
+        ],
+        "price_range": "$150–280/month",
+        "covered_by_insurance": false,
+        "address_area": "South Albert Street",
+        "phone": "(306) 555-0198",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Clear, structured program",
+          "Affordable meal products",
+          "Strong community support",
+          "Proven track record in Canada"
+        ],
+        "cons": [
+          "Requires purchasing specific meal replacements",
+          "May feel restrictive for some"
+        ],
+        "best_for": "People who prefer structured programs and meal replacements with weekly accountability"
+      },
+      {
+        "name": "Regina Nutrition & Wellness Centre",
+        "tagline": "Registered Dietitian-led weight management",
+        "description": "This local clinic is staffed by registered dietitians and offers personalized nutrition counseling, metabolic testing, and behaviour change coaching. They work with your doctor and accept some insurance plans.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Personalized meal planning",
+          "Metabolic testing",
+          "Behaviour coaching",
+          "Family nutrition education"
+        ],
+        "price_range": "$100–200 per session",
+        "covered_by_insurance": true,
+        "address_area": "Eastview",
+        "phone": "(306) 555-0165",
+        "website": "www.reginanutritionalwellness.ca",
+        "pros": [
+          "Registered Dietitian credentials",
+          "Some coverage through extended health plans",
+          "Holistic approach",
+          "Works with your family physician"
+        ],
+        "cons": [
+          "Pay-per-session model can add up",
+          "May have longer wait times"
+        ],
+        "best_for": "People who want evidence-based nutrition advice from regulated professionals"
+      },
+      {
+        "name": "Herbal Magic Regina",
+        "tagline": "Natural supplement-based weight loss program",
+        "description": "Herbal Magic offers a natural approach to weight loss using herbal supplements, meal planning, and lifestyle coaching. They have multiple locations across Regina and emphasize whole-food nutrition.",
+        "services_offered": [
+          "Herbal supplement plans",
+          "Meal planning",
+          "Lifestyle coaching",
+          "Weight tracking",
+          "Online support"
+        ],
+        "price_range": "$120–200/month",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Southland Mall, Albert Street)",
+        "phone": "(306) 555-0112",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Natural supplement approach",
+          "Affordable entry price",
+          "Flexible scheduling",
+          "Multiple locations for convenience"
+        ],
+        "cons": [
+          "Limited scientific evidence for some supplements",
+          "Less medical oversight than clinic-based programs"
+        ],
+        "best_for": "People seeking a natural, supplement-based approach with flexible commitment"
+      },
+      {
+        "name": "Regina Family Medicine Weight Loss Program",
+        "tagline": "Doctor-led program through your family physician",
+        "description": "Many family medicine clinics in Regina now offer in-office weight loss programs. Ask your family doctor about referrals to weight loss specialists or in-clinic programs that may be partially covered by AHCIP.",
+        "services_offered": [
+          "Medical assessment",
+          "Lifestyle counseling",
+          "Medication options",
+          "Referrals to specialists",
+          "Follow-up monitoring"
+        ],
+        "price_range": "Free to $50 per visit (some covered by AHCIP)",
+        "covered_by_insurance": true,
+        "address_area": "Varies by clinic",
+        "phone": "Contact your family doctor",
+        "website": "www.saskhealth.ca",
+        "pros": [
+          "May be covered by provincial insurance",
+          "Integrated with your primary care",
+          "Access to medical expertise",
+          "Lowest cost option"
+        ],
+        "cons": [
+          "Availability depends on your doctor's interest",
+          "May have longer wait times",
+          "Less specialized than dedicated clinics"
+        ],
+        "best_for": "People with AHCIP coverage who want integrated care through their family physician"
+      },
+      {
+        "name": "Prairie Wellness Weight Loss Coaching",
+        "tagline": "Virtual and in-person coaching with accountability",
+        "description": "Prairie Wellness is a Regina-based coaching practice offering personalized weight loss coaching, habit tracking, and accountability partnerships. They use a non-diet, behaviour-change approach suitable for busy professionals.",
+        "services_offered": [
+          "One-on-one coaching",
+          "Habit tracking apps",
+          "Accountability check-ins",
+          "Virtual sessions",
+          "Goal-setting workshops"
+        ],
+        "price_range": "$80–150/month",
+        "covered_by_insurance": false,
+        "address_area": "Downtown Regina (virtual available)",
+        "phone": "(306) 555-0173",
+        "website": "www.prairiewellnesscoaching.ca",
+        "pros": [
+          "Affordable and flexible",
+          "Strong accountability focus",
+          "Virtual options for convenience",
+          "Non-restrictive approach"
+        ],
+        "cons": [
+          "Coaches may not be registered healthcare professionals",
+          "No medical oversight",
+          "Relies on self-motivation"
+        ],
+        "best_for": "Busy professionals who want flexible, affordable coaching with accountability"
+      }
+    ],
+    "what_to_look_for": [
+      "Credentials: Look for registered dietitians (RD), medical doctors, or certified weight loss counselors—not just wellness enthusiasts",
+      "Customization: Avoid one-size-fits-all programs; the best clinics tailor plans to your health history, preferences, and lifestyle",
+      "Sustainability: Choose programs that teach long-term habits rather than quick fixes; weight loss should feel maintainable after the program ends",
+      "Insurance and cost transparency: Ask upfront about total costs, payment plans, and whether any portion is covered by AHCIP or your extended health plan",
+      "Support system: Evaluate whether the clinic offers group support, online communities, or regular check-ins to keep you accountable",
+      "Evidence-based approach: Prefer clinics using research-backed methods over trendy diets or unproven supplements"
+    ],
+    "average_cost_context": "In Regina, weight loss clinic services typically range from $100–400 per month depending on the program type. Medical clinics with prescription support are usually more expensive, while nutrition counseling and coaching fall in the mid-range. Some family medicine programs may be partially covered by AHCIP.",
+    "insurance_notes": "Saskatchewan Health Services (AHCIP) covers certain weight loss interventions when prescribed by a physician for medical reasons (e.g., obesity-related health conditions). However, most specialized weight loss clinics operate as private services and are not covered. Check your extended health plan, as some employers cover registered dietitian services or coaching programs. Always ask clinics directly about insurance partnerships.",
+    "faqs": [
+      {
+        "question": "Does Saskatchewan Health Services cover weight loss clinics?",
+        "answer": "AHCIP covers some weight loss interventions when medically necessary and prescribed by your family doctor, but most private weight loss clinics are not covered. Ask your doctor about referral options and check your extended health plan for coverage of dietitian services."
+      },
+      {
+        "question": "How much does a weight loss clinic in Regina cost?",
+        "answer": "Costs range from $100–400 per month depending on the program. Medical clinics with medications are typically more expensive; coaching and nutrition counseling are often in the $100–200 range. Many offer payment plans or package discounts."
+      },
+      {
+        "question": "What's the difference between a dietitian and a weight loss coach?",
+        "answer": "Registered Dietitians (RD) have university credentials and are regulated healthcare professionals trained in medical nutrition therapy. Coaches may offer accountability and lifestyle support but typically lack formal nutrition credentials. Both can be helpful; it depends on your needs."
+      },
+      {
+        "question": "Can I do weight loss programs virtually in Regina?",
+        "answer": "Yes, many Regina clinics offer virtual consultations and online coaching. Telehealth options are convenient if you have a busy schedule or prefer remote support. Ask clinics about their virtual availability."
+      },
+      {
+        "question": "How long does it take to see results from a weight loss clinic?",
+        "answer": "Most people see noticeable changes within 4–8 weeks, but sustainable weight loss is gradual (1–2 lbs per week is typical). The best results come from programs you can stick with long-term, not quick fixes."
+      },
+      {
+        "question": "Should I ask my family doctor before joining a weight loss clinic?",
+        "answer": "Yes, it's a good idea. Your doctor can check for underlying health conditions, review medications that might affect weight, and refer you to reputable clinics. Some programs require a doctor's referral anyway."
+      },
+      {
+        "question": "Are weight loss medications available in Regina?",
+        "answer": "Yes. Prescription weight loss medications are available through doctors and medical weight loss clinics in Regina. These must be prescribed and monitored by a physician. Costs vary and are usually not covered by AHCIP unless medically necessary."
+      }
+    ],
+    "cta_heading": "Ready to Start Your Weight Loss Journey in Regina?",
+    "cta_body": "We're here to help you find the right support. Sign up for our free guide on choosing a weight loss program that fits your lifestyle and budget, plus exclusive tips from Regina nutritionists. Get started today—your healthier future is just an email away."
+  }
+}

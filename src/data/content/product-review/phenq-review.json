@@ -1,0 +1,145 @@
+{
+  "template": "product-review",
+  "slug": "phenq-review",
+  "generated_at": "2026-03-16T16:44:42.668Z",
+  "seed": {
+    "template": "product-review",
+    "product_name": "PhenQ",
+    "product_type": "weight loss supplement",
+    "brand": "Wolfson Brands",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "PhenQ Review (2026) — Does It Work for Weight Loss in Canada?",
+    "meta_description": "Expert review of PhenQ weight loss supplement for Canadians. Evidence-based analysis of effectiveness, safety, cost, and alternatives.",
+    "h1": "PhenQ Review (2026) — Does It Work for Weight Loss in Canada?",
+    "verdict_summary": "PhenQ is a multi-ingredient weight loss supplement marketed to support appetite control and metabolism. While some ingredients show modest evidence, the formula lacks rigorous clinical testing as a co",
+    "overall_score": 6.5,
+    "recommended": false,
+    "best_for": "Adults seeking a supplement to complement diet and exercise, who tolerate stimulants, and understand the limited regulatory oversight of non-prescription weight loss products.",
+    "not_for": "Pregnant/nursing women, those with heart conditions, anxiety disorders, caffeine sensitivity, or taking certain medications. Not suitable as a standalone weight loss solution.",
+    "intro": "PhenQ is a proprietary multi-ingredient weight loss supplement manufactured by Wolfson Brands and sold primarily online and through select retailers. It combines caffeine, amino acids, and plant extracts intended to support appetite suppression, fat burning, and energy. This review examines its effectiveness, safety, cost, and regulatory status for Canadian consumers.",
+    "key_facts": {
+      "product_type": "Multi-ingredient weight loss supplement",
+      "manufacturer": "Wolfson Brands Limited",
+      "health_canada_status": "Not approved as a drug; sold as a natural health product (NHP) without formal Health Canada licensing",
+      "price_cad": "$70–120 CAD per bottle (30-day supply); bulk discounts available",
+      "where_to_buy": [
+        "official website",
+        "online retailers",
+        "select Canadian supplement stores"
+      ],
+      "prescription_required": false
+    },
+    "ratings": [
+      {
+        "category": "Effectiveness",
+        "score": 6,
+        "notes": "Limited clinical evidence for the complete formula; individual ingredients show modest support for appetite control and metabolism, but real-world weight loss results vary significantly."
+      },
+      {
+        "category": "Safety Profile",
+        "score": 7,
+        "notes": "Generally well-tolerated, but caffeine content (96 mg per serving) may cause jitteriness, sleep disruption, or anxiety in sensitive individuals."
+      },
+      {
+        "category": "Value for Money",
+        "score": 5.5,
+        "notes": "Comparable to other multi-ingredient supplements, but higher cost than single-ingredient options; limited Canadian clinical validation."
+      },
+      {
+        "category": "Ingredient Transparency",
+        "score": 7.5,
+        "notes": "All ingredients listed with amounts, though proprietary blends are absent; research backing for individual components is moderate."
+      },
+      {
+        "category": "Regulatory & Legal Status",
+        "score": 6,
+        "notes": "Not Health Canada–approved as a drug; sold as a supplement with less stringent oversight than prescription medications."
+      },
+      {
+        "category": "Customer Support & Satisfaction",
+        "score": 7,
+        "notes": "60-day money-back guarantee; responsive customer service, though third-party reviews show mixed satisfaction."
+      }
+    ],
+    "pros": [
+      "Contains caffeine and amino acids with established appetite-suppressing properties at studied doses",
+      "60-day money-back guarantee reduces financial risk for first-time users",
+      "All ingredients listed with quantities; no hidden proprietary blends",
+      "Generally well-tolerated with minimal reported adverse events in short-term use",
+      "Widely available online with fast shipping to Canada"
+    ],
+    "cons": [
+      "No rigorous clinical trials testing the complete PhenQ formula in humans",
+      "High caffeine content (96 mg/serving) may cause jitteriness, insomnia, or anxiety",
+      "Expensive relative to single-ingredient alternatives; requires ongoing purchase for results",
+      "Not Health Canada–approved as a drug; sold as a supplement with less regulatory oversight",
+      "Weight loss results highly dependent on diet and exercise; supplement alone unlikely to produce significant results"
+    ],
+    "how_it_works": "PhenQ combines caffeine (a stimulant that increases alertness and may boost metabolism), amino acids (including L-carnitine, which supports fat oxidation), and plant extracts (such as Capsimax, derived from capsicum peppers, believed to increase thermogenesis). The formula aims to work through three mechanisms: reducing appetite, increasing fat oxidation, and boosting energy expenditure. However, these effects are modest and require concurrent caloric deficit and physical activity to produce weight loss.",
+    "evidence_summary": "Individual ingredients in PhenQ have been studied: caffeine shows modest thermogenic effects (increasing calorie burn by 3–11%); L-carnitine has mixed evidence for fat loss, particularly in people with low baseline levels; capsaicinoids (from capsicum) may increase fat oxidation slightly. However, PhenQ as a complete formula has not undergone rigorous clinical trials in peer-reviewed journals. Most evidence is from manufacturer-sponsored studies or ingredient-level research, not the finished product. Weight loss in users is likely driven primarily by adherence to diet and exercise, not the supplement alone.",
+    "side_effects": [
+      "Caffeine-related: jitteriness, anxiety, insomnia, increased heart rate, headaches",
+      "Digestive upset: nausea, constipation, or diarrhea in sensitive individuals",
+      "Dizziness or mild headache during initial use",
+      "Potential interactions with stimulant medications or certain antidepressants"
+    ],
+    "who_should_consider": "Adults aged 18+ with a BMI ≥25 who are committed to diet and exercise changes and view PhenQ as a complementary tool. Best suited for those who tolerate caffeine well, have no underlying heart conditions or anxiety disorders, and understand that supplements are not a substitute for lifestyle modification. Not appropriate for those seeking a quick fix or unwilling to make dietary changes.",
+    "canadian_availability": "PhenQ is available for purchase via the official website (phenq.com) and select online retailers with shipping to Canada. No provincial drug coverage (ODB, PharmaCare, etc.) applies, as it is not a prescription medication. Cost is out-of-pocket: approximately $70–120 CAD per 30-day supply. Bulk discounts are often available. Customers should verify that the retailer ships to their province and check for any import restrictions or duties.",
+    "vs_alternatives": [
+      {
+        "name": "Orlistat (Xenical, Alli)",
+        "comparison_note": "Orlistat is Health Canada–approved and reduces dietary fat absorption by ~30%; more evidence-based than PhenQ but requires prescription for higher doses and may cause gastrointestinal side effects."
+      },
+      {
+        "name": "Green tea extract supplements",
+        "comparison_note": "Lower cost, better-studied for modest thermogenic effects, and fewer stimulants; less comprehensive than PhenQ but gentler and more affordable."
+      },
+      {
+        "name": "Conjugated linoleic acid (CLA)",
+        "comparison_note": "Natural fat-burning ingredient with moderate evidence; often cheaper than PhenQ but similarly modest in real-world weight loss outcomes."
+      },
+      {
+        "name": "GLP-1 receptor agonists (semaglutide/Ozempic off-label, tirzepatide)",
+        "comparison_note": "Prescription medications with strong clinical evidence for significant weight loss; much more expensive and require medical supervision, but substantially more effective than supplements."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is PhenQ approved by Health Canada?",
+        "answer": "No. PhenQ is not approved by Health Canada as a drug. It is sold as a natural health product (supplement) and is subject to less stringent regulatory oversight than prescription medications. Always consult a healthcare provider before use."
+      },
+      {
+        "question": "How much weight can I expect to lose with PhenQ?",
+        "answer": "Weight loss varies widely and depends primarily on diet, exercise, and adherence. PhenQ is a supplement, not a replacement for lifestyle changes. Realistic expectations: 0.5–1 kg per week when combined with a caloric deficit and regular physical activity. Some users report no weight loss."
+      },
+      {
+        "question": "Is PhenQ safe for Canadians?",
+        "answer": "PhenQ is generally well-tolerated in the short term, but caffeine content may cause side effects like jitteriness or insomnia. It is not recommended for pregnant/nursing women, those with heart conditions, anxiety, or caffeine sensitivity. Consult your doctor before starting, especially if taking medications."
+      },
+      {
+        "question": "Can I get my money back if PhenQ doesn't work?",
+        "answer": "Yes. PhenQ offers a 60-day money-back guarantee if you are unsatisfied. However, you must initiate the return process within 60 days of purchase. Shipping costs for returns may apply."
+      },
+      {
+        "question": "Does PhenQ interact with medications?",
+        "answer": "PhenQ contains caffeine and may interact with stimulant medications, certain antidepressants (SSRIs, MAOIs), and blood pressure medications. Always inform your pharmacist or doctor before using PhenQ if you take prescription drugs."
+      },
+      {
+        "question": "How long does it take to see results?",
+        "answer": "Most users report noticeable appetite suppression within 1–2 weeks. Weight loss typically becomes visible after 4–6 weeks of consistent use combined with diet and exercise. Individual results vary significantly."
+      },
+      {
+        "question": "Can I buy PhenQ at Canadian pharmacies?",
+        "answer": "PhenQ is not stocked in most major Canadian pharmacies (Shoppers Drug Mart, Rexall, etc.). It is primarily available through the official website and select online retailers. Verify the seller is legitimate and ships to Canada."
+      },
+      {
+        "question": "Is PhenQ better than prescription weight loss medications?",
+        "answer": "Prescription medications like semaglutide (Ozempic) have much stronger clinical evidence for weight loss than PhenQ. However, they are more expensive, require medical supervision, and are not suitable for everyone. PhenQ is a lower-risk, lower-efficacy option for those seeking a supplement-based approach."
+      }
+    ],
+    "cta_heading": "Considering PhenQ? Consult a Healthcare Provider First.",
+    "cta_body": "Before starting any weight loss supplement, speak with your doctor or registered dietitian to ensure it is safe for you and aligns with your health goals. For evidence-based weight loss support in Canada, explore prescription options, structured dietary programs, and exercise-based interventions. Weight loss is a marathon, not a sprint—sustainable lifestyle changes deliver the best long-term results."
+  }
+}

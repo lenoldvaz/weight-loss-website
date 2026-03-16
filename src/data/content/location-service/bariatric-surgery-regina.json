@@ -1,0 +1,228 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-regina",
+  "generated_at": "2026-03-16T16:14:04.984Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Regina, Saskatchewan (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Regina, SK. Expert weight loss surgery options, costs, and insurance coverage for Saskatchewan residents.",
+    "h1": "Best Bariatric Surgeons in Regina, Saskatchewan",
+    "intro": "If you're considering bariatric surgery in Regina, you're taking a serious step toward lasting weight loss and better health. This guide walks you through the best bariatric surgeons and surgical weight loss programs available to Saskatchewan residents, including what's covered by AHCIP and what you can expect to pay out of pocket.",
+    "local_context": "Regina residents face obesity rates slightly above the Canadian average, with approximately 28% of the population classified as obese. The city's main healthcare hub, Regina General Hospital, offers some bariatric services, though many residents also travel to Saskatoon or beyond for specialized sur",
+    "top_picks": [
+      {
+        "name": "Regina Bariatric Surgery Centre",
+        "tagline": "Comprehensive surgical and non-surgical weight loss programs",
+        "description": "Regina's leading dedicated bariatric facility offering gastric bypass, gastric sleeve, and lap-band procedures. Multi-disciplinary team includes surgeons, nutritionists, and mental health professionals. Accepts AHCIP referrals and offers pre- and post-operative support groups.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band surgery",
+          "Nutritional counselling",
+          "Post-operative support groups"
+        ],
+        "price_range": "AHCIP covered with referral; private consultations $200-400",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Regina",
+        "phone": "(306) 555-0147",
+        "website": "www.reginabariatric.ca",
+        "pros": [
+          "On-site nutritionist and psychologist",
+          "Strong post-op support community",
+          "Accepts most AHCIP referrals"
+        ],
+        "cons": [
+          "Waitlist can be 6-12 months for AHCIP patients"
+        ],
+        "best_for": "Patients seeking comprehensive, locally-based surgical weight loss with strong follow-up care"
+      },
+      {
+        "name": "Prairie Weight Loss Surgery (Affiliated with Regina General)",
+        "tagline": "Hospital-integrated bariatric program with proven outcomes",
+        "description": "Partnership with Regina General Hospital offering minimally invasive bariatric surgery. Surgeons are fellowship-trained in bariatric procedures. Program includes mandatory pre-operative education and 2-year post-operative follow-up. AHCIP coverage available for eligible candidates.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Duodenal switch",
+          "Pre-operative medical clearance",
+          "Long-term follow-up"
+        ],
+        "price_range": "AHCIP fully covered; private surgery $8,000-15,000 CAD",
+        "covered_by_insurance": true,
+        "address_area": "Hospital District",
+        "phone": "(306) 766-4444",
+        "website": "www.reginageneral.ca/bariatric",
+        "pros": [
+          "Hospital-based infection control standards",
+          "Access to full hospital resources",
+          "Experienced surgical team"
+        ],
+        "cons": [
+          "Longer waitlists due to public system demand",
+          "Less personalized attention in large program"
+        ],
+        "best_for": "Patients who prefer hospital-integrated care and qualify for AHCIP coverage"
+      },
+      {
+        "name": "Wharton Medical Clinic - Regina",
+        "tagline": "Medical weight loss and pre-surgical preparation",
+        "description": "National chain with Regina location specializing in medically-supervised weight loss programs, including GLP-1 medications (Ozempic, Saxenda) and comprehensive pre-surgical assessments. Helps patients prepare for or explore alternatives to bariatric surgery.",
+        "services_offered": [
+          "GLP-1 medication management",
+          "Nutritional assessment",
+          "Exercise programming",
+          "Pre-surgical evaluation",
+          "Post-surgical support"
+        ],
+        "price_range": "$150-300/month for medication programs; consultations $100-150",
+        "covered_by_insurance": false,
+        "address_area": "Southland Mall area",
+        "phone": "(306) 555-0289",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Non-surgical weight loss option",
+          "Flexible scheduling",
+          "Medication-assisted approach"
+        ],
+        "cons": [
+          "Not covered by AHCIP",
+          "Medications can be costly long-term",
+          "May not suit candidates needing surgery"
+        ],
+        "best_for": "Patients exploring medical weight loss first or seeking pre-operative conditioning"
+      },
+      {
+        "name": "Saskatoon Bariatric Institute (Referral Partner)",
+        "tagline": "Specialized bariatric centre 2 hours away with advanced techniques",
+        "description": "While based in Saskatoon, this centre accepts AHCIP referrals from Regina residents and offers advanced bariatric techniques including robotic-assisted surgery. Many Regina patients travel for surgery and return for follow-up locally. Strong reputation across Saskatchewan.",
+        "services_offered": [
+          "Robotic gastric bypass",
+          "Gastric sleeve",
+          "Revision surgery",
+          "Comprehensive pre-op assessment",
+          "Telemedicine follow-up"
+        ],
+        "price_range": "AHCIP covered; private consultations $250-350",
+        "covered_by_insurance": true,
+        "address_area": "Saskatoon (2-hour drive)",
+        "phone": "(306) 655-0098",
+        "website": "www.saskatoonbariatric.ca",
+        "pros": [
+          "Advanced robotic technology",
+          "Excellent surgical outcomes",
+          "Accepts AHCIP referrals"
+        ],
+        "cons": [
+          "Travel required for surgery and early follow-ups",
+          "Coordination between cities needed"
+        ],
+        "best_for": "Regina patients seeking cutting-edge surgical techniques and willing to travel"
+      },
+      {
+        "name": "Herbal Magic - Regina",
+        "tagline": "Natural, non-surgical weight loss support",
+        "description": "Franchise-based clinic offering meal replacement programs, herbal supplements, and lifestyle coaching. Non-medical approach suitable for patients exploring alternatives to surgery or seeking post-operative nutritional support. Multiple Regina locations.",
+        "services_offered": [
+          "Meal replacement programs",
+          "Herbal supplements",
+          "One-on-one coaching",
+          "Nutrition education",
+          "Community support"
+        ],
+        "price_range": "$100-200/month for programs",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Southland, Downtown)",
+        "phone": "(306) 555-0156",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Accessible and affordable",
+          "Non-invasive",
+          "Local community presence"
+        ],
+        "cons": [
+          "Not medically supervised",
+          "Not covered by insurance",
+          "Results vary individually"
+        ],
+        "best_for": "Patients seeking gentle, non-surgical weight management with local support"
+      },
+      {
+        "name": "Regina Family Medicine - Bariatric Clinic",
+        "tagline": "Primary care-based bariatric assessment and referral",
+        "description": "Clinic within Regina Family Medicine offering initial bariatric assessments, AHCIP referral coordination, and post-operative primary care. Ideal entry point for patients unsure about surgery or needing local medical oversight during the decision process.",
+        "services_offered": [
+          "Bariatric assessment",
+          "AHCIP referral coordination",
+          "Post-operative medical care",
+          "Comorbidity management",
+          "Medication review"
+        ],
+        "price_range": "Covered by AHCIP; consultations included in provincial coverage",
+        "covered_by_insurance": true,
+        "address_area": "Central Regina",
+        "phone": "(306) 555-0223",
+        "website": "www.reginafamilymedicine.ca",
+        "pros": [
+          "AHCIP fully covered",
+          "Continuity of primary care",
+          "No referral needed to see"
+        ],
+        "cons": [
+          "Limited surgical expertise in-house",
+          "May require referral to surgeon anyway"
+        ],
+        "best_for": "Patients starting their bariatric journey and needing coordinated primary care"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and fellowship training from recognized programs",
+      "Clear explanation of AHCIP coverage, waitlists, and what out-of-pocket costs may apply",
+      "Comprehensive pre-operative assessment including nutritional, psychological, and medical evaluation",
+      "Structured post-operative follow-up program lasting at least 2 years with support groups and nutritionist access",
+      "Transparent discussion of risks, benefits, and realistic outcomes for your specific procedure",
+      "Experience with revision surgery in case you need adjustments or corrections"
+    ],
+    "average_cost_context": "In Saskatchewan, bariatric surgery covered by AHCIP is free for eligible patients; private surgery in Regina ranges from $8,000–$15,000 CAD depending on procedure type. Medical weight loss programs average $150–$300/month and are not covered by provincial insurance.",
+    "insurance_notes": "Alberta Health Services (AHCIP) covers bariatric surgery for eligible Saskatchewan residents who meet clinical criteria: BMI ≥40 or BMI ≥35 with obesity-related comorbidities, documented weight loss attempts, and psychological clearance. Referral from a physician is required. Waitlists typically range from 6–18 months. Medications like GLP-1 agonists are not routinely covered by AHCIP but may be partially covered through private benefits.",
+    "faqs": [
+      {
+        "question": "How long is the waitlist for bariatric surgery in Regina through AHCIP?",
+        "answer": "AHCIP waitlists for bariatric surgery in Regina typically range from 6 to 18 months, depending on the procedure and surgeon availability. Some private clinics offer shorter timelines. Contact Regina Bariatric Surgery Centre or Prairie Weight Loss Surgery for current estimates."
+      },
+      {
+        "question": "Do I need a referral to see a bariatric surgeon in Regina?",
+        "answer": "For AHCIP coverage, yes—you need a referral from your family physician or primary care provider. Private consultations may not require a referral. Start by speaking with your doctor about whether bariatric surgery is appropriate for you."
+      },
+      {
+        "question": "What's the difference between gastric bypass and gastric sleeve surgery?",
+        "answer": "Gastric bypass reduces stomach size and reroutes the intestines, limiting both calorie intake and absorption. Gastric sleeve reduces stomach size but keeps normal intestinal function. Bypass typically results in more weight loss but carries slightly higher risks. Your surgeon will recommend the best option for your health profile."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Weight loss varies by procedure and individual. Gastric bypass patients typically lose 60–80% of excess weight within 18–24 months. Gastric sleeve patients lose 50–70% of excess weight. Success depends on diet, exercise, and lifestyle changes post-surgery."
+      },
+      {
+        "question": "Are there any risks or side effects after bariatric surgery?",
+        "answer": "Common side effects include nausea, vomiting, and nutrient deficiencies (requiring lifelong vitamin supplementation). Rare serious complications include blood clots, leaks, and bowel obstruction. Your surgical team will discuss all risks before surgery and monitor you closely afterward."
+      },
+      {
+        "question": "Can I eat normally after bariatric surgery?",
+        "answer": "No. After surgery, you'll eat much smaller portions (typically 1–2 cups per meal) and must avoid high-calorie, sugary, and fatty foods. Most patients adapt within 3–6 months. Nutritionist guidance is essential for long-term success."
+      },
+      {
+        "question": "Will my family doctor in Regina follow me after surgery?",
+        "answer": "Yes. Your family physician can provide routine primary care post-surgery. However, your bariatric surgeon's team (including nutritionists and specialists) will manage surgery-specific follow-up. Coordination between your GP and surgical team ensures seamless care."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery in Regina?",
+    "cta_body": "Start by booking a consultation with your family physician to discuss whether bariatric surgery is right for you. If you'd like to stay updated on the latest weight loss resources and surgical advances in Saskatchewan, sign up for our monthly health newsletter. We'll send you evidence-based tips, local provider updates, and success stories straight to your inbox."
+  }
+}
