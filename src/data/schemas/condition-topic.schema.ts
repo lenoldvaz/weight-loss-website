@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { HeroImageSchema } from "./location-service.schema.js";
 
 export const ConditionTopicSchema = z.object({
   // SEO
@@ -79,6 +80,9 @@ export const ConditionTopicSchema = z.object({
   // CTA
   cta_heading: z.string(),
   cta_body: z.string(),
+
+  // Hero image (generated after content, optional)
+  hero_image: HeroImageSchema.optional(),
 });
 
 export type ConditionTopic = z.infer<typeof ConditionTopicSchema>;

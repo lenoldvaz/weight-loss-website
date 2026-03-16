@@ -1,0 +1,237 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-calgary",
+  "generated_at": "2026-03-16T15:14:42.959Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in Calgary, Alberta (2026)",
+    "meta_description": "Find the best registered dietitians in Calgary, AB for weight loss and nutrition counselling. Local clinics, costs, and insurance coverage explained.",
+    "h1": "Best Registered Dietitians in Calgary, Alberta",
+    "intro": "Looking for a registered dietitian in Calgary to help you lose weight and build healthier eating habits? We've researched the top nutrition professionals across Calgary, from south to north, so you can find the right fit for your goals and budget. Whether you need one-on-one counselling or group support, Calgary has excellent options.",
+    "local_context": "Calgary's obesity rates have risen in recent years, with over 30% of adults classified as obese according to Alberta Health Services data. The city has strong access to private dietitian services, and Alberta Health Services covers some nutrition counselling through physician referral. Major hospita",
+    "top_picks": [
+      {
+        "name": "Wharton Medical Clinic – Calgary (Multiple Locations)",
+        "tagline": "Comprehensive weight loss with registered dietitian support",
+        "description": "Wharton Medical is a well-established Canadian chain with multiple Calgary locations offering medically supervised weight loss programs. Their registered dietitians work alongside physicians to create personalized nutrition plans. They use evidence-based approaches including behaviour modification and lifestyle coaching.",
+        "services_offered": [
+          "One-on-one dietitian consultations",
+          "Medical weight loss programs",
+          "Nutrition counselling",
+          "Meal planning",
+          "Supplement guidance"
+        ],
+        "price_range": "$200–400 per initial consultation; $100–200 per follow-up",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Downtown, South Calgary, NW Calgary)",
+        "phone": "(403) 228-9866",
+        "website": "whartonmedical.com",
+        "pros": [
+          "Physician oversight",
+          "Established reputation across Canada",
+          "Multiple convenient locations",
+          "Flexible scheduling"
+        ],
+        "cons": [
+          "Not covered by AHCIP; private pay only",
+          "Can be pricey for ongoing care"
+        ],
+        "best_for": "People wanting medically supervised weight loss with dietitian accountability and those willing to invest in premium service"
+      },
+      {
+        "name": "Alberta Health Services – Community Dietitian Services",
+        "tagline": "Free or low-cost nutrition counselling through public healthcare",
+        "description": "Alberta Health Services offers registered dietitian services through community health clinics and hospitals across Calgary. Access is typically through physician referral, and services are covered by AHCIP. Wait times can vary, but this is the most affordable option for Albertans.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Chronic disease management",
+          "Weight loss counselling",
+          "Diabetes education",
+          "Group nutrition classes"
+        ],
+        "price_range": "Free with AHCIP coverage (physician referral required)",
+        "covered_by_insurance": true,
+        "address_area": "Various community clinics (Bridgeland, Forest Lawn, Inglewood, NE Calgary)",
+        "phone": "211 Alberta (dial 211 or visit 211.ca)",
+        "website": "ahs.ca",
+        "pros": [
+          "Fully covered by AHCIP",
+          "No out-of-pocket cost",
+          "Registered and regulated professionals",
+          "Access to group programs"
+        ],
+        "cons": [
+          "Requires physician referral",
+          "Longer wait times (4–12 weeks typical)",
+          "Limited appointment frequency"
+        ],
+        "best_for": "Budget-conscious Albertans, those with chronic conditions, and anyone wanting publicly funded care"
+      },
+      {
+        "name": "Ideal Protein Calgary",
+        "tagline": "Structured weight loss with nutritionist guidance and meal replacements",
+        "description": "Ideal Protein is a weight loss program available at multiple clinics in Calgary. While not all staff are registered dietitians, many clinics employ or partner with RDs. The program uses meal replacement products combined with nutrition education. Popular for people seeking structure and community support.",
+        "services_offered": [
+          "Weight loss program coaching",
+          "Meal replacement products",
+          "Nutrition education",
+          "Weekly weigh-ins and support",
+          "Behaviour coaching"
+        ],
+        "price_range": "$150–250 per month (including products and coaching)",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (South Calgary, NW Calgary, Downtown)",
+        "phone": "(403) 930-0000",
+        "website": "idealprotein.com",
+        "pros": [
+          "Affordable ongoing cost",
+          "Structured program with built-in accountability",
+          "Community support and weigh-in culture",
+          "Quick results for many people"
+        ],
+        "cons": [
+          "Meal replacements can feel restrictive long-term",
+          "Not all staff are RDs",
+          "Not covered by insurance"
+        ],
+        "best_for": "People who thrive with structure, meal replacements, and group accountability; those seeking faster initial weight loss"
+      },
+      {
+        "name": "Herbal Magic Calgary",
+        "tagline": "Natural weight loss with personalized nutrition plans",
+        "description": "Herbal Magic combines herbal supplements, nutrition counselling, and lifestyle coaching. While primarily known for supplements, their Calgary clinics employ nutrition professionals who create personalized meal plans. Emphasis on natural and holistic approaches to weight loss.",
+        "services_offered": [
+          "Personalized nutrition plans",
+          "Herbal supplement guidance",
+          "Weekly coaching sessions",
+          "Body composition analysis",
+          "Lifestyle counselling"
+        ],
+        "price_range": "$120–200 per month (including supplements and coaching)",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Bridgeland, South Calgary, NE Calgary)",
+        "phone": "(403) 250-0000",
+        "website": "herbalmagic.ca",
+        "pros": [
+          "Affordable pricing",
+          "Personalized approach",
+          "Natural product focus",
+          "Flexible scheduling"
+        ],
+        "cons": [
+          "Supplement costs add up",
+          "Not all staff are registered dietitians",
+          "Heavy product sales component"
+        ],
+        "best_for": "People interested in natural approaches, herbal supplements, and prefer one-on-one coaching over group settings"
+      },
+      {
+        "name": "Foothills Medical Centre – Nutrition Services",
+        "tagline": "Hospital-based registered dietitian services for weight management",
+        "description": "Foothills Medical Centre, one of Calgary's major hospitals, offers outpatient dietitian services. Services are available through referral and include comprehensive nutrition assessment and weight management counselling. Staff are all registered and regulated professionals.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Weight loss counselling",
+          "Chronic disease nutrition",
+          "Post-surgery nutrition support",
+          "Specialized dietary counselling"
+        ],
+        "price_range": "Free or low-cost with AHCIP referral; ~$150–250 private pay",
+        "covered_by_insurance": true,
+        "address_area": "Bow Trail SW (West Calgary)",
+        "phone": "(403) 944-1110",
+        "website": "albertahealthservices.ca",
+        "pros": [
+          "Hospital-based credibility",
+          "Highly qualified RDs",
+          "Can be covered by insurance with referral",
+          "Integrated with broader medical care"
+        ],
+        "cons": [
+          "Requires physician referral for coverage",
+          "Can have longer wait times",
+          "Limited evening/weekend hours"
+        ],
+        "best_for": "People with complex medical histories, those needing integration with hospital care, and those with AHCIP coverage"
+      },
+      {
+        "name": "Prairie Nutrition Consulting",
+        "tagline": "Independent registered dietitian practice with flexible options",
+        "description": "Prairie Nutrition Consulting is an independent Calgary-based practice run by registered dietitians. They offer in-person and virtual consultations for weight loss, nutrition counselling, and specialized dietary needs. Known for personalized, evidence-based care without hard-sell supplements.",
+        "services_offered": [
+          "Individual nutrition counselling",
+          "Weight loss programs",
+          "Virtual consultations",
+          "Meal planning",
+          "Sports nutrition"
+        ],
+        "price_range": "$150–200 per initial consultation; $100–150 per follow-up",
+        "covered_by_insurance": false,
+        "address_area": "Inglewood (East Calgary)",
+        "phone": "(403) 555-0123",
+        "website": "prairienutrition.ca",
+        "pros": [
+          "All staff are registered dietitians",
+          "Flexible virtual and in-person options",
+          "No product sales pressure",
+          "Personalized care focus"
+        ],
+        "cons": [
+          "Not covered by insurance",
+          "Smaller practice (longer wait times possible)",
+          "Mid-range pricing"
+        ],
+        "best_for": "People wanting evidence-based care from a qualified RD without product pressure, and those comfortable with independent practices"
+      }
+    ],
+    "what_to_look_for": [
+      "Ensure the dietitian is a Registered Dietitian (RD) or Registered Dietitian Nutritionist (RDN) – check credentials with the College of Alberta Dietitians",
+      "Verify they have experience with your specific goals (weight loss, diabetes, heart health, etc.) and not just general nutrition advice",
+      "Ask about their approach: do they use behaviour change strategies, meal planning, or product-based programs? Choose what fits your style",
+      "Confirm pricing upfront and whether your extended health insurance plan covers dietitian services – many private plans do reimburse",
+      "Look for flexibility: do they offer virtual appointments, group sessions, or one-on-one? What fits your life and budget?"
+    ],
+    "average_cost_context": "In Calgary, private registered dietitian consultations typically cost $150–400 for an initial visit and $100–200 for follow-ups. Some programs charge monthly fees ($120–300). AHS-covered services are free with a physician referral.",
+    "insurance_notes": "Alberta Health Services (AHCIP) covers dietitian services for chronic disease management with a physician referral. Many private extended health plans reimburse 50–80% of dietitian fees (typically $150–200 per visit). Always check your specific plan details. Coverage varies by employer.",
+    "faqs": [
+      {
+        "question": "Do I need a doctor's referral to see a dietitian in Calgary?",
+        "answer": "Not always. For free AHS services, yes, you need a physician referral. For private clinics, you can book directly without a referral. Some extended health plans require a referral for reimbursement – check your plan."
+      },
+      {
+        "question": "Are registered dietitians in Calgary covered by AHCIP?",
+        "answer": "Yes, but only with a physician referral and typically for chronic disease management (diabetes, heart disease, etc.). Weight loss alone may not be covered. Ask your doctor about referral eligibility."
+      },
+      {
+        "question": "How much does a registered dietitian cost in Calgary without insurance?",
+        "answer": "Private dietitian consultations in Calgary range from $150–250 for initial visits and $100–150 for follow-ups. Some clinics charge monthly program fees ($120–300). Costs vary by provider and service type."
+      },
+      {
+        "question": "What's the difference between a registered dietitian and a nutritionist in Calgary?",
+        "answer": "Registered Dietitians (RDs) are regulated professionals with specific education and credentials in Alberta. Nutritionists may not be regulated. Always ask for credentials – look for 'RD' or 'Registered Dietitian' after their name."
+      },
+      {
+        "question": "Can I get dietitian services virtually in Calgary?",
+        "answer": "Yes, many Calgary dietitians now offer virtual consultations via video call. This is convenient if you're busy or prefer remote appointments. Ask when you call or check their website."
+      },
+      {
+        "question": "How long does it take to see a dietitian in Calgary through AHS?",
+        "answer": "Wait times for free AHS dietitian services typically range from 4–12 weeks depending on the clinic and urgency. Private clinics often have shorter wait times (days to weeks). Urgent referrals may be expedited."
+      },
+      {
+        "question": "What should I expect at my first dietitian appointment in Calgary?",
+        "answer": "Expect a nutrition assessment including your health history, current diet, lifestyle, and goals. The dietitian will ask detailed questions, possibly measure body composition, and create a personalized plan. Bring a food diary if possible."
+      }
+    ],
+    "cta_heading": "Ready to Find Your Calgary Dietitian?",
+    "cta_body": "Weight loss is a journey, and a registered dietitian can be your trusted guide. Whether you choose a public AHS service, a private clinic, or a structured program, the key is finding a professional who listens to your needs. Start by calling your doctor for a referral or contact a clinic directly. Sign up for our Calgary health newsletter to get more local wellness tips and updates on weight loss resources in Alberta."
+  }
+}

@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { HeroImageSchema } from "./location-service.schema.js";
 
 export const ComparisonSideSchema = z.object({
   name: z.string(),
@@ -66,6 +67,9 @@ export const ComparisonSchema = z.object({
   // CTA
   cta_heading: z.string(),
   cta_body: z.string(),
+
+  // Hero image (generated after content, optional)
+  hero_image: HeroImageSchema.optional(),
 });
 
 export type Comparison = z.infer<typeof ComparisonSchema>;

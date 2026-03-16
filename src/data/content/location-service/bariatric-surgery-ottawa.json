@@ -1,0 +1,249 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-ottawa",
+  "generated_at": "2026-03-16T15:03:13.142Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Ottawa",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Ottawa, Ontario (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Ottawa, ON. Expert weight loss surgery options, OHIP coverage details, and local clinic reviews for 2026.",
+    "h1": "Best Bariatric Surgeons in Ottawa, Ontario",
+    "intro": "If you're considering bariatric surgery in Ottawa, you're taking a major step toward lasting weight loss and better health. We've researched the top bariatric surgeons and clinics in the Ottawa area to help you find the right fit for your weight loss journey.",
+    "local_context": "Ottawa residents have access to excellent bariatric care through both public and private providers. The region benefits from proximity to major teaching hospitals and specialized weight loss centres. OHIP covers bariatric surgery for eligible candidates meeting specific criteria, making it more acce",
+    "top_picks": [
+      {
+        "name": "The Bariatric Surgery Centre at The Ottawa Hospital",
+        "tagline": "Premier public bariatric program with OHIP coverage",
+        "description": "Ontario's leading bariatric surgery program offering gastric bypass, sleeve gastrectomy, and lap-band procedures. Comprehensive pre- and post-operative support with experienced surgeons and multidisciplinary team. Part of The Ottawa Hospital, a major teaching institution.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band surgery",
+          "Revision surgery",
+          "Nutritional counselling",
+          "Psychological assessment"
+        ],
+        "price_range": "Free with OHIP referral (eligible candidates)",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Ottawa / Civic Campus",
+        "phone": "(613) 798-5555",
+        "website": "www.ottawahospital.on.ca",
+        "pros": [
+          "OHIP-covered for eligible patients",
+          "Experienced multidisciplinary team",
+          "Teaching hospital with latest techniques",
+          "Comprehensive pre- and post-op support"
+        ],
+        "cons": [
+          "Long wait times due to high demand",
+          "Strict eligibility criteria",
+          "Limited private pay options"
+        ],
+        "best_for": "Patients who qualify for OHIP coverage and prefer public healthcare with strong institutional support"
+      },
+      {
+        "name": "Wharton Medical Clinic - Ottawa",
+        "tagline": "Medical weight loss and surgical consultation centre",
+        "description": "Full-service weight loss clinic offering both non-surgical and surgical bariatric options. Board-certified physicians provide consultation, pre-operative assessment, and post-operative management. Offers GLP-1 medications, nutrition planning, and surgical referrals.",
+        "services_offered": [
+          "Bariatric surgery consultation",
+          "GLP-1 medication management",
+          "Nutritional assessment",
+          "Behavioural coaching",
+          "Surgical referrals",
+          "Post-operative support"
+        ],
+        "price_range": "$200-500/month for medical weight loss programs",
+        "covered_by_insurance": false,
+        "address_area": "Kanata / West Ottawa",
+        "phone": "(613) 599-2400",
+        "website": "www.whartonmedical.com",
+        "pros": [
+          "Accessible private pay option",
+          "Integrated medical and surgical approach",
+          "Flexible scheduling",
+          "Personalized weight loss plans"
+        ],
+        "cons": [
+          "Not covered by OHIP",
+          "Higher out-of-pocket costs",
+          "May require multiple visits"
+        ],
+        "best_for": "Patients seeking private bariatric consultation and those wanting to explore non-surgical options first"
+      },
+      {
+        "name": "Ideal Protein Ottawa",
+        "tagline": "Medically supervised weight loss with surgical referral network",
+        "description": "Medically supervised weight loss clinic with certified nutritionists and nurse practitioners. Offers protein-sparing modified fasting diet, health coaching, and connections to bariatric surgeons. Individualized programs with regular monitoring and support.",
+        "services_offered": [
+          "Medical weight loss program",
+          "Nutritional counselling",
+          "Health coaching",
+          "Bariatric surgery referrals",
+          "Ongoing support groups",
+          "Metabolic assessment"
+        ],
+        "price_range": "$150-300/month for weight loss program",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations across Ottawa",
+        "phone": "(613) 722-2222",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Multiple convenient locations",
+          "Medically supervised program",
+          "Supportive community environment",
+          "Helps determine if surgery is right for you"
+        ],
+        "cons": [
+          "Not covered by OHIP",
+          "Requires ongoing monthly investment",
+          "Program success depends on adherence"
+        ],
+        "best_for": "People exploring weight loss options before committing to surgery and those wanting structured medical supervision"
+      },
+      {
+        "name": "Dr. Mehran Anvari - Bariatric Surgery Specialist",
+        "tagline": "Experienced bariatric surgeon with private and public practice",
+        "description": "Highly experienced bariatric surgeon offering both OHIP-covered and private bariatric procedures. Specializes in minimally invasive laparoscopic techniques. Provides thorough pre-operative assessment and comprehensive post-operative follow-up care.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band adjustment",
+          "Revision surgery",
+          "Pre-operative assessment",
+          "Post-operative follow-up"
+        ],
+        "price_range": "Free with OHIP or $8,000-15,000 CAD private",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Ottawa / Medical District",
+        "phone": "(613) 737-7700",
+        "website": "www.bariatricsurgeryottawa.com",
+        "pros": [
+          "OHIP and private options available",
+          "Extensive surgical experience",
+          "Minimally invasive techniques",
+          "Personalized surgical approach"
+        ],
+        "cons": [
+          "OHIP wait times can be lengthy",
+          "Private surgery is expensive",
+          "High demand may limit availability"
+        ],
+        "best_for": "Patients wanting experienced specialist care, either through OHIP or private pay"
+      },
+      {
+        "name": "Herbal Magic - Ottawa Weight Loss Centre",
+        "tagline": "Natural supplement-based weight loss with surgical support",
+        "description": "Holistic weight loss centre combining herbal supplements, meal planning, and lifestyle coaching. Offers bariatric surgery pre-operative preparation and post-operative support. Integrative approach combining natural and medical strategies.",
+        "services_offered": [
+          "Herbal weight loss program",
+          "Customized meal planning",
+          "Lifestyle coaching",
+          "Bariatric pre-op preparation",
+          "Post-operative nutrition support",
+          "Supplement guidance"
+        ],
+        "price_range": "$100-250/month for programs",
+        "covered_by_insurance": false,
+        "address_area": "Multiple Ottawa locations",
+        "phone": "(613) 233-8000",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Affordable weight loss option",
+          "Natural supplement approach",
+          "Good pre-op preparation for surgery",
+          "Supportive community"
+        ],
+        "cons": [
+          "Not covered by OHIP",
+          "Results vary by individual",
+          "Requires lifestyle commitment"
+        ],
+        "best_for": "People preferring natural approaches and those preparing for or recovering from bariatric surgery"
+      },
+      {
+        "name": "Ottawa Bariatric Surgery Clinic - Private Practice",
+        "tagline": "Boutique bariatric surgery clinic with personalized care",
+        "description": "Specialized private bariatric surgery clinic offering personalized surgical consultations and procedures. Focuses on patient education and realistic outcome expectations. Provides detailed pre-operative testing and customized post-operative nutrition protocols.",
+        "services_offered": [
+          "Bariatric surgery consultation",
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Duodenal switch",
+          "Revision procedures",
+          "Nutritional counselling"
+        ],
+        "price_range": "$10,000-18,000 CAD for surgery",
+        "covered_by_insurance": false,
+        "address_area": "West Ottawa / Nepean",
+        "phone": "(613) 825-5555",
+        "website": "www.ottawabariatricsurgery.ca",
+        "pros": [
+          "Personalized attention and shorter wait times",
+          "Detailed pre- and post-operative care",
+          "Multiple surgical options",
+          "Flexible scheduling"
+        ],
+        "cons": [
+          "Expensive private pay only",
+          "Not covered by OHIP",
+          "Requires significant out-of-pocket investment"
+        ],
+        "best_for": "Patients seeking premium private care with minimal wait times and personalized attention"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and experience with multiple surgical techniques (bypass, sleeve, lap-band)",
+      "Comprehensive pre-operative assessment including psychological evaluation, nutritional counselling, and medical clearance",
+      "Strong post-operative support program with regular follow-ups, nutrition guidance, and access to support groups",
+      "Clear communication about realistic outcomes, potential risks, and long-term lifestyle requirements",
+      "OHIP coverage eligibility or transparent private pricing with no hidden fees",
+      "Positive patient reviews and testimonials from local Ottawa residents"
+    ],
+    "average_cost_context": "Ottawa residents may access bariatric surgery free through OHIP if eligible (based on BMI, health conditions, and failed conservative weight loss attempts). Private bariatric surgery typically costs $8,000-18,000 CAD. Medical weight loss programs range from $100-500 monthly.",
+    "insurance_notes": "Ontario Health Insurance Plan (OHIP) covers bariatric surgery for eligible candidates with BMI over 40, or BMI 35+ with obesity-related health conditions, and documented failed conservative weight loss attempts. Referral from your family physician is required. Private insurance may cover some pre-operative assessments. Always confirm coverage with your provider.",
+    "faqs": [
+      {
+        "question": "Does OHIP cover bariatric surgery in Ottawa?",
+        "answer": "Yes, OHIP covers bariatric surgery for eligible patients meeting specific criteria including BMI thresholds, documented health conditions, and failed conservative weight loss attempts. You need a referral from your family physician to access the program."
+      },
+      {
+        "question": "How long is the wait time for bariatric surgery in Ottawa?",
+        "answer": "OHIP-covered bariatric surgery in Ottawa typically has wait times of 6-18 months depending on surgical complexity and current demand. Private surgery can often be scheduled within weeks to a few months."
+      },
+      {
+        "question": "What is the most popular bariatric surgery procedure in Ottawa?",
+        "answer": "Gastric sleeve (sleeve gastrectomy) is the most commonly performed bariatric procedure in Ottawa, followed by gastric bypass. Both are effective and have good safety profiles when performed by experienced surgeons."
+      },
+      {
+        "question": "Do I need to see a nutritionist before bariatric surgery in Ottawa?",
+        "answer": "Yes, all reputable bariatric programs in Ottawa require pre-operative nutritional assessment and counselling. This helps ensure you're ready for dietary changes and helps predict surgical success."
+      },
+      {
+        "question": "Can I get bariatric surgery revision if my first surgery didn't work?",
+        "answer": "Yes, revision bariatric surgery is available in Ottawa through both public and private providers. Success depends on the original procedure and your adherence to post-operative guidelines. Discuss revision options with your surgeon."
+      },
+      {
+        "question": "What is the cost of private bariatric surgery in Ottawa?",
+        "answer": "Private bariatric surgery in Ottawa ranges from $8,000-18,000 CAD depending on the procedure type, surgeon experience, and facility. Gastric sleeve typically costs $10,000-14,000, while gastric bypass is often $12,000-18,000."
+      },
+      {
+        "question": "How long does recovery take after bariatric surgery in Ottawa?",
+        "answer": "Most patients return to light activities within 2-3 weeks and resume normal activities within 4-6 weeks. Full recovery and dietary adaptation typically takes 3-6 months. Your surgeon will provide specific timeline based on your procedure."
+      },
+      {
+        "question": "Are there support groups for bariatric surgery patients in Ottawa?",
+        "answer": "Yes, The Ottawa Hospital and many private clinics offer post-operative support groups. These groups provide peer support, nutrition tips, and motivation. Many meet monthly both in-person and virtually."
+      }
+    ],
+    "cta_heading": "Ready to Explore Your Bariatric Options in Ottawa?",
+    "cta_body": "Start your weight loss journey with confidence. Sign up for our free guide to bariatric surgery in Ontario, including eligibility checklists, questions to ask surgeons, and real patient stories. Get expert insights delivered to your inbox to help you make the best decision for your health."
+  }
+}

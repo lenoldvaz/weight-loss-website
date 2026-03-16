@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { HeroImageSchema } from "./location-service.schema.js";
 
 export const RatingSchema = z.object({
   category: z.string(),
@@ -65,6 +66,9 @@ export const ProductReviewSchema = z.object({
   // CTA
   cta_heading: z.string(),
   cta_body: z.string(),
+
+  // Hero image (generated after content, optional)
+  hero_image: HeroImageSchema.optional(),
 });
 
 export type ProductReview = z.infer<typeof ProductReviewSchema>;

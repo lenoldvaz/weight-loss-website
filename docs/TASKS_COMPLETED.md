@@ -114,6 +114,27 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-03-16] [Admin] Triggered Vercel redeploy — admin panel live at weight-loss.ca/admin
 - [2026-03-16] [Research] Nano Banana 2 (Google Imagen / Gemini 3.1 Flash Image) selected for hero image generation — $0.067/image at 1K res, same GCP project (academic-empire-462216-p6) already configured
 
+## 2026-03-16 (Templates — Phase 4)
+
+- [2026-03-16] [Templates] Built 6 remaining React page templates:
+  - src/components/templates/ComparisonTemplate.tsx — side-by-side comparison with JSON-LD FAQPage; sections: hero, quick verdict, comparison table, category winners, overall winner callout, per-option pros/cons/details, who-should-choose-what, Canadian context
+  - src/components/templates/DemographicTopicTemplate.tsx — audience-specific guide with JSON-LD Article + FAQPage; sections: hero, quick answer, unique challenges, strategies, diet/exercise recs, product recommendations, what to avoid, Canadian context, when to see a doctor
+  - src/components/templates/ConditionTopicTemplate.tsx — medical condition guide with JSON-LD MedicalWebPage + FAQPage; prominent medical disclaimer banner at top, sections: medical overview, treatment approaches with evidence rating badges, dietary approach, exercise, medications with Health Canada approval badges, doctor checklist, cautions, Canadian healthcare resources; full disclaimer at bottom
+  - src/components/templates/BestListTemplate.tsx — ranked list with JSON-LD ItemList + FAQPage; sections: quick picks box, methodology note with criteria, numbered ranked item cards (rank badge, pros/cons, affiliate link), quick comparison table, buying guide with key factors
+  - src/components/templates/TrendingArticleTemplate.tsx — news article with JSON-LD NewsArticle + FAQPage; sections: last-updated badge, reading time, key takeaways box, quick summary, body sections with key-point callouts, Canadian context, cited sources
+  - src/components/templates/LocationProductTemplate.tsx — local product finder with JSON-LD ItemList + FAQPage; sections: local availability callout, product cards (rank, brand, where to buy, pros/cons, affiliate link), price comparison table, where-to-buy summary, buying guide (what to look for, red flags, budget tip)
+- [2026-03-16] [Templates] Updated src/app/[slug]/page.tsx — added 6 new template imports and switch cases (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product); removed placeholder notFound() fallback comment
+
+## 2026-03-16 (Image Generation Pipeline)
+
+- [2026-03-16] [Pipeline] Created `scripts/generate/image_generator.ts` — Gemini image generation via REST API (gemini-2.0-flash-exp); functions: buildImagePrompt (template-specific prompts), generateImage (API call, base64 response), saveImage (public/images/content/{template}/{slug}.jpg), imageExists (idempotency check); graceful degradation when no API key
+- [2026-03-16] [Pipeline] Updated `scripts/generate/content_generator.ts` — calls generateImage + saveImage + updateContentWithImage after each successful content write; 2s delay between image calls; image failures are non-fatal (content is primary)
+- [2026-03-16] [Pipeline] Updated `scripts/generate/write_content.ts` — added updateContentWithImage() to patch hero_image field into existing content JSON; added buildAltText() helper
+- [2026-03-16] [Schemas] Added hero_image optional field (path, alt, prompt) to all 9 Zod schemas (location-service, location-product, product-review, comparison, how-to, demographic-topic, condition-topic, best-list, trending-article); HeroImageSchema defined once in location-service.schema.ts and imported by all others
+- [2026-03-16] [Pipeline] Created `scripts/generate/generate_images.ts` — standalone CLI to generate images for existing content pages that have no hero_image; supports --template and --all flags, --limit, idempotent, progress output
+- [2026-03-16] [Templates] Updated LocationServiceTemplate.tsx, HowToTemplate.tsx, ProductReviewTemplate.tsx — added Next.js Image component hero image rendering after h1/intro; conditional render (only if hero_image present); full-width rounded, max-height 400px, object-cover
+- [2026-03-16] [Infra] Created public/images/content/ directory with .gitkeep — images deploy with the site (not gitignored)
+
 ## Current State (2026-03-16)
 
 **Content generated: 7 pages**

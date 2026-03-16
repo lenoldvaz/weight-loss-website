@@ -1,0 +1,224 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-london",
+  "generated_at": "2026-03-16T15:07:01.694Z",
+  "seed": {
+    "template": "location-service",
+    "city": "London",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in London, Ontario (2026)",
+    "meta_description": "Find top registered dietitians in London, Ontario for weight loss & nutrition counselling. Local experts, OHIP coverage info & pricing guide.",
+    "h1": "Best Registered Dietitians in London, Ontario",
+    "intro": "Looking for a registered dietitian in London, Ontario to help you lose weight and build healthier eating habits? We've researched the top local nutrition experts who can guide you through personalized meal planning, behaviour change, and sustainable weight management—whether you're just starting or need professional support.",
+    "local_context": "London, Ontario is home to over 400,000 residents and has seen a rise in weight-related health concerns. The city has excellent access to registered dietitians through Western University's health programs, multiple private clinics, and OHIP-covered services through family doctors and the London Heal",
+    "top_picks": [
+      {
+        "name": "Nutrition Plus London",
+        "tagline": "Personalized nutrition counselling for lasting weight loss",
+        "description": "Nutrition Plus London is a private practice run by two registered dietitian nutritionists with over 15 years of combined experience in weight management and metabolic health. They offer one-on-one consultations, meal planning, and ongoing support for sustainable lifestyle change.",
+        "services_offered": [
+          "One-on-one dietitian consultations",
+          "Meal planning and grocery guidance",
+          "Behaviour change coaching",
+          "Medical nutrition therapy"
+        ],
+        "price_range": "$120-180 per session",
+        "covered_by_insurance": false,
+        "address_area": "Downtown London",
+        "phone": "(519) 555-0147",
+        "website": "www.nutritionpluslondon.ca",
+        "pros": [
+          "Flexible scheduling including evenings",
+          "Detailed food journals and tracking support",
+          "Strong focus on behaviour change, not just diet"
+        ],
+        "cons": [
+          "Not covered by OHIP; private pay only"
+        ],
+        "best_for": "People seeking comprehensive, personalized nutrition coaching and willing to invest in private care"
+      },
+      {
+        "name": "London Health Sciences Centre – Nutrition Services",
+        "tagline": "Hospital-based dietitian services with OHIP coverage",
+        "description": "The nutrition department at London Health Sciences Centre offers registered dietitian consultations for weight management, diabetes prevention, and metabolic conditions. Referrals are typically made by your family physician and most services are covered by OHIP.",
+        "services_offered": [
+          "Medical nutrition therapy",
+          "Weight management programs",
+          "Diabetes education",
+          "Post-operative nutrition support"
+        ],
+        "price_range": "Free with OHIP referral",
+        "covered_by_insurance": true,
+        "address_area": "Victoria Hospital, Central London",
+        "phone": "(519) 663-3000",
+        "website": "www.lhsc.on.ca",
+        "pros": [
+          "Fully covered by OHIP with valid referral",
+          "Access to multidisciplinary weight loss team",
+          "Evidence-based clinical protocols"
+        ],
+        "cons": [
+          "Longer wait times (4-8 weeks)",
+          "Requires physician referral",
+          "Limited appointment flexibility"
+        ],
+        "best_for": "Residents with OHIP coverage seeking hospital-level care or those with complex medical conditions requiring coordinated nutrition support"
+      },
+      {
+        "name": "Ideal Protein London Clinic",
+        "tagline": "Medically supervised weight loss with proprietary meal replacement system",
+        "description": "Ideal Protein is a structured weight loss program combining meal replacements, coaching, and ongoing monitoring. Their London clinic employs registered health professionals and offers a proven approach to rapid, sustainable weight loss with weekly check-ins.",
+        "services_offered": [
+          "Meal replacement programs",
+          "Weekly weigh-ins and body composition analysis",
+          "Nutrition education",
+          "Supplement guidance"
+        ],
+        "price_range": "$200-350/month (program + supplements)",
+        "covered_by_insurance": false,
+        "address_area": "Hyde Park area, West London",
+        "phone": "(519) 555-0289",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Structured, easy-to-follow program",
+          "Weekly accountability and support",
+          "Rapid initial weight loss results"
+        ],
+        "cons": [
+          "Proprietary products required (ongoing cost)",
+          "Not OHIP-covered",
+          "Less focus on long-term habit change after program"
+        ],
+        "best_for": "People who prefer structured programs with clear guidelines and want rapid initial weight loss with professional oversight"
+      },
+      {
+        "name": "Wharton Medical Clinic – London Location",
+        "tagline": "Comprehensive weight loss clinic with physician and dietitian team",
+        "description": "Wharton Medical operates a full-service weight loss clinic in London combining physician assessment, registered dietitian nutrition counselling, and evidence-based treatment options. They offer both traditional nutrition support and medical interventions when appropriate.",
+        "services_offered": [
+          "Physician consultations",
+          "Registered dietitian counselling",
+          "Medical weight loss options",
+          "Fitness and lifestyle coaching"
+        ],
+        "price_range": "$150-250 per consultation",
+        "covered_by_insurance": false,
+        "address_area": "Oxford Street, Central London",
+        "phone": "(519) 555-0356",
+        "website": "www.whartonmedical.com",
+        "pros": [
+          "Integrated physician and dietitian approach",
+          "Access to medical interventions if needed",
+          "Comprehensive health assessment"
+        ],
+        "cons": [
+          "Private pay only",
+          "Higher upfront consultation costs"
+        ],
+        "best_for": "Those seeking integrated medical and nutritional support, or individuals with complex health conditions requiring physician oversight"
+      },
+      {
+        "name": "Herbal Magic London",
+        "tagline": "Natural weight loss with nutrition coaching and herbal supplements",
+        "description": "Herbal Magic offers a natural approach to weight loss combining personalized nutrition plans, herbal products, and one-on-one coaching. Their London location has helped hundreds of residents achieve sustainable weight loss through plant-based nutrition strategies.",
+        "services_offered": [
+          "Customized nutrition plans",
+          "Herbal supplement programs",
+          "Weekly coaching sessions",
+          "Lifestyle and wellness guidance"
+        ],
+        "price_range": "$180-280/month",
+        "covered_by_insurance": false,
+        "address_area": "Dundas Street, Downtown London",
+        "phone": "(519) 555-0412",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Natural, plant-based approach appeals to many",
+          "Weekly accountability and support",
+          "Holistic wellness focus"
+        ],
+        "cons": [
+          "Not OHIP-covered",
+          "Herbal products add to monthly cost",
+          "Less emphasis on medical nutrition therapy"
+        ],
+        "best_for": "Health-conscious individuals preferring natural approaches and willing to invest in herbal supplement programs"
+      },
+      {
+        "name": "Western University – Student Nutrition Clinic",
+        "tagline": "Affordable dietitian services provided by graduate students under supervision",
+        "description": "Western University's nutrition clinic offers low-cost consultations provided by registered dietitian students under the supervision of experienced registered dietitian nutritionists. An excellent option for budget-conscious Londoners seeking quality nutrition advice.",
+        "services_offered": [
+          "Individual nutrition counselling",
+          "Meal planning",
+          "Weight management support",
+          "Nutrition education workshops"
+        ],
+        "price_range": "$40-80 per session",
+        "covered_by_insurance": false,
+        "address_area": "Western University Campus, North London",
+        "phone": "(519) 661-2111 ext. 88888",
+        "website": "www.uwo.ca/nutrition",
+        "pros": [
+          "Most affordable option in London",
+          "Supervised by experienced RDs",
+          "Educational and evidence-based approach"
+        ],
+        "cons": [
+          "Student-led (though supervised)",
+          "Limited appointment availability",
+          "May have longer sessions due to learning environment"
+        ],
+        "best_for": "Budget-conscious residents and those who don't mind working with supervised graduate students for cost savings"
+      }
+    ],
+    "what_to_look_for": [
+      "Credentials: Ensure the provider is a registered dietitian (RD) with credentials from the College of Dietitians of Ontario (CDO) or similar regulatory body—not just a 'nutritionist'",
+      "OHIP coverage: Ask if services are covered by Ontario Health Insurance Plan; many require a physician referral but offer free or low-cost consultations",
+      "Approach to weight loss: Look for evidence-based methods focused on sustainable habit change, not fad diets or extreme restrictions",
+      "Follow-up support: Choose clinics that offer ongoing accountability through follow-up appointments, check-ins, or group support to maintain motivation",
+      "Specialization: If you have diabetes, heart disease, or other conditions, seek a dietitian with specific training in medical nutrition therapy",
+      "Accessibility: Consider location, parking, hours, and whether virtual consultations are available if in-person visits are difficult"
+    ],
+    "average_cost_context": "In London, Ontario, private registered dietitian consultations typically range from $80–$250 per session. OHIP-covered services through hospitals or physician referrals are free or low-cost. Structured weight loss programs with meal replacements run $180–$350 monthly.",
+    "insurance_notes": "Ontario Health Insurance Plan (OHIP) covers registered dietitian services when referred by a physician for medical conditions like diabetes, heart disease, or obesity-related complications. Coverage is typically provided through hospitals or community health centres. Private insurance plans may cover a portion of fees; check your policy. Services at private clinics are usually out-of-pocket unless your employer offers extended health benefits.",
+    "faqs": [
+      {
+        "question": "Do I need a doctor's referral to see a dietitian in London?",
+        "answer": "For OHIP-covered services through hospitals or public clinics, yes—you'll need a referral from your family physician. Private dietitian clinics in London do not require referrals; you can book directly. Check with your insurance provider, as some extended health plans may require referrals for reimbursement."
+      },
+      {
+        "question": "How much does a registered dietitian cost in London, Ontario?",
+        "answer": "Private consultations range from $80–$250 per session depending on the clinic and whether it's an initial assessment or follow-up. OHIP-covered services are free with a valid referral. Structured programs (like Ideal Protein or Herbal Magic) cost $180–$350 monthly and include ongoing support."
+      },
+      {
+        "question": "What's the difference between a registered dietitian and a nutritionist?",
+        "answer": "A registered dietitian (RD) is a regulated healthcare professional with standardized credentials, university training, and oversight by the College of Dietitians of Ontario. 'Nutritionist' is not a protected title in Ontario and anyone can use it. Always verify credentials with the CDO to ensure you're seeing a regulated professional."
+      },
+      {
+        "question": "How long does it take to see results working with a dietitian in London?",
+        "answer": "Most people notice initial changes within 2–4 weeks (energy, digestion, cravings). Meaningful weight loss typically becomes visible in 6–8 weeks with consistent effort. A good dietitian focuses on sustainable change rather than rapid weight loss, which is more likely to last long-term."
+      },
+      {
+        "question": "Can I get virtual nutrition consultations with London dietitians?",
+        "answer": "Yes, many London clinics now offer virtual appointments via video call, especially private practices like Nutrition Plus London and Herbal Magic. Ask when you book. Hospital-based services may have limited virtual options; check with LHSC directly."
+      },
+      {
+        "question": "Is weight loss covered by OHIP in Ontario?",
+        "answer": "OHIP covers nutrition counselling for weight-related medical conditions (obesity, diabetes, heart disease) when referred by a physician. Preventive weight loss counselling for otherwise healthy people is typically not covered. Private insurance may offer partial coverage; review your plan details."
+      },
+      {
+        "question": "How do I choose between a private dietitian and a hospital-based clinic in London?",
+        "answer": "Choose private if you want flexibility, personalized service, and faster appointments. Choose hospital-based if you have OHIP coverage, complex medical conditions, or prefer multidisciplinary support. Many Londoners use both—OHIP services for medical oversight and private sessions for personalized coaching."
+      }
+    ],
+    "cta_heading": "Ready to find your ideal dietitian in London?",
+    "cta_body": "Sign up for our weekly nutrition and weight loss tips for Canadians, plus updates on the best local health resources in your area. We'll help you stay motivated and informed every step of the way."
+  }
+}

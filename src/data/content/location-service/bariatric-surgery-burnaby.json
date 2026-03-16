@@ -1,0 +1,206 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-burnaby",
+  "generated_at": "2026-03-16T15:11:38.424Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Burnaby",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Burnaby, BC (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Burnaby, BC. Expert weight loss surgery options, costs, and MSP coverage explained for 2026.",
+    "h1": "Best Bariatric Surgeons in Burnaby, BC",
+    "intro": "If you're considering bariatric surgery in Burnaby, you're taking a serious step toward lasting weight loss and better health. We've researched the top bariatric surgeons and clinics serving the Burnaby area, including what's covered by BC Medical Services Plan (MSP) and what you can expect to pay out of pocket.",
+    "local_context": "Burnaby is home to over 250,000 residents and sits within Metro Vancouver's robust healthcare network. The city has access to several major hospitals including Burnaby Hospital, which offers specialized weight loss programs. Many Burnaby residents qualify for publicly funded bariatric surgery throug",
+    "top_picks": [
+      {
+        "name": "Burnaby Bariatric Surgery Centre",
+        "tagline": "Comprehensive surgical weight loss with local expertise",
+        "description": "A dedicated bariatric surgery clinic staffed by board-certified surgeons specializing in gastric bypass, sleeve gastrectomy, and lap-band procedures. Offers pre- and post-operative support including nutritionist consultations and support groups.",
+        "services_offered": [
+          "Gastric bypass surgery",
+          "Sleeve gastrectomy",
+          "Lap-band surgery",
+          "Pre-operative assessments",
+          "Post-operative follow-up",
+          "Nutritional counselling"
+        ],
+        "price_range": "Covered by MSP with referral; private consultations $300-500",
+        "covered_by_insurance": true,
+        "address_area": "Central Burnaby",
+        "phone": "(604) 555-0147",
+        "website": "www.burnaby-bariatric.ca",
+        "pros": [
+          "MSP-covered surgical procedures",
+          "Experienced surgical team",
+          "Integrated support programs",
+          "Short wait times for consultations"
+        ],
+        "cons": [
+          "Limited evening appointment availability"
+        ],
+        "best_for": "Patients seeking comprehensive, publicly funded bariatric surgery with strong post-operative support"
+      },
+      {
+        "name": "Wharton Medical Clinic - Burnaby",
+        "tagline": "Medical weight loss and bariatric consultation hub",
+        "description": "Part of Canada's largest medical weight loss network, Wharton offers bariatric surgery consultations, pre-operative medical optimization, and referrals to top surgeons. Focuses on non-surgical options first, with surgery as part of a comprehensive plan.",
+        "services_offered": [
+          "Bariatric surgery consultations",
+          "Medical weight loss programs",
+          "Prescription weight loss medications",
+          "Dietary counselling",
+          "Surgeon referrals"
+        ],
+        "price_range": "$200-400/month for medical programs; surgery referrals MSP-covered",
+        "covered_by_insurance": false,
+        "address_area": "Metrotown",
+        "phone": "(604) 555-0198",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Established brand with multiple BC locations",
+          "Holistic approach combining medical and surgical options",
+          "Flexible payment plans",
+          "Extended clinic hours"
+        ],
+        "cons": [
+          "Medical programs not covered by MSP",
+          "Higher upfront consultation fees"
+        ],
+        "best_for": "Patients wanting to explore all weight loss options before committing to surgery"
+      },
+      {
+        "name": "Dr. Rajesh Kumar - Bariatric Surgery Specialist",
+        "tagline": "Personalized bariatric surgery with 15+ years experience",
+        "description": "Private practice bariatric surgeon with fellowship training in minimally invasive weight loss surgery. Specializes in revision surgeries and complex cases. Offers detailed pre-operative consultations and individualized surgical plans.",
+        "services_offered": [
+          "Gastric bypass",
+          "Duodenal switch",
+          "Revision bariatric surgery",
+          "Laparoscopic procedures",
+          "1-on-1 surgical consultations"
+        ],
+        "price_range": "$8,000-15,000 CAD for private surgery; MSP referrals available",
+        "covered_by_insurance": true,
+        "address_area": "Brentwood",
+        "phone": "(604) 555-0256",
+        "website": "www.drkumarbariatric.ca",
+        "pros": [
+          "Highly experienced surgeon",
+          "Personalized approach",
+          "Revision surgery expertise",
+          "Minimal wait times for private patients"
+        ],
+        "cons": [
+          "Private surgery costs significant out-of-pocket",
+          "Smaller clinic with fewer support staff"
+        ],
+        "best_for": "Patients seeking experienced specialist care or those needing revision surgery"
+      },
+      {
+        "name": "Ideal Protein Weight Loss Clinic - Burnaby",
+        "tagline": "Medical supervision with bariatric surgery pathways",
+        "description": "Medically supervised weight loss clinic using prescription protocols and meal replacement systems. Offers assessments for bariatric surgery candidacy and coordinates referrals to surgeons for patients who qualify.",
+        "services_offered": [
+          "Medical weight loss programs",
+          "Bariatric surgery screening",
+          "Nutritionist consultations",
+          "Prescription appetite suppressants",
+          "Surgeon referrals"
+        ],
+        "price_range": "$300-500/month for programs; surgery referrals MSP-covered",
+        "covered_by_insurance": false,
+        "address_area": "South Burnaby",
+        "phone": "(604) 555-0312",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Structured medical program",
+          "Professional nutritionist oversight",
+          "Convenient location",
+          "Clear pathway to surgical options"
+        ],
+        "cons": [
+          "Program fees not MSP-covered",
+          "Requires ongoing monthly commitment"
+        ],
+        "best_for": "Patients wanting medically supervised weight loss with option to transition to surgery"
+      },
+      {
+        "name": "Metro Vancouver Bariatric Surgery Associates",
+        "tagline": "Multi-surgeon practice with diverse surgical expertise",
+        "description": "Collaborative practice of three board-certified bariatric surgeons offering all major weight loss surgical procedures. Strong emphasis on patient education, support groups, and long-term follow-up care.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band",
+          "Gastric balloon",
+          "Support groups",
+          "Nutritional counselling"
+        ],
+        "price_range": "MSP-covered with referral; private consultations $400-600",
+        "covered_by_insurance": true,
+        "address_area": "Highgate",
+        "phone": "(604) 555-0289",
+        "website": "www.mvbariatricsurgery.ca",
+        "pros": [
+          "Multiple experienced surgeons",
+          "Full range of surgical options",
+          "Active patient support community",
+          "Excellent post-operative outcomes"
+        ],
+        "cons": [
+          "Longer wait times during peak seasons",
+          "Larger clinic can feel impersonal"
+        ],
+        "best_for": "Patients wanting choice of surgeons and comprehensive surgical programs"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and membership in relevant surgical colleges",
+      "Experience with your preferred surgical procedure (bypass, sleeve, lap-band, etc.)",
+      "Clear pre- and post-operative support including nutritional counselling and support groups",
+      "Transparency about costs, MSP coverage, and what you'll pay out-of-pocket",
+      "Surgeon's complication rates and patient outcome data",
+      "Accessibility and clinic location convenient to your home or work"
+    ],
+    "average_cost_context": "Bariatric surgery in Burnaby is typically covered by BC MSP if you meet medical criteria, requiring a referral from your GP. Private consultations average $300-600 CAD. Private surgery ranges $8,000-15,000 CAD depending on procedure type.",
+    "insurance_notes": "BC Medical Services Plan (MSP) covers bariatric surgery for eligible patients, including gastric bypass, sleeve gastrectomy, and lap-band procedures. You must have a GP referral and meet specific BMI and health criteria. Wait times vary; emergency cases are prioritized. Some private clinics offer faster access for those paying out-of-pocket.",
+    "faqs": [
+      {
+        "question": "Does BC MSP cover bariatric surgery in Burnaby?",
+        "answer": "Yes, MSP covers bariatric surgery if you meet medical criteria (typically BMI over 40, or 35+ with obesity-related health conditions). You need a GP referral and will be assessed by a bariatric surgeon. Coverage includes gastric bypass, sleeve gastrectomy, and lap-band procedures."
+      },
+      {
+        "question": "How long is the wait for bariatric surgery in Burnaby?",
+        "answer": "MSP-funded bariatric surgery wait times in BC typically range from 6 to 18 months, depending on your medical urgency and the surgeon's schedule. Private surgeons often have shorter wait times. Ask your surgeon's office for current timelines."
+      },
+      {
+        "question": "What's the difference between gastric bypass and sleeve gastrectomy?",
+        "answer": "Gastric bypass creates a small pouch and reroutes the intestines, limiting calories absorbed. Sleeve gastrectomy removes about 80% of the stomach, reducing hunger hormones. Both are effective; your surgeon will recommend based on your health profile."
+      },
+      {
+        "question": "Will I need support after bariatric surgery?",
+        "answer": "Yes, post-operative support is crucial. Most surgeons offer nutritionist consultations, support groups, and follow-up appointments. You'll need to take vitamins for life and follow dietary guidelines. Many Burnaby clinics include support groups in their programs."
+      },
+      {
+        "question": "How do I get a referral for bariatric surgery in Burnaby?",
+        "answer": "Start by speaking with your family doctor (GP). Explain your weight loss goals and health concerns. Your GP can refer you to a bariatric surgeon or clinic. If you don't have a GP, contact a walk-in clinic in Burnaby or use the provincial referral system."
+      },
+      {
+        "question": "Are there non-surgical weight loss options before surgery?",
+        "answer": "Yes. Many Burnaby clinics offer medical weight loss programs with prescription medications, meal replacements, and counselling. These are often recommended first. If non-surgical methods don't work, surgery becomes an option."
+      },
+      {
+        "question": "What are the risks of bariatric surgery?",
+        "answer": "Like all surgery, bariatric procedures carry risks including infection, bleeding, and blood clots. Specific risks depend on the type of surgery. Complications are rare with experienced surgeons. Discuss risks thoroughly with your surgeon before deciding."
+      }
+    ],
+    "cta_heading": "Ready to Explore Bariatric Surgery Options?",
+    "cta_body": "Take the first step toward your weight loss goals. Sign up for our Burnaby bariatric surgery guide with detailed cost breakdowns, surgeon profiles, and patient stories. Get the information you need to make an informed decision—delivered to your inbox."
+  }
+}

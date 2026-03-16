@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { HeroImageSchema } from "./location-service.schema.js";
 
 export const DemographicTopicSchema = z.object({
   // SEO
@@ -63,6 +64,9 @@ export const DemographicTopicSchema = z.object({
   // CTA
   cta_heading: z.string(),
   cta_body: z.string(),
+
+  // Hero image (generated after content, optional)
+  hero_image: HeroImageSchema.optional(),
 });
 
 export type DemographicTopic = z.infer<typeof DemographicTopicSchema>;

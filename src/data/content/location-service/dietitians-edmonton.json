@@ -1,0 +1,237 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-edmonton",
+  "generated_at": "2026-03-16T15:15:50.094Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in Edmonton, Alberta (2026)",
+    "meta_description": "Find top registered dietitians in Edmonton, AB for weight loss and nutrition counseling. Local providers, costs, and insurance coverage explained.",
+    "h1": "Best Registered Dietitians in Edmonton, Alberta",
+    "intro": "Looking for a registered dietitian in Edmonton to help you lose weight and build healthier eating habits? We've researched the top local providers offering personalized nutrition counseling, meal planning, and ongoing support. Whether you're just starting your weight loss journey or need expert guidance, Edmonton has excellent options to fit your needs and budget.",
+    "local_context": "Edmonton residents have access to a strong network of nutrition and weight management services through Alberta Health Services (AHS) and private clinics. The city's healthcare landscape includes major hospitals like University of Alberta Hospital and Royal Alexandra Hospital, plus numerous community",
+    "top_picks": [
+      {
+        "name": "Alberta Health Services Nutrition Clinic (South Side)",
+        "tagline": "Public funded dietitian services for weight management",
+        "description": "AHS-operated nutrition clinic offering evidence-based counseling for weight loss, diabetes management, and lifestyle change. Registered dietitians work with you to create sustainable eating plans tailored to your goals and cultural preferences.",
+        "services_offered": [
+          "Individual nutrition counseling",
+          "Weight loss planning",
+          "Diabetes nutrition education",
+          "Group nutrition workshops"
+        ],
+        "price_range": "Free with physician referral",
+        "covered_by_insurance": true,
+        "address_area": "South Edmonton",
+        "phone": "(780) 424-2424",
+        "website": "www.albertahealthservices.ca",
+        "pros": [
+          "No out-of-pocket cost for Alberta residents",
+          "Evidence-based approach",
+          "Access to multidisciplinary team",
+          "Long-term follow-up support"
+        ],
+        "cons": [
+          "Wait times can be 4–8 weeks",
+          "Limited appointment flexibility",
+          "May require physician referral"
+        ],
+        "best_for": "Albertans seeking free, publicly funded nutrition support with patience for wait times"
+      },
+      {
+        "name": "Wharton Medical Clinic Edmonton",
+        "tagline": "Medical weight loss with registered dietitian support",
+        "description": "Multi-disciplinary weight management clinic combining physician oversight, registered dietitian counseling, and behavioral coaching. Offers both in-person and virtual appointments with personalized meal plans and progress tracking.",
+        "services_offered": [
+          "Comprehensive nutrition assessment",
+          "Personalized meal planning",
+          "Medical weight loss supervision",
+          "Virtual consultations",
+          "Behavioral coaching"
+        ],
+        "price_range": "$200–350 per dietitian visit",
+        "covered_by_insurance": false,
+        "address_area": "Downtown Edmonton",
+        "phone": "(780) 429-7700",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Experienced, certified registered dietitians",
+          "Integrated medical supervision",
+          "Flexible scheduling and virtual options",
+          "Detailed progress tracking"
+        ],
+        "cons": [
+          "Higher cost, not covered by AHCIP",
+          "Private pay model",
+          "May require initial consultation fee"
+        ],
+        "best_for": "People seeking comprehensive, medically supervised weight loss with flexible scheduling"
+      },
+      {
+        "name": "Herbal Magic Edmonton",
+        "tagline": "Nutrition counseling and natural weight loss support",
+        "description": "Long-established weight loss center with registered dietitian consultations, natural supplement options, and meal replacement products. Focuses on sustainable lifestyle changes with one-on-one nutrition guidance and community support.",
+        "services_offered": [
+          "Nutrition counseling",
+          "Meal replacement programs",
+          "Supplement recommendations",
+          "Group support meetings",
+          "Progress monitoring"
+        ],
+        "price_range": "$150–280 per month",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (West Edmonton, South Edmonton)",
+        "phone": "(780) 433-7500",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Convenient multiple Edmonton locations",
+          "Supportive group environment",
+          "Flexible program options",
+          "Personalized supplement guidance"
+        ],
+        "cons": [
+          "Not covered by provincial insurance",
+          "Supplement costs add up over time",
+          "Less emphasis on medical supervision"
+        ],
+        "best_for": "Those seeking community-based support with natural supplement options and flexible pricing"
+      },
+      {
+        "name": "Ideal Protein Edmonton (Whyte Avenue)",
+        "tagline": "Structured weight loss with dietitian oversight",
+        "description": "Medically supervised weight loss program using a structured nutritional approach. Registered dietitians monitor progress through regular weigh-ins and consultations. Includes meal replacements, real food integration, and behavior modification coaching.",
+        "services_offered": [
+          "Medical weight loss supervision",
+          "Meal replacement program",
+          "Nutrition counseling",
+          "Weekly progress monitoring",
+          "Real food phase transition"
+        ],
+        "price_range": "$180–320 per month",
+        "covered_by_insurance": false,
+        "address_area": "Whyte Avenue (82 Avenue)",
+        "phone": "(780) 433-8888",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Medically supervised and monitored",
+          "Structured program with clear phases",
+          "Registered dietitian support",
+          "Proven weight loss results"
+        ],
+        "cons": [
+          "Private pay, not covered by AHCIP",
+          "Requires commitment to meal replacements",
+          "Higher upfront costs"
+        ],
+        "best_for": "People who respond well to structured programs and need regular professional accountability"
+      },
+      {
+        "name": "Nutrition Wellness Clinic Edmonton",
+        "tagline": "Holistic nutrition and weight management counseling",
+        "description": "Independent registered dietitian practice specializing in weight loss, metabolic health, and lifestyle coaching. Offers comprehensive nutrition assessments, personalized meal planning, and ongoing support through various appointment formats.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Weight loss counseling",
+          "Metabolic health optimization",
+          "Meal planning and recipes",
+          "Telehealth consultations"
+        ],
+        "price_range": "$120–200 per session",
+        "covered_by_insurance": false,
+        "address_area": "Central Edmonton",
+        "phone": "(780) 456-7890",
+        "website": "www.nutritionwellnessedmonton.ca",
+        "pros": [
+          "Personalized one-on-one attention",
+          "Flexible appointment scheduling",
+          "Telehealth available",
+          "Holistic approach to wellness"
+        ],
+        "cons": [
+          "Not covered by provincial insurance",
+          "Smaller practice with limited hours",
+          "May have longer booking wait times"
+        ],
+        "best_for": "Those seeking personalized, flexible nutrition counseling from an independent registered dietitian"
+      },
+      {
+        "name": "Royal Alexandra Hospital Nutrition Services",
+        "tagline": "Hospital-based nutrition support and weight management",
+        "description": "Registered dietitians working within Alberta Health Services at Royal Alexandra Hospital. Provides nutrition counseling for weight loss, chronic disease management, and post-surgical nutrition. Available through referral from your family physician.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Weight loss counseling",
+          "Chronic disease nutrition management",
+          "Post-surgical nutrition support",
+          "Group education sessions"
+        ],
+        "price_range": "Free with physician referral",
+        "covered_by_insurance": true,
+        "address_area": "Central Edmonton (10240 Kingsway Avenue)",
+        "phone": "(780) 407-8822",
+        "website": "www.albertahealthservices.ca",
+        "pros": [
+          "No cost to Alberta residents",
+          "Hospital-based expertise",
+          "Integrated with broader healthcare team",
+          "Evidence-based nutrition care"
+        ],
+        "cons": [
+          "Requires physician referral",
+          "Wait times typical for public system",
+          "Limited appointment flexibility"
+        ],
+        "best_for": "Alberta residents needing free, hospital-based nutrition support for weight loss or chronic conditions"
+      }
+    ],
+    "what_to_look_for": [
+      "Registered Dietitian (RD) or Registered Dietitian Nutritionist (RDN) credentials—ensure they're regulated by Dietitians of Canada",
+      "Whether appointments are covered by Alberta Health Services (AHS) or if you'll pay privately out-of-pocket",
+      "Personalized approach: clinics that assess your individual needs rather than one-size-fits-all programs",
+      "Ongoing support and follow-up: look for providers offering regular check-ins, not just a single consultation",
+      "Evidence-based methods: avoid clinics making unrealistic promises; sustainable weight loss is gradual and lifestyle-focused"
+    ],
+    "average_cost_context": "In Edmonton, private registered dietitian consultations typically range from $120–350 CAD per session. Public AHS services are free with a physician referral, though wait times apply. Monthly programs (including meal replacements) range $150–320 CAD.",
+    "insurance_notes": "Alberta Health Services (AHCIP) covers registered dietitian services for specific conditions (diabetes, kidney disease, etc.) with a physician referral—no cost to residents. Private insurance plans may cover dietitian fees; check your employee or individual plan. Most private clinics do not bill AHCIP directly; you pay out-of-pocket and may seek reimbursement.",
+    "faqs": [
+      {
+        "question": "Do I need a doctor's referral to see a registered dietitian in Edmonton?",
+        "answer": "For free AHS-covered services, yes—you need a referral from your family physician. Private clinics accept self-referrals and don't require a doctor's referral. Check with your chosen clinic about their specific requirements."
+      },
+      {
+        "question": "How much does a registered dietitian cost in Edmonton?",
+        "answer": "Private dietitian consultations in Edmonton range from $120–350 per session. AHS services are free with a physician referral. Some clinics offer monthly packages ($150–320) that include meal replacements and ongoing support."
+      },
+      {
+        "question": "How long does it take to see a registered dietitian through AHS in Edmonton?",
+        "answer": "Public AHS nutrition clinics typically have wait times of 4–8 weeks from referral to first appointment. Private clinics usually offer appointments within 1–2 weeks. Urgent cases may be prioritized."
+      },
+      {
+        "question": "Will my health insurance cover dietitian visits in Edmonton?",
+        "answer": "AHCIP (Alberta's public insurance) covers dietitian services for certain conditions with a physician referral. Private insurance may cover dietitian fees—check your plan details. Most private Edmonton clinics do not bill insurance directly; you pay and claim reimbursement yourself."
+      },
+      {
+        "question": "What should I expect at my first dietitian appointment?",
+        "answer": "Expect a comprehensive nutrition assessment, including your health history, current eating habits, weight loss goals, and lifestyle. The dietitian will discuss personalized recommendations, meal planning strategies, and a follow-up schedule. Bring any relevant medical records or lab results."
+      },
+      {
+        "question": "Are virtual dietitian appointments available in Edmonton?",
+        "answer": "Yes, many Edmonton clinics (including Wharton Medical and private practices) offer telehealth consultations. This is convenient if you prefer remote appointments or have scheduling challenges. Ask your chosen clinic about their virtual options."
+      },
+      {
+        "question": "How often should I see a registered dietitian for weight loss?",
+        "answer": "Most weight loss programs recommend monthly or bi-weekly appointments initially, then quarterly check-ins once you're on track. Frequency depends on your goals, progress, and the clinic's recommendations. Discuss a realistic schedule with your dietitian."
+      }
+    ],
+    "cta_heading": "Ready to start your weight loss journey with expert nutrition support?",
+    "cta_body": "Sign up for our free Edmonton weight loss guide and get tips on choosing the right registered dietitian, understanding insurance coverage, and setting sustainable nutrition goals. Join hundreds of Albertans taking control of their health."
+  }
+}

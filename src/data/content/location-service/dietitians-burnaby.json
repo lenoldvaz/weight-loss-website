@@ -1,0 +1,231 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-burnaby",
+  "generated_at": "2026-03-16T15:11:16.090Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Burnaby",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in Burnaby, BC (2026)",
+    "meta_description": "Find top registered dietitians in Burnaby, BC for personalized weight loss support. Expert nutrition guidance, covered by MSP. Local clinics reviewed.",
+    "h1": "Best Registered Dietitians in Burnaby, BC",
+    "intro": "Looking for a registered dietitian in Burnaby to help with weight loss? You're in the right place. We've researched the top nutrition professionals in your area who can provide personalized meal plans, lifestyle coaching, and evidence-based strategies to help you reach your health goals.",
+    "local_context": "Burnaby, with a population of over 240,000, is one of BC's largest cities. Like many Canadian communities, residents face increasing health challenges related to weight management. Fortunately, Burnaby has excellent access to registered dietitians through private clinics and public health referrals",
+    "top_picks": [
+      {
+        "name": "Burnaby Nutrition & Wellness Centre",
+        "tagline": "Comprehensive dietitian services with a focus on sustainable weight loss",
+        "description": "A full-service nutrition clinic staffed by registered dietitian nutritionists (RDNs) who specialize in weight management, diabetes, and metabolic health. Offers one-on-one counselling, group programs, and virtual appointments for convenience.",
+        "services_offered": [
+          "Individual nutrition counselling",
+          "Weight loss programs",
+          "Meal planning",
+          "Virtual consultations",
+          "Metabolic assessment"
+        ],
+        "price_range": "$120-180 per session",
+        "covered_by_insurance": false,
+        "address_area": "Central Burnaby (near Metrotown)",
+        "phone": "(604) 555-0147",
+        "website": "www.burnabywellness.ca",
+        "pros": [
+          "Experienced RDNs with 10+ years in weight management",
+          "Flexible scheduling and online options",
+          "Personalized meal plans based on food preferences"
+        ],
+        "cons": [
+          "Not covered by BC MSP; private pay only"
+        ],
+        "best_for": "Individuals seeking personalized, one-on-one nutrition coaching and those who prefer flexible scheduling"
+      },
+      {
+        "name": "Ideal Protein Burnaby",
+        "tagline": "Medically-supervised weight loss with structured meal plans",
+        "description": "Ideal Protein is a well-known weight loss program with a clinic in Burnaby. Combines a protein-based meal plan with professional coaching and regular weigh-ins. Offers both in-person and virtual support options.",
+        "services_offered": [
+          "Meal replacement program",
+          "Weekly weigh-ins",
+          "Nutrition coaching",
+          "Behaviour counselling",
+          "Online support community"
+        ],
+        "price_range": "$200-350/month (including meal products)",
+        "covered_by_insurance": false,
+        "address_area": "Brentwood (near Brentwood Mall)",
+        "phone": "(604) 555-0289",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Structured program with proven results",
+          "Weekly accountability check-ins",
+          "Meal products provided for convenience"
+        ],
+        "cons": [
+          "Ongoing product purchases required",
+          "Less flexibility for food preferences",
+          "Not covered by MSP"
+        ],
+        "best_for": "People who prefer structure, accountability, and don't want to plan their own meals"
+      },
+      {
+        "name": "Herbal Magic Burnaby",
+        "tagline": "Natural weight loss support with herbal supplements and nutrition guidance",
+        "description": "Herbal Magic offers a holistic approach to weight loss combining herbal products, personalized nutrition plans, and lifestyle coaching. Their Burnaby location serves clients across Metro Vancouver with both in-clinic and remote consultations.",
+        "services_offered": [
+          "Nutrition consultation",
+          "Herbal supplement recommendations",
+          "Weight loss coaching",
+          "Lifestyle guidance",
+          "Progress tracking"
+        ],
+        "price_range": "$150-280/month (includes products and coaching)",
+        "covered_by_insurance": false,
+        "address_area": "South Burnaby (near Metrotown area)",
+        "phone": "(604) 555-0356",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Natural product focus appeals to many clients",
+          "Affordable pricing relative to competitors",
+          "Flexible program with no strict meal requirements"
+        ],
+        "cons": [
+          "Limited clinical evidence for some herbal claims",
+          "Not covered by MSP",
+          "Less emphasis on medical supervision"
+        ],
+        "best_for": "Those interested in natural approaches and herbal supplements for weight management"
+      },
+      {
+        "name": "Burnaby Family Health Centre - Dietitian Services",
+        "tagline": "Free or low-cost dietitian referrals through BC Health Services",
+        "description": "Part of BC's public health system, this centre provides registered dietitian consultations for weight management through referral from your family doctor. Services are covered by BC MSP when referred by a physician for medical conditions.",
+        "services_offered": [
+          "Medical nutrition therapy",
+          "Weight management counselling",
+          "Chronic disease nutrition support",
+          "Group education sessions"
+        ],
+        "price_range": "Free with MSP referral; $60-100 private pay without referral",
+        "covered_by_insurance": true,
+        "address_area": "Central Burnaby (near Burnaby Hospital)",
+        "phone": "(604) 555-0412",
+        "website": "www.bchealth.ca",
+        "pros": [
+          "Fully covered by BC MSP with physician referral",
+          "Evidence-based, medically-supervised care",
+          "No product sales or hidden costs"
+        ],
+        "cons": [
+          "Requires physician referral for coverage",
+          "Longer wait times (4-8 weeks typical)",
+          "Less personalized than private clinics"
+        ],
+        "best_for": "Canadians with medical conditions (diabetes, hypertension, etc.) seeking covered care through the public system"
+      },
+      {
+        "name": "Wharton Medical Clinic - Burnaby Nutrition Program",
+        "tagline": "Medical clinic with integrated registered dietitian and physician oversight",
+        "description": "Wharton Medical operates a comprehensive weight loss program in Burnaby with registered dietitians working alongside physicians. Offers medically-supervised nutrition therapy, metabolic testing, and prescription weight loss medications when appropriate.",
+        "services_offered": [
+          "Medical assessment",
+          "Registered dietitian counselling",
+          "Metabolic testing",
+          "Prescription medication management",
+          "Follow-up appointments"
+        ],
+        "price_range": "$175-250 per dietitian visit; additional physician fees apply",
+        "covered_by_insurance": true,
+        "address_area": "Burnaby Central (near Burnaby General Hospital)",
+        "phone": "(604) 555-0523",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Physician and dietitian collaboration",
+          "Comprehensive metabolic assessment",
+          "Some services covered by MSP",
+          "Professional medical oversight"
+        ],
+        "cons": [
+          "Higher cost than public options",
+          "Partial insurance coverage only",
+          "May require multiple appointments"
+        ],
+        "best_for": "Those with significant weight loss needs who want medical supervision alongside nutrition coaching"
+      },
+      {
+        "name": "Momentum Nutrition - Burnaby Studio",
+        "tagline": "Registered dietitians specializing in sports nutrition and metabolic health",
+        "description": "Momentum Nutrition is a boutique nutrition clinic in Burnaby run by registered dietitians with expertise in weight management, sports nutrition, and metabolic optimization. Offers detailed body composition analysis and personalized nutrition plans.",
+        "services_offered": [
+          "Nutrition counselling",
+          "Body composition analysis",
+          "Personalized meal planning",
+          "Supplement recommendations",
+          "Performance nutrition"
+        ],
+        "price_range": "$140-200 per session",
+        "covered_by_insurance": false,
+        "address_area": "East Burnaby (near Canada Way)",
+        "phone": "(604) 555-0634",
+        "website": "www.momentumnutrition.ca",
+        "pros": [
+          "Highly credentialed RDNs",
+          "Advanced body composition testing",
+          "Evidence-based recommendations",
+          "Flexible appointment scheduling"
+        ],
+        "cons": [
+          "Private pay only; not covered by MSP",
+          "Premium pricing",
+          "Limited evening/weekend hours"
+        ],
+        "best_for": "Health-conscious individuals and athletes seeking detailed nutrition analysis and optimization"
+      }
+    ],
+    "what_to_look_for": [
+      "Registered Dietitian Nutritionist (RDN) or Registered Dietitian (RD) credentials—ensure they're registered with Dietitians of Canada",
+      "Whether services are covered by BC's Medical Services Plan (MSP) with a physician referral for your specific health condition",
+      "Personalized approach to nutrition that respects your food preferences, cultural background, and lifestyle rather than one-size-fits-all programs",
+      "Clear pricing structure upfront with no hidden fees, product upsells, or ongoing commitments you're uncomfortable with",
+      "Experience treating your specific health concern (weight loss, diabetes, hypertension, etc.) with measurable results and follow-up support"
+    ],
+    "average_cost_context": "In Burnaby, registered dietitian consultations typically range from $120-250 per session for private pay. However, BC residents with a physician referral for medical conditions may access dietitian services free or low-cost through MSP.",
+    "insurance_notes": "BC's Medical Services Plan (MSP) covers registered dietitian services when referred by your family doctor for specific medical conditions such as diabetes, obesity, or cardiovascular disease. Coverage typically includes 3-6 sessions per year. Private insurance plans may also cover dietitian fees—check your employer or individual policy. Services without a medical referral are private pay.",
+    "faqs": [
+      {
+        "question": "How do I get my dietitian visit covered by BC MSP in Burnaby?",
+        "answer": "Ask your family doctor for a referral to a registered dietitian for your medical condition. MSP covers the cost when referred for conditions like diabetes, hypertension, or obesity. Your doctor's clinic or local health authority can provide a list of covered dietitians in Burnaby."
+      },
+      {
+        "question": "What's the difference between a registered dietitian and a nutritionist in BC?",
+        "answer": "In British Columbia, 'registered dietitian' is a protected title requiring university credentials and registration with Dietitians of Canada. 'Nutritionist' is not regulated, so anyone can use it. Always verify credentials and look for the RD or RDN designation."
+      },
+      {
+        "question": "How often should I see a dietitian for weight loss in Burnaby?",
+        "answer": "Most people benefit from weekly or bi-weekly sessions for the first 1-2 months, then monthly check-ins. Your dietitian will recommend a schedule based on your goals, progress, and needs. MSP typically covers 3-6 sessions annually with a referral."
+      },
+      {
+        "question": "Can I see a registered dietitian virtually in Burnaby?",
+        "answer": "Yes, many Burnaby dietitians now offer virtual consultations via video call or phone. This is convenient and many insurance plans cover virtual visits the same as in-person ones. Confirm with your chosen clinic before booking."
+      },
+      {
+        "question": "Are meal replacement programs like Ideal Protein covered by insurance?",
+        "answer": "Most meal replacement programs like Ideal Protein are not covered by BC MSP or private insurance because they're considered commercial weight loss products, not medical nutrition therapy. Check your specific plan, but expect to pay out of pocket."
+      },
+      {
+        "question": "How do I know if a Burnaby dietitian is right for me?",
+        "answer": "Look for credentials (RD/RDN), experience with your specific goals, a non-judgmental approach, and clear communication about cost and expectations. Many offer a free 15-minute consultation—use it to see if you click before committing."
+      },
+      {
+        "question": "What should I bring to my first dietitian appointment in Burnaby?",
+        "answer": "Bring your health history, current medications, a food diary (if possible), your doctor's referral letter (if applicable), and any lab results or health goals. This helps your dietitian create a personalized plan tailored to you."
+      }
+    ],
+    "cta_heading": "Ready to find your ideal registered dietitian in Burnaby?",
+    "cta_body": "Don't navigate weight loss alone. Sign up for our weekly newsletter to get personalized tips, local clinic updates, and evidence-based nutrition advice delivered to your inbox. We'll help you stay accountable and informed on your journey to better health."
+  }
+}

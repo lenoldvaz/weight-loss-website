@@ -1,7 +1,8 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { buildPrompt, buildSlug, SYSTEM_PROMPT } from "./prompt_builder.js";
 import { validateContent } from "./validate.js";
-import { writeContent, contentExists } from "./write_content.js";
+import { writeContent, contentExists, updateContentWithImage } from "./write_content.js";
+import { generateImage, saveImage, imageExists, buildImagePrompt } from "./image_generator.js";
 import type { AnySeed, GenerationResult } from "./types.js";
 
 const MODEL = "claude-haiku-4-5-20251001";
@@ -54,7 +55,31 @@ async function generateOne(seed: AnySeed): Promise<GenerationResult> {
 
       const validation = validateContent(raw, template);
       if (validation.valid && validation.data) {
-        const filePath = writeContent(template, slug, seed, validation.data);
+        writeContent(template, slug, seed, validation.data);
+
+        // Generate hero image if API key is available and image doesn't exist yet
+        if (!imageExists(template, slug)) {
+          try {
+            const imageData = await generateImage(seed);
+            if (imageData) {
+              const imagePath = await saveImage(
+                template,
+                slug,
+                imageData.base64,
+                imageData.mimeType
+              );
+              const imagePrompt = buildImagePrompt(seed);
+              await updateContentWithImage(template, slug, imagePath, imagePrompt);
+              // Small delay to avoid hitting image generation rate limits
+              await new Promise((r) => setTimeout(r, 2000));
+            }
+          } catch (imgErr) {
+            console.warn(
+              `    [image] Image generation failed for ${template}/${slug}: ${(imgErr as Error).message}`
+            );
+          }
+        }
+
         return {
           seed,
           slug,

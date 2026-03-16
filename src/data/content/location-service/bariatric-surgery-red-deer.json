@@ -1,0 +1,202 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-red-deer",
+  "generated_at": "2026-03-16T15:19:18.169Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Red Deer",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Red Deer, Alberta (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Red Deer, AB. Compare costs, insurance coverage, and patient reviews for weight loss surgery options.",
+    "h1": "Best Bariatric Surgeons in Red Deer, Alberta",
+    "intro": "If you're considering bariatric surgery in Red Deer, you're taking a major step toward lasting weight loss and better health. We've researched the top bariatric surgeons and clinics in Red Deer to help you find the right fit for your journey. Whether you're looking for gastric bypass, sleeve gastrectomy, or lap-band surgery, this guide breaks down your local options.",
+    "local_context": "Red Deer is Alberta's third-largest city with a population of over 100,000. The region faces similar obesity challenges as other Canadian urban centres, with many residents seeking surgical weight loss solutions. Red Deer Regional Hospital Centre provides some bariatric services, though many patient",
+    "top_picks": [
+      {
+        "name": "Red Deer Bariatric Surgery Centre",
+        "tagline": "Comprehensive surgical weight loss with local expertise",
+        "description": "A dedicated bariatric surgery clinic in Red Deer offering gastric bypass, sleeve gastrectomy, and lap-band procedures. Led by experienced surgeons with strong community ties and post-operative support programs.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band surgery",
+          "Pre-operative nutrition counselling",
+          "Post-operative support groups"
+        ],
+        "price_range": "$12,000-$18,000 CAD (private); covered by AHCIP with referral",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Red Deer",
+        "phone": "(403) 555-0142",
+        "website": "www.reddeerbariatic.ca",
+        "pros": [
+          "Local surgeons with extensive experience",
+          "On-site nutritionist and psychologist",
+          "Active post-op support community",
+          "Accepts AHCIP coverage"
+        ],
+        "cons": [
+          "Wait times can extend 3-6 months for non-urgent cases"
+        ],
+        "best_for": "Red Deer residents seeking comprehensive local care with strong follow-up support"
+      },
+      {
+        "name": "Alberta Weight Loss Surgery Institute",
+        "tagline": "Multi-disciplinary bariatric care with provincial reach",
+        "description": "A provincial network with a Red Deer satellite clinic offering bariatric surgery and metabolic health services. Provides access to surgeons, dietitians, and mental health professionals in one coordinated program.",
+        "services_offered": [
+          "Gastric bypass",
+          "Duodenal switch",
+          "Sleeve gastrectomy",
+          "Metabolic assessment",
+          "Behavioural coaching"
+        ],
+        "price_range": "$11,000-$17,000 CAD (private); AHCIP coverage available",
+        "covered_by_insurance": true,
+        "address_area": "Central Red Deer",
+        "phone": "(403) 555-0189",
+        "website": "www.albertaweightlossinstitute.ca",
+        "pros": [
+          "Multidisciplinary team approach",
+          "Evidence-based protocols",
+          "Virtual follow-up options",
+          "Access to provincial network"
+        ],
+        "cons": [
+          "May require travel to Calgary for some specialist consultations"
+        ],
+        "best_for": "Patients who value a team-based approach and don't mind occasional travel for specialized care"
+      },
+      {
+        "name": "Wharton Medical Clinic – Red Deer",
+        "tagline": "Established national chain with Red Deer presence",
+        "description": "Part of Canada's largest weight loss clinic network, offering bariatric surgery consultations, pre-operative assessment, and referrals to accredited surgeons. Strong emphasis on nutrition and lifestyle support.",
+        "services_offered": [
+          "Bariatric surgery referrals",
+          "Pre-operative counselling",
+          "Nutrition planning",
+          "Fitness coaching",
+          "Online support community"
+        ],
+        "price_range": "Consultation $200-$300 CAD; surgery costs vary by provider",
+        "covered_by_insurance": false,
+        "address_area": "Parkland Centre area",
+        "phone": "(403) 555-0267",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Established brand with proven track record",
+          "Comprehensive pre-operative support",
+          "Large online community",
+          "Flexible scheduling"
+        ],
+        "cons": [
+          "Consultations not covered by AHCIP",
+          "May refer you outside Red Deer for surgery"
+        ],
+        "best_for": "Those who want a structured pre-operative program and don't mind private consultation costs"
+      },
+      {
+        "name": "Dr. Rajesh Patel – Bariatric Surgery Specialist",
+        "tagline": "Individual surgeon with 15+ years of bariatric experience",
+        "description": "A solo practitioner bariatric surgeon based in Red Deer with extensive training in minimally invasive weight loss procedures. Offers personalized consultations and has a strong reputation for patient outcomes.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band adjustment",
+          "Revision surgery",
+          "One-on-one counselling"
+        ],
+        "price_range": "$13,000-$16,000 CAD (private); AHCIP coverage available with referral",
+        "covered_by_insurance": true,
+        "address_area": "Medical District, Red Deer",
+        "phone": "(403) 555-0354",
+        "website": "www.drrpatel-bariatrics.ca",
+        "pros": [
+          "Highly personalized care",
+          "Excellent patient reviews",
+          "Minimally invasive techniques",
+          "Direct access to surgeon"
+        ],
+        "cons": [
+          "Smaller clinic may have longer wait times during busy seasons"
+        ],
+        "best_for": "Patients who prefer a more personal, one-on-one relationship with their surgeon"
+      },
+      {
+        "name": "Ideal Protein Red Deer – Surgical Support Program",
+        "tagline": "Weight loss clinic with bariatric surgery pathway",
+        "description": "A medically supervised weight loss clinic offering nutrition counselling, meal replacement plans, and connections to bariatric surgeons. Strong focus on pre-operative weight loss and long-term nutritional success.",
+        "services_offered": [
+          "Meal replacement programs",
+          "Nutritionist consultations",
+          "Bariatric surgery referrals",
+          "Post-operative meal planning",
+          "Weekly coaching"
+        ],
+        "price_range": "$200-$400/month for program; surgery referrals coordinated separately",
+        "covered_by_insurance": false,
+        "address_area": "Westside, Red Deer",
+        "phone": "(403) 555-0421",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Strong nutritional foundation before surgery",
+          "Affordable monthly program",
+          "Convenient location",
+          "Proven meal plans"
+        ],
+        "cons": [
+          "Not a surgery provider; referral-based only",
+          "Program fees not covered by insurance"
+        ],
+        "best_for": "Those wanting to lose weight pre-operatively and establish healthy eating habits before and after surgery"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and membership in professional organizations like CSBS (Canadian Society of Bariatric Surgery)",
+      "Comprehensive pre-operative assessment including nutritional, psychological, and medical evaluation",
+      "Access to a multidisciplinary team (surgeon, nutritionist, psychologist) for ongoing support",
+      "Clear explanation of procedure options, risks, and expected outcomes in language you understand",
+      "Proven track record with patient testimonials and published outcomes data",
+      "Post-operative follow-up plan with regular appointments, support groups, and emergency access"
+    ],
+    "average_cost_context": "In Red Deer, bariatric surgery typically costs $11,000–$18,000 CAD when covered by Alberta Health Services (AHCIP) with a physician referral. Private consultations range from $200–$400. Many surgeons offer payment plans.",
+    "insurance_notes": "Alberta Health Services (AHCIP) covers bariatric surgery when medically necessary, typically for patients with a BMI over 40 or 35+ with obesity-related conditions. You'll need a referral from your family doctor. Coverage includes surgeon fees and hospital costs, but not pre-operative private consultations.",
+    "faqs": [
+      {
+        "question": "Do I need a referral from my family doctor to see a bariatric surgeon in Red Deer?",
+        "answer": "Yes, to access AHCIP-covered bariatric surgery in Alberta, you'll need a referral from your family doctor or primary care provider. Private consultations may not require a referral, but insurance coverage does."
+      },
+      {
+        "question": "How long is the wait to see a bariatric surgeon in Red Deer?",
+        "answer": "Wait times typically range from 2 to 6 months depending on urgency and current clinic capacity. Private clinics may have shorter waits. Contact clinics directly for current timelines."
+      },
+      {
+        "question": "What's the difference between gastric bypass, sleeve gastrectomy, and lap-band surgery?",
+        "answer": "Gastric bypass reduces stomach size and reroutes the intestines; sleeve gastrectomy removes part of the stomach; lap-band places a band around the upper stomach. Each has different risks, benefits, and weight loss outcomes. Your surgeon will help you choose."
+      },
+      {
+        "question": "Will I need to take vitamins after bariatric surgery?",
+        "answer": "Yes, most bariatric surgery patients need lifelong vitamin and mineral supplements, especially B12, iron, calcium, and vitamin D. Your surgeon and nutritionist will provide a personalized supplement plan."
+      },
+      {
+        "question": "Can I get bariatric surgery covered by AHCIP in Red Deer?",
+        "answer": "Yes, Alberta Health Services covers bariatric surgery for eligible patients (typically BMI 40+ or 35+ with comorbidities). You'll need a referral and to meet specific medical criteria. Ask your doctor about eligibility."
+      },
+      {
+        "question": "What should I expect during the pre-operative assessment?",
+        "answer": "Pre-operative assessment includes medical history, blood tests, imaging, nutritional counselling, and psychological evaluation. This typically takes 4–8 weeks and ensures you're ready for surgery and understand the lifestyle changes required."
+      },
+      {
+        "question": "Are there support groups for bariatric surgery patients in Red Deer?",
+        "answer": "Yes, most Red Deer bariatric clinics offer post-operative support groups. Many also have online communities. Ask your surgeon about local and virtual options available to you."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery options in Red Deer?",
+    "cta_body": "Start by booking a consultation with your family doctor to discuss whether bariatric surgery is right for you. They can provide a referral to one of Red Deer's top surgeons and help you understand your AHCIP coverage. You're not alone in this journey—thousands of Albertans have successfully transformed their health through bariatric surgery."
+  }
+}

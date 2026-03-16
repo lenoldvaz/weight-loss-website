@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { HowTo } from "@/data/schemas/index";
 import type { ContentRecord } from "@/lib/content";
 import { getTemplateBreadcrumb } from "@/lib/content";
@@ -65,6 +66,20 @@ export default function HowToTemplate({ record, related }: Props) {
             {c.h1}
           </h1>
           <p className="text-[var(--color-bark-soft)] leading-relaxed">{c.intro}</p>
+
+          {/* Hero image */}
+          {c.hero_image && (
+            <div className="mt-6 overflow-hidden rounded-2xl">
+              <Image
+                src={c.hero_image.path}
+                alt={c.hero_image.alt}
+                width={800}
+                height={400}
+                className="w-full object-cover max-h-[400px]"
+                priority
+              />
+            </div>
+          )}
         </header>
 
         {/* Quick answer box — featured snippet target */}

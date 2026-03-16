@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { HeroImageSchema } from "./location-service.schema.js";
 
 export const HowToStepSchema = z.object({
   step_number: z.number().int().min(1),
@@ -51,6 +52,9 @@ export const HowToSchema = z.object({
   // CTA
   cta_heading: z.string(),
   cta_body: z.string(),
+
+  // Hero image (generated after content, optional)
+  hero_image: HeroImageSchema.optional(),
 });
 
 export type HowTo = z.infer<typeof HowToSchema>;

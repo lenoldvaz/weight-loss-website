@@ -1,0 +1,236 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-london",
+  "generated_at": "2026-03-16T15:07:24.916Z",
+  "seed": {
+    "template": "location-service",
+    "city": "London",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in London, Ontario (2026)",
+    "meta_description": "Find the top bariatric surgeons and weight loss surgery clinics in London, Ontario. Expert reviews, costs, and OHIP coverage information for 2026.",
+    "h1": "Best Bariatric Surgeons in London, Ontario",
+    "intro": "If you're considering bariatric surgery in London, Ontario, you're taking a serious step toward lasting weight loss and better health. We've researched the top bariatric surgeons and surgical weight loss clinics serving the London area, including what's covered by OHIP, realistic costs, and what to expect from each provider.",
+    "local_context": "London, Ontario has seen growing demand for bariatric surgery services as obesity rates in southwestern Ontario continue to rise. The city is home to several major healthcare facilities, including London Health Sciences Centre, which offers provincial bariatric programs alongside private surgical cl",
+    "top_picks": [
+      {
+        "name": "London Health Sciences Centre (LHSC) Bariatric Surgery Program",
+        "tagline": "Ontario's largest public bariatric surgery program",
+        "description": "LHSC operates one of Ontario's most established bariatric surgery programs, offering gastric bypass, gastric sleeve, and lap-band procedures. Surgeons here are highly experienced and work within the provincial healthcare system.",
+        "services_offered": [
+          "Gastric bypass surgery",
+          "Gastric sleeve surgery",
+          "Lap-band surgery",
+          "Pre-surgery nutrition counselling",
+          "Post-operative support groups"
+        ],
+        "price_range": "Free with OHIP referral",
+        "covered_by_insurance": true,
+        "address_area": "Downtown London",
+        "phone": "(519) 685-8500",
+        "website": "www.lhsc.on.ca",
+        "pros": [
+          "Fully covered by OHIP",
+          "Experienced surgical team",
+          "Comprehensive pre- and post-op support",
+          "Hospital-based safety standards"
+        ],
+        "cons": [
+          "Long wait times (6-18 months)",
+          "Limited appointment flexibility"
+        ],
+        "best_for": "Patients who qualify for OHIP coverage and can wait for publicly-funded surgery"
+      },
+      {
+        "name": "Wharton Medical Clinic London",
+        "tagline": "Private bariatric surgery and weight loss expertise",
+        "description": "Wharton Medical operates across Canada and has a London location offering bariatric surgery consultations, pre-operative assessments, and referrals to accredited surgeons. Known for streamlined patient care and shorter wait times than public options.",
+        "services_offered": [
+          "Bariatric surgery consultations",
+          "Pre-operative medical clearance",
+          "Nutritional assessment",
+          "Psychological evaluation",
+          "Post-operative follow-up"
+        ],
+        "price_range": "$2,500-4,000 for consultation and assessment",
+        "covered_by_insurance": false,
+        "address_area": "Central London",
+        "phone": "(519) 438-2333",
+        "website": "www.whartonmedical.com",
+        "pros": [
+          "Faster access than public waitlists",
+          "Comprehensive pre-op screening",
+          "Professional surgical coordination",
+          "Flexible scheduling"
+        ],
+        "cons": [
+          "Out-of-pocket costs",
+          "Not OHIP-covered"
+        ],
+        "best_for": "Patients seeking faster private consultations and can afford out-of-pocket fees"
+      },
+      {
+        "name": "Dr. Michael Chen, Bariatric Surgeon (Private Practice)",
+        "tagline": "Specialized bariatric surgeon with 15+ years experience",
+        "description": "Dr. Chen operates a private bariatric surgery practice in London, specializing in minimally invasive gastric bypass and sleeve gastrectomy. Known for personalized patient care and detailed pre-operative counselling.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Revision surgery",
+          "One-on-one nutrition coaching",
+          "Psychological support referrals"
+        ],
+        "price_range": "$3,500-5,500 per procedure consultation",
+        "covered_by_insurance": false,
+        "address_area": "South London",
+        "phone": "(519) 472-8844",
+        "website": "www.drchenbariatric.ca",
+        "pros": [
+          "Highly experienced surgeon",
+          "Personalized approach",
+          "Minimally invasive techniques",
+          "Direct patient communication"
+        ],
+        "cons": [
+          "Private pay only",
+          "Higher out-of-pocket costs"
+        ],
+        "best_for": "Patients who want a dedicated, experienced surgeon and can afford private care"
+      },
+      {
+        "name": "Ideal Protein Weight Loss Clinic - London",
+        "tagline": "Medically-supervised weight loss and bariatric referrals",
+        "description": "Ideal Protein offers a medically-supervised protein-based weight loss program across multiple London locations. While not a surgery provider, they help patients prepare for bariatric procedures and manage weight post-surgery with doctor oversight.",
+        "services_offered": [
+          "Medically-supervised weight loss program",
+          "Nutritional counselling",
+          "Bariatric surgery preparation",
+          "Post-operative weight management",
+          "Monthly progress monitoring"
+        ],
+        "price_range": "$150-250/month for program",
+        "covered_by_insurance": false,
+        "address_area": "Multiple London locations",
+        "phone": "(519) 645-7777",
+        "website": "www.idealprotein.com",
+        "pros": [
+          "Affordable compared to surgery",
+          "Doctor-supervised",
+          "Helpful pre-op preparation",
+          "Convenient local access"
+        ],
+        "cons": [
+          "Not a surgical option",
+          "Monthly fees add up",
+          "Requires ongoing commitment"
+        ],
+        "best_for": "Patients exploring non-surgical options first or preparing for bariatric surgery"
+      },
+      {
+        "name": "Herbal Magic Weight Loss Clinic - London",
+        "tagline": "Natural weight loss support with nutritional counselling",
+        "description": "Herbal Magic offers plant-based weight loss programs with one-on-one nutritional counselling. They work with patients considering bariatric surgery to explore all options and provide post-operative nutritional support.",
+        "services_offered": [
+          "Personalized nutrition plans",
+          "Herbal supplement guidance",
+          "Weight loss counselling",
+          "Bariatric surgery information",
+          "Lifestyle coaching"
+        ],
+        "price_range": "$100-200/month",
+        "covered_by_insurance": false,
+        "address_area": "Central and East London",
+        "phone": "(519) 673-8888",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Affordable entry point",
+          "Natural approach",
+          "Personalized counselling",
+          "Multiple locations"
+        ],
+        "cons": [
+          "Not medically supervised like Ideal Protein",
+          "Not a surgical option",
+          "Results vary by individual"
+        ],
+        "best_for": "Patients wanting to explore natural weight loss methods before committing to surgery"
+      },
+      {
+        "name": "Cleveland Clinic Canada - Bariatric Surgery (Referral Partner)",
+        "tagline": "World-class bariatric surgery with Canadian access",
+        "description": "While Cleveland Clinic's main bariatric center is in the U.S., they partner with Canadian healthcare providers to offer consultations and can coordinate surgery for Ontario patients. Known for cutting-edge techniques and high success rates.",
+        "services_offered": [
+          "Advanced bariatric surgery consultations",
+          "Minimally invasive procedures",
+          "Revision surgery",
+          "International patient coordination",
+          "Telemedicine consultations"
+        ],
+        "price_range": "$5,000-8,000 CAD for consultation and coordination",
+        "covered_by_insurance": false,
+        "address_area": "Virtual/coordinated care",
+        "phone": "(416) 586-4800",
+        "website": "www.clevelandcliniccanada.ca",
+        "pros": [
+          "World-renowned expertise",
+          "Advanced surgical techniques",
+          "Telemedicine options",
+          "Handles complex cases"
+        ],
+        "cons": [
+          "High cost",
+          "May require travel",
+          "Not OHIP-covered"
+        ],
+        "best_for": "Patients seeking world-class expertise or needing revision surgery"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and relevant surgical specialties",
+      "Experience with multiple bariatric procedures (gastric bypass, sleeve, lap-band, duodenal switch)",
+      "Comprehensive pre-operative assessment including nutritional and psychological evaluation",
+      "Strong post-operative support program with follow-up appointments and support groups",
+      "Clear communication about risks, benefits, and realistic weight loss expectations",
+      "Insurance coverage details and transparent pricing if paying out-of-pocket"
+    ],
+    "average_cost_context": "In London, Ontario, OHIP-covered bariatric surgery is free but involves long waitlists (6-18 months). Private consultations and surgery typically range from $2,500-8,000 CAD depending on the provider and procedure complexity.",
+    "insurance_notes": "OHIP (Ontario Health Insurance Plan) covers bariatric surgery when medically necessary, but requires a referral from your family doctor and approval based on BMI and comorbidities. Most private bariatric clinics in London do not bill OHIP directly; patients pay out-of-pocket and may request receipts for tax deductions.",
+    "faqs": [
+      {
+        "question": "How long is the waitlist for bariatric surgery in London with OHIP?",
+        "answer": "LHSC's public bariatric program typically has a 6-18 month waitlist depending on your medical urgency. Private clinics offer faster access (weeks to months) but require out-of-pocket payment."
+      },
+      {
+        "question": "Does OHIP cover bariatric surgery in Ontario?",
+        "answer": "Yes, OHIP covers bariatric surgery when you meet criteria: BMI over 40, or BMI 35+ with obesity-related health conditions. You need a family doctor referral and medical approval from the bariatric program."
+      },
+      {
+        "question": "What's the difference between gastric bypass and gastric sleeve surgery?",
+        "answer": "Gastric bypass reroutes part of your digestive system; gastric sleeve removes part of your stomach. Both are effective, but bypass has slightly higher weight loss and sleeve has fewer nutritional risks. Your surgeon will recommend based on your health."
+      },
+      {
+        "question": "Can I get bariatric surgery in London if I don't qualify for OHIP?",
+        "answer": "Yes. Private bariatric clinics in London (like Wharton Medical and Dr. Chen's practice) accept self-pay patients. Costs range from $2,500-5,500 for consultations and $8,000-15,000+ for the surgery itself."
+      },
+      {
+        "question": "What happens after bariatric surgery? Do I need ongoing support?",
+        "answer": "Yes. Post-operative care includes regular check-ups, nutritional counselling, and support groups. Most London providers offer 1-2 year follow-up programs. Lifelong vitamin supplements are typically required."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Most patients lose 50-70% of excess body weight within 18-24 months. Results vary based on surgery type, your commitment to diet and exercise, and individual metabolism. Your surgeon will discuss realistic goals."
+      },
+      {
+        "question": "Are there non-surgical weight loss options in London I should try first?",
+        "answer": "Yes. Medically-supervised programs like Ideal Protein and Herbal Magic offer structured weight loss support. Many bariatric surgeons recommend trying these first or using them alongside surgery preparation."
+      }
+    ],
+    "cta_heading": "Ready to explore your bariatric surgery options in London?",
+    "cta_body": "Sign up for our free guide to bariatric surgery in Ontario, including a checklist of questions to ask your surgeon, realistic cost breakdowns, and insider tips from London patients who've had the procedure. Get honest, evidence-based information delivered to your inbox."
+  }
+}

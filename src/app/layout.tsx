@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
+
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-TG5WJTV7";
+const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID ?? "G-GWXLDMY1ZB";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-display",
@@ -87,8 +91,38 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="geo.region" content="CA" />
         <meta name="geo.country" content="Canada" />
+        {/* Google Tag Manager */}
+        <Script id="gtm-script" strategy="afterInteractive">{`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','${GTM_ID}');
+        `}</Script>
+        {/* Google Analytics 4 (direct — also fired via GTM) */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-script" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GA4_ID}');
+        `}</Script>
       </head>
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen antialiased">
+        {/* GTM noscript fallback */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        {children}
+      </body>
     </html>
   );
 }

@@ -20,6 +20,12 @@ export const FaqSchema = z.object({
   answer: z.string().min(40),
 });
 
+export const HeroImageSchema = z.object({
+  path: z.string(),
+  alt: z.string(),
+  prompt: z.string(),
+});
+
 export const LocationServiceSchema = z.object({
   // SEO
   page_title: z.string().min(30).max(65),
@@ -44,7 +50,11 @@ export const LocationServiceSchema = z.object({
   // CTA
   cta_heading: z.string(),
   cta_body: z.string(),
+
+  // Hero image (generated after content, optional)
+  hero_image: HeroImageSchema.optional(),
 });
 
 export type LocationService = z.infer<typeof LocationServiceSchema>;
 export type Pick = z.infer<typeof PickSchema>;
+export type HeroImage = z.infer<typeof HeroImageSchema>;

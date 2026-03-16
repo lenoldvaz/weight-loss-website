@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { HeroImageSchema } from "./location-service.schema.js";
 
 export const ProductItemSchema = z.object({
   rank: z.number().int().min(1),
@@ -48,6 +49,9 @@ export const LocationProductSchema = z.object({
   // CTA
   cta_heading: z.string(),
   cta_body: z.string(),
+
+  // Hero image (generated after content, optional)
+  hero_image: HeroImageSchema.optional(),
 });
 
 export type LocationProduct = z.infer<typeof LocationProductSchema>;

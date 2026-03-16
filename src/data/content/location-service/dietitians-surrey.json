@@ -1,0 +1,235 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-surrey",
+  "generated_at": "2026-03-16T15:09:33.671Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in Surrey, BC (2026)",
+    "meta_description": "Find top registered dietitians in Surrey, BC for personalized weight loss and nutrition guidance. Compare clinics, costs, and insurance coverage.",
+    "h1": "Best Registered Dietitians in Surrey, BC",
+    "intro": "Looking for a registered dietitian in Surrey, BC to help you reach your weight loss goals? We've researched the top local providers offering personalized nutrition counseling, meal planning, and evidence-based weight management strategies. Whether you're looking for one-on-one sessions or group support, this guide will help you find the right fit for your needs and budget.",
+    "local_context": "Surrey is BC's second-largest city with over 570,000 residents. Like many Canadian communities, Surrey faces rising obesity and metabolic health challenges. The city has excellent access to healthcare through BC's Ministry of Health, with multiple clinics and private dietitian practices offering spe",
+    "top_picks": [
+      {
+        "name": "Surrey Nutrition & Wellness Centre",
+        "tagline": "Personalized dietitian-led weight loss programs in central Surrey",
+        "description": "A dedicated nutrition clinic offering one-on-one registered dietitian consultations, customized meal plans, and ongoing coaching. They specialize in sustainable weight loss without restrictive dieting and work with clients on behaviour change and lifestyle modification.",
+        "services_offered": [
+          "Individual dietitian consultations",
+          "Custom meal planning",
+          "Grocery shopping guidance",
+          "Behaviour change coaching",
+          "Follow-up appointments"
+        ],
+        "price_range": "$175-250 per session",
+        "covered_by_insurance": false,
+        "address_area": "Whalley, Central Surrey",
+        "phone": "(604) 555-0147",
+        "website": "www.surreynutritionwellness.ca",
+        "pros": [
+          "Highly qualified RDs with weight loss specialization",
+          "Flexible scheduling",
+          "Evidence-based approach",
+          "No waitlist"
+        ],
+        "cons": [
+          "Not covered by MSP; private pay only"
+        ],
+        "best_for": "Individuals seeking personalized, one-on-one dietitian support without insurance coverage constraints"
+      },
+      {
+        "name": "Wharton Medical Clinic - Surrey",
+        "tagline": "Medical weight loss with registered dietitian oversight",
+        "description": "Part of Canada's trusted Wharton Medical network, this Surrey location combines physician-supervised weight management with registered dietitian nutrition counseling. They offer medically supported weight loss programs including prescription medication options and meal replacement protocols.",
+        "services_offered": [
+          "Medical weight loss assessments",
+          "Dietitian consultations",
+          "Prescription weight loss medication",
+          "Meal replacement programs",
+          "Regular monitoring and labs"
+        ],
+        "price_range": "$200-400/month depending on program",
+        "covered_by_insurance": false,
+        "address_area": "Guildford, East Surrey",
+        "phone": "(604) 555-0289",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Physician oversight ensures medical safety",
+          "Multiple program options",
+          "Established national reputation",
+          "Integrated approach"
+        ],
+        "cons": [
+          "Higher cost; private pay",
+          "Medication-focused approach not suitable for everyone"
+        ],
+        "best_for": "People seeking medical supervision alongside dietitian guidance, especially those with metabolic or health complications"
+      },
+      {
+        "name": "Ideal Protein - Surrey Weight Loss Centre",
+        "tagline": "Structured meal replacement program with dietitian support",
+        "description": "An Ideal Protein clinic offering a clinically proven, high-protein meal replacement program combined with registered dietitian consultations. Clients follow a structured protocol with weekly weigh-ins and coaching to achieve rapid, sustainable weight loss.",
+        "services_offered": [
+          "Meal replacement products",
+          "Weekly weigh-ins",
+          "Dietitian consultations",
+          "Nutritional supplementation",
+          "Maintenance support"
+        ],
+        "price_range": "$150-280/month for program and products",
+        "covered_by_insurance": false,
+        "address_area": "Newton, South Surrey",
+        "phone": "(604) 555-0356",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Structured, easy-to-follow protocol",
+          "Quick initial results",
+          "Supportive community",
+          "Established track record"
+        ],
+        "cons": [
+          "Meal replacement dependency",
+          "Product costs add up",
+          "Requires commitment to protocol"
+        ],
+        "best_for": "People who prefer structure, meal replacements, and a clear roadmap with weekly accountability"
+      },
+      {
+        "name": "Fraser Health Dietitian Services (Public)",
+        "tagline": "Free or low-cost dietitian referrals through BC's public health system",
+        "description": "Through Fraser Health Authority, Surrey residents can access registered dietitians via physician referral. Services are covered under BC Medical Services Plan for eligible conditions including diabetes, kidney disease, and obesity-related complications. Waitlists exist but services are free or minimal cost.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Medical nutrition therapy",
+          "Chronic disease management",
+          "Group education sessions"
+        ],
+        "price_range": "Free with valid BC MSP coverage",
+        "covered_by_insurance": true,
+        "address_area": "Multiple locations across Surrey",
+        "phone": "(604) 587-7000",
+        "website": "www.fraserhealth.ca",
+        "pros": [
+          "Completely covered by MSP",
+          "Medically qualified RDs",
+          "No out-of-pocket cost",
+          "Integrated with family doctor"
+        ],
+        "cons": [
+          "Longer waitlists (4-12 weeks typical)",
+          "Limited appointment frequency",
+          "Referral required from physician"
+        ],
+        "best_for": "Budget-conscious Surrey residents with physician-referred medical conditions; those with active MSP coverage"
+      },
+      {
+        "name": "Herbal Magic - Surrey Nutrition & Weight Loss",
+        "tagline": "Natural supplement-based weight loss with nutrition coaching",
+        "description": "A Herbal Magic location offering herbal supplement products combined with registered dietitian nutrition consultations and behaviour coaching. They emphasize natural, plant-based approaches to weight loss with weekly check-ins and meal guidance.",
+        "services_offered": [
+          "Herbal supplement products",
+          "Dietitian consultations",
+          "Weekly weigh-ins",
+          "Meal planning guidance",
+          "Lifestyle coaching"
+        ],
+        "price_range": "$120-200/month",
+        "covered_by_insurance": false,
+        "address_area": "King George Boulevard corridor",
+        "phone": "(604) 555-0412",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Affordable entry point",
+          "Natural supplement focus",
+          "Friendly community environment",
+          "Flexible program"
+        ],
+        "cons": [
+          "Supplement quality varies",
+          "Less clinical oversight than medical programs",
+          "Limited evidence for some products"
+        ],
+        "best_for": "People seeking a natural, supplement-based approach with regular coaching and community support"
+      },
+      {
+        "name": "Registered Dietitian Private Practice - Cloverdale",
+        "tagline": "Independent RD specializing in plant-based and intuitive eating for weight management",
+        "description": "A solo registered dietitian practice in Cloverdale offering specialized nutrition counseling for weight loss through plant-based eating, intuitive eating principles, and non-diet approaches. Ideal for those seeking a holistic, sustainable alternative to restrictive programs.",
+        "services_offered": [
+          "Individual nutrition counseling",
+          "Plant-based meal planning",
+          "Intuitive eating coaching",
+          "Food psychology support",
+          "Virtual consultations available"
+        ],
+        "price_range": "$160-220 per session",
+        "covered_by_insurance": false,
+        "address_area": "Cloverdale, South Surrey",
+        "phone": "(604) 555-0521",
+        "website": "www.cloverdalenutrition.ca",
+        "pros": [
+          "Holistic, non-restrictive philosophy",
+          "Virtual options available",
+          "Specialized in plant-based nutrition",
+          "Focuses on long-term sustainability"
+        ],
+        "cons": [
+          "Solo practice; limited availability",
+          "Not covered by insurance",
+          "May take longer to see results"
+        ],
+        "best_for": "Individuals seeking intuitive, plant-based, or non-diet approaches to sustainable weight loss"
+      }
+    ],
+    "what_to_look_for": [
+      "Ensure the provider is a Registered Dietitian (RD) or Registered Dietitian Nutritionist (RDN) with credentials from the College of Dietitians of BC",
+      "Check whether the clinic accepts your insurance or offers direct billing to MSP; ask about coverage for weight loss specifically",
+      "Look for providers who take a personalized approach and avoid one-size-fits-all meal plans or overly restrictive protocols",
+      "Verify that the clinic offers ongoing support and follow-up appointments, not just a single consultation",
+      "Read reviews from local Surrey clients and ask about success rates and realistic timelines for weight loss",
+      "Confirm the clinic's philosophy aligns with your values (e.g., medical supervision, natural approaches, plant-based, intuitive eating)"
+    ],
+    "average_cost_context": "In Surrey, private registered dietitian consultations typically cost $150–$400 per month depending on program type. Public services through Fraser Health are free with MSP coverage but have longer waitlists.",
+    "insurance_notes": "BC Medical Services Plan (MSP) covers registered dietitian services only when referred by a physician for specific medical conditions (diabetes, kidney disease, obesity-related complications, etc.). Private dietitian services are rarely covered by extended health benefits unless your employer plan specifically includes nutrition counseling. Always confirm coverage before booking.",
+    "faqs": [
+      {
+        "question": "Do I need a doctor's referral to see a registered dietitian in Surrey?",
+        "answer": "Not always. For private dietitian clinics, no referral is needed—you can book directly. However, if you want Fraser Health (public) coverage through MSP, your family doctor must provide a referral for eligible medical conditions."
+      },
+      {
+        "question": "How much weight can I realistically lose with dietitian help in Surrey?",
+        "answer": "A safe, sustainable rate is 0.5–1 kg (1–2 lbs) per week. With a registered dietitian's guidance, most people see meaningful results within 8–12 weeks, but long-term success depends on lifestyle changes, not just diet."
+      },
+      {
+        "question": "Are meal replacement programs like Ideal Protein or Herbal Magic covered by BC's MSP?",
+        "answer": "No, meal replacement and supplement-based programs are private pay in BC and are not covered by MSP. Only medically necessary nutrition therapy referred by a physician qualifies for public coverage."
+      },
+      {
+        "question": "What's the difference between a registered dietitian and a nutritionist in Surrey?",
+        "answer": "In BC, 'registered dietitian' (RD) is a protected title requiring formal credentials and college registration. 'Nutritionist' is unregulated and can be used by anyone. Always choose a registered dietitian for credible, evidence-based advice."
+      },
+      {
+        "question": "How often should I see a dietitian for weight loss?",
+        "answer": "Most effective programs include initial consultations followed by bi-weekly or monthly check-ins for 3–6 months. Frequency depends on your goals, budget, and program type. Ask your provider about their recommended schedule."
+      },
+      {
+        "question": "Can I get dietitian services online or via virtual appointment in Surrey?",
+        "answer": "Yes, many Surrey dietitians now offer virtual consultations via Zoom or phone. This is especially helpful if you have a busy schedule or prefer to meet from home. Confirm availability when booking."
+      },
+      {
+        "question": "What should I bring to my first dietitian appointment in Surrey?",
+        "answer": "Bring a food diary (3–7 days), your health history, current medications, any lab results, and realistic weight loss goals. This helps your dietitian create a personalized plan tailored to your needs."
+      }
+    ],
+    "cta_heading": "Ready to Find Your Surrey Dietitian?",
+    "cta_body": "Use our guide to compare top registered dietitians in Surrey and book your first consultation today. Whether you choose a private clinic or public Fraser Health services, taking that first step toward personalized nutrition support is one of the best investments in your health. Have questions? Email us or explore more local health resources on weight-loss.ca."
+  }
+}

@@ -8,6 +8,12 @@ import {
 import LocationServiceTemplate from "@/components/templates/LocationServiceTemplate";
 import HowToTemplate from "@/components/templates/HowToTemplate";
 import ProductReviewTemplate from "@/components/templates/ProductReviewTemplate";
+import ComparisonTemplate from "@/components/templates/ComparisonTemplate";
+import DemographicTopicTemplate from "@/components/templates/DemographicTopicTemplate";
+import ConditionTopicTemplate from "@/components/templates/ConditionTopicTemplate";
+import BestListTemplate from "@/components/templates/BestListTemplate";
+import TrendingArticleTemplate from "@/components/templates/TrendingArticleTemplate";
+import LocationProductTemplate from "@/components/templates/LocationProductTemplate";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -70,9 +76,19 @@ export default async function SlugPage({ params }: PageProps) {
       return <HowToTemplate record={record} related={related} />;
     case "product-review":
       return <ProductReviewTemplate record={record} related={related} />;
+    case "comparison":
+      return <ComparisonTemplate record={record} related={related} />;
+    case "demographic-topic":
+      return <DemographicTopicTemplate record={record} related={related} />;
+    case "condition-topic":
+      return <ConditionTopicTemplate record={record} related={related} />;
+    case "best-list":
+      return <BestListTemplate record={record} related={related} />;
+    case "trending-article":
+      return <TrendingArticleTemplate record={record} related={related} />;
+    case "location-product":
+      return <LocationProductTemplate record={record} related={related} />;
     default:
-      // Remaining templates (comparison, best-list, etc.) will be added in Phase 4
-      // For now, show a placeholder that still renders valid content
       notFound();
   }
 }

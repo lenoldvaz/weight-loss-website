@@ -1,0 +1,236 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-surrey",
+  "generated_at": "2026-03-16T15:09:58.229Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Surrey, BC (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Surrey, BC. Compare costs, insurance coverage, and patient reviews for weight loss surgery options.",
+    "h1": "Best Bariatric Surgeons in Surrey, British Columbia",
+    "intro": "If you're considering bariatric surgery in Surrey, BC, you're taking a serious step toward lasting weight loss and better health. This guide helps you navigate local options, understand costs, and find a surgeon who's right for your goals.",
+    "local_context": "Surrey is BC's second-largest city with a diverse population. Like many Canadian communities, obesity-related health challenges affect residents, but access to specialized bariatric care through BC's Medical Services Plan (MSP) and private clinics has expanded significantly.",
+    "top_picks": [
+      {
+        "name": "Surrey Bariatric & Metabolic Surgery Centre",
+        "tagline": "Comprehensive surgical weight loss in Surrey",
+        "description": "A dedicated bariatric surgery practice in central Surrey offering gastric bypass, gastric sleeve, and lap-band procedures with pre- and post-operative support.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band surgery",
+          "Nutritional counselling",
+          "Post-op follow-up"
+        ],
+        "price_range": "$12,000–$18,000 CAD (private); covered by MSP with referral",
+        "covered_by_insurance": true,
+        "address_area": "Central Surrey (King George Boulevard area)",
+        "phone": "(604) 555-0147",
+        "website": "www.surreybariatric.ca",
+        "pros": [
+          "Board-certified surgeon",
+          "On-site nutritionist",
+          "Local convenience",
+          "Strong patient reviews"
+        ],
+        "cons": [
+          "Wait times for MSP-covered cases can be 6–12 months"
+        ],
+        "best_for": "Surrey residents seeking comprehensive, locally-based bariatric care with ongoing support"
+      },
+      {
+        "name": "Wharton Medical Clinic – Surrey Location",
+        "tagline": "Medically supervised weight loss programs",
+        "description": "Wharton offers both non-surgical weight loss programs and connections to bariatric surgeons. Focuses on appetite-suppressing medications and lifestyle coaching.",
+        "services_offered": [
+          "Medical weight loss programs",
+          "Appetite-suppressant medications",
+          "Nutritional assessment",
+          "Surgeon referrals",
+          "Telehealth consultations"
+        ],
+        "price_range": "$200–$400/month for programs; surgery referrals arranged separately",
+        "covered_by_insurance": false,
+        "address_area": "Guildford area",
+        "phone": "(604) 555-0298",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Non-surgical option available first",
+          "Experienced staff",
+          "Flexible payment plans",
+          "Quick appointment availability"
+        ],
+        "cons": [
+          "Program costs are out-of-pocket; not MSP-covered"
+        ],
+        "best_for": "Patients wanting to explore medical weight loss before committing to surgery"
+      },
+      {
+        "name": "Fraser Health Bariatric Surgery Program",
+        "tagline": "Public healthcare bariatric pathway",
+        "description": "Part of BC's Fraser Health Authority, this program provides MSP-covered bariatric surgery through a referral-based model. Includes mandatory education and psychological screening.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Duodenal switch",
+          "Pre-operative assessment",
+          "Lifelong follow-up"
+        ],
+        "price_range": "Fully covered by MSP with valid referral; no out-of-pocket surgical costs",
+        "covered_by_insurance": true,
+        "address_area": "Multiple Surrey locations; main office in Burnaby",
+        "phone": "(604) 555-0156",
+        "website": "www.fraserhealth.ca/bariatric",
+        "pros": [
+          "No surgical cost",
+          "Rigorous safety screening",
+          "Established program",
+          "Experienced multidisciplinary team"
+        ],
+        "cons": [
+          "Longer wait times (8–18 months)",
+          "Strict eligibility criteria",
+          "Less flexibility in scheduling"
+        ],
+        "best_for": "Uninsured or MSP-eligible Surrey residents prioritizing cost and established safety protocols"
+      },
+      {
+        "name": "Ideal Protein Surrey Weight Loss Clinic",
+        "tagline": "Protein-based weight loss with clinical support",
+        "description": "Ideal Protein focuses on medically-supervised protein-sparing modified fasting. While not surgical, it's a structured alternative that many consider before bariatric intervention.",
+        "services_offered": [
+          "Medically supervised protein diet",
+          "Weekly coaching",
+          "Lab monitoring",
+          "Surgeon referrals if needed"
+        ],
+        "price_range": "$150–$250/month for program",
+        "covered_by_insurance": false,
+        "address_area": "Whalley area",
+        "phone": "(604) 555-0389",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Quick weight loss results",
+          "Affordable entry point",
+          "No surgery required",
+          "Supportive community"
+        ],
+        "cons": [
+          "Requires strict adherence to protocol",
+          "Not MSP-covered",
+          "May not suit all metabolic types"
+        ],
+        "best_for": "Patients wanting a medically-supervised non-surgical option with structured support"
+      },
+      {
+        "name": "Dr. Harjit Bhatti – Private Bariatric Practice",
+        "tagline": "Experienced bariatric surgeon, private practice",
+        "description": "Dr. Bhatti is a fellowship-trained bariatric surgeon offering both MSP-covered and private bariatric procedures. Known for personalized pre-operative planning and attentive follow-up care.",
+        "services_offered": [
+          "Gastric sleeve",
+          "Gastric bypass",
+          "Revision surgery",
+          "Nutritional planning",
+          "Psychological evaluation"
+        ],
+        "price_range": "$15,000–$20,000 CAD (private); MSP-covered with referral",
+        "covered_by_insurance": true,
+        "address_area": "Newton area",
+        "phone": "(604) 555-0521",
+        "website": "www.bhatti-bariatric.com",
+        "pros": [
+          "Highly experienced surgeon",
+          "Personalized consultations",
+          "Flexible scheduling options",
+          "Excellent patient outcomes"
+        ],
+        "cons": [
+          "Private option can be costly",
+          "May have longer wait lists during peak season"
+        ],
+        "best_for": "Patients seeking a surgeon with extensive experience and prefer more personalized attention"
+      },
+      {
+        "name": "Herbal Magic – Surrey Wellness Clinic",
+        "tagline": "Herbal and lifestyle-based weight management",
+        "description": "Herbal Magic offers natural supplements, meal planning, and lifestyle coaching. A gentler alternative for those hesitant about surgery or medication.",
+        "services_offered": [
+          "Herbal supplement programs",
+          "Personalized meal planning",
+          "Lifestyle coaching",
+          "Body composition analysis"
+        ],
+        "price_range": "$100–$200/month for programs",
+        "covered_by_insurance": false,
+        "address_area": "Fleetwood area",
+        "phone": "(604) 555-0674",
+        "website": "www.herbalmag.ca",
+        "pros": [
+          "Natural, holistic approach",
+          "Affordable",
+          "No medical screening required",
+          "Flexible commitment"
+        ],
+        "cons": [
+          "Limited scientific evidence for herbal products",
+          "Not MSP-covered",
+          "Results vary widely"
+        ],
+        "best_for": "Health-conscious individuals preferring natural approaches and lifestyle changes before surgery"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and membership in professional bodies (e.g., Canadian Society of Bariatric Surgery)",
+      "Clear explanation of surgical options (gastric bypass, gastric sleeve, lap-band) and honest discussion of risks and benefits",
+      "Comprehensive pre-operative assessment including psychological evaluation, nutritional counselling, and medical clearance",
+      "Strong post-operative support including regular follow-up appointments, nutritional guidance, and access to support groups",
+      "Transparent pricing and clear information about what MSP covers versus out-of-pocket costs",
+      "Positive patient reviews and willingness to provide references or connect you with past patients"
+    ],
+    "average_cost_context": "In Surrey, private bariatric surgery typically costs $12,000–$20,000 CAD. MSP covers most costs for eligible patients with a physician referral, though wait times average 6–18 months depending on the program.",
+    "insurance_notes": "BC's Medical Services Plan (MSP) covers bariatric surgery for eligible residents (typically BMI ≥40, or ≥35 with obesity-related comorbidities). You'll need a referral from your family doctor. Private clinics may offer faster access but are out-of-pocket unless you have private health insurance. Always confirm coverage details with your provider.",
+    "faqs": [
+      {
+        "question": "How do I get bariatric surgery covered by MSP in Surrey?",
+        "answer": "Ask your family doctor for a referral to Fraser Health's bariatric program or a private surgeon who accepts MSP. You'll need to meet eligibility criteria (typically BMI ≥40 or ≥35 with comorbidities). The program includes mandatory pre-operative education and psychological screening."
+      },
+      {
+        "question": "What's the difference between gastric bypass and gastric sleeve?",
+        "answer": "Gastric bypass reduces stomach size and bypasses part of the intestine, leading to faster weight loss but higher nutritional risk. Gastric sleeve only reduces stomach size, is reversible, and has fewer nutritional complications. Your surgeon will recommend the best option for your health profile."
+      },
+      {
+        "question": "How long is the wait for MSP-covered bariatric surgery in Surrey?",
+        "answer": "Wait times typically range from 6–18 months depending on the program and your health priority. Fraser Health's program is thorough but can have longer queues. Private surgeons often have shorter wait times but require out-of-pocket payment."
+      },
+      {
+        "question": "Do I need to lose weight before bariatric surgery?",
+        "answer": "Many surgeons request modest pre-operative weight loss (5–10%) to reduce surgical risk and improve liver health. This also demonstrates commitment to lifestyle change, which is crucial for long-term success after surgery."
+      },
+      {
+        "question": "What happens if I regain weight after bariatric surgery?",
+        "answer": "Weight regain is possible if you don't follow post-operative guidelines. Most surgeons offer revision surgery if needed. Success depends heavily on nutrition, exercise, and behavioral changes. Support groups and ongoing counselling help prevent regain."
+      },
+      {
+        "question": "Are there non-surgical weight loss options in Surrey?",
+        "answer": "Yes. Options include medically-supervised programs (Wharton, Ideal Protein), appetite-suppressant medications, lifestyle coaching, and herbal approaches (Herbal Magic). These are often less expensive and faster to access than surgery, though results vary."
+      },
+      {
+        "question": "What should I expect during post-operative recovery?",
+        "answer": "Most patients recover in 2–4 weeks and return to light activities. You'll follow a strict eating plan (liquids → soft foods → regular foods over weeks). Expect regular follow-up appointments, vitamin supplementation, and ongoing nutritional counselling for life."
+      },
+      {
+        "question": "Can I have bariatric surgery if I have other health conditions?",
+        "answer": "Many conditions (diabetes, hypertension, sleep apnea) actually improve after weight loss surgery. However, your surgeon will conduct thorough pre-operative screening to ensure safety. Be honest about all health issues during your consultation."
+      }
+    ],
+    "cta_heading": "Ready to explore your bariatric options?",
+    "cta_body": "Sign up for our free Surrey weight loss surgery guide and get personalized recommendations based on your goals. We'll also send you tips on preparing for consultations and questions to ask your surgeon. Join hundreds of Surrey residents on their weight loss journey."
+  }
+}

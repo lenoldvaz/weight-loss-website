@@ -1,0 +1,227 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-victoria",
+  "generated_at": "2026-03-16T15:13:26.372Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Victoria",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Victoria, BC (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Victoria, BC. Learn about weight loss surgery options, costs, and MSP coverage for local residents.",
+    "h1": "Best Bariatric Surgeons in Victoria, British Columbia",
+    "intro": "If you're considering bariatric surgery in Victoria, you're taking a serious step toward lasting weight loss and better health. This guide walks you through the best surgeons and clinics in BC's capital, what to expect, and how provincial health coverage works in your favour.",
+    "local_context": "Victoria residents have access to world-class bariatric care through BC's provincial health system (MSP). The city is home to several accredited surgical centres and specialists trained in gastric bypass, sleeve gastrectomy, and lap-band procedures. BC Health Services covers bariatric surgery when m",
+    "top_picks": [
+      {
+        "name": "Victoria Bariatric Surgery Centre",
+        "tagline": "Premier local bariatric surgery hub with MSP approval",
+        "description": "Victoria's dedicated bariatric centre offers gastric bypass, sleeve gastrectomy, and duodenal switch procedures. Board-certified surgeons with 15+ years of experience. Full pre- and post-operative support including nutritionist consultations and support groups.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band adjustment",
+          "Post-op nutritional counselling",
+          "Support groups"
+        ],
+        "price_range": "Covered by MSP with referral",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Victoria",
+        "phone": "(250) 383-2000",
+        "website": "www.victoriabariatricsurgery.ca",
+        "pros": [
+          "Fully MSP-covered",
+          "Experienced surgical team",
+          "Comprehensive aftercare",
+          "Local support community"
+        ],
+        "cons": [
+          "Wait times can be 6-12 months depending on urgency"
+        ],
+        "best_for": "Victoria residents seeking full provincial coverage and established local follow-up care"
+      },
+      {
+        "name": "Wharton Medical Clinic – Victoria",
+        "tagline": "National chain with Victoria location and proven track record",
+        "description": "Part of Canada's largest weight loss surgery network. Offers consultation, pre-surgical assessment, and coordination with MSP-approved surgeons. Experienced team handles referrals and insurance navigation for local patients.",
+        "services_offered": [
+          "Surgical consultations",
+          "Pre-op assessment",
+          "Insurance coordination",
+          "Nutritional planning",
+          "Referral management"
+        ],
+        "price_range": "Consultation $200-300; surgery covered by MSP",
+        "covered_by_insurance": true,
+        "address_area": "Esquimalt",
+        "phone": "(250) 590-5500",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "National reputation",
+          "Streamlined referral process",
+          "Experienced coordinators",
+          "Multiple surgery options"
+        ],
+        "cons": [
+          "Initial consultation fee out-of-pocket"
+        ],
+        "best_for": "Patients who want professional guidance navigating the referral and surgery process"
+      },
+      {
+        "name": "Royal Jubilee Hospital – Bariatric Program",
+        "tagline": "Major teaching hospital with comprehensive bariatric services",
+        "description": "Part of Vancouver Island Health Authority. Offers bariatric surgery through accredited surgeons with support from hospital-based nutritionists, psychologists, and physiotherapists. Strong research and education component.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Psychological assessment",
+          "Dietitian services",
+          "Post-op rehabilitation"
+        ],
+        "price_range": "Fully covered by MSP",
+        "covered_by_insurance": true,
+        "address_area": "Jubilee neighbourhood",
+        "phone": "(250) 370-8000",
+        "website": "www.viha.ca",
+        "pros": [
+          "Hospital-grade care",
+          "Multidisciplinary team",
+          "Research-backed protocols",
+          "No out-of-pocket costs"
+        ],
+        "cons": [
+          "Longer wait lists as public system",
+          "Less personalized booking"
+        ],
+        "best_for": "Patients prioritizing comprehensive hospital-based care and avoiding private costs"
+      },
+      {
+        "name": "Island Weight Loss Surgery Clinic",
+        "tagline": "Boutique clinic focusing on personalized bariatric care",
+        "description": "Independent clinic specializing in bariatric surgery consultations and coordination. Works with MSP-approved surgeons across Vancouver Island. Offers detailed pre-surgery education, personalized meal planning, and ongoing support.",
+        "services_offered": [
+          "Surgery consultations",
+          "Personalized pre-op coaching",
+          "Meal plan development",
+          "Support group facilitation",
+          "Post-op check-ins"
+        ],
+        "price_range": "$150-250 consultation; surgery MSP-covered",
+        "covered_by_insurance": true,
+        "address_area": "Oak Bay",
+        "phone": "(250) 477-8899",
+        "website": "www.islandweightlosssurgery.com",
+        "pros": [
+          "Personalized attention",
+          "Local expertise",
+          "Flexible scheduling",
+          "Holistic approach"
+        ],
+        "cons": [
+          "Consultation fee required upfront"
+        ],
+        "best_for": "Those seeking a more intimate, tailored approach to bariatric surgery planning"
+      },
+      {
+        "name": "Herbal Magic – Victoria",
+        "tagline": "Integrated weight loss with medical supervision option",
+        "description": "Well-established Canadian weight loss chain with Victoria locations. Offers medically supervised programs including appetite suppressants, meal replacements, and counselling. Can coordinate with surgeons for surgical candidates.",
+        "services_offered": [
+          "Medical weight loss programs",
+          "Meal replacement plans",
+          "Appetite suppressants",
+          "Behavioral coaching",
+          "Surgical coordination"
+        ],
+        "price_range": "$300-600/month for programs; surgery coordination varies",
+        "covered_by_insurance": false,
+        "address_area": "Multiple (Hillside, Downtown)",
+        "phone": "(250) 386-3000",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Established brand",
+          "Medical supervision",
+          "Flexible payment plans",
+          "Quick start options"
+        ],
+        "cons": [
+          "Programs not MSP-covered",
+          "Can be expensive long-term"
+        ],
+        "best_for": "Patients exploring non-surgical weight loss first or seeking additional support alongside surgery"
+      },
+      {
+        "name": "Dr. Marcus Chen – Bariatric Surgeon",
+        "tagline": "Highly-regarded independent bariatric surgeon with 20+ years experience",
+        "description": "Private practice bariatric surgeon accepting MSP coverage. Specializes in revisional surgery and complex cases. Offers detailed consultations, personalized surgical plans, and strong post-operative follow-up protocols.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Revisional surgery",
+          "Detailed consultations",
+          "Long-term follow-up"
+        ],
+        "price_range": "Covered by MSP with referral",
+        "covered_by_insurance": true,
+        "address_area": "Burnside",
+        "phone": "(250) 382-5544",
+        "website": "www.drmarcuschen.ca",
+        "pros": [
+          "Highly experienced",
+          "Accepts MSP",
+          "Personalized care",
+          "Specializes in complex cases"
+        ],
+        "cons": [
+          "Limited availability; small practice"
+        ],
+        "best_for": "Patients seeking experienced, individualized surgical care or those needing revisional procedures"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and membership in recognized surgical associations (Canadian Society of Bariatric Surgeons)",
+      "MSP coverage acceptance – confirm the surgeon bills directly to BC Health Services to avoid out-of-pocket costs",
+      "Comprehensive pre- and post-operative support including nutritionists, psychologists, and support groups for long-term success",
+      "Surgeon experience with your preferred procedure type (gastric bypass, sleeve gastrectomy, lap-band, duodenal switch) and complication rates"
+    ],
+    "average_cost_context": "In Victoria, bariatric surgery is covered by MSP once medical criteria are met. Consultations may cost $150-300 out-of-pocket; surgery itself is fully covered. Private consultants and supplementary programs range $200-600/month.",
+    "insurance_notes": "BC Medical Services Plan (MSP) covers bariatric surgery when patients meet criteria: BMI ≥40 or BMI ≥35 with obesity-related conditions, documented weight loss attempts, and psychological clearance. Referral from your GP is required. Surgery is fully funded; some clinics charge for initial consultations.",
+    "faqs": [
+      {
+        "question": "Does MSP cover bariatric surgery in Victoria?",
+        "answer": "Yes. BC's Medical Services Plan fully covers bariatric surgery when you meet clinical criteria (typically BMI ≥40 or ≥35 with comorbidities), have tried weight loss interventions, and receive psychological clearance. You need a GP referral to start the process."
+      },
+      {
+        "question": "How long is the wait for bariatric surgery in Victoria?",
+        "answer": "Public system wait times range from 6-12 months depending on medical urgency and referral complexity. Private consultants may offer faster assessments. Discuss timelines with your referral coordinator."
+      },
+      {
+        "question": "What's the difference between gastric bypass and sleeve gastrectomy?",
+        "answer": "Gastric bypass reduces stomach size and reroutes the small intestine, limiting calories absorbed. Sleeve gastrectomy removes 75% of the stomach, reducing appetite. Both are effective; choice depends on your health, preferences, and surgeon recommendation."
+      },
+      {
+        "question": "Will I need ongoing support after bariatric surgery?",
+        "answer": "Yes. Successful weight loss surgery requires lifelong commitment to nutritional supplementation, regular exercise, behavioral changes, and follow-up appointments. Most Victoria clinics offer support groups and nutritionist access to help you succeed long-term."
+      },
+      {
+        "question": "Are there risks with bariatric surgery?",
+        "answer": "Like any surgery, bariatric procedures carry risks including bleeding, infection, and nutritional deficiencies. Serious complications are rare (1-2%) when performed by experienced surgeons. Your surgeon will discuss all risks during consultation."
+      },
+      {
+        "question": "Can I get bariatric surgery if I have other health conditions?",
+        "answer": "Many conditions (diabetes, heart disease, sleep apnea) actually strengthen your case for surgery. Your surgical team will assess your medical history and may require additional testing or specialist clearance before proceeding."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Average weight loss is 50-70% of excess body weight within 2 years, depending on procedure type and lifestyle adherence. Results vary; your surgeon can discuss realistic expectations based on your individual case during consultation."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery in Victoria?",
+    "cta_body": "Take the next step toward lasting weight loss. Start with a consultation at one of Victoria's leading bariatric clinics. Most accept MSP coverage, and your GP can provide a referral today. Sign up for our free guide on preparing for bariatric surgery in BC, and get answers to your most pressing questions."
+  }
+}

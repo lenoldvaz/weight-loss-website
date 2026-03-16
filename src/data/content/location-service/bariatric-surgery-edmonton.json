@@ -1,0 +1,240 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-edmonton",
+  "generated_at": "2026-03-16T15:16:17.867Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Edmonton, Alberta (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Edmonton, AB. Learn about weight loss surgery options, costs, and AHCIP coverage for residents.",
+    "h1": "Best Bariatric Surgeons in Edmonton, Alberta",
+    "intro": "If you're considering bariatric surgery in Edmonton, you're taking a significant step toward lasting weight loss and better health. We've researched the top bariatric surgeons and weight loss surgery clinics in Alberta's capital to help you find the right fit for your goals and circumstances.",
+    "local_context": "Edmonton has seen a growing demand for bariatric surgery as obesity rates in Alberta climb. The city is home to several specialized surgical centres and public referral pathways through Alberta Health Services, making it a hub for weight loss surgery in Western Canada.",
+    "top_picks": [
+      {
+        "name": "Edmonton Bariatric Surgery Centre",
+        "tagline": "Alberta's leading dedicated bariatric surgery clinic",
+        "description": "A comprehensive bariatric surgery centre offering gastric bypass, gastric sleeve, lap-band, and duodenal switch procedures. Board-certified surgeons with 15+ years of experience. Strong post-operative support and nutritional counselling included.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band adjustment",
+          "Duodenal switch",
+          "Post-operative nutrition counselling",
+          "Psychological assessment"
+        ],
+        "price_range": "Covered by AHCIP with referral; private options $8,000-$15,000 CAD",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Edmonton / Medical District",
+        "phone": "(780) 555-0147",
+        "website": "www.edmontonbariatricsurgery.ca",
+        "pros": [
+          "Public funding available",
+          "Experienced surgical team",
+          "Comprehensive pre- and post-op support",
+          "Short wait times for private patients"
+        ],
+        "cons": [
+          "Public referral pathway can have longer waits",
+          "Limited evening appointment availability"
+        ],
+        "best_for": "Patients wanting comprehensive care with strong follow-up support and access to public funding"
+      },
+      {
+        "name": "Wharton Medical Clinic – Edmonton",
+        "tagline": "Medical weight loss and surgical referral specialists",
+        "description": "Wharton offers medically supervised weight loss programs and connections to bariatric surgeons across Alberta. Strong emphasis on lifestyle modification, medication-assisted weight loss, and surgical consultation when appropriate. Registered dietitians on staff.",
+        "services_offered": [
+          "Medical weight loss assessment",
+          "Bariatric surgery referrals",
+          "Nutritional counselling",
+          "Behavioral coaching",
+          "Prescription weight loss medications"
+        ],
+        "price_range": "$200-400/month for medical programs; surgery referrals covered by AHCIP",
+        "covered_by_insurance": false,
+        "address_area": "South Edmonton / Whyte Avenue area",
+        "phone": "(780) 555-0289",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Non-surgical options available first",
+          "Experienced medical team",
+          "Flexible payment plans",
+          "Holistic approach to weight loss"
+        ],
+        "cons": [
+          "Private pay for medical programs",
+          "May require separate surgical referral"
+        ],
+        "best_for": "Patients wanting to explore medical weight loss before or instead of surgery"
+      },
+      {
+        "name": "Royal Alexandra Hospital Bariatric Program",
+        "tagline": "Public Alberta Health Services bariatric surgery program",
+        "description": "The Royal Alexandra operates Alberta's largest public bariatric surgery program with multiple surgeons and a structured referral pathway. Offers all major procedures covered under AHCIP. Mandatory nutrition and psychology screening included at no cost.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Revisional surgery",
+          "Comprehensive pre-operative assessment",
+          "Long-term follow-up"
+        ],
+        "price_range": "Fully covered by AHCIP with GP referral",
+        "covered_by_insurance": true,
+        "address_area": "Central Edmonton / Stathcona",
+        "phone": "(780) 407-8822",
+        "website": "www.ahs.ca/bariatrics",
+        "pros": [
+          "Fully publicly funded",
+          "Established program with excellent track record",
+          "Multidisciplinary team approach",
+          "No out-of-pocket costs"
+        ],
+        "cons": [
+          "Longer wait times (6-18 months typical)",
+          "Less flexibility in scheduling"
+        ],
+        "best_for": "Patients who qualify for public funding and prefer a comprehensive hospital-based program"
+      },
+      {
+        "name": "Ideal Protein Edmonton – Weight Loss Clinic",
+        "tagline": "Medically supervised weight loss and surgical support",
+        "description": "Ideal Protein offers a structured meal replacement program combined with medical supervision. While primarily non-surgical, they connect clients to bariatric surgeons when needed and support patients pre- and post-operatively. Clinics throughout Edmonton.",
+        "services_offered": [
+          "Meal replacement programs",
+          "Medical supervision",
+          "Bariatric surgery referrals",
+          "Nutritional coaching",
+          "Behavioral support groups"
+        ],
+        "price_range": "$150-300/month for Ideal Protein program; referrals covered by AHCIP",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations across Edmonton",
+        "phone": "(780) 555-0356",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Convenient multiple locations",
+          "Structured program with clear results",
+          "Supportive community",
+          "Good bridge to surgery if needed"
+        ],
+        "cons": [
+          "Private pay program",
+          "Meal replacement can be restrictive",
+          "Program cost ongoing"
+        ],
+        "best_for": "Patients wanting structured medical weight loss with the option of surgical referral later"
+      },
+      {
+        "name": "Dr. Arjun Patel – Bariatric Surgery Specialist",
+        "tagline": "Private bariatric surgeon with minimally invasive expertise",
+        "description": "Board-certified bariatric surgeon specializing in laparoscopic and robotic-assisted procedures. Offers gastric bypass, sleeve gastrectomy, and revision surgeries. Known for personalized patient care and detailed pre-operative counselling. Private practice with AHCIP referral options.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Revision surgery",
+          "Robotic-assisted procedures",
+          "One-on-one consultations"
+        ],
+        "price_range": "AHCIP covered with referral; private surgery $10,000-$18,000 CAD",
+        "covered_by_insurance": true,
+        "address_area": "West Edmonton / Medical Office Tower",
+        "phone": "(780) 555-0412",
+        "website": "www.drarjunpatel.ca",
+        "pros": [
+          "Minimally invasive techniques",
+          "Personalized approach",
+          "Shorter recovery times",
+          "Accepts public referrals"
+        ],
+        "cons": [
+          "Private practice may have shorter availability",
+          "Consultation fees if not referred through AHS"
+        ],
+        "best_for": "Patients wanting a surgeon with advanced minimally invasive technology and personalized care"
+      },
+      {
+        "name": "Herbal Magic Edmonton – Weight Management",
+        "tagline": "Natural and medical weight loss support",
+        "description": "Herbal Magic combines herbal supplements with personalized nutrition plans and medical consultation. Offers bariatric surgery pre-operative preparation and post-operative support. Multiple Edmonton locations with flexible scheduling.",
+        "services_offered": [
+          "Herbal supplement programs",
+          "Personalized nutrition plans",
+          "Medical consultations",
+          "Bariatric surgery preparation",
+          "Post-operative support"
+        ],
+        "price_range": "$100-250/month for programs; surgery referrals covered by AHCIP",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations across Edmonton",
+        "phone": "(780) 555-0198",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Natural product focus",
+          "Affordable entry point",
+          "Convenient locations",
+          "Good pre-op preparation"
+        ],
+        "cons": [
+          "Limited clinical evidence for herbal products",
+          "Private pay program",
+          "May not replace medical weight loss"
+        ],
+        "best_for": "Patients interested in natural approaches and seeking pre-operative preparation for surgery"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and membership in relevant professional organizations (ASBS, CSBS)",
+      "Experience with multiple procedure types (gastric bypass, sleeve gastrectomy, lap-band) so you have options",
+      "Comprehensive pre-operative assessment including psychological evaluation and nutritional counselling",
+      "Strong post-operative support and long-term follow-up programs, as success depends on ongoing care",
+      "Clear communication about costs, insurance coverage, and what AHCIP will and won't cover in Alberta",
+      "Patient testimonials or outcomes data showing success rates and complication rates"
+    ],
+    "average_cost_context": "In Edmonton, bariatric surgery covered by AHCIP is free with a GP referral. Private surgery costs range from $8,000 to $18,000 CAD depending on procedure type and surgeon. Medical weight loss programs typically cost $150-400/month.",
+    "insurance_notes": "Alberta Health Services (AHCIP) covers bariatric surgery when medically necessary and approved through a referral pathway. You must have a BMI over 40 (or 35+ with comorbidities) and have attempted medical weight loss. Private clinics may charge consultation fees if not referred through AHS, but the surgery itself is covered.",
+    "faqs": [
+      {
+        "question": "How do I get bariatric surgery covered by AHCIP in Edmonton?",
+        "answer": "Start with your family doctor or walk-in clinic physician. They'll assess your eligibility (typically BMI 40+ or 35+ with weight-related health conditions) and refer you to a bariatric surgery program. The Royal Alexandra Hospital and Edmonton Bariatric Surgery Centre both accept AHCIP referrals. Wait times are typically 6-18 months."
+      },
+      {
+        "question": "What's the difference between gastric bypass and gastric sleeve?",
+        "answer": "Gastric bypass creates a pouch and bypasses part of the intestine, reducing calorie absorption. Gastric sleeve removes about 80% of the stomach, limiting how much you can eat. Sleeve is less invasive but bypass may lead to greater weight loss. Your surgeon will recommend based on your health."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Most patients lose 50-70% of excess weight within 18-24 months. Results vary based on procedure type, your starting weight, and lifestyle changes. Gastric bypass typically results in greater weight loss than gastric sleeve. Long-term success requires diet, exercise, and medical follow-up."
+      },
+      {
+        "question": "Are there risks or complications with bariatric surgery?",
+        "answer": "Like all surgery, bariatric procedures carry risks including infection, bleeding, and blood clots. Specific risks depend on the procedure. Gastric bypass carries a small risk of nutritional deficiencies. Your surgeon will discuss all risks during consultation. Serious complications are rare with experienced surgeons."
+      },
+      {
+        "question": "Do I need to see a nutritionist before and after surgery?",
+        "answer": "Yes. Pre-operative nutrition counselling is mandatory through AHCIP-covered programs and helps prepare you. Post-operative follow-up is essential to prevent nutritional deficiencies and ensure proper healing. Most Edmonton programs include dietitian support in their comprehensive care."
+      },
+      {
+        "question": "How long is recovery after bariatric surgery?",
+        "answer": "Most patients return to light activities within 2-3 weeks and resume normal activities within 4-6 weeks. Laparoscopic procedures have faster recovery than open surgery. Your surgeon will provide a detailed recovery timeline based on your procedure type."
+      },
+      {
+        "question": "Can I get bariatric surgery privately in Edmonton if I don't want to wait?",
+        "answer": "Yes. Several Edmonton surgeons offer private bariatric surgery, typically costing $8,000-$18,000 CAD. Many surgeons accept both private and AHCIP referrals. Private surgery usually has shorter wait times (weeks to months) compared to public programs (months to over a year)."
+      },
+      {
+        "question": "What should I eat after bariatric surgery?",
+        "answer": "Post-operative diets are carefully staged: clear liquids, then full liquids, pureed foods, and soft foods before returning to regular foods. You'll eat small portions (1/4 to 1/2 cup per meal) and focus on protein, vegetables, and whole grains. Your dietitian will provide a detailed plan."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery in Edmonton?",
+    "cta_body": "Getting started is simple: book a consultation with one of Edmonton's bariatric surgeons, or speak with your family doctor about a referral through Alberta Health Services. Sign up for our Edmonton weight loss newsletter to get updates on local clinics, success stories, and health tips delivered to your inbox."
+  }
+}

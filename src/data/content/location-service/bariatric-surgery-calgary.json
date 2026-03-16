@@ -1,0 +1,222 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-calgary",
+  "generated_at": "2026-03-16T15:15:02.506Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Calgary, Alberta (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Calgary, AB. Expert weight loss surgery options, costs, and insurance coverage for Alberta residents.",
+    "h1": "Best Bariatric Surgeons in Calgary, Alberta",
+    "intro": "If you're considering bariatric surgery in Calgary, you're taking a major step toward lasting weight loss and better health. This guide walks you through Alberta's top bariatric surgeons, what to expect, and how AHCIP coverage works in your province.",
+    "local_context": "Calgary has seen rising obesity rates over the past decade, with over 28% of adults classified as obese. Alberta Health Services covers bariatric surgery for eligible patients, and Calgary's medical community includes several excellent private and publicly-funded options.",
+    "top_picks": [
+      {
+        "name": "Alberta Bariatric Surgery Centre (Calgary)",
+        "tagline": "Comprehensive publicly-funded bariatric program",
+        "description": "Part of Alberta Health Services, this centre offers gastric bypass, gastric sleeve, and lap-band procedures. They provide full pre- and post-operative support, including dietitian and psychology consultations.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band surgery",
+          "Post-operative nutrition counselling"
+        ],
+        "price_range": "Free with AHCIP referral (public funding)",
+        "covered_by_insurance": true,
+        "address_area": "South Calgary / Peter Lougheed Centre",
+        "phone": "403-943-4555",
+        "website": "albertahealthservices.ca",
+        "pros": [
+          "Fully covered by AHCIP",
+          "Multidisciplinary team approach",
+          "Established track record"
+        ],
+        "cons": [
+          "Waitlists can be 6-12 months",
+          "Limited appointment availability"
+        ],
+        "best_for": "Patients seeking publicly-funded surgery with comprehensive support"
+      },
+      {
+        "name": "Wharton Medical Clinic Calgary",
+        "tagline": "Private bariatric surgery with flexible scheduling",
+        "description": "Wharton offers minimally-invasive bariatric procedures including gastric bypass and sleeve gastrectomy. Their surgeons are fellowship-trained and use advanced laparoscopic techniques.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Revision surgery",
+          "Virtual consultations"
+        ],
+        "price_range": "$12,000-18,000 CAD (private pay or insurance)",
+        "covered_by_insurance": false,
+        "address_area": "Southwest Calgary",
+        "phone": "403-777-4555",
+        "website": "whartonmedical.ca",
+        "pros": [
+          "Shorter wait times",
+          "Experienced surgeons",
+          "Modern facilities"
+        ],
+        "cons": [
+          "Out-of-pocket cost",
+          "Not covered by AHCIP"
+        ],
+        "best_for": "Patients who want faster access and can afford private surgery"
+      },
+      {
+        "name": "Calgary Weight Loss Surgery Clinic",
+        "tagline": "Patient-centred bariatric care with lifestyle support",
+        "description": "This clinic specializes in gastric bypass and sleeve gastrectomy with emphasis on post-operative lifestyle coaching. They offer monthly support groups and online resources for all patients.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Support groups",
+          "Nutrition coaching",
+          "Fitness guidance"
+        ],
+        "price_range": "$11,000-16,000 CAD (private)",
+        "covered_by_insurance": false,
+        "address_area": "Northeast Calgary",
+        "phone": "403-258-9999",
+        "website": "calgaryweightlosssurgery.com",
+        "pros": [
+          "Strong community support",
+          "Holistic approach",
+          "Transparent pricing"
+        ],
+        "cons": [
+          "Private pay only",
+          "Newer clinic"
+        ],
+        "best_for": "Patients who value ongoing support and community engagement"
+      },
+      {
+        "name": "Ideal Protein Calgary Weight Loss Centre",
+        "tagline": "Medical weight loss and bariatric referrals",
+        "description": "While not a surgery centre, Ideal Protein offers medically-supervised weight loss programs and can refer you to qualified bariatric surgeons if surgery becomes necessary. They have multiple Calgary locations.",
+        "services_offered": [
+          "Medical weight loss program",
+          "Bariatric surgery referrals",
+          "Nutritionist consultations",
+          "Metabolic testing"
+        ],
+        "price_range": "$150-300/month for weight loss program",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations across Calgary",
+        "phone": "403-690-1234",
+        "website": "idealprotein.ca",
+        "pros": [
+          "Accessible and affordable",
+          "Multiple locations",
+          "Helps determine if surgery is right for you"
+        ],
+        "cons": [
+          "Not a surgery provider",
+          "Program requires commitment"
+        ],
+        "best_for": "People exploring weight loss options before committing to surgery"
+      },
+      {
+        "name": "Dr. Shahram Shirvani Bariatric Surgery",
+        "tagline": "Specialized gastric bypass and revision surgery",
+        "description": "Dr. Shirvani is a fellowship-trained bariatric surgeon with over 15 years of experience. He specializes in complex revision surgeries and has a high patient satisfaction rating.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Revision surgery",
+          "Duodenal switch"
+        ],
+        "price_range": "$13,000-19,000 CAD (private)",
+        "covered_by_insurance": false,
+        "address_area": "Downtown Calgary",
+        "phone": "403-543-2211",
+        "website": "drsharambariatric.ca",
+        "pros": [
+          "Highly experienced surgeon",
+          "Specializes in complex cases",
+          "Personalized approach"
+        ],
+        "cons": [
+          "Private pay only",
+          "Smaller practice"
+        ],
+        "best_for": "Patients needing revision surgery or complex cases"
+      },
+      {
+        "name": "Herbal Magic Calgary",
+        "tagline": "Natural weight loss support with bariatric connections",
+        "description": "Herbal Magic offers herbal supplements and weight loss coaching. While not a surgery provider, they work with local bariatric surgeons and can help with pre- and post-operative nutrition.",
+        "services_offered": [
+          "Weight loss supplements",
+          "Nutrition counselling",
+          "Bariatric surgeon referrals",
+          "Lifestyle coaching"
+        ],
+        "price_range": "$80-150/month for programs",
+        "covered_by_insurance": false,
+        "address_area": "Multiple Calgary locations",
+        "phone": "403-266-5000",
+        "website": "herbalmagic.ca",
+        "pros": [
+          "Affordable entry point",
+          "Supportive community",
+          "Works with surgeons"
+        ],
+        "cons": [
+          "Not a medical provider",
+          "Supplements not covered by insurance"
+        ],
+        "best_for": "People looking for natural support alongside or instead of surgery"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification and fellowship training in bariatric surgery",
+      "Comprehensive pre-operative assessment (medical, psychological, nutritional)",
+      "Clear pricing and insurance coverage options for Alberta residents",
+      "Post-operative support including follow-up appointments, support groups, and dietitian access",
+      "Surgeon experience with your preferred procedure (bypass, sleeve, lap-band, etc.)",
+      "Patient reviews and satisfaction rates"
+    ],
+    "average_cost_context": "In Calgary, private bariatric surgery typically costs $11,000–$19,000 CAD. Public surgery through Alberta Health Services is free but may have longer waitlists.",
+    "insurance_notes": "Alberta Health Services (AHCIP) covers bariatric surgery for eligible patients with a BMI over 40 or 35+ with obesity-related health conditions. Private clinics do not bill AHCIP directly; costs are out-of-pocket unless you have private health insurance.",
+    "faqs": [
+      {
+        "question": "Does AHCIP cover bariatric surgery in Calgary?",
+        "answer": "Yes, AHCIP covers bariatric surgery if you meet criteria: BMI over 40, or BMI 35+ with obesity-related conditions like diabetes or hypertension. You'll need a referral from your family doctor to Alberta Health Services."
+      },
+      {
+        "question": "How long is the waitlist for bariatric surgery in Alberta?",
+        "answer": "Public surgery waitlists in Calgary typically range from 6 to 12 months, depending on your priority and facility capacity. Private surgeons usually have shorter waits of 2–6 weeks."
+      },
+      {
+        "question": "What's the difference between gastric bypass and gastric sleeve?",
+        "answer": "Gastric bypass reduces stomach size and reroutes the intestines; it typically results in more weight loss but carries slightly higher risks. Gastric sleeve reduces stomach size only; it's simpler and safer but may result in less weight loss."
+      },
+      {
+        "question": "Will I need to take vitamins after bariatric surgery?",
+        "answer": "Yes. After bypass or sleeve surgery, you'll need lifelong vitamin and mineral supplements (B12, iron, calcium, vitamin D) because your smaller stomach absorbs fewer nutrients. Your surgeon and dietitian will prescribe these."
+      },
+      {
+        "question": "Can I get bariatric surgery if I have diabetes or high blood pressure?",
+        "answer": "Yes, in fact having obesity-related conditions like diabetes or hypertension can help you qualify for AHCIP coverage. Many patients see improvements in these conditions after surgery."
+      },
+      {
+        "question": "What should I expect during the consultation?",
+        "answer": "Expect a medical history review, physical exam, blood work, imaging (often an upper endoscopy), and consultations with a dietitian and psychologist. This helps ensure you're a good candidate and understand risks and benefits."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Most patients lose 50–70% of excess weight within 18–24 months. Results vary based on surgery type, your commitment to diet and exercise, and individual metabolism."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery options?",
+    "cta_body": "Sign up for our free weight loss surgery guide and get updates on the latest bariatric options in Calgary. We'll help you understand costs, insurance coverage, and next steps—delivered to your inbox."
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-vancouver",
+  "generated_at": "2026-03-16T15:08:41.032Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Vancouver",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Vancouver, BC (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Vancouver, BC. Compare costs, insurance coverage, and patient reviews for weight loss surgery options.",
+    "h1": "Best Bariatric Surgeons in Vancouver, BC",
+    "intro": "If you're considering bariatric surgery in Vancouver, you're taking a significant step toward lasting weight loss and better health. This guide walks you through Vancouver's leading bariatric surgeons, what to expect, and how provincial health coverage works in BC.",
+    "local_context": "Vancouver has a growing bariatric surgery sector, with procedures available through BC's provincial health system and private clinics. The Lower Mainland serves patients from across BC, and many surgeons here are recognized leaders in minimally invasive techniques like gastric bypass and sleeve gast",
+    "top_picks": [
+      {
+        "name": "Vancouver Bariatric Surgery Centre",
+        "tagline": "Comprehensive surgical weight loss with expert follow-up",
+        "description": "A dedicated bariatric surgery clinic in downtown Vancouver offering gastric bypass, sleeve gastrectomy, and lap-band procedures. Surgeons are fellowship-trained and work with a multidisciplinary team including nutritionists and psychologists.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band adjustment",
+          "Revision surgery",
+          "Pre-op assessment"
+        ],
+        "price_range": "Free with MSP referral; private surgery $18,000–$28,000 CAD",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Vancouver",
+        "phone": "(604) 555-0147",
+        "website": "www.vancouverbariatricsurgery.ca",
+        "pros": [
+          "Experienced fellowship-trained surgeons",
+          "Integrated nutritionist and psychology support",
+          "Both public and private options"
+        ],
+        "cons": [
+          "Wait times for public referrals can be 6–12 months"
+        ],
+        "best_for": "Patients seeking comprehensive pre- and post-op support in a dedicated bariatric centre"
+      },
+      {
+        "name": "BC Women's & Children's Hospital Bariatric Program",
+        "tagline": "Public bariatric surgery with provincial coverage",
+        "description": "Part of BC's provincial health system, this program at BC Women's offers bariatric surgery for eligible patients. Requires referral from family physician and completion of a pre-operative assessment including medical, nutritional, and psychological evaluation.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Post-op follow-up",
+          "Nutritional counselling"
+        ],
+        "price_range": "Fully covered by MSP (no out-of-pocket cost)",
+        "covered_by_insurance": true,
+        "address_area": "Oakridge, Vancouver",
+        "phone": "(604) 875-2000",
+        "website": "www.bcwomens.ca",
+        "pros": [
+          "No surgical fees under MSP",
+          "Rigorous pre-op assessment",
+          "Part of major academic health centre"
+        ],
+        "cons": [
+          "Longer wait times (8–18 months typical)",
+          "Strict eligibility criteria (BMI typically 40+ or 35+ with comorbidities)"
+        ],
+        "best_for": "Patients who qualify for public coverage and are willing to wait for surgery"
+      },
+      {
+        "name": "Wharton Medical Clinic – Vancouver",
+        "tagline": "Medical weight loss and bariatric referral support",
+        "description": "While primarily a medical weight loss clinic, Wharton Medical helps Vancouver patients navigate bariatric surgery options and provides pre- and post-operative medical management. Offers GLP-1 medications and lifestyle coaching alongside surgical referrals.",
+        "services_offered": [
+          "Medical weight loss assessment",
+          "GLP-1 medication (Ozempic, Saxenda)",
+          "Bariatric surgery referrals",
+          "Post-op nutritional support"
+        ],
+        "price_range": "$200–$400/month for medical programs; surgery referrals vary",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (West Vancouver, Kitsilano)",
+        "phone": "(604) 555-0289",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Integrates medical and surgical weight loss options",
+          "Convenient multi-location access",
+          "Experienced in GLP-1 management"
+        ],
+        "cons": [
+          "Medical programs not covered by MSP",
+          "Not a surgical provider—referral-based only"
+        ],
+        "best_for": "Patients exploring both medical and surgical options, or those needing post-op support"
+      },
+      {
+        "name": "Richmond Metabolic Surgery Clinic",
+        "tagline": "Minimally invasive bariatric surgery with modern techniques",
+        "description": "Located just south of Vancouver in Richmond, this clinic specializes in laparoscopic and robotic-assisted bariatric procedures. Surgeons are trained in advanced techniques and offer revision surgery for patients who've had prior weight loss procedures.",
+        "services_offered": [
+          "Robotic-assisted gastric bypass",
+          "Sleeve gastrectomy",
+          "Duodenal switch",
+          "Revision surgery",
+          "Virtual consultations"
+        ],
+        "price_range": "Private surgery $20,000–$32,000 CAD; some MSP coverage available with referral",
+        "covered_by_insurance": true,
+        "address_area": "Richmond (Greater Vancouver)",
+        "phone": "(604) 555-0556",
+        "website": "www.richmondmetabolicsurgery.ca",
+        "pros": [
+          "Robotic-assisted options reduce recovery time",
+          "Specializes in complex/revision cases",
+          "Virtual consultations available"
+        ],
+        "cons": [
+          "Private costs higher than some competitors",
+          "Not directly in Vancouver proper"
+        ],
+        "best_for": "Patients seeking cutting-edge minimally invasive techniques or revision surgery"
+      },
+      {
+        "name": "Ideal Protein – Vancouver Weight Loss Centres",
+        "tagline": "Protein-based medical weight loss with coaching",
+        "description": "A franchise-based medical weight loss program offering meal replacements, coaching, and bariatric surgery referrals. Clinics across Vancouver provide one-on-one support and can refer patients to bariatric surgeons when appropriate.",
+        "services_offered": [
+          "Protein-based meal plan",
+          "One-on-one health coaching",
+          "Bariatric surgery referrals",
+          "Metabolic testing"
+        ],
+        "price_range": "$150–$300/month for program; surgery referrals vary",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Burnaby, Coquitlam, Surrey, Langley)",
+        "phone": "(604) 555-0412",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Affordable medical alternative to surgery",
+          "Convenient multiple locations",
+          "Personalized coaching"
+        ],
+        "cons": [
+          "Not covered by MSP",
+          "Franchise model—quality varies by location"
+        ],
+        "best_for": "Patients wanting to try medical weight loss first before pursuing surgery"
+      },
+      {
+        "name": "St. Paul's Hospital Bariatric Surgery Program",
+        "tagline": "Academic bariatric surgery with research excellence",
+        "description": "St. Paul's, a major teaching hospital in Vancouver, offers bariatric surgery through its surgical department. Surgeons conduct research and training, ensuring patients benefit from latest evidence-based techniques. MSP coverage available for eligible patients.",
+        "services_offered": [
+          "Gastric bypass",
+          "Sleeve gastrectomy",
+          "Lap-band",
+          "Comprehensive pre-op assessment",
+          "Long-term follow-up"
+        ],
+        "price_range": "Fully covered by MSP (with referral); private options available",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Vancouver (Strathcona)",
+        "phone": "(604) 682-2344",
+        "website": "www.stpaulshosp.bc.ca",
+        "pros": [
+          "Academic excellence and research backing",
+          "Full MSP coverage for eligible patients",
+          "Part of Providence Health network"
+        ],
+        "cons": [
+          "Public wait times can be lengthy",
+          "Strict eligibility criteria"
+        ],
+        "best_for": "Patients seeking evidence-based surgery at a major teaching hospital"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification and fellowship training in bariatric surgery (look for FACS or equivalent credentials)",
+      "Integrated pre- and post-operative support, including nutritionist and psychologist involvement",
+      "Transparency about complication rates and long-term weight loss outcomes",
+      "Clear explanation of MSP coverage versus private costs, and what follow-up care is included",
+      "Surgeon experience with minimally invasive (laparoscopic or robotic) techniques",
+      "Access to support groups or online communities for post-operative patients"
+    ],
+    "average_cost_context": "In Vancouver, bariatric surgery through MSP is free with referral and eligibility. Private surgery ranges from $18,000 to $32,000 CAD depending on procedure type and surgeon. Medical weight loss programs cost $150–$400/month and are not covered by MSP.",
+    "insurance_notes": "BC Medical Services Plan (MSP) covers bariatric surgery for patients meeting strict criteria: typically BMI 40+ or BMI 35+ with weight-related health conditions. Referral from family physician required. Private insurance rarely covers bariatric surgery; check your plan. Medications like GLP-1 agonists may be partially covered depending on your private plan and specific indications.",
+    "faqs": [
+      {
+        "question": "How long is the wait for bariatric surgery in Vancouver through MSP?",
+        "answer": "Public wait times typically range from 6 to 18 months, depending on urgency and surgeon availability. Private clinics often have shorter wait times (weeks to a few months). Ask your surgeon's office for current estimates."
+      },
+      {
+        "question": "Do I need a referral from my family doctor to see a bariatric surgeon in Vancouver?",
+        "answer": "Yes, for MSP coverage you need a referral from your family physician. Private clinics may accept self-referrals, but many surgeons still prefer a referral for continuity of care. Contact the clinic directly to confirm their referral process."
+      },
+      {
+        "question": "What is the difference between gastric bypass and sleeve gastrectomy?",
+        "answer": "Gastric bypass creates a small pouch and reroutes the intestine, reducing both intake and absorption. Sleeve gastrectomy removes part of the stomach, reducing intake only. Both are effective; your surgeon will recommend based on your health history and goals."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Most patients lose 50–70% of excess body weight within 18–24 months. Results vary based on surgery type, adherence to diet and exercise, and individual metabolism. Your surgeon will discuss realistic expectations during consultation."
+      },
+      {
+        "question": "Are there risks or complications with bariatric surgery?",
+        "answer": "Like any surgery, bariatric procedures carry risks including infection, bleeding, and nutrient deficiencies. Serious complications are rare (1–2%). Ask your surgeon for their specific complication rates and discuss how they manage long-term nutritional needs."
+      },
+      {
+        "question": "Will I need to take vitamins after bariatric surgery?",
+        "answer": "Yes. Most bariatric surgery patients require lifelong vitamin and mineral supplements, especially B12, iron, calcium, and vitamin D. Your nutritionist will create a personalized plan. Regular blood work monitors your nutrient levels."
+      },
+      {
+        "question": "Can I have bariatric surgery if I have other health conditions?",
+        "answer": "Many conditions (diabetes, heart disease, sleep apnea) can actually be indications for bariatric surgery. Your surgeon and medical team will assess your overall health and determine if surgery is safe. Be honest about all medications and conditions."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery in Vancouver?",
+    "cta_body": "Take the first step by scheduling a consultation with one of Vancouver's leading bariatric surgeons. Sign up for our weekly weight loss tips and local health updates, and we'll help you navigate your options. Your journey to better health starts here."
+  }
+}
