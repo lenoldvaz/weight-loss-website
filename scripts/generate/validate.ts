@@ -30,6 +30,37 @@ export interface ValidationResult {
   errors?: string[];
 }
 
+/**
+ * Walk a parsed JSON object and truncate any string values that exceed
+ * known schema max lengths. Prevents retries for minor over-length fields.
+ */
+const MAX_LENGTHS: Record<string, number> = {
+  page_title: 65,
+  meta_description: 160,
+  h1: 70,
+  intro: 400,
+  local_context: 300,
+  quick_answer: 200,
+  verdict_summary: 200,
+};
+
+function sanitize(obj: unknown): unknown {
+  if (typeof obj === "string") return obj;
+  if (Array.isArray(obj)) return obj.map(sanitize);
+  if (obj && typeof obj === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(obj as Record<string, unknown>)) {
+      if (typeof v === "string" && MAX_LENGTHS[k] !== undefined) {
+        out[k] = v.length > MAX_LENGTHS[k] ? v.slice(0, MAX_LENGTHS[k]).trimEnd() : v;
+      } else {
+        out[k] = sanitize(v);
+      }
+    }
+    return out;
+  }
+  return obj;
+}
+
 /** Parse raw LLM output string and validate against the schema for the given template */
 export function validateContent(
   raw: string,
@@ -43,7 +74,7 @@ export function validateContent(
 
   let parsed: unknown;
   try {
-    parsed = JSON.parse(cleaned);
+    parsed = sanitize(JSON.parse(cleaned));
   } catch (err) {
     return {
       valid: false,

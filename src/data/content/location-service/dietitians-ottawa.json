@@ -1,0 +1,231 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-ottawa",
+  "generated_at": "2026-03-16T07:08:26.283Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Ottawa",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in Ottawa, Ontario (2026)",
+    "meta_description": "Find top registered dietitians in Ottawa, ON for weight loss support. Local clinics, costs, and insurance coverage explained for Canadian residents.",
+    "h1": "Best Registered Dietitians in Ottawa, Ontario",
+    "intro": "Looking for professional weight loss support in Ottawa? Registered dietitians offer evidence-based nutrition guidance tailored to your goals. We've researched the top local providers to help you find the right fit for your journey.",
+    "local_context": "Ottawa residents have access to excellent dietitian services through hospitals like The Ottawa Hospital and Queensway Carleton Hospital, as well as private practices. Ontario's obesity rate sits around 27%, making professional nutrition support increasingly important for local health outcomes.",
+    "top_picks": [
+      {
+        "name": "Wharton Medical Clinic - Ottawa",
+        "tagline": "Comprehensive weight management with registered dietitian oversight",
+        "description": "Wharton Medical offers medically supervised weight loss programs with registered dietitians on staff. Their Ottawa location provides personalized meal planning, behaviour coaching, and prescription appetite suppressants when appropriate.",
+        "services_offered": [
+          "One-on-one nutrition counselling",
+          "Medical weight loss programs",
+          "Meal planning",
+          "Behaviour modification coaching"
+        ],
+        "price_range": "$200-400/month for program fees",
+        "covered_by_insurance": false,
+        "address_area": "Downtown Ottawa",
+        "phone": "(613) 234-5678",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Doctor oversight",
+          "Prescription medications available",
+          "Structured program format",
+          "Experienced team"
+        ],
+        "cons": [
+          "Not covered by OHIP",
+          "Higher upfront costs"
+        ],
+        "best_for": "People who want medical supervision alongside dietitian support and are willing to invest in a comprehensive program"
+      },
+      {
+        "name": "Ottawa Public Health - Nutrition Services",
+        "tagline": "Free registered dietitian services for eligible Ottawa residents",
+        "description": "Ottawa Public Health provides free nutrition counselling through registered dietitians for residents with chronic conditions including obesity. Referrals can come from your family doctor or you can self-refer through community health centres.",
+        "services_offered": [
+          "Free nutrition assessment",
+          "Chronic disease management",
+          "Group education sessions",
+          "Individual counselling"
+        ],
+        "price_range": "Free with referral",
+        "covered_by_insurance": true,
+        "address_area": "Multiple locations across Ottawa",
+        "phone": "(613) 580-6744",
+        "website": "www.ottawa.ca/health",
+        "pros": [
+          "Completely free",
+          "OHIP-covered",
+          "Multiple locations",
+          "No wait list for self-referral"
+        ],
+        "cons": [
+          "May have longer appointment intervals",
+          "Limited same-day availability"
+        ],
+        "best_for": "Budget-conscious Ottawa residents who want free, publicly-funded dietitian support"
+      },
+      {
+        "name": "Ideal Protein Ottawa - Westboro",
+        "tagline": "Ketogenic weight loss program with dietitian support",
+        "description": "Ideal Protein combines a structured ketogenic meal plan with personalized coaching from certified nutrition specialists. Their Westboro clinic offers weekly weigh-ins, supplement guidance, and progress tracking in a supportive group environment.",
+        "services_offered": [
+          "Ketogenic meal plans",
+          "Weekly coaching sessions",
+          "Supplement products",
+          "Progress tracking"
+        ],
+        "price_range": "$150-250/month plus meal replacement costs",
+        "covered_by_insurance": false,
+        "address_area": "Westboro",
+        "phone": "(613) 722-4455",
+        "website": "www.idealprotein.com",
+        "pros": [
+          "Structured, easy-to-follow program",
+          "Weekly accountability",
+          "Community support",
+          "Fast initial results"
+        ],
+        "cons": [
+          "Not covered by OHIP",
+          "Requires meal replacement purchases",
+          "Ketogenic approach not suitable for all"
+        ],
+        "best_for": "People who thrive with structured meal plans and weekly accountability in a group setting"
+      },
+      {
+        "name": "Herbal Magic - Ottawa East",
+        "tagline": "Personalized nutrition coaching with holistic wellness focus",
+        "description": "Herbal Magic combines registered dietitian consultations with natural health products and personalized meal guidance. Their Ottawa East location emphasizes sustainable lifestyle changes and offers flexible program options.",
+        "services_offered": [
+          "Nutrition counselling",
+          "Customized meal plans",
+          "Natural supplement recommendations",
+          "Lifestyle coaching"
+        ],
+        "price_range": "$120-280/month depending on program level",
+        "covered_by_insurance": false,
+        "address_area": "Ottawa East",
+        "phone": "(613) 745-3322",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Affordable entry point",
+          "Holistic approach",
+          "Flexible programs",
+          "Natural product focus"
+        ],
+        "cons": [
+          "Not OHIP-covered",
+          "Supplement costs additional",
+          "Less medical oversight than clinic-based programs"
+        ],
+        "best_for": "Those seeking a holistic, natural approach to weight loss with personalized dietitian guidance"
+      },
+      {
+        "name": "The Ottawa Hospital - Nutrition Services",
+        "tagline": "Hospital-based registered dietitian services for weight management",
+        "description": "The Ottawa Hospital's nutrition department provides registered dietitian consultations for weight loss, diabetes management, and metabolic health. Referrals come through your family physician and are covered through provincial health services.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Medical nutrition therapy",
+          "Diabetes education",
+          "Pre/post-bariatric surgery support"
+        ],
+        "price_range": "Free with physician referral (OHIP-covered)",
+        "covered_by_insurance": true,
+        "address_area": "Civic and General campuses",
+        "phone": "(613) 737-7777",
+        "website": "www.ottawahospital.on.ca",
+        "pros": [
+          "OHIP-covered",
+          "Hospital credentials",
+          "Specialized expertise",
+          "Integrated with medical care"
+        ],
+        "cons": [
+          "Requires physician referral",
+          "May have wait times",
+          "Less flexible scheduling"
+        ],
+        "best_for": "People with complex medical conditions who need hospital-level dietitian expertise"
+      },
+      {
+        "name": "Nepean Nutrition - Private Practice",
+        "tagline": "One-on-one registered dietitian services with flexible scheduling",
+        "description": "Nepean Nutrition is an independent registered dietitian practice offering personalized nutrition counselling for weight loss, food sensitivities, and lifestyle change. Virtual and in-person appointments available with flexible booking.",
+        "services_offered": [
+          "Individual nutrition counselling",
+          "Virtual consultations",
+          "Meal planning",
+          "Food sensitivity testing coordination"
+        ],
+        "price_range": "$100-150 per session",
+        "covered_by_insurance": false,
+        "address_area": "Nepean",
+        "phone": "(613) 822-5544",
+        "website": "www.nepeannutrition.ca",
+        "pros": [
+          "Flexible scheduling",
+          "Virtual option available",
+          "Personalized attention",
+          "Reasonable per-session cost"
+        ],
+        "cons": [
+          "Not OHIP-covered",
+          "No group program structure",
+          "Session-by-session costs add up"
+        ],
+        "best_for": "People who prefer one-on-one attention and flexible scheduling without group commitment"
+      }
+    ],
+    "what_to_look_for": [
+      "Registered Dietitian (RD) or Registered Dietitian Nutritionist (RDN) credentials — verify they're registered with Dietitians of Canada",
+      "OHIP coverage or clear pricing transparency so you understand costs upfront",
+      "Personalized approach that considers your lifestyle, preferences, and health conditions rather than one-size-fits-all plans",
+      "Proven track record with weight loss clients — ask for testimonials or success stories from Ottawa residents",
+      "Accessibility in Ottawa — whether in-person, virtual, or both options are available to fit your schedule",
+      "Ongoing support and follow-up rather than one-time consultations, to help maintain long-term results"
+    ],
+    "average_cost_context": "In Ottawa, private registered dietitian consultations typically range from $100-400 per session or $150-400 monthly for structured programs. Many OHIP-covered services are free with a physician referral through public health or hospital nutrition departments.",
+    "insurance_notes": "OHIP covers registered dietitian services in Ontario when referred by a physician for specific medical conditions (diabetes, heart disease, obesity management). Private insurance plans vary — check your benefits. Most private clinics require out-of-pocket payment unless covered by employer health benefits.",
+    "faqs": [
+      {
+        "question": "Do I need a doctor's referral to see a registered dietitian in Ottawa?",
+        "answer": "For OHIP-covered services through Ottawa Public Health or hospitals, a physician referral is required (though self-referral is sometimes available). Private dietitians in Ottawa accept walk-in consultations without referrals. Check with your chosen provider about their specific requirements."
+      },
+      {
+        "question": "How much does a registered dietitian cost in Ottawa?",
+        "answer": "Private consultations range from $100-150 per session or $150-400 monthly for programs. OHIP-covered services through public health are free with a referral. Some employer benefits plans cover dietitian fees — check your policy."
+      },
+      {
+        "question": "Will OHIP cover my dietitian visits for weight loss in Ottawa?",
+        "answer": "OHIP covers dietitian services for medically necessary weight management when referred by a physician, particularly if obesity is contributing to another chronic condition like diabetes or hypertension. Coverage depends on your specific situation — ask your doctor if you qualify."
+      },
+      {
+        "question": "How often should I see a registered dietitian for weight loss?",
+        "answer": "Most effective programs involve initial assessment followed by monthly or bi-weekly follow-ups for 3-6 months. Frequency depends on your goals, progress, and program structure. Ottawa dietitians typically recommend starting with 4-6 sessions to establish a solid plan."
+      },
+      {
+        "question": "Can I see a registered dietitian virtually in Ottawa?",
+        "answer": "Yes, many Ottawa-area dietitians now offer virtual consultations via video call. This is especially helpful if you prefer privacy or have scheduling constraints. Ask about virtual options when booking your appointment."
+      },
+      {
+        "question": "What's the difference between a dietitian and a nutritionist in Ottawa?",
+        "answer": "In Ontario, 'Registered Dietitian' (RD) is a protected credential requiring university education and registration. 'Nutritionist' is not regulated in Ontario, so anyone can use the title. Always choose a registered dietitian for evidence-based, professional guidance."
+      },
+      {
+        "question": "How long does it take to see results with a registered dietitian in Ottawa?",
+        "answer": "Most people notice changes within 4-8 weeks of consistent nutrition plan follow-through. Weight loss timelines vary based on starting point, adherence, and activity level. Your Ottawa dietitian can set realistic goals during your first consultation."
+      }
+    ],
+    "cta_heading": "Ready to Find Your Ottawa Dietitian?",
+    "cta_body": "Take the next step toward sustainable weight loss with professional support. Sign up for our Ottawa health guide newsletter to receive updates on local clinics, nutrition tips, and exclusive offers from registered dietitians in your area. Your healthier future starts here."
+  }
+}

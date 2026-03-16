@@ -1,6 +1,6 @@
 # weight-loss.ca — Lenold's Action Items
 
-**Last Updated**: 2026-03-15
+**Last Updated**: 2026-03-16
 
 > Only items that require **Lenold's** action: account signups, DNS changes, approvals, credentials, decisions. Build tasks are tracked in `PLAN.md`.
 
@@ -52,3 +52,16 @@
 ### Credentials
 - [ ] Add Anthropic API key to `.env.local` and Vercel env vars (needed for automated generation scripts in Phase 4)
 - [ ] Add all new env var IDs (GTM, GA4, Clarity, Plausible) to Vercel dashboard
+- [ ] Set `ADMIN_PASSWORD` env var in `.env.local` and in Vercel dashboard (required for admin panel access)
+
+---
+
+## ✅ Done (Admin Panel — 2026-03-16)
+
+- [x] Admin panel built: middleware auth, login page, login API, dark sidebar layout
+- [x] Admin dashboard with stat cards (taxonomy files, generated pages, seed items)
+- [x] Taxonomy browser — grid of all 25 taxonomy files with item counts
+- [x] Taxonomy detail editor — string-array, object-array, keyed-object editors; saves to disk via PUT API
+- [x] Taxonomy API routes (GET + PUT) with admin_session cookie guard and directory-traversal protection
+- [x] Schemas viewer — reads all .schema.ts files, parses fields/types/constraints, displayed as read-only tables
+- [x] Content browser — groups generated pages by template, shows slugs with live weight-loss.ca links

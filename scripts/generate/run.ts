@@ -130,6 +130,9 @@ async function main() {
       console.log(
         `  ${icon} [${completed}/${seeds.length}] ${result.template}/${result.slug}${skipped}${time}`,
       );
+      if (result.status !== "success" && result.errors?.length) {
+        result.errors.slice(0, 2).forEach(e => console.log(`    → ${e.slice(0, 200)}`));
+      }
     },
   });
 

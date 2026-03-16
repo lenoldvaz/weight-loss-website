@@ -68,3 +68,36 @@ Format: `- [YYYY-MM-DD] [Category] Description`
   - src/app/[slug]/page.tsx — catch-all SSG route with generateStaticParams + generateMetadata
   - External links use rel="nofollow noreferrer" throughout all templates
   - Build passes clean — 3 pages statically generated ✅
+
+## 2026-03-16 (continued)
+
+- [2026-03-16] [Pipeline] Fixed dotenv loading in run.ts — manual .env.local parse with quote-stripping regex
+- [2026-03-16] [Pipeline] Fixed TypeScript error in run.ts — removed unused type cast on seed
+- [2026-03-16] [Pipeline] Fixed .gitignore — changed `*.json` → `/*.json` + added `!src/**/*.json` so content/taxonomy/schema JSON files are committable; removed `src/data/content/` exclusion
+- [2026-03-16] [Content] Generated first 3 content pages manually (Claude Code), validated against Zod schemas, fixed over-length fields (intro, local_context, meta_description, quick_answer, verdict_summary)
+- [2026-03-16] [Content] Generated bariatric-surgery-toronto.json via Anthropic API ✅
+- [2026-03-16] [Templates] Added index pages: /clinics, /how-to, /reviews with card grids
+- [2026-03-16] [Templates] Updated Header navigation: Clinics, How-To, Reviews, About
+- [2026-03-16] [SEO] sitemap.ts updated — dynamically includes all generated content pages with priority map per template
+- [2026-03-16] [Pipeline] Rate limiting investigation — Anthropic Haiku free tier: 10K output tokens/min, 50 RPM. Each page ~3,000 tokens → max ~3 pages/min. Concurrent bursts trigger 429 even under the per-minute cap.
+- [2026-03-16] [Pipeline] Fixed rate limiting — set CONCURRENCY=1 (sequential), removed inter-page delay (generation latency ~15-20s is natural throttle). 429 retry wait increased to 90s.
+- [2026-03-16] [Pipeline] Added per-page error display in run.ts progress output — failed pages now show error reason inline
+- [2026-03-16] [Pipeline] Added sanitizer in validate.ts — auto-trims over-length string fields (page_title, meta_description, h1, intro, local_context, quick_answer, verdict_summary) before Zod validation. Eliminates retry loops for minor over-length fields.
+- [2026-03-16] [Infra] Built GitHub Action (.github/workflows/index-new-pages.yml) — auto-submits new/modified content JSON pages to Google Indexing API on every push to main. Uses JWT auth with Google service account. Also pings sitemap.xml.
+- [2026-03-16] [Infra] Added GOOGLE_SERVICE_ACCOUNT_JSON secret to GitHub repo (Settings → Secrets → Actions)
+- [2026-03-16] [Infra] Added service account claude@academic-empire-462216-p6.iam.gserviceaccount.com as Owner in Google Search Console
+- [2026-03-16] [DNS] Diagnosed SSL error on www.weight-loss.ca — root cause: Cloudflare proxy (orange cloud) enabled on DNS records, preventing Vercel SSL cert provisioning. Fix: set A record @ → 76.76.21.21 and CNAME www → cname.vercel-dns.com both to DNS-only (grey cloud).
+
+## 2026-03-16 (Admin Panel)
+
+- [2026-03-16] [Admin] Created src/middleware.ts — cookie-based auth guard protecting all /admin routes, redirects to /admin/login when admin_session cookie is absent
+- [2026-03-16] [Admin] Created src/app/admin/login/page.tsx — client-side login form (password input, POST to /api/admin/login, redirect on success, error display on failure)
+- [2026-03-16] [Admin] Created src/app/api/admin/login/route.ts — POST handler comparing body.password to ADMIN_PASSWORD env var; sets HttpOnly admin_session cookie on match
+- [2026-03-16] [Admin] Created src/app/admin/layout.tsx — dark sidebar layout (bg-gray-900) with Dashboard/Taxonomy/Schemas/Content nav links; standalone (no site Header/Footer)
+- [2026-03-16] [Admin] Created src/app/admin/page.tsx — dashboard with stat cards (taxonomy file count, generated pages count, total seed items) and quick-link grid
+- [2026-03-16] [Admin] Created src/app/admin/taxonomy/page.tsx — server component grid of all taxonomy JSON files with item counts and links to detail pages
+- [2026-03-16] [Admin] Created src/app/admin/taxonomy/[file]/page.tsx — server component reading specific taxonomy file, passing data to TaxonomyEditor client component
+- [2026-03-16] [Admin] Created src/app/admin/taxonomy/[file]/TaxonomyEditor.tsx — client component supporting string-array editor, object-array editor (JSON textarea per item), and keyed-object editor; saves via PUT /api/admin/taxonomy/[file]
+- [2026-03-16] [Admin] Created src/app/api/admin/taxonomy/[file]/route.ts — GET and PUT handlers with admin_session cookie check and path.basename() directory-traversal protection
+- [2026-03-16] [Admin] Created src/app/admin/schemas/page.tsx — server component reading all .schema.ts files from src/data/schemas/, parsing field names/types/constraints via static analysis, displaying as read-only table cards
+- [2026-03-16] [Admin] Created src/app/admin/content/page.tsx — server component grouping all generated content pages by template directory, showing slug lists with live weight-loss.ca links in expandable sections

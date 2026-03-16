@@ -15,11 +15,12 @@ _Update this file every time a new service is added, a key is rotated, or a depl
 | DNS Provider | Point to Vercel (see DNS setup below) |
 | SSL          | Auto (via Vercel)                     |
 
-### DNS Setup ✅ COMPLETE
+### DNS Setup — ACTION REQUIRED
 
-- `A` record: `@` → `76.76.21.21` ✅
-- `CNAME` record: `www` → `cname.vercel-dns.com` ✅
-- DNS updated at registrar 2026-03-16 (propagation in progress)
+- `A` record: `@` → `76.76.21.21` — set to **DNS-only (grey cloud)** in Cloudflare
+- `CNAME` record: `www` → `cname.vercel-dns.com` — set to **DNS-only (grey cloud)** in Cloudflare
+- ⚠️ Cloudflare proxy (orange cloud) must be OFF on both records — orange cloud intercepts SSL and breaks Vercel cert provisioning
+- SSL error on www.weight-loss.ca active until grey cloud is set
 
 ---
 
@@ -299,17 +300,35 @@ git push origin main
 ### Content generation run
 
 ```bash
-# Generate new content batch
-node scripts/generate/content_generator.js --template location-service --limit 100
+# Generate one template (concurrency 1 required — 10K token/min rate limit)
+npm run generate -- --template location-service --limit 60
+npm run generate -- --template how-to --limit 25
+npm run generate -- --template product-review --limit 18
 
-# Validate outputs
-node scripts/generate/validate.js --dir data/content/location-service
+# Generate all templates at once
+npm run generate -- --all
 
-# Push to trigger deploy
-git add data/content/
-git commit -m "content: add [N] location-service pages"
+# Dry run (see what would be generated, no API calls)
+npm run generate -- --template location-service --dry-run
+
+# Push to trigger deploy + auto-submit new pages to Google Indexing API
+git add src/data/content/
+git commit -m "content: add [N] pages"
 git push origin main
 ```
+
+**Rate limit notes (Anthropic Haiku, Tier 1):**
+- Limit: 10,000 output tokens/minute
+- Each page: ~3,000 output tokens
+- Safe rate: 1 page at a time (CONCURRENCY=1), natural throttle via generation latency (~15-20s/page)
+- Do NOT use concurrency > 1 — simultaneous bursts trigger 429 even under the per-minute cap
+- On 429: script auto-retries after 90s
+
+**Google Indexing API (auto on push):**
+- GitHub Action `.github/workflows/index-new-pages.yml` fires on every push to main
+- Detects new/modified files in `src/data/content/**/*.json`
+- Submits each corresponding URL to Google Indexing API
+- Requires: `GOOGLE_SERVICE_ACCOUNT_JSON` secret in GitHub repo settings ✅
 
 ### Weekly trending run
 
@@ -352,3 +371,8 @@ node scripts/trending/index_submitter.js     # Friday
 | 2026-03-16 | Next.js 15 scaffold + coming soon page | Claude | Live at weight-loss-ca.vercel.app — HTTP 200 ✅ |
 | 2026-03-16 | Vercel connected to GitHub repo        | User   | Auto-deploy on push to main ✅                  |
 | 2026-03-16 | weight-loss.ca domain added on Vercel  | User   | DNS records updated at registrar ✅             |
+| 2026-03-16 | Phase 3 complete — pipeline + templates + 4 content pages | Claude | commit fce4485 — 79 files |
+| 2026-03-16 | Generator rate limit fixes + bariatric-surgery-toronto.json | Claude | commit c713b44 |
+| 2026-03-16 | GitHub Action for Google Indexing API auto-submit | Claude | commit 6cb6582 |
+| 2026-03-16 | GOOGLE_SERVICE_ACCOUNT_JSON secret added to GitHub | User | ✅ |
+| 2026-03-16 | Service account added as Owner in Google Search Console | User | ✅ |

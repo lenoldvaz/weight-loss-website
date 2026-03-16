@@ -7,7 +7,7 @@ import type { AnySeed, GenerationResult } from "./types.js";
 const MODEL = "claude-haiku-4-5-20251001";
 const MAX_TOKENS = 4096;
 const MAX_RETRIES = 2;
-const CONCURRENCY = 1; // stay within 4,000 token/min rate limit
+const CONCURRENCY = 1; // burst protection: let generation time (15-20s) naturally throttle to ~3 pages/min
 
 let anthropic: Anthropic;
 
@@ -76,8 +76,8 @@ async function generateOne(seed: AnySeed): Promise<GenerationResult> {
       if (attempt < MAX_RETRIES) {
         // Back off longer on rate limit errors (429)
         const is429 = msg.includes("rate_limit") || msg.includes("429");
-        const delay = is429 ? 60_000 : 2000 * (attempt + 1);
-        if (is429) process.stdout.write(`    ⏳ rate limit hit, waiting 60s...\n`);
+        const delay = is429 ? 90_000 : 2000 * (attempt + 1);
+        if (is429) process.stdout.write(`    ⏳ rate limit hit, waiting 90s...\n`);
         await new Promise((r) => setTimeout(r, delay));
       }
     }
@@ -116,7 +116,7 @@ export async function generateBatch(
   let index = 0;
 
   // Minimum gap between page generations to respect 4k tokens/min limit
-  const PAGE_DELAY_MS = 65_000;
+  const PAGE_DELAY_MS = 0; // generation latency (~15-20s) is the natural throttle
 
   async function worker() {
     while (index < seeds.length) {

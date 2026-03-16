@@ -26,7 +26,9 @@
 - [x] 2026-03-15 — Created .gitignore protecting credentials and JSON keys
 - [x] 2026-03-15 — Complete Google Ads OAuth flow (Client ID + Secret + Refresh Token)
 - [ ] Create Reddit API app (reddit.com/prefs/apps) — deferred to Phase 6
-- [ ] Add Anthropic API key to .env.local (for automated scripts) — deferred, using Claude Code for now
+- [x] 2026-03-16 — Add Anthropic API key to .env.local ✅
+- [x] 2026-03-16 — Add GOOGLE_SERVICE_ACCOUNT_JSON to GitHub Actions secrets ✅
+- [x] 2026-03-16 — Add service account as Owner in Google Search Console ✅
 
 ---
 
@@ -121,12 +123,24 @@
 - [x] 2026-03-16 — `src/app/[slug]/page.tsx` — catch-all SSG route with generateStaticParams + generateMetadata
 - [x] 2026-03-16 — Build clean — 3 pages static ✅
 
+**Generation pipeline fixes ✅**
+- [x] 2026-03-16 — Fixed dotenv loading (quote-stripping), removed unused type cast
+- [x] 2026-03-16 — Fixed .gitignore to allow src/**/*.json content files
+- [x] 2026-03-16 — Added sanitizer in validate.ts — auto-trims over-length fields before Zod validation
+- [x] 2026-03-16 — Fixed rate limiting — CONCURRENCY=1, sequential generation, 90s retry on 429
+- [x] 2026-03-16 — Added inline error display in run.ts progress output
+
+**Auto-indexing pipeline ✅**
+- [x] 2026-03-16 — GitHub Action: auto-submits new content pages to Google Indexing API on push
+- [x] 2026-03-16 — GOOGLE_SERVICE_ACCOUNT_JSON secret added to GitHub repo
+- [x] 2026-03-16 — Service account added as Owner in Google Search Console
+
 **Remaining Phase 3**
+- [ ] Fix Cloudflare DNS — set records to grey cloud (DNS-only) so Vercel can provision SSL
+- [ ] Confirm weight-loss.ca resolves with valid SSL
 - [ ] Mobile-responsive design verified (visual QA)
 - [ ] Core Web Vitals check (LCP < 2.5s)
-- [ ] End-to-end test — generate 10 pages via API, validate, check render
-- [ ] Generate first 500 pages across 3 templates (Anthropic API now available)
-- [ ] Deploy to Vercel, submit URLs to Google Search Console
+- [ ] Generate first 500 pages across 3 templates
 
 ---
 
