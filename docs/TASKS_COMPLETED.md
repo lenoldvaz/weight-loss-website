@@ -101,3 +101,32 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-03-16] [Admin] Created src/app/api/admin/taxonomy/[file]/route.ts — GET and PUT handlers with admin_session cookie check and path.basename() directory-traversal protection
 - [2026-03-16] [Admin] Created src/app/admin/schemas/page.tsx — server component reading all .schema.ts files from src/data/schemas/, parsing field names/types/constraints via static analysis, displaying as read-only table cards
 - [2026-03-16] [Admin] Created src/app/admin/content/page.tsx — server component grouping all generated content pages by template directory, showing slug lists with live weight-loss.ca links in expandable sections
+
+## 2026-03-16 (Analytics)
+
+- [2026-03-16] [Analytics] Added Google Tag Manager (GTM-TG5WJTV7) to layout.tsx — head script + noscript iframe fallback via next/script afterInteractive
+- [2026-03-16] [Analytics] Added GA4 (G-GWXLDMY1ZB) direct gtag.js snippet to layout.tsx alongside GTM
+- [2026-03-16] [Infra] Marked Vercel–GitHub auto-deploy connection and Google Search Console domain verification as complete in TODO.md
+
+## 2026-03-16 (Admin Panel + Credentials)
+
+- [2026-03-16] [Admin] ADMIN_PASSWORD=qwedsa@123! added to .env.local and Vercel env vars
+- [2026-03-16] [Admin] Triggered Vercel redeploy — admin panel live at weight-loss.ca/admin
+- [2026-03-16] [Research] Nano Banana 2 (Google Imagen / Gemini 3.1 Flash Image) selected for hero image generation — $0.067/image at 1K res, same GCP project (academic-empire-462216-p6) already configured
+
+## Current State (2026-03-16)
+
+**Content generated: 7 pages**
+- location-service (5): weight-loss-clinics-toronto, bariatric-surgery-toronto, dietitians-toronto, dietitians-ottawa, weight-loss-clinics-ottawa
+- how-to (1): how-to-lose-belly-fat
+- product-review (1): ozempic-review
+
+**Seeds remaining to generate: ~96**
+- location-service: ~55 remaining of 60
+- how-to: ~24 remaining of 25
+- product-review: ~17 remaining of 18
+
+**Next priorities:**
+1. Fix Cloudflare DNS grey cloud → resolve SSL error on www.weight-loss.ca
+2. Run `npm run generate -- --all` to generate remaining ~96 pages
+3. Build Nano Banana 2 image generation into the pipeline

@@ -135,12 +135,25 @@
 - [x] 2026-03-16 — GOOGLE_SERVICE_ACCOUNT_JSON secret added to GitHub repo
 - [x] 2026-03-16 — Service account added as Owner in Google Search Console
 
+**Admin panel ✅**
+- [x] 2026-03-16 — /admin login page + cookie-based auth middleware
+- [x] 2026-03-16 — Taxonomy browser + editor (string-array, object-array, keyed-object modes)
+- [x] 2026-03-16 — Schema viewer (read-only field/constraint display)
+- [x] 2026-03-16 — Content browser (pages grouped by template, live links)
+- [x] 2026-03-16 — ADMIN_PASSWORD set in .env.local and Vercel ✅
+
+**Content generated so far: 7 pages**
+- location-service: 5 (weight-loss-clinics-toronto, bariatric-surgery-toronto, dietitians-toronto, dietitians-ottawa, weight-loss-clinics-ottawa)
+- how-to: 1 (how-to-lose-belly-fat)
+- product-review: 1 (ozempic-review)
+
 **Remaining Phase 3**
-- [ ] Fix Cloudflare DNS — set records to grey cloud (DNS-only) so Vercel can provision SSL
-- [ ] Confirm weight-loss.ca resolves with valid SSL
+- [ ] Fix Cloudflare DNS — set A @ and CNAME www to grey cloud (DNS-only) so Vercel provisions SSL
+- [ ] Confirm weight-loss.ca + www.weight-loss.ca resolve with valid SSL
+- [ ] Generate remaining pages: ~55 location-service, ~24 how-to, ~17 product-review (~96 remaining)
+- [ ] Add hero images to generated pages (Nano Banana 2 / Google Imagen API, ~$0.067/image at 1K)
 - [ ] Mobile-responsive design verified (visual QA)
 - [ ] Core Web Vitals check (LCP < 2.5s)
-- [ ] Generate first 500 pages across 3 templates
 
 ---
 

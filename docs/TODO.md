@@ -6,40 +6,39 @@
 
 ---
 
-## ✅ Done
+## 🔲 Immediate (do these now)
 
-- [x] Register weight-loss.ca domain
-- [x] Create Vercel account and link to GitHub repo
-- [x] Create GitHub repo (github.com/lenoldvaz/weight-loss-website)
-- [x] Create DataForSEO account (accounts@discovery-kitchen.com)
-- [x] Obtain Google Ads developer token
-- [x] Create Google Cloud service account and download JSON key
-- [x] Complete Google Ads OAuth flow (Client ID + Secret + Refresh Token)
+### DNS — SSL broken on www.weight-loss.ca
+- [ ] In Cloudflare DNS: set `A` record `@` → `76.76.21.21` to **grey cloud (DNS-only)**
+- [ ] In Cloudflare DNS: set `CNAME` record `www` → `cname.vercel-dns.com` to **grey cloud (DNS-only)**
+- Orange cloud = Cloudflare proxies SSL = Vercel can't issue its own cert = ERR_SSL_VERSION_OR_CIPHER_MISMATCH
+
+### Content generation
+- [ ] Run `npm run generate -- --all` to generate remaining ~96 pages (leave running ~35 min)
+- [ ] After done: `git add src/data/content/ && git commit -m "content: batch 1" && git push`
 
 ---
 
-## 🔲 To Do
+## 🔲 Next Up (build tasks)
 
-### Vercel & GitHub
-- [ ] Connect Vercel project to GitHub repo (vercel.com → Project Settings → Git → Connect Repository) so every `git push` auto-deploys
-
-### DNS & Domain
-- [ ] Point weight-loss.ca DNS to Vercel (add Vercel nameservers or A/CNAME records at your registrar)
-
-### Google
-- [ ] Verify domain in Google Search Console (add DNS TXT record at registrar)
-- [ ] Create GTM container at tagmanager.google.com — save the Container ID as `NEXT_PUBLIC_GTM_ID`
-- [ ] Create GA4 property at analytics.google.com — save the Measurement ID as `NEXT_PUBLIC_GA4_ID`
-- [ ] Create Microsoft Clarity project at clarity.microsoft.com — save Project ID as `NEXT_PUBLIC_CLARITY_ID`
-- [ ] Enable Google Search Console API and create a service account key for URL submissions
+### Images
+- [ ] Build Nano Banana 2 (Google Imagen / Gemini 3.1 Flash Image) image generation pipeline
+  - Add `hero_image_query` to seeds, generate image after content, store `hero_image: { url, alt }` in JSON
+  - Cost: ~$0.067/image at 1K res → ~$7 for current 103 seeds, ~$200 for 3,000 pages
+  - Same GCP project (academic-empire-462216-p6) already configured
 
 ### Analytics
-- [ ] Create Plausible account at plausible.io — add weight-loss.ca as a site
+- [ ] Create Microsoft Clarity project at clarity.microsoft.com — save Project ID as `NEXT_PUBLIC_CLARITY_ID`
+- [ ] Create Plausible account at plausible.io — add weight-loss.ca
+
+---
+
+## 🔲 Later
 
 ### Reddit
-- [ ] Create Reddit API app at reddit.com/prefs/apps (needed for trending pipeline in Phase 6)
+- [ ] Create Reddit API app at reddit.com/prefs/apps (Phase 6 — trending pipeline)
 
-### Affiliates (start when content is live)
+### Affiliates (start when 50+ pages are live)
 - [ ] Apply to Amazon.ca affiliate program (associates.amazon.ca)
 - [ ] Apply to iHerb affiliate program
 - [ ] Apply to HelloFresh Canada and GoodFood referral programs
@@ -49,19 +48,22 @@
 - [ ] Create Google Ad Manager (GAM) network — save Network Code as `NEXT_PUBLIC_GAM_NETWORK_CODE`
 - [ ] Submit Mediavine application (at 50,000 sessions/month)
 
-### Credentials
-- [ ] Add Anthropic API key to `.env.local` and Vercel env vars (needed for automated generation scripts in Phase 4)
-- [ ] Add all new env var IDs (GTM, GA4, Clarity, Plausible) to Vercel dashboard
-- [ ] Set `ADMIN_PASSWORD` env var in `.env.local` and in Vercel dashboard (required for admin panel access)
-
 ---
 
-## ✅ Done (Admin Panel — 2026-03-16)
+## ✅ Done
 
-- [x] Admin panel built: middleware auth, login page, login API, dark sidebar layout
-- [x] Admin dashboard with stat cards (taxonomy files, generated pages, seed items)
-- [x] Taxonomy browser — grid of all 25 taxonomy files with item counts
-- [x] Taxonomy detail editor — string-array, object-array, keyed-object editors; saves to disk via PUT API
-- [x] Taxonomy API routes (GET + PUT) with admin_session cookie guard and directory-traversal protection
-- [x] Schemas viewer — reads all .schema.ts files, parses fields/types/constraints, displayed as read-only tables
-- [x] Content browser — groups generated pages by template, shows slugs with live weight-loss.ca links
+- [x] Register weight-loss.ca domain
+- [x] Create Vercel account and link to GitHub repo (auto-deploy on push ✅)
+- [x] Create GitHub repo (github.com/lenoldvaz/weight-loss-website)
+- [x] Create DataForSEO account (accounts@discovery-kitchen.com)
+- [x] Obtain Google Ads developer token
+- [x] Create Google Cloud service account (academic-empire-462216-p6) and download JSON key
+- [x] Complete Google Ads OAuth flow (Client ID + Secret + Refresh Token)
+- [x] Verify domain in Google Search Console (DNS TXT record added)
+- [x] GTM container created — ID: `GTM-TG5WJTV7`
+- [x] GA4 property created — Measurement ID: `G-GWXLDMY1ZB`
+- [x] Add Anthropic API key to `.env.local` ✅
+- [x] Add `GOOGLE_SERVICE_ACCOUNT_JSON` secret to GitHub repo Actions secrets ✅
+- [x] Add service account as Owner in Google Search Console ✅
+- [x] Set `ADMIN_PASSWORD=qwedsa@123!` in `.env.local` and Vercel ✅
+- [x] Admin panel live at weight-loss.ca/admin ✅
