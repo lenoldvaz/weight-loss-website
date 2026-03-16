@@ -29,7 +29,7 @@ const envPath = path.resolve(process.cwd(), ".env.local");
 if (fs.existsSync(envPath)) {
   const envContent = fs.readFileSync(envPath, "utf8");
   for (const line of envContent.split("\n")) {
-    const match = line.match(/^([A-Z_][A-Z0-9_]*)=(.*)$/);
+    const match = line.match(/^([A-Z_][A-Z0-9_]*)=["']?(.+?)["']?\s*$/);
     if (match) {
       process.env[match[1]] ??= match[2];
     }
@@ -50,7 +50,7 @@ function parseArgs() {
     limit?: number;
     concurrency: number;
     dryRun: boolean;
-  } = { all: false, concurrency: 5, dryRun: false };
+  } = { all: false, concurrency: 1, dryRun: false };
 
   for (let i = 0; i < args.length; i++) {
     switch (args[i]) {
@@ -110,7 +110,10 @@ async function main() {
   if (args.dryRun) {
     console.log("Seeds that would be generated:");
     seeds.forEach((s, i) => {
-      console.log(`  ${i + 1}. [${s.template}]`, JSON.stringify(s).slice(0, 120));
+      console.log(
+        `  ${i + 1}. [${s.template}]`,
+        JSON.stringify(s).slice(0, 120),
+      );
     });
     return;
   }
@@ -121,9 +124,12 @@ async function main() {
     onProgress: (result) => {
       completed++;
       const icon = result.status === "success" ? "✓" : "✗";
-      const skipped = result.status === "success" && !result.duration_ms ? " (skipped)" : "";
+      const skipped =
+        result.status === "success" && !result.duration_ms ? " (skipped)" : "";
       const time = result.duration_ms ? ` ${result.duration_ms}ms` : "";
-      console.log(`  ${icon} [${completed}/${seeds.length}] ${result.template}/${result.slug}${skipped}${time}`);
+      console.log(
+        `  ${icon} [${completed}/${seeds.length}] ${result.template}/${result.slug}${skipped}${time}`,
+      );
     },
   });
 
