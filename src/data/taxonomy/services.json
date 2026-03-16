@@ -1,0 +1,123 @@
+{
+  "service_types": [
+    {
+      "slug": "weight-loss-clinics",
+      "name": "Weight Loss Clinics",
+      "type": "medical",
+      "search_volume_ca": "very-high",
+      "intent": "commercial",
+      "avg_monthly_cost_cad": 150,
+      "covered_by_insurance": "sometimes",
+      "page_template": "location-service",
+      "url_pattern": "/weight-loss-clinics-[city]",
+      "provider_examples": ["Cleveland Clinic Canada", "Wharton Weight Management", "Medi-Weightloss"],
+      "lead_gen_opportunity": true
+    },
+    {
+      "slug": "medical-weight-loss-programs",
+      "name": "Medical Weight Loss Programs",
+      "type": "medical-supervised",
+      "search_volume_ca": "high",
+      "intent": "commercial",
+      "avg_monthly_cost_cad": 300,
+      "lead_gen_opportunity": true
+    },
+    {
+      "slug": "bariatric-surgery-programs",
+      "name": "Bariatric Surgery Programs",
+      "type": "surgical",
+      "search_volume_ca": "high",
+      "intent": "commercial",
+      "covered_by_ohip": true,
+      "waitlist_required": true,
+      "lead_gen_opportunity": true,
+      "provincial_programs": {
+        "ontario": "Bariatric Network of Ontario",
+        "british-columbia": "BC Surgical Patient Registry",
+        "alberta": "Weight Wise Program"
+      }
+    },
+    {
+      "slug": "registered-dietitians",
+      "name": "Registered Dietitians (RDs)",
+      "type": "nutrition-professional",
+      "search_volume_ca": "high",
+      "intent": "commercial",
+      "avg_session_cost_cad": 100,
+      "covered_by_ohip": false,
+      "covered_by_extended_health": true,
+      "regulatory_body": "Dietitians of Canada",
+      "directory_opportunity": true,
+      "lead_gen_opportunity": true
+    },
+    {
+      "slug": "personal-trainers",
+      "name": "Personal Trainers for Weight Loss",
+      "type": "fitness-professional",
+      "search_volume_ca": "high",
+      "intent": "commercial",
+      "avg_hourly_cost_cad": 75,
+      "certifications": ["CSEP-CPT", "ACE", "NASM", "CanFitPro"],
+      "directory_opportunity": true,
+      "lead_gen_opportunity": true
+    },
+    {
+      "slug": "online-weight-loss-programs",
+      "name": "Online Weight Loss Programs Canada",
+      "type": "digital",
+      "search_volume_ca": "high",
+      "intent": "commercial",
+      "avg_monthly_cost_cad": 50,
+      "examples": ["Noom", "Weight Watchers", "found.health"],
+      "affiliate_opportunity": true
+    },
+    {
+      "slug": "naturopathic-doctors-weight-loss",
+      "name": "Naturopathic Doctors for Weight Loss",
+      "type": "alternative-medical",
+      "search_volume_ca": "medium",
+      "intent": "commercial",
+      "avg_session_cost_cad": 150,
+      "regulatory_body": "Canadian Association of Naturopathic Doctors",
+      "lead_gen_opportunity": true
+    },
+    {
+      "slug": "health-coaches",
+      "name": "Health Coaches for Weight Loss",
+      "type": "wellness-professional",
+      "search_volume_ca": "medium",
+      "intent": "commercial",
+      "avg_monthly_cost_cad": 200,
+      "directory_opportunity": true,
+      "lead_gen_opportunity": true
+    },
+    {
+      "slug": "gyms-weight-loss",
+      "name": "Gyms for Weight Loss Canada",
+      "type": "fitness-facility",
+      "search_volume_ca": "medium",
+      "chains": ["GoodLife Fitness", "Anytime Fitness", "Planet Fitness", "YMCA", "24 Hour Fitness", "LA Fitness"],
+      "avg_monthly_cost_cad": 55,
+      "directory_opportunity": true
+    },
+    {
+      "slug": "weight-loss-retreats",
+      "name": "Weight Loss Retreats Canada",
+      "type": "residential-program",
+      "search_volume_ca": "low",
+      "intent": "commercial",
+      "avg_week_cost_cad": 3000,
+      "examples": ["Hilton Head Health", "Wellspring"],
+      "lead_gen_opportunity": false,
+      "affiliate_opportunity": false
+    },
+    {
+      "slug": "group-weight-loss-programs",
+      "name": "Group Weight Loss Programs Canada",
+      "type": "community-group",
+      "search_volume_ca": "medium",
+      "examples": ["TOPS", "Weight Watchers Workshops", "community health centres"],
+      "avg_monthly_cost_cad": 30
+    }
+  ]
+}

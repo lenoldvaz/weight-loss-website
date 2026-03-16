@@ -1,0 +1,13 @@
+{
+  "timelines": [
+    { "slug": "30-day", "name": "30-Day Weight Loss Plan", "days": 30, "realistic_loss_kg": 2, "search_volume_ca": "high", "intent": "informational-commercial", "content_angle": "what's realistic, day-by-day structure, habit formation" },
+    { "slug": "7-day", "name": "7-Day Weight Loss Plan", "days": 7, "realistic_loss_kg": 0.5, "search_volume_ca": "high", "intent": "informational", "content_angle": "kickstart week, mostly water weight, setting foundation" },
+    { "slug": "21-day", "name": "21-Day Challenge", "days": 21, "realistic_loss_kg": 1.5, "search_volume_ca": "medium", "content_angle": "habit formation window, 3-week structure" },
+    { "slug": "12-week", "name": "12-Week Weight Loss Program", "days": 84, "realistic_loss_kg": 5, "search_volume_ca": "high", "intent": "informational-commercial", "content_angle": "most common program length, weekly milestones, progress tracking" },
+    { "slug": "6-month", "name": "6-Month Weight Loss Plan", "days": 180, "realistic_loss_kg": 12, "search_volume_ca": "medium", "content_angle": "sustainable transformation, plateau management, habit anchoring" },
+    { "slug": "1-year", "name": "One Year Weight Loss Journey", "days": 365, "realistic_loss_kg": 20, "search_volume_ca": "medium", "content_angle": "long-game strategy, year milestones, maintaining through holidays" },
+    { "slug": "before-summer", "name": "Lose Weight Before Summer", "seasonal": "spring", "months_to_summer": 3, "search_volume_ca": "very-high", "search_spike_months": ["february", "march", "april"], "content_angle": "realistic 3-month plan, what's achievable, avoid crash diets" },
+    { "slug": "before-wedding", "name": "Wedding Weight Loss Plan", "search_volume_ca": "high", "timeline_variable": true, "content_angle": "reverse planning from wedding date, dress fitting milestones" },
+    { "slug": "new-year", "name": "New Year Weight Loss Plan", "seasonal": "winter", "search_volume_ca": "very-high", "search_spike_months": ["december", "january"], "content_angle": "realistic resolutions, January motivation, avoiding fad diets" }
+  ]
+}

@@ -16,6 +16,11 @@
 - Any time a deployment is made, a new API key is created, a service is configured, or credentials are set, update `docs/DEPLOYMENT.md`
 - This file must always be the single source of truth for "how do I get this running again from scratch"
 
+### 4. To-Do Sync
+- After every update to `PLAN.md`, `PRD.md`, or `TASKS_COMPLETED.md`, also update `docs/TODO.md`
+- Mark completed items with `[x]` and move newly finished items to the ✅ Done section
+- `docs/TODO.md` is the single consolidated view of what is done and what is next
+
 ---
 
 ## Project Context

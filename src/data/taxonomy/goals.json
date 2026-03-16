@@ -1,0 +1,24 @@
+{
+  "goals": [
+    { "slug": "lose-10-pounds", "name": "Lose 10 Pounds", "kg_equivalent": 4.5, "realistic_timeline_weeks": 10, "difficulty": "beginner", "search_volume_ca": "high", "intent": "informational" },
+    { "slug": "lose-20-pounds", "name": "Lose 20 Pounds", "kg_equivalent": 9, "realistic_timeline_weeks": 20, "difficulty": "intermediate", "search_volume_ca": "high", "intent": "informational" },
+    { "slug": "lose-30-pounds", "name": "Lose 30 Pounds", "kg_equivalent": 13.6, "realistic_timeline_weeks": 30, "difficulty": "intermediate", "search_volume_ca": "medium", "intent": "informational" },
+    { "slug": "lose-50-pounds", "name": "Lose 50 Pounds", "kg_equivalent": 22.7, "realistic_timeline_weeks": 50, "difficulty": "advanced", "search_volume_ca": "medium", "intent": "informational" },
+    { "slug": "lose-100-pounds", "name": "Lose 100 Pounds", "kg_equivalent": 45.4, "realistic_timeline_weeks": 100, "difficulty": "advanced", "search_volume_ca": "medium", "intent": "informational", "medical_supervision_recommended": true },
+    { "slug": "lose-weight-fast", "name": "Lose Weight Fast", "realistic_timeline_weeks": 4, "difficulty": "variable", "search_volume_ca": "very-high", "intent": "informational-commercial", "caution": "manage expectations around safe rate of loss" },
+    { "slug": "lose-belly-fat-fast", "name": "Lose Belly Fat Fast", "search_volume_ca": "very-high", "intent": "informational", "related_symptoms": ["belly-fat"] },
+    { "slug": "lose-weight-without-exercise", "name": "Lose Weight Without Exercise", "search_volume_ca": "high", "intent": "informational", "content_angle": "diet-first approach, NEAT, activity levels" },
+    { "slug": "lose-weight-for-wedding", "name": "Lose Weight for Wedding", "search_volume_ca": "medium", "intent": "informational-commercial", "timeline_driven": true, "seasonal": ["spring", "fall"] },
+    { "slug": "lose-weight-after-pregnancy", "name": "Lose Weight After Pregnancy", "search_volume_ca": "high", "intent": "informational", "related_demographics": ["postpartum"] },
+    { "slug": "lose-weight-after-40", "name": "Lose Weight After 40", "search_volume_ca": "high", "intent": "informational", "related_demographics": ["over-40"] },
+    { "slug": "lose-weight-after-menopause", "name": "Lose Weight After Menopause", "search_volume_ca": "high", "intent": "informational", "related_demographics": ["menopause"] },
+    { "slug": "maintain-weight-loss", "name": "Maintain Weight Loss", "search_volume_ca": "medium", "intent": "informational", "content_angle": "how to keep weight off long-term, set point theory" },
+    { "slug": "get-rid-of-visceral-fat", "name": "Get Rid of Visceral Fat", "search_volume_ca": "medium", "intent": "informational", "related_symptoms": ["belly-fat"], "medical_relevance": "high" },
+    { "slug": "lose-weight-with-bad-knees", "name": "Lose Weight with Bad Knees", "search_volume_ca": "medium", "intent": "informational", "content_angle": "low-impact exercise, pool workouts, chair exercises" },
+    { "slug": "tone-up", "name": "Tone Up and Lose Weight", "search_volume_ca": "high", "intent": "informational", "content_angle": "body recomposition vs weight loss, strength training importance" },
+    { "slug": "bmi-healthy", "name": "Reach a Healthy BMI", "search_volume_ca": "medium", "intent": "informational", "tool_opportunity": "BMI calculator" },
+    { "slug": "lose-weight-naturally", "name": "Lose Weight Naturally", "search_volume_ca": "high", "intent": "informational-commercial", "content_angle": "non-pharmaceutical, whole food, lifestyle approaches" },
+    { "slug": "lose-weight-on-budget", "name": "Lose Weight on a Budget", "search_volume_ca": "medium", "intent": "informational", "content_angle": "affordable foods, free exercise, DIY meal prep" },
+    { "slug": "weight-loss-surgery-candidate", "name": "Am I a Candidate for Weight Loss Surgery", "search_volume_ca": "medium", "intent": "informational-commercial", "related_procedures": ["gastric-sleeve", "gastric-bypass"] }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "comparison_pairs": [
+    { "slug": "ozempic-vs-wegovy", "name": "Ozempic vs Wegovy", "type": "medication-vs-medication", "search_volume_ca": "very-high", "intent": "informational-commercial", "key_differentiators": ["approved indication", "dose", "cost", "availability"] },
+    { "slug": "ozempic-vs-mounjaro", "name": "Ozempic vs Mounjaro", "type": "medication-vs-medication", "search_volume_ca": "high", "key_differentiators": ["mechanism", "weight loss", "cost", "Canada availability"] },
+    { "slug": "wegovy-vs-saxenda", "name": "Wegovy vs Saxenda", "type": "medication-vs-medication", "search_volume_ca": "medium", "key_differentiators": ["injection frequency", "weight loss", "cost", "coverage"] },
+    { "slug": "keto-vs-intermittent-fasting", "name": "Keto vs Intermittent Fasting", "type": "diet-vs-diet", "search_volume_ca": "very-high", "intent": "informational" },
+    { "slug": "keto-vs-low-carb", "name": "Keto vs Low-Carb", "type": "diet-vs-diet", "search_volume_ca": "high", "intent": "informational" },
+    { "slug": "keto-vs-carnivore", "name": "Keto vs Carnivore Diet", "type": "diet-vs-diet", "search_volume_ca": "medium" },
+    { "slug": "intermittent-fasting-vs-calorie-counting", "name": "Intermittent Fasting vs Calorie Counting", "type": "diet-vs-diet", "search_volume_ca": "high" },
+    { "slug": "mediterranean-vs-keto", "name": "Mediterranean Diet vs Keto", "type": "diet-vs-diet", "search_volume_ca": "medium" },
+    { "slug": "vegan-vs-keto", "name": "Vegan vs Keto for Weight Loss", "type": "diet-vs-diet", "search_volume_ca": "medium" },
+    { "slug": "gastric-sleeve-vs-gastric-bypass", "name": "Gastric Sleeve vs Gastric Bypass", "type": "procedure-vs-procedure", "search_volume_ca": "high" },
+    { "slug": "gastric-sleeve-vs-gastric-balloon", "name": "Gastric Sleeve vs Gastric Balloon", "type": "procedure-vs-procedure", "search_volume_ca": "medium" },
+    { "slug": "noom-vs-weight-watchers", "name": "Noom vs Weight Watchers", "type": "program-vs-program", "search_volume_ca": "high" },
+    { "slug": "weight-watchers-vs-optavia", "name": "Weight Watchers vs Optavia", "type": "program-vs-program", "search_volume_ca": "medium" },
+    { "slug": "hellofresh-vs-goodfood", "name": "HelloFresh vs GoodFood Canada", "type": "brand-vs-brand", "search_volume_ca": "high", "canadian_specific": true },
+    { "slug": "myfitnesspal-vs-cronometer", "name": "MyFitnessPal vs Cronometer", "type": "app-vs-app", "search_volume_ca": "medium" },
+    { "slug": "myfitnesspal-vs-loseit", "name": "MyFitnessPal vs Lose It!", "type": "app-vs-app", "search_volume_ca": "medium" },
+    { "slug": "whey-vs-plant-protein", "name": "Whey Protein vs Plant Protein for Weight Loss", "type": "supplement-vs-supplement", "search_volume_ca": "medium" },
+    { "slug": "berberine-vs-ozempic", "name": "Berberine vs Ozempic", "type": "supplement-vs-medication", "search_volume_ca": "high", "trending": true, "notes": "Natural Ozempic narrative driving this search" },
+    { "slug": "hiit-vs-cardio", "name": "HIIT vs Steady State Cardio for Weight Loss", "type": "exercise-vs-exercise", "search_volume_ca": "high" },
+    { "slug": "running-vs-walking", "name": "Running vs Walking for Weight Loss", "type": "exercise-vs-exercise", "search_volume_ca": "high" },
+    { "slug": "cardio-vs-strength-training", "name": "Cardio vs Strength Training for Weight Loss", "type": "exercise-vs-exercise", "search_volume_ca": "very-high" },
+    { "slug": "diet-vs-exercise", "name": "Diet vs Exercise for Weight Loss", "type": "approach-vs-approach", "search_volume_ca": "high", "content_angle": "80/20 rule, what research actually says" },
+    { "slug": "coolsculpting-vs-emsculpt", "name": "CoolSculpting vs Emsculpt", "type": "procedure-vs-procedure", "search_volume_ca": "medium" },
+    { "slug": "ideal-protein-vs-optavia", "name": "Ideal Protein vs Optavia Canada", "type": "program-vs-program", "search_volume_ca": "medium", "canadian_specific": true },
+    { "slug": "ozempic-vs-berberine-vs-metformin", "name": "Ozempic vs Berberine vs Metformin", "type": "three-way", "search_volume_ca": "medium", "trending": true }
+  ]
+}

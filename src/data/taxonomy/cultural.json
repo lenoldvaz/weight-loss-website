@@ -1,0 +1,83 @@
+{
+  "cultural_contexts": [
+    {
+      "slug": "south-asian",
+      "name": "South Asian Weight Loss",
+      "aliases": ["Indian diet weight loss", "Pakistani diet", "Sri Lankan weight loss", "Bangladeshi diet", "desi weight loss"],
+      "canadian_population_estimate": 1800000,
+      "search_volume_ca": "high",
+      "common_dietary_patterns": ["rice-heavy", "roti-heavy", "ghee", "lentils", "chai"],
+      "health_considerations": ["higher diabetes risk", "higher cardiovascular risk at lower BMI", "BMI thresholds differ"],
+      "cultural_sensitivities": ["family food traditions", "social eating norms", "religious fasting (Ramadan, Navratri)"],
+      "content_angle": "South Asian-specific health risks, adapting traditional recipes, managing family food pressure, Canadian South Asian clinics"
+    },
+    {
+      "slug": "east-asian",
+      "name": "East Asian Weight Loss",
+      "aliases": ["Chinese Canadian diet", "Korean diet weight loss", "Japanese diet", "Asian weight loss"],
+      "canadian_population_estimate": 1700000,
+      "search_volume_ca": "medium",
+      "common_dietary_patterns": ["rice-based", "noodles", "high sodium", "fermented foods"],
+      "health_considerations": ["metabolic syndrome at lower BMI", "visceral fat without obesity by Western standards"],
+      "content_angle": "Asian BMI thresholds, adapting traditional Asian foods, Chinese-Canadian weight loss resources"
+    },
+    {
+      "slug": "indigenous",
+      "name": "Indigenous Weight Loss and Health",
+      "aliases": ["First Nations health", "Métis diet", "Inuit health", "Indigenous wellness Canada"],
+      "canadian_population_estimate": 1800000,
+      "search_volume_ca": "medium",
+      "health_considerations": ["higher rates of diabetes and obesity", "food insecurity in northern communities", "historical trauma and food relationships", "traditional diet disruption"],
+      "cultural_sensitivities": ["trauma-informed approach required", "community and cultural healing context", "traditional foods as medicine"],
+      "content_angle": "Indigenous-specific health disparities, traditional foods revitalization, community-based wellness programs, FNIHB resources"
+    },
+    {
+      "slug": "caribbean",
+      "name": "Caribbean Weight Loss",
+      "aliases": ["Jamaican diet", "Trinidadian diet", "Haitian diet", "Caribbean Canadian health"],
+      "canadian_population_estimate": 800000,
+      "search_volume_ca": "medium",
+      "common_dietary_patterns": ["jerk cooking", "rice and peas", "fried plantain", "saltfish", "tropical fruits"],
+      "health_considerations": ["higher hypertension risk", "higher stroke risk", "cultural food as identity"],
+      "content_angle": "lightening Caribbean classics, portion guidance, hypertension and weight connection"
+    },
+    {
+      "slug": "latin-american",
+      "name": "Latin American Weight Loss",
+      "aliases": ["Hispanic diet", "Mexican diet Canada", "Colombian weight loss", "Latin weight loss"],
+      "canadian_population_estimate": 700000,
+      "search_volume_ca": "medium",
+      "common_dietary_patterns": ["tortillas", "rice and beans", "meat-heavy", "avocado", "sugar-sweetened drinks"],
+      "content_angle": "healthifying Latin dishes, abuela pressure, managing sugary drink habits"
+    },
+    {
+      "slug": "middle-eastern",
+      "name": "Middle Eastern Weight Loss",
+      "aliases": ["Arab diet", "Lebanese diet", "Iranian diet Canada", "Persian weight loss"],
+      "canadian_population_estimate": 700000,
+      "search_volume_ca": "medium",
+      "common_dietary_patterns": ["mezze", "bread-heavy", "lamb and beef", "olive oil", "dates and sweets"],
+      "health_considerations": ["Ramadan fasting management", "social food culture"],
+      "content_angle": "Mediterranean-adjacent diet adaptation, Ramadan and weight loss, managing sweets culture"
+    },
+    {
+      "slug": "african",
+      "name": "African Weight Loss",
+      "aliases": ["West African diet", "Nigerian diet Canada", "Ethiopian diet", "African Canadian health"],
+      "canadian_population_estimate": 1200000,
+      "search_volume_ca": "medium",
+      "common_dietary_patterns": ["jollof rice", "fufu", "stews", "plantain", "high starch"],
+      "health_considerations": ["higher obesity rates among African-Canadian women", "cardiovascular risk"],
+      "content_angle": "adapting West African staples, high-protein versions of traditional dishes"
+    },
+    {
+      "slug": "french-canadian",
+      "name": "French Canadian Weight Loss",
+      "aliases": ["Québécois diet", "French Canadian food", "poutine diet"],
+      "canadian_population_estimate": 7000000,
+      "search_volume_ca": "medium",
+      "common_dietary_patterns": ["poutine", "tourtière", "sugar pie", "smoked meat", "maple syrup"],
+      "content_angle": "Quebec-specific diet culture, healthy takes on Québécois classics, French-Canadian wellness programs"
+    }
+  ]
+}

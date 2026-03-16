@@ -1,0 +1,143 @@
+{
+  "symptoms": [
+    {
+      "slug": "belly-fat",
+      "name": "Belly Fat",
+      "aliases": ["abdominal fat", "stomach fat", "tummy fat", "gut fat"],
+      "search_volume_ca": "very-high",
+      "intent": "informational-commercial",
+      "related_conditions": ["insulin-resistance", "type-2-diabetes", "metabolic-syndrome"],
+      "content_angle": "visceral vs subcutaneous fat, health risks, targeted strategies",
+      "tags": ["body-fat", "abdomen", "visceral", "core"]
+    },
+    {
+      "slug": "love-handles",
+      "name": "Love Handles",
+      "aliases": ["side fat", "flank fat", "muffin top"],
+      "search_volume_ca": "high",
+      "intent": "informational",
+      "content_angle": "why they form, exercises and diet strategies",
+      "tags": ["body-fat", "flanks", "obliques"]
+    },
+    {
+      "slug": "slow-metabolism",
+      "name": "Slow Metabolism",
+      "aliases": ["sluggish metabolism", "low metabolic rate"],
+      "search_volume_ca": "high",
+      "intent": "informational",
+      "related_conditions": ["hypothyroidism", "insulin-resistance"],
+      "content_angle": "what causes it, how to boost metabolism naturally",
+      "tags": ["metabolism", "BMR", "thyroid", "energy"]
+    },
+    {
+      "slug": "stubborn-fat",
+      "name": "Stubborn Fat",
+      "aliases": ["hard to lose fat", "resistant fat"],
+      "search_volume_ca": "medium",
+      "intent": "informational-commercial",
+      "content_angle": "why some fat is stubborn, hormonal factors, proven approaches",
+      "tags": ["body-fat", "plateau", "hormones"]
+    },
+    {
+      "slug": "weight-loss-plateau",
+      "name": "Weight Loss Plateau",
+      "aliases": ["stopped losing weight", "scale not moving", "diet plateau"],
+      "search_volume_ca": "high",
+      "intent": "informational",
+      "content_angle": "why plateaus happen, how to break through",
+      "tags": ["plateau", "progress", "metabolism", "adaptation"]
+    },
+    {
+      "slug": "bloating",
+      "name": "Bloating",
+      "aliases": ["abdominal bloating", "feeling bloated", "stomach bloat"],
+      "search_volume_ca": "high",
+      "intent": "informational",
+      "related_conditions": ["ibs", "gluten-sensitivity"],
+      "content_angle": "bloating vs fat, causes, diet solutions",
+      "tags": ["digestion", "gut", "inflammation"]
+    },
+    {
+      "slug": "food-cravings",
+      "name": "Food Cravings",
+      "aliases": ["sugar cravings", "junk food cravings", "carb cravings"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "content_angle": "why cravings happen, how to manage them during weight loss",
+      "tags": ["cravings", "sugar", "willpower", "hormones", "dopamine"]
+    },
+    {
+      "slug": "emotional-eating",
+      "name": "Emotional Eating",
+      "aliases": ["stress eating", "binge eating", "comfort eating"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "content_angle": "triggers, psychological strategies, when to seek help",
+      "tags": ["psychology", "mental-health", "binge", "stress"]
+    },
+    {
+      "slug": "water-retention",
+      "name": "Water Retention",
+      "aliases": ["edema", "water weight", "fluid retention", "puffiness"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "content_angle": "causes of water retention, how to reduce it, water weight vs fat",
+      "tags": ["water", "sodium", "hormones", "inflammation"]
+    },
+    {
+      "slug": "fatigue-weight-gain",
+      "name": "Fatigue and Weight Gain",
+      "aliases": ["tired and gaining weight", "exhaustion and weight", "fatigue obesity"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "related_conditions": ["hypothyroidism", "sleep-apnea", "depression"],
+      "content_angle": "the fatigue-weight gain cycle, checking for underlying causes",
+      "tags": ["fatigue", "energy", "sleep", "thyroid"]
+    },
+    {
+      "slug": "night-eating",
+      "name": "Night Eating",
+      "aliases": ["late night eating", "eating before bed", "midnight snacking"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "content_angle": "why we eat at night, impact on weight, strategies to stop",
+      "tags": ["sleep", "habits", "night", "snacking"]
+    },
+    {
+      "slug": "inflammation",
+      "name": "Chronic Inflammation",
+      "aliases": ["inflammatory weight gain", "inflammation and obesity"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "content_angle": "link between inflammation and weight, anti-inflammatory diet",
+      "tags": ["inflammation", "diet", "gut-health", "cytokines"]
+    },
+    {
+      "slug": "poor-sleep-weight",
+      "name": "Poor Sleep and Weight Gain",
+      "aliases": ["insomnia weight gain", "sleep deprivation obesity", "not sleeping losing weight"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "content_angle": "how sleep affects weight, ghrelin/leptin hormones, sleep hygiene",
+      "tags": ["sleep", "cortisol", "ghrelin", "leptin", "hormones"]
+    },
+    {
+      "slug": "back-fat",
+      "name": "Back Fat",
+      "aliases": ["bra fat", "upper back fat", "back rolls"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "content_angle": "causes, exercise strategies, diet approach",
+      "tags": ["body-fat", "back", "posture"]
+    },
+    {
+      "slug": "face-fat",
+      "name": "Face Fat",
+      "aliases": ["chubby face", "puffy face", "face bloat", "double chin"],
+      "search_volume_ca": "medium",
+      "intent": "informational",
+      "content_angle": "why face fat accumulates, spot reduction myth, overall fat loss",
+      "tags": ["body-fat", "face", "chin", "jawline"]
+    }
+  ]
+}

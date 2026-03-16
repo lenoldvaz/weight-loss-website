@@ -1,0 +1,123 @@
+{
+  "bariatric_procedures": [
+    {
+      "slug": "gastric-sleeve",
+      "name": "Gastric Sleeve Surgery",
+      "medical_name": "Sleeve Gastrectomy",
+      "type": "restrictive",
+      "health_canada_approved": true,
+      "reversible": false,
+      "avg_weight_loss_pct": 60,
+      "avg_cost_cad_private": 18000,
+      "covered_by_ohip": true,
+      "covered_provinces": ["ontario", "british-columbia", "alberta", "quebec"],
+      "waitlist_years": "2-5",
+      "search_volume_ca": "high",
+      "content_angle": "eligibility (BMI 40+), waitlist in Canada, private options, recovery"
+    },
+    {
+      "slug": "gastric-bypass",
+      "name": "Gastric Bypass Surgery",
+      "medical_name": "Roux-en-Y Gastric Bypass",
+      "type": "restrictive-malabsorptive",
+      "health_canada_approved": true,
+      "reversible": false,
+      "avg_weight_loss_pct": 70,
+      "avg_cost_cad_private": 22000,
+      "covered_by_ohip": true,
+      "covered_provinces": ["ontario", "british-columbia", "alberta"],
+      "waitlist_years": "3-7",
+      "search_volume_ca": "high",
+      "content_angle": "most effective surgery, vitamin deficiencies, dumping syndrome, eligibility"
+    },
+    {
+      "slug": "lap-band",
+      "name": "Lap-Band Surgery",
+      "medical_name": "Adjustable Gastric Banding",
+      "type": "restrictive",
+      "health_canada_approved": true,
+      "reversible": true,
+      "avg_weight_loss_pct": 40,
+      "avg_cost_cad_private": 15000,
+      "covered_by_ohip": false,
+      "search_volume_ca": "medium",
+      "declining_popularity": true,
+      "content_angle": "falling out of favour vs sleeve, adjustable band risks"
+    },
+    {
+      "slug": "gastric-balloon",
+      "name": "Gastric Balloon",
+      "medical_name": "Intragastric Balloon",
+      "type": "temporary-restrictive",
+      "health_canada_approved": true,
+      "reversible": true,
+      "duration_months": 6,
+      "avg_weight_loss_pct": 15,
+      "avg_cost_cad_private": 8000,
+      "covered_by_ohip": false,
+      "brands": ["Orbera", "ReShape"],
+      "search_volume_ca": "medium",
+      "content_angle": "non-surgical, 6 month program, who qualifies (BMI 27+)"
+    },
+    {
+      "slug": "endoscopic-sleeve",
+      "name": "Endoscopic Sleeve Gastroplasty",
+      "medical_name": "ESG / Accordion Procedure",
+      "type": "endoscopic-restrictive",
+      "health_canada_approved": true,
+      "reversible": false,
+      "avg_weight_loss_pct": 25,
+      "avg_cost_cad_private": 12000,
+      "covered_by_ohip": false,
+      "search_volume_ca": "low",
+      "content_angle": "non-surgical incision-free sleeve alternative"
+    },
+    {
+      "slug": "duodenal-switch",
+      "name": "Duodenal Switch",
+      "medical_name": "Biliopancreatic Diversion with Duodenal Switch (BPD/DS)",
+      "type": "restrictive-malabsorptive",
+      "health_canada_approved": true,
+      "reversible": false,
+      "avg_weight_loss_pct": 80,
+      "avg_cost_cad_private": 25000,
+      "covered_by_ohip": "limited",
+      "search_volume_ca": "low",
+      "content_angle": "most aggressive bariatric option, highest weight loss, highest complication risk"
+    }
+  ],
+  "non_surgical_procedures": [
+    {
+      "slug": "belkyra",
+      "name": "Belkyra (Kybella)",
+      "type": "injectable-fat-dissolving",
+      "target_area": "double-chin",
+      "active_ingredient": "deoxycholic acid",
+      "health_canada_approved": true,
+      "avg_cost_cad_per_session": 800,
+      "sessions_needed": "2-4",
+      "search_volume_ca": "medium",
+      "content_angle": "double chin reduction, who is a candidate, before-after"
+    },
+    {
+      "slug": "coolsculpting",
+      "name": "CoolSculpting",
+      "medical_name": "Cryolipolysis",
+      "type": "fat-freezing",
+      "health_canada_approved": true,
+      "avg_cost_cad_per_session": 750,
+      "search_volume_ca": "medium",
+      "content_angle": "non-surgical fat reduction, best areas to treat, realistic expectations"
+    },
+    {
+      "slug": "emsculpt",
+      "name": "Emsculpt NEO",
+      "type": "muscle-building-fat-reduction",
+      "technology": "HIFEM + radiofrequency",
+      "health_canada_approved": true,
+      "avg_cost_cad_per_session": 1000,
+      "search_volume_ca": "low",
+      "content_angle": "simultaneous muscle building and fat reduction"
+    }
+  ]
+}

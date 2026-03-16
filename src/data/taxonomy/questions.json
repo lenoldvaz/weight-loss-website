@@ -1,0 +1,24 @@
+{
+  "question_seeds": [
+    { "slug": "how-much-weight-lose-month", "question": "How Much Weight Can You Lose in a Month?", "search_volume_ca": "very-high", "intent": "informational", "answer_core": "0.5-1kg per week safely = 2-4kg/month", "content_angle": "safe rate, realistic expectations, what affects the number" },
+    { "slug": "why-not-losing-weight-calorie-deficit", "question": "Why Am I Not Losing Weight in a Calorie Deficit?", "search_volume_ca": "high", "intent": "informational", "content_angle": "tracking errors, metabolic adaptation, calories in food labels, stress" },
+    { "slug": "how-long-lose-20-pounds", "question": "How Long Does It Take to Lose 20 Pounds?", "search_volume_ca": "high", "intent": "informational" },
+    { "slug": "is-keto-safe", "question": "Is the Keto Diet Safe?", "search_volume_ca": "medium", "intent": "informational", "content_angle": "who it suits, who should avoid it, short vs long term safety" },
+    { "slug": "can-i-lose-weight-without-exercise", "question": "Can You Lose Weight Without Exercising?", "search_volume_ca": "high", "intent": "informational" },
+    { "slug": "is-intermittent-fasting-safe", "question": "Is Intermittent Fasting Safe?", "search_volume_ca": "medium", "intent": "informational" },
+    { "slug": "how-long-see-weight-loss-results", "question": "How Long Before You See Weight Loss Results?", "search_volume_ca": "medium", "intent": "informational", "content_angle": "2-4 weeks for scale changes, 4-8 weeks visible, managing expectations" },
+    { "slug": "does-drinking-water-help-lose-weight", "question": "Does Drinking Water Help You Lose Weight?", "search_volume_ca": "medium", "intent": "informational" },
+    { "slug": "how-many-calories-to-lose-weight", "question": "How Many Calories Should I Eat to Lose Weight?", "search_volume_ca": "very-high", "intent": "informational", "tool_opportunity": "calorie-calculator" },
+    { "slug": "best-time-eat-for-weight-loss", "question": "What's the Best Time to Eat for Weight Loss?", "search_volume_ca": "medium", "intent": "informational" },
+    { "slug": "is-ozempic-covered-by-ohip", "question": "Is Ozempic Covered by OHIP?", "search_volume_ca": "high", "intent": "informational", "canadian_specific": true, "content_angle": "ODB eligibility, type 2 diabetes criteria, private insurance" },
+    { "slug": "how-get-ozempic-prescribed-canada", "question": "How to Get Ozempic Prescribed in Canada", "search_volume_ca": "very-high", "intent": "informational-commercial", "canadian_specific": true },
+    { "slug": "does-coffee-break-intermittent-fast", "question": "Does Coffee Break a Fast?", "search_volume_ca": "medium", "intent": "informational" },
+    { "slug": "how-to-speed-up-metabolism", "question": "How to Speed Up Your Metabolism", "search_volume_ca": "high", "intent": "informational" },
+    { "slug": "is-weight-loss-taxable-canada", "question": "Are Weight Loss Programs Tax Deductible in Canada?", "search_volume_ca": "low", "intent": "informational", "canadian_specific": true, "content_angle": "CRA medical expense claims, dietitian fees" },
+    { "slug": "why-lose-weight-fast-then-slow", "question": "Why Do You Lose Weight Fast at First Then Slow Down?", "search_volume_ca": "medium", "intent": "informational", "content_angle": "water weight, metabolic adaptation, glycogen depletion" },
+    { "slug": "safe-lose-weight-breastfeeding", "question": "Is It Safe to Lose Weight While Breastfeeding?", "search_volume_ca": "medium", "intent": "informational", "content_angle": "safe deficit amount, nutrition needs, timing postpartum" },
+    { "slug": "how-lose-weight-with-pcos", "question": "How to Lose Weight with PCOS?", "search_volume_ca": "high", "intent": "informational", "related_conditions": ["pcos"] },
+    { "slug": "does-stress-cause-weight-gain", "question": "Does Stress Cause Weight Gain?", "search_volume_ca": "medium", "intent": "informational", "content_angle": "cortisol, stress eating, sleep disruption" },
+    { "slug": "what-is-best-diet-canada", "question": "What Is the Best Diet for Weight Loss in Canada?", "search_volume_ca": "high", "intent": "informational", "canadian_context": "Canadian dietary guidelines, seasonal eating" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "calculators": [
+    { "slug": "bmi-calculator", "name": "BMI Calculator Canada", "search_volume_ca": "very-high", "interactive": true, "inputs": ["weight_kg", "height_cm", "age", "sex"], "outputs": ["bmi", "bmi_category", "healthy_weight_range_kg"], "canadian_context": "Health Canada BMI categories", "notes": "Most searched weight loss tool in Canada" },
+    { "slug": "calorie-calculator", "name": "Calorie Calculator for Weight Loss", "search_volume_ca": "very-high", "interactive": true, "inputs": ["weight_kg", "height_cm", "age", "sex", "activity_level", "goal"], "outputs": ["tdee", "deficit_calories", "estimated_weeks_to_goal"], "formula": "Mifflin-St Jeor" },
+    { "slug": "macro-calculator", "name": "Macro Calculator for Weight Loss", "search_volume_ca": "high", "interactive": true, "inputs": ["calories", "diet_type", "goal"], "outputs": ["protein_g", "carbs_g", "fat_g"], "diet_types": ["standard", "keto", "low-carb", "high-protein"] },
+    { "slug": "ideal-weight-calculator", "name": "Ideal Weight Calculator Canada", "search_volume_ca": "high", "interactive": true, "inputs": ["height_cm", "sex", "frame_size"], "outputs": ["ideal_weight_range_kg", "bmi_target"], "formulas": ["Hamwi", "Devine", "BMI-based"] },
+    { "slug": "weight-loss-timeline-calculator", "name": "Weight Loss Timeline Calculator", "search_volume_ca": "high", "interactive": true, "inputs": ["current_weight_kg", "goal_weight_kg", "weekly_deficit_cal"], "outputs": ["weeks_to_goal", "projected_date", "daily_calories"] },
+    { "slug": "body-fat-calculator", "name": "Body Fat Percentage Calculator", "search_volume_ca": "medium", "interactive": true, "inputs": ["weight_kg", "height_cm", "age", "sex", "measurements"], "outputs": ["body_fat_pct", "fat_mass_kg", "lean_mass_kg", "category"] },
+    { "slug": "protein-calculator", "name": "Daily Protein Calculator", "search_volume_ca": "medium", "interactive": true, "inputs": ["weight_kg", "activity_level", "goal"], "outputs": ["protein_g_per_day", "protein_per_meal"], "notes": "High search intent from gym community" },
+    { "slug": "waist-hip-ratio", "name": "Waist-to-Hip Ratio Calculator", "search_volume_ca": "medium", "interactive": true, "inputs": ["waist_cm", "hip_cm", "sex"], "outputs": ["whr_ratio", "risk_category"], "medical_relevance": "cardiovascular risk predictor" },
+    { "slug": "water-intake-calculator", "name": "Daily Water Intake Calculator", "search_volume_ca": "medium", "interactive": true, "inputs": ["weight_kg", "activity_level", "climate"], "outputs": ["water_ml_per_day", "glasses_per_day"] },
+    { "slug": "ozempic-weight-loss-calculator", "name": "Ozempic Weight Loss Calculator", "search_volume_ca": "high", "interactive": true, "trending": true, "inputs": ["current_weight_kg", "duration_months", "dose_mg"], "outputs": ["estimated_weight_loss_kg", "projected_weight_kg"], "notes": "High interest following GLP-1 drug trend" }
+  ]
+}

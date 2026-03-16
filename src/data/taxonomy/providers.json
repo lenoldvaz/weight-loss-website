@@ -1,0 +1,21 @@
+{
+  "_note": "Seed list of real Canadian weight loss providers. Expand via web scraping and directory submissions. These seed pages + add-your-clinic lead gen.",
+  "bariatric_centers": [
+    { "slug": "wharton-medical", "name": "Wharton Medical Clinic", "province": "ontario", "city": "hamilton", "type": "medical-weight-management", "notable": "Dr. Sean Wharton — leading Canadian obesity expert", "website": "whartonmedical.com" },
+    { "slug": "toronto-western-bariatric", "name": "Toronto Western Hospital Bariatric Surgery Program", "province": "ontario", "city": "toronto", "type": "bariatric-surgery", "covered_by_ohip": true, "website": "uhn.ca" },
+    { "slug": "cleveland-clinic-canada", "name": "Cleveland Clinic Canada", "province": "ontario", "city": "toronto", "type": "medical-weight-management", "website": "my.clevelandclinic.org/canada" },
+    { "slug": "weight-wise-edmonton", "name": "Weight Wise Bariatric Program", "province": "alberta", "city": "edmonton", "type": "bariatric-surgery", "covered_by_ohip": false, "provincial_program": true, "website": "albertahealthservices.ca" },
+    { "slug": "bc-bariatric-program", "name": "BC Bariatric Surgery Program", "province": "british-columbia", "type": "bariatric-surgery", "covered_by_ohip": false, "provincial_program": true },
+    { "slug": "ottawa-bariatric-centre", "name": "Ottawa Hospital Bariatric Centre of Excellence", "province": "ontario", "city": "ottawa", "type": "bariatric-surgery", "covered_by_ohip": true },
+    { "slug": "montreal-bariatric-iucpq", "name": "IUCPQ Bariatric Program", "province": "quebec", "city": "quebec-city", "type": "bariatric-surgery", "covered": true }
+  ],
+  "national_clinic_chains": [
+    { "slug": "medisys", "name": "Medisys Health Group", "provinces": ["ontario", "quebec", "alberta", "british-columbia"], "type": "corporate-health", "weight_loss_services": true },
+    { "slug": "ideal-protein-clinics", "name": "Ideal Protein Clinics", "type": "ketogenic-weight-loss", "canadian_founded": true, "franchise": true, "available_nationally": true },
+    { "slug": "herbal-magic", "name": "Herbal Magic", "type": "supplement-based-program", "available_nationally": true, "canadian_company": true }
+  ],
+  "directory_stub": {
+    "_note": "This section will be populated via the clinic directory feature (Phase 3). Clinics will be able to submit their listings.",
+    "fields_per_provider": ["name", "slug", "city", "province", "type", "phone", "website", "services", "insurance_accepted", "languages", "featured", "verified"]
+  }
+}

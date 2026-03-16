@@ -1,0 +1,41 @@
+{
+  "supplements": [
+    { "slug": "berberine-supplement", "name": "Berberine Supplement", "ingredient": "berberine", "search_volume_ca": "high", "affiliate_opportunity": true, "avg_price_cad": 40, "amazon_ca": true },
+    { "slug": "glucomannan-supplement", "name": "Glucomannan Supplement", "ingredient": "glucomannan", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 25, "amazon_ca": true },
+    { "slug": "green-tea-extract-supplement", "name": "Green Tea Extract Supplement", "ingredient": "green-tea-extract", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 20, "amazon_ca": true },
+    { "slug": "cla-supplement", "name": "CLA Supplement", "ingredient": "cla", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 35, "amazon_ca": true },
+    { "slug": "protein-powder-weight-loss", "name": "Protein Powder for Weight Loss", "ingredient": "protein-powder", "search_volume_ca": "very-high", "affiliate_opportunity": true, "avg_price_cad": 60, "amazon_ca": true, "subcategories": ["whey", "plant-based", "casein"] },
+    { "slug": "fat-burner-canada", "name": "Fat Burner Supplements Canada", "search_volume_ca": "medium", "affiliate_opportunity": true, "content_angle": "evidence review, what works vs marketing claims" }
+  ],
+  "fitness_equipment": [
+    { "slug": "treadmill-canada", "name": "Treadmill for Weight Loss", "search_volume_ca": "high", "affiliate_opportunity": true, "avg_price_cad": 1200, "amazon_ca": true, "content_angle": "home treadmill buying guide Canada, best brands" },
+    { "slug": "stationary-bike-canada", "name": "Stationary Bike Canada", "search_volume_ca": "high", "affiliate_opportunity": true, "avg_price_cad": 800, "amazon_ca": true, "subcategories": ["upright", "recumbent", "spin"] },
+    { "slug": "rowing-machine-canada", "name": "Rowing Machine Canada", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 1000, "amazon_ca": true },
+    { "slug": "resistance-bands-canada", "name": "Resistance Bands Canada", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 30, "amazon_ca": true },
+    { "slug": "dumbbells-canada", "name": "Dumbbells for Weight Loss", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 100, "amazon_ca": true },
+    { "slug": "jump-rope-canada", "name": "Jump Rope for Weight Loss", "search_volume_ca": "low", "affiliate_opportunity": true, "avg_price_cad": 20, "amazon_ca": true },
+    { "slug": "kettlebell-canada", "name": "Kettlebells Canada", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 60, "amazon_ca": true },
+    { "slug": "elliptical-canada", "name": "Elliptical Machine Canada", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 900, "amazon_ca": true }
+  ],
+  "wearables": [
+    { "slug": "apple-watch-weight-loss", "name": "Apple Watch for Weight Loss", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 450 },
+    { "slug": "garmin-fitness-tracker", "name": "Garmin Fitness Tracker", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 300 },
+    { "slug": "fitbit-weight-loss", "name": "Fitbit for Weight Loss", "search_volume_ca": "medium", "affiliate_opportunity": true, "avg_price_cad": 200 },
+    { "slug": "oura-ring-canada", "name": "Oura Ring Canada", "search_volume_ca": "low", "affiliate_opportunity": false, "avg_price_cad": 400 },
+    { "slug": "whoop-canada", "name": "WHOOP Fitness Tracker Canada", "search_volume_ca": "low", "affiliate_opportunity": true, "avg_price_cad": 50, "monthly_subscription": true }
+  ],
+  "meal_delivery": [
+    { "slug": "hellofresh-canada-review", "name": "HelloFresh Canada", "brand": "hellofresh-canada", "type": "meal-kit", "affiliate_opportunity": true },
+    { "slug": "goodfood-review", "name": "GoodFood Meal Kit", "brand": "goodfood", "type": "meal-kit", "affiliate_opportunity": true },
+    { "slug": "factor-meals-canada", "name": "Factor Meals Canada", "type": "prepared-meals", "affiliate_opportunity": true },
+    { "slug": "cook-it-canada", "name": "Cook It Canada", "type": "meal-kit", "canadian_only": true, "affiliate_opportunity": true },
+    { "slug": "fresh-prep", "name": "Fresh Prep", "type": "meal-kit", "available_provinces": ["british-columbia", "alberta"], "affiliate_opportunity": true }
+  ],
+  "apps": [
+    { "slug": "myfitnesspal-review", "name": "MyFitnessPal", "brand": "myfitnesspal", "type": "calorie-tracker", "affiliate_opportunity": false, "free_tier": true },
+    { "slug": "cronometer-review", "name": "Cronometer", "brand": "cronometer", "type": "nutrition-tracker", "affiliate_opportunity": true, "canadian_founded": true },
+    { "slug": "noom-review-canada", "name": "Noom Canada Review", "brand": "noom", "type": "behaviour-change", "affiliate_opportunity": true },
+    { "slug": "loseit-review", "name": "Lose It! App Review", "brand": "lose-it", "type": "calorie-tracker", "affiliate_opportunity": true },
+    { "slug": "carb-manager-review", "name": "Carb Manager App", "type": "keto-tracker", "affiliate_opportunity": true }
+  ]
+}

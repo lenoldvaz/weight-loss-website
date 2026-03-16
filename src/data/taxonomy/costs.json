@@ -1,0 +1,14 @@
+{
+  "cost_queries": [
+    { "slug": "ozempic-cost-canada", "name": "How Much Does Ozempic Cost in Canada", "product": "ozempic", "search_volume_ca": "very-high", "intent": "commercial-informational", "avg_monthly_cost_cad": 350, "with_coverage_cad": 0, "content_angle": "provincial coverage, private insurance, ODB eligibility, cost without coverage" },
+    { "slug": "wegovy-cost-canada", "name": "How Much Does Wegovy Cost in Canada", "product": "wegovy", "search_volume_ca": "high", "intent": "commercial-informational", "avg_monthly_cost_cad": 450, "content_angle": "Health Canada approved, limited coverage, out-of-pocket reality" },
+    { "slug": "bariatric-surgery-cost-canada", "name": "Bariatric Surgery Cost in Canada", "procedures": ["gastric-sleeve", "gastric-bypass"], "search_volume_ca": "high", "intent": "commercial-informational", "public_option_cost_cad": 0, "private_option_cost_cad": 18000, "content_angle": "OHIP covered vs private, waitlist vs private, Mexico vs Canada options" },
+    { "slug": "weight-loss-clinic-cost", "name": "How Much Do Weight Loss Clinics Cost in Canada", "search_volume_ca": "medium", "intent": "commercial-informational", "avg_cost_cad_per_month": 150, "content_angle": "what's included, clinic vs online, insurance coverage" },
+    { "slug": "dietitian-cost-canada", "name": "How Much Does a Dietitian Cost in Canada", "search_volume_ca": "medium", "intent": "commercial-informational", "avg_cost_per_session_cad": 100, "covered_by_ohip": false, "content_angle": "OHIP, private insurance coverage, online vs in-person rates" },
+    { "slug": "personal-trainer-cost-canada", "name": "Personal Trainer Cost in Canada", "search_volume_ca": "medium", "intent": "commercial-informational", "avg_hourly_cad": 75, "content_angle": "gym-based vs independent, Toronto vs smaller cities, online trainers" },
+    { "slug": "meal-kit-cost-canada", "name": "How Much Do Meal Kits Cost in Canada", "brands": ["hellofresh-canada", "goodfood"], "search_volume_ca": "medium", "intent": "commercial-informational", "avg_weekly_cad": 65, "content_angle": "cost per serving comparison, promo codes, vs groceries" },
+    { "slug": "weight-loss-supplements-cost", "name": "Weight Loss Supplements Cost Canada", "search_volume_ca": "medium", "intent": "commercial", "avg_monthly_cad": 40, "content_angle": "what's worth the money, supplement stacks" },
+    { "slug": "gym-membership-cost-canada", "name": "Gym Membership Cost in Canada", "search_volume_ca": "medium", "intent": "commercial-informational", "avg_monthly_cad": 55, "chains": ["GoodLife", "Anytime Fitness", "Planet Fitness", "YMCA"], "content_angle": "comparing chains by city, hidden fees, cancellation policies" },
+    { "slug": "coolsculpting-cost-canada", "name": "CoolSculpting Cost in Canada", "search_volume_ca": "medium", "intent": "commercial-informational", "avg_per_session_cad": 750, "content_angle": "number of sessions needed, area-by-area cost guide" }
+  ]
+}

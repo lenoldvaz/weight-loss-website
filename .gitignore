@@ -16,9 +16,6 @@ build/
 .env.test.local
 .env.production.local
 
-# Generated content (committed separately via content pipeline)
-src/data/content/
-
 # Vercel
 .vercel
 
@@ -31,6 +28,19 @@ pnpm-debug.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Google service account keys — NEVER commit these
+docs/*.json
+
+# Block all JSON at the root level except essential config
+/*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!next.config.json
+
+# Allow all JSON inside src/ (taxonomy, schemas, generated content)
+!src/**/*.json
 
 # OS
 .DS_Store

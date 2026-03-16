@@ -1,0 +1,14 @@
+{
+  "body_parts": [
+    { "slug": "belly", "name": "Belly Fat", "aliases": ["stomach fat", "abdominal fat", "gut"], "search_volume_ca": "very-high", "spot_reduction_possible": false, "related_symptoms": ["belly-fat", "bloating"], "exercises": ["planks", "core-work", "cardio"], "content_angle": "visceral fat health risks, overall fat loss approach, core strengthening" },
+    { "slug": "thighs", "name": "Thigh Fat", "aliases": ["inner thigh fat", "outer thigh fat", "thigh gap"], "search_volume_ca": "high", "spot_reduction_possible": false, "content_angle": "lower body fat patterns, hormonal fat storage, leg exercises" },
+    { "slug": "arms", "name": "Arm Fat", "aliases": ["bat wings", "flabby arms", "upper arm fat", "tricep fat"], "search_volume_ca": "high", "spot_reduction_possible": false, "content_angle": "why arm fat accumulates, strength training approach" },
+    { "slug": "face", "name": "Face Fat", "aliases": ["chubby cheeks", "face bloat", "puffy face", "moon face"], "search_volume_ca": "medium", "spot_reduction_possible": false, "content_angle": "overall fat loss, water retention, sodium reduction" },
+    { "slug": "double-chin", "name": "Double Chin", "aliases": ["chin fat", "submental fat", "neck fat"], "search_volume_ca": "medium", "spot_reduction_possible": false, "medical_treatment": "Belkyra injection", "content_angle": "diet, posture, exercise, and medical options" },
+    { "slug": "hips", "name": "Hip Fat", "aliases": ["hip dips", "wide hips", "saddlebags"], "search_volume_ca": "medium", "spot_reduction_possible": false, "content_angle": "female fat distribution patterns, hormones, lower body workouts" },
+    { "slug": "back", "name": "Back Fat", "aliases": ["back rolls", "bra fat", "upper back fat", "lower back fat"], "search_volume_ca": "medium", "spot_reduction_possible": false, "content_angle": "posture, pulling exercises, overall fat loss" },
+    { "slug": "chest", "name": "Chest Fat", "aliases": ["man boobs", "gynecomastia", "moobs", "chest fat women"], "search_volume_ca": "medium", "spot_reduction_possible": false, "content_angle": "hormonal causes in men, chest exercises, overall fat loss" },
+    { "slug": "buttocks", "name": "Butt Fat", "aliases": ["butt fat", "glute fat", "fat butt"], "search_volume_ca": "low", "spot_reduction_possible": false, "content_angle": "fat vs muscle, glute training, overall body composition" },
+    { "slug": "calves", "name": "Calf Fat", "aliases": ["fat calves", "thick ankles", "cankles"], "search_volume_ca": "low", "spot_reduction_possible": false, "content_angle": "genetics, lymphatic drainage, overall loss" }
+  ]
+}

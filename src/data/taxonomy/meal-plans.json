@@ -1,0 +1,19 @@
+{
+  "meal_plans": [
+    { "slug": "1200-calorie-meal-plan", "name": "1200 Calorie Meal Plan", "calories": 1200, "target_demographic": "women", "search_volume_ca": "very-high", "intent": "informational", "content_angle": "who it's appropriate for, sample day, risks of too-low calories" },
+    { "slug": "1500-calorie-meal-plan", "name": "1500 Calorie Meal Plan", "calories": 1500, "search_volume_ca": "high", "content_angle": "moderate deficit, suitable for most women and smaller men" },
+    { "slug": "1800-calorie-meal-plan", "name": "1800 Calorie Meal Plan", "calories": 1800, "search_volume_ca": "medium", "target_demographic": "active women, average men" },
+    { "slug": "2000-calorie-meal-plan", "name": "2000 Calorie Meal Plan Weight Loss", "calories": 2000, "search_volume_ca": "medium", "target_demographic": "men, very active women" },
+    { "slug": "high-protein-meal-plan", "name": "High Protein Meal Plan for Weight Loss", "protein_target_g": 150, "search_volume_ca": "high", "content_angle": "muscle preservation, satiety, meal prep ideas" },
+    { "slug": "keto-meal-plan", "name": "Keto Meal Plan Canada", "diet": "keto", "carb_limit_g": 20, "search_volume_ca": "very-high", "canadian_context": "Canadian grocery stores, local keto-friendly foods" },
+    { "slug": "intermittent-fasting-meal-plan", "name": "Intermittent Fasting Meal Plan 16:8", "diet": "intermittent-fasting", "fasting_window": "16:8", "search_volume_ca": "high" },
+    { "slug": "mediterranean-meal-plan", "name": "Mediterranean Diet Meal Plan Canada", "diet": "mediterranean", "search_volume_ca": "medium", "canadian_context": "Canadian grocery equivalents" },
+    { "slug": "7-day-meal-plan", "name": "7-Day Weight Loss Meal Plan", "days": 7, "search_volume_ca": "very-high", "content_angle": "full week plan, grocery list, prep guide" },
+    { "slug": "30-day-meal-plan", "name": "30-Day Weight Loss Meal Plan", "days": 30, "search_volume_ca": "high", "content_angle": "monthly plan, batch cooking, budget tips" },
+    { "slug": "budget-meal-plan", "name": "Weight Loss Meal Plan on a Budget Canada", "search_volume_ca": "medium", "target_weekly_spend_cad": 75, "canadian_context": "No Frills, FreshCo, Food Basics" },
+    { "slug": "pcos-meal-plan", "name": "PCOS Meal Plan for Weight Loss", "condition": "pcos", "search_volume_ca": "medium", "diet": "low-gi", "content_angle": "low GI foods, anti-inflammatory, insulin management" },
+    { "slug": "diabetic-meal-plan", "name": "Diabetic Weight Loss Meal Plan Canada", "condition": "type-2-diabetes", "search_volume_ca": "medium", "content_angle": "blood sugar management + weight loss, Diabetes Canada guidelines" },
+    { "slug": "vegan-meal-plan-weight-loss", "name": "Vegan Weight Loss Meal Plan Canada", "diet": "plant-based", "search_volume_ca": "medium", "content_angle": "high-protein plant-based, Canadian vegan products" },
+    { "slug": "menopause-meal-plan", "name": "Menopause Weight Loss Meal Plan", "demographic": "menopause", "search_volume_ca": "medium", "content_angle": "high protein, phytoestrogens, calcium, bone health" }
+  ]
+}

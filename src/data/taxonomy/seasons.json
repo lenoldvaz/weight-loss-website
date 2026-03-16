@@ -1,0 +1,15 @@
+{
+  "seasonal_hooks": [
+    { "slug": "new-year-weight-loss", "name": "New Year Weight Loss", "months": ["december", "january"], "search_spike": "january-1-to-15", "search_volume_ca": "very-high", "content_angle": "realistic resolutions, avoiding January gym dropout, sustainable vs crash starts", "tags": ["resolution", "fresh-start", "january"] },
+    { "slug": "summer-body", "name": "Summer Body Weight Loss", "months": ["february", "march", "april", "may"], "search_spike": "march-april", "search_volume_ca": "very-high", "content_angle": "realistic timeline for summer, 12-16 week approach, avoid crash dieting", "tags": ["summer", "beach", "shorts-season"] },
+    { "slug": "winter-weight-gain", "name": "Avoiding Winter Weight Gain Canada", "months": ["october", "november", "december"], "search_volume_ca": "medium", "content_angle": "Canadian winter-specific — shorter days, cold weather, holiday food, less activity", "tags": ["winter", "canada-specific", "holidays"] },
+    { "slug": "back-to-school-health", "name": "Back to School Healthy Eating", "months": ["august", "september"], "search_volume_ca": "medium", "content_angle": "family meal prep, kids lunches, parental health reset after summer", "tags": ["school", "family", "routine"] },
+    { "slug": "holiday-weight-gain", "name": "Avoiding Holiday Weight Gain", "months": ["november", "december"], "search_volume_ca": "high", "content_angle": "Canadian Thanksgiving (October) + Christmas, party food navigation, alcohol calories", "tags": ["holidays", "christmas", "thanksgiving"] },
+    { "slug": "valentines-weight-loss", "name": "Valentine's Day Weight Loss Motivation", "months": ["january", "february"], "search_volume_ca": "low", "content_angle": "niche seasonal motivation hook" },
+    { "slug": "fall-reset", "name": "Fall Health Reset", "months": ["september", "october"], "search_volume_ca": "medium", "content_angle": "end of summer routine reset, meal prep season, indoor exercise transition", "tags": ["fall", "routine", "reset"] }
+  ],
+  "canadian_events": [
+    { "slug": "canadian-thanksgiving", "name": "Canadian Thanksgiving Weight Loss Tips", "date": "Second Monday of October", "search_volume_ca": "medium", "content_angle": "lighter Thanksgiving recipes, managing the holiday meal, Canadian-specific" },
+    { "slug": "canada-day-fitness", "name": "Canada Day Fitness Goals", "date": "July 1", "search_volume_ca": "low", "content_angle": "summer fitness motivation, outdoor activities across Canada" }
+  ]
+}
