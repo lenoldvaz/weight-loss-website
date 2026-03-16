@@ -93,16 +93,22 @@ function ContentGroup({ group }: { group: TemplateGroup }) {
             {group.slugs.map((slug) => {
               const livePath = `${prefix}/${slug}`;
               const liveUrl = `https://weight-loss.ca${livePath}`;
+              const editorUrl = `/admin/content/${group.template}/${slug}`;
               return (
                 <li key={slug} className="flex items-center justify-between px-6 py-2.5 hover:bg-gray-950">
-                  <span className="font-mono text-xs text-gray-300">{slug}</span>
+                  <Link
+                    href={editorUrl}
+                    className="font-mono text-xs text-gray-300 hover:text-indigo-300 transition-colors flex-1 mr-4 truncate"
+                  >
+                    {slug}
+                  </Link>
                   <a
                     href={liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
+                    className="text-xs text-gray-500 hover:text-gray-300 transition-colors flex-shrink-0"
                   >
-                    View live →
+                    ↗ Live
                   </a>
                 </li>
               );

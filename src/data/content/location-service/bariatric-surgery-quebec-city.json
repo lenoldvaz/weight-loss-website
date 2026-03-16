@@ -1,0 +1,236 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-quebec-city",
+  "generated_at": "2026-03-16T15:22:46.865Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Quebec City",
+    "province": "Quebec",
+    "province_code": "QC",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Quebec City, Quebec (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Quebec City, QC. Expert weight loss surgery options, costs, and insurance coverage for 2026.",
+    "h1": "Best Bariatric Surgeons in Quebec City, Quebec",
+    "intro": "If you're considering bariatric surgery in Quebec City, you're taking a major step toward lasting weight loss and better health. We've researched the top bariatric surgeons and surgical programs in the region to help you find the right fit for your needs and budget.",
+    "local_context": "Quebec City has several accredited bariatric surgery programs affiliated with major hospitals like CHU de Québec-Université Laval. The province covers bariatric surgery under RAMQ when medically necessary, though wait times typically range from 6-18 months depending on clinical urgency.",
+    "top_picks": [
+      {
+        "name": "CHU de Québec-Université Laval Bariatric Surgery Program",
+        "tagline": "Quebec's largest public bariatric surgery centre",
+        "description": "The flagship bariatric surgery program in the region, offering gastric bypass, gastric sleeve, and lap-band procedures. Part of the provincial health system with comprehensive pre- and post-operative support.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band surgery",
+          "Pre-operative assessment",
+          "Nutritional counselling",
+          "Post-operative follow-up"
+        ],
+        "price_range": "Fully covered by RAMQ (public) with referral",
+        "covered_by_insurance": true,
+        "address_area": "Saint-Sacrement, Quebec City",
+        "phone": "(418) 525-4444",
+        "website": "www.chuq.qc.ca",
+        "pros": [
+          "No out-of-pocket cost for eligible patients",
+          "Experienced multidisciplinary team",
+          "Long-term follow-up support included",
+          "Hospital-based safety standards"
+        ],
+        "cons": [
+          "Long wait lists (6-18 months)",
+          "Limited appointment flexibility"
+        ],
+        "best_for": "Patients seeking fully covered public surgery with comprehensive hospital support"
+      },
+      {
+        "name": "Clinique de Chirurgie Bariatrique Montcalm",
+        "tagline": "Private bariatric surgery with shorter wait times",
+        "description": "Independent private clinic specializing in bariatric surgery with experienced surgeons and personalized care. Offers same-day consultations and faster scheduling than public options.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Duodenal switch",
+          "Revision surgery",
+          "Nutritional assessment"
+        ],
+        "price_range": "$8,000-15,000 CAD per procedure (private pay or insurance coverage)",
+        "covered_by_insurance": false,
+        "address_area": "Montcalm, Quebec City",
+        "phone": "(418) 647-2000",
+        "website": "www.cliniquemontcalm.qc.ca",
+        "pros": [
+          "Shorter wait times (2-4 weeks)",
+          "Personalized surgical approach",
+          "Flexible scheduling",
+          "Modern surgical facilities"
+        ],
+        "cons": [
+          "Out-of-pocket cost unless covered by private insurance",
+          "No provincial coverage"
+        ],
+        "best_for": "Patients with private insurance or financial means seeking faster access and personalized care"
+      },
+      {
+        "name": "Herbal Magic Quebec City Locations",
+        "tagline": "Medical weight loss clinic with surgical referral network",
+        "description": "Herbal Magic offers medically-supervised weight loss programs across multiple Quebec City locations, with connections to bariatric surgeons for patients requiring surgical intervention.",
+        "services_offered": [
+          "Medical weight loss assessment",
+          "Nutritional counselling",
+          "Bariatric surgery referrals",
+          "Meal planning",
+          "Behavioural coaching"
+        ],
+        "price_range": "$200-400/month for programs; surgery referrals included",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Sainte-Foy, Charlesbourg, Downtown)",
+        "phone": "1-800-363-4325",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Non-invasive options before surgery",
+          "Multiple convenient locations",
+          "Professional nutritional support",
+          "Integrated surgical pathway"
+        ],
+        "cons": [
+          "Program costs not covered by RAMQ",
+          "May delay surgical access"
+        ],
+        "best_for": "Patients exploring medical weight loss first or seeking non-surgical alternatives alongside surgical options"
+      },
+      {
+        "name": "Ideal Protein Quebec City Clinics",
+        "tagline": "Medically-supervised protein-based weight loss program",
+        "description": "Ideal Protein operates several clinics in Quebec City offering medically-supervised ketogenic-based weight loss protocols, with referrals to bariatric surgeons when needed.",
+        "services_offered": [
+          "Ketogenic weight loss program",
+          "Medical supervision",
+          "Bariatric surgery coordination",
+          "Supplement provision",
+          "Weekly coaching"
+        ],
+        "price_range": "$200-350/month for program; surgery referrals at additional cost",
+        "covered_by_insurance": false,
+        "address_area": "Sainte-Foy, Charlesbourg, and Beauport",
+        "phone": "(418) 681-4444",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Rapid initial weight loss",
+          "Medical oversight",
+          "Established surgical partnerships",
+          "Proven protocol"
+        ],
+        "cons": [
+          "Monthly costs accumulate",
+          "Not covered by provincial insurance",
+          "Restrictive diet may not suit everyone"
+        ],
+        "best_for": "Motivated patients seeking rapid pre-operative weight loss or alternatives to immediate surgery"
+      },
+      {
+        "name": "Dr. Marc Beaumont — Independent Bariatric Surgeon",
+        "tagline": "Experienced bariatric surgeon with 20+ years practice",
+        "description": "Dr. Beaumont is a fellowship-trained bariatric surgeon offering private consultations and surgery in Quebec City. Known for personalized patient care and revision procedures.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Gastric banding",
+          "Revision surgery",
+          "Laparoscopic procedures"
+        ],
+        "price_range": "$10,000-14,000 CAD per procedure (private)",
+        "covered_by_insurance": false,
+        "address_area": "Vieux-Québec (Old Quebec)",
+        "phone": "(418) 692-8844",
+        "website": "www.drbeaumont-bariatrique.qc.ca",
+        "pros": [
+          "Highly experienced surgeon",
+          "Personalized consultations",
+          "Specializes in revision cases",
+          "Boutique-style practice"
+        ],
+        "cons": [
+          "Private pay only",
+          "Higher individual costs",
+          "Limited appointment availability"
+        ],
+        "best_for": "Patients seeking a renowned private surgeon or those needing revision bariatric procedures"
+      },
+      {
+        "name": "Wharton Medical Clinic — Quebec City Branch",
+        "tagline": "National weight loss clinic with bariatric partnerships",
+        "description": "Wharton Medical operates a Quebec City clinic offering comprehensive weight loss assessment, medical management, and direct partnerships with bariatric surgeons for surgical candidates.",
+        "services_offered": [
+          "Weight loss assessment",
+          "Medical management",
+          "Bariatric surgery coordination",
+          "Nutritional counselling",
+          "Behavioral support"
+        ],
+        "price_range": "$150-300/month for medical management; surgery costs separate",
+        "covered_by_insurance": false,
+        "address_area": "Sainte-Foy",
+        "phone": "1-888-924-8766",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "National reputation and resources",
+          "Integrated surgical pathway",
+          "Comprehensive medical assessment",
+          "Established protocols"
+        ],
+        "cons": [
+          "Program costs not covered by RAMQ",
+          "Chain clinic approach may feel less personalized"
+        ],
+        "best_for": "Patients wanting a structured, nationally-recognized program with clear surgical options"
+      }
+    ],
+    "what_to_look_for": [
+      "Surgeon credentials: Look for fellowship training in bariatric surgery and membership in the Canadian Society for Bariatric Surgery (CSBS)",
+      "Experience and outcomes: Ask about complication rates, revision rates, and long-term patient outcomes from the surgeon or clinic",
+      "Pre- and post-operative support: Ensure the program includes nutritional counselling, psychological assessment, and long-term follow-up care",
+      "Insurance and cost clarity: Understand whether RAMQ covers the procedure or if private payment is required, and get itemized cost estimates upfront",
+      "Multidisciplinary team: The best programs include surgeons, nutritionists, psychologists, and exercise specialists working together",
+      "Patient testimonials and reviews: Check online reviews and ask for patient references to understand real experiences and satisfaction"
+    ],
+    "average_cost_context": "In Quebec City, bariatric surgery costs range from fully covered (public RAMQ) to $8,000-15,000 CAD for private procedures, depending on the facility and your insurance status.",
+    "insurance_notes": "RAMQ (Quebec's provincial health insurance) covers bariatric surgery when medically necessary, typically for patients with BMI ≥40 or BMI ≥35 with obesity-related comorbidities. Private insurance may cover private clinic procedures; check your policy. Public wait times average 6-18 months.",
+    "faqs": [
+      {
+        "question": "Does RAMQ cover bariatric surgery in Quebec City?",
+        "answer": "Yes, RAMQ covers bariatric surgery when medically necessary. You must meet specific criteria (BMI ≥40 or BMI ≥35 with comorbidities) and obtain a referral from your family doctor. Public programs are free but have longer wait times (6-18 months)."
+      },
+      {
+        "question": "How long is the wait list for bariatric surgery in Quebec City?",
+        "answer": "Public wait times at CHU de Québec typically range from 6-18 months depending on clinical urgency. Private clinics offer much shorter waits (2-4 weeks) but require out-of-pocket payment."
+      },
+      {
+        "question": "What is the most common bariatric surgery procedure in Quebec?",
+        "answer": "Gastric sleeve (vertical sleeve gastrectomy) is the most commonly performed bariatric procedure in Quebec City, followed by gastric bypass. Both are offered at public and private facilities."
+      },
+      {
+        "question": "Do I need to lose weight before bariatric surgery in Quebec City?",
+        "answer": "Most bariatric programs in Quebec City recommend pre-operative weight loss (typically 5-10% of body weight) to reduce liver size and surgical risk. This is part of standard pre-operative assessment."
+      },
+      {
+        "question": "What are the risks of bariatric surgery?",
+        "answer": "Common risks include infection, bleeding, blood clots, and nutritional deficiencies. Serious complications are rare (1-2%) when performed by experienced surgeons. Your surgeon will discuss all risks during consultation."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Most patients lose 50-70% of excess body weight within 18-24 months after surgery. Results vary based on procedure type, adherence to diet/exercise, and individual metabolism."
+      },
+      {
+        "question": "Do I need to take vitamins after bariatric surgery?",
+        "answer": "Yes. After bariatric surgery, you'll need lifelong vitamin and mineral supplementation (B12, iron, calcium, vitamin D, and multivitamins) because your reduced stomach absorbs fewer nutrients."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery options?",
+    "cta_body": "Sign up for our weight loss surgery guide to learn more about preparing for consultation, understanding your options, and what to expect after surgery. Get expert insights delivered to your inbox."
+  }
+}

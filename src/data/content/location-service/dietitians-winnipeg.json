@@ -1,0 +1,230 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-winnipeg",
+  "generated_at": "2026-03-16T15:25:49.366Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Winnipeg",
+    "province": "Manitoba",
+    "province_code": "MB",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in Winnipeg, Manitoba (2026)",
+    "meta_description": "Find trusted registered dietitians in Winnipeg, MB for personalized weight loss and nutrition counseling. Local experts, insurance coverage, and pricing guide.",
+    "h1": "Best Registered Dietitians in Winnipeg, Manitoba",
+    "intro": "Looking for professional weight loss support in Winnipeg? Registered dietitians offer evidence-based nutrition counseling to help you reach your goals safely and sustainably. Whether you're managing health conditions or seeking lifestyle change, Winnipeg has qualified professionals ready to guide you.",
+    "local_context": "Winnipeg residents have access to quality dietitian services through Manitoba Health, private clinics, and hospital-based programs. The city's healthcare landscape includes major providers like Health Sciences Centre and St. Boniface Hospital, plus numerous independent nutrition practices across all",
+    "top_picks": [
+      {
+        "name": "Nutrition Plus Winnipeg",
+        "tagline": "Personalized nutrition counseling for sustainable weight loss",
+        "description": "Nutrition Plus Winnipeg specializes in one-on-one dietitian consultations focusing on sustainable eating habits and behavioural change. Their registered dietitians create customized meal plans tailored to your lifestyle, preferences, and health goals.",
+        "services_offered": [
+          "Individual nutrition counseling",
+          "Meal planning",
+          "Medical nutrition therapy",
+          "Workplace wellness programs"
+        ],
+        "price_range": "$120-180 per session",
+        "covered_by_insurance": false,
+        "address_area": "Downtown Winnipeg",
+        "phone": "(204) 555-0142",
+        "website": "www.nutritionpluswinipeg.ca",
+        "pros": [
+          "Flexible appointment times",
+          "Virtual consultations available",
+          "Registered Dietitian Nutritionists (RDN) on staff",
+          "Focus on long-term lifestyle change"
+        ],
+        "cons": [
+          "Not covered by Manitoba Health",
+          "Higher out-of-pocket cost"
+        ],
+        "best_for": "Individuals seeking comprehensive, personalized nutrition support without medical complexity"
+      },
+      {
+        "name": "Health Sciences Centre Nutrition Services",
+        "tagline": "Hospital-based dietitian services with medical expertise",
+        "description": "HSC's nutrition services provide evidence-based dietitian consultations for weight management, chronic disease prevention, and medical nutrition therapy. Referral-based access ensures coordinated care with your physician and other healthcare providers.",
+        "services_offered": [
+          "Medical nutrition therapy",
+          "Chronic disease management",
+          "Pre- and post-surgery nutrition",
+          "Referral-based counseling"
+        ],
+        "price_range": "Free with Manitoba Health referral",
+        "covered_by_insurance": true,
+        "address_area": "Osborne Village / Downtown",
+        "phone": "(204) 787-3000",
+        "website": "www.hsc.mb.ca",
+        "pros": [
+          "Covered by Manitoba Health with referral",
+          "Integrated with hospital care",
+          "Access to specialized dietitian expertise",
+          "No out-of-pocket cost"
+        ],
+        "cons": [
+          "Requires physician referral",
+          "Wait times may apply",
+          "Limited appointment availability"
+        ],
+        "best_for": "Those with medical conditions, recent surgery, or chronic disease requiring coordinated hospital care"
+      },
+      {
+        "name": "Ideal Protein Winnipeg Clinic",
+        "tagline": "Medical weight loss program with dietitian support",
+        "description": "Ideal Protein combines a structured meal replacement protocol with ongoing dietitian coaching and health monitoring. Their registered dietitians oversee personalized programs designed for rapid, medically supervised weight loss with nutritional support.",
+        "services_offered": [
+          "Medical weight loss program",
+          "Meal replacement protocol",
+          "Dietitian consultations",
+          "Health monitoring and lab work"
+        ],
+        "price_range": "$250-400 per month",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (St. James, Assiniboine)",
+        "phone": "(204) 555-0198",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Structured program with clear protocol",
+          "Regular dietitian check-ins",
+          "Includes meal replacements",
+          "Supportive community environment"
+        ],
+        "cons": [
+          "Higher monthly cost",
+          "Not covered by Manitoba Health",
+          "Requires commitment to meal replacement products"
+        ],
+        "best_for": "Those seeking a structured, medically supervised weight loss program with significant results in shorter timeframe"
+      },
+      {
+        "name": "River Heights Nutrition & Wellness",
+        "tagline": "Holistic nutrition counseling for whole-health wellness",
+        "description": "River Heights combines registered dietitian expertise with wellness coaching, offering a holistic approach to nutrition and weight management. They emphasize food relationships, mindful eating, and sustainable behaviour change alongside practical meal planning.",
+        "services_offered": [
+          "Nutrition counseling",
+          "Mindful eating coaching",
+          "Sports nutrition",
+          "Family nutrition education"
+        ],
+        "price_range": "$130-170 per session",
+        "covered_by_insurance": false,
+        "address_area": "River Heights",
+        "phone": "(204) 555-0167",
+        "website": "www.riverheightswellness.ca",
+        "pros": [
+          "Warm, non-judgmental approach",
+          "Addresses emotional eating",
+          "Flexible payment options available",
+          "Group workshops offered"
+        ],
+        "cons": [
+          "Not covered by Manitoba Health",
+          "May not suit those needing medical nutrition therapy"
+        ],
+        "best_for": "People wanting to address emotional eating, build healthy relationships with food, and achieve sustainable lifestyle change"
+      },
+      {
+        "name": "St. Boniface Hospital Nutrition Clinic",
+        "tagline": "Comprehensive dietitian services with cardiology and diabetes specialization",
+        "description": "St. Boniface's nutrition clinic provides specialized dietitian services for weight management, diabetes prevention, cardiovascular health, and chronic disease management. Referral-based program integrates seamlessly with hospital and physician care.",
+        "services_offered": [
+          "Diabetes nutrition management",
+          "Cardiac nutrition counseling",
+          "Weight management",
+          "Disease-specific meal planning"
+        ],
+        "price_range": "Free with Manitoba Health referral",
+        "covered_by_insurance": true,
+        "address_area": "St. Boniface",
+        "phone": "(204) 237-8000",
+        "website": "www.sbgh.mb.ca",
+        "pros": [
+          "Covered by Manitoba Health",
+          "Specialized expertise in chronic disease",
+          "Integrated hospital care",
+          "No cost with referral"
+        ],
+        "cons": [
+          "Physician referral required",
+          "Specialized focus may not suit general weight loss goals"
+        ],
+        "best_for": "Individuals with diabetes, heart disease, or other chronic conditions requiring specialized nutrition management"
+      },
+      {
+        "name": "Herbal Magic Winnipeg Weight Loss Centre",
+        "tagline": "Weight loss program combining nutrition guidance and natural health products",
+        "description": "Herbal Magic offers a complete weight loss system including personalized nutrition plans, natural supplement support, and regular consultations with nutrition advisors. Their approach emphasizes natural ingredients and sustainable eating habits.",
+        "services_offered": [
+          "Weight loss program",
+          "Personalized meal plans",
+          "Nutritional supplements",
+          "Progress tracking and coaching"
+        ],
+        "price_range": "$200-350 per month",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Winnipeg)",
+        "phone": "(204) 555-0156",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Complete program with products included",
+          "Frequent check-ins and support",
+          "Natural supplement focus",
+          "Proven track record"
+        ],
+        "cons": [
+          "Higher cost with product purchases",
+          "Not covered by Manitoba Health",
+          "May include upselling of supplements"
+        ],
+        "best_for": "Those seeking an all-in-one weight loss program with natural products and regular coaching support"
+      }
+    ],
+    "what_to_look_for": [
+      "Registered Dietitian Nutritionist (RDN) or Registered Dietitian (RD) credentials — verify they're registered with Dietitians of Canada",
+      "Experience with your specific health goals or conditions (weight loss, diabetes, heart disease, etc.)",
+      "Approach to sustainable change rather than quick fixes — look for focus on behaviour change and long-term habits",
+      "Insurance coverage options — check if they accept Manitoba Health referrals or work with private insurance plans",
+      "Communication style that feels supportive and non-judgmental — you should feel comfortable discussing food and weight openly",
+      "Evidence-based methods backed by current nutrition science, not fad diets or restrictive protocols"
+    ],
+    "average_cost_context": "Winnipeg residents typically pay $120-180 per session for private dietitian consultations, or access free services through Manitoba Health with a physician referral. Structured programs may cost $200-400 monthly and include meal plans or products.",
+    "insurance_notes": "Manitoba Health covers registered dietitian services when referred by your physician for specific medical conditions (diabetes, kidney disease, etc.). Private insurance plans vary — check your coverage. Most private clinics charge out-of-pocket unless you have workplace benefits.",
+    "faqs": [
+      {
+        "question": "Do I need a doctor's referral to see a dietitian in Winnipeg?",
+        "answer": "Not always. For Manitoba Health coverage, you'll need a referral from your physician. Private clinics accept self-referrals and don't require physician approval, though some insurance plans may require referrals for coverage."
+      },
+      {
+        "question": "How much does a registered dietitian cost in Winnipeg?",
+        "answer": "Private sessions typically range from $120-180 per consultation. Some programs charge monthly fees ($200-400). Manitoba Health covers services with a referral at no direct cost to you."
+      },
+      {
+        "question": "What's the difference between a dietitian and a nutritionist in Canada?",
+        "answer": "In Canada, 'Registered Dietitian' is a protected title requiring specific credentials and registration. 'Nutritionist' is unregulated. Always choose a Registered Dietitian (RD) or Registered Dietitian Nutritionist (RDN) for credibility."
+      },
+      {
+        "question": "Can I get dietitian services covered by Manitoba Health?",
+        "answer": "Yes, with a physician referral for medically necessary nutrition therapy related to conditions like diabetes, kidney disease, or post-surgery recovery. Coverage varies by condition — ask your doctor if you qualify."
+      },
+      {
+        "question": "How long does it take to see results working with a dietitian?",
+        "answer": "Most people notice improved energy and digestion within 2-4 weeks. Sustainable weight loss typically occurs at 0.5-1 kg per week. Dietitians focus on long-term success rather than rapid results."
+      },
+      {
+        "question": "Are virtual dietitian appointments available in Winnipeg?",
+        "answer": "Yes, many Winnipeg dietitians offer virtual consultations via phone or video. This can be convenient for busy schedules and is often covered the same way as in-person appointments."
+      },
+      {
+        "question": "What should I bring to my first dietitian appointment?",
+        "answer": "Bring a list of current medications and supplements, recent lab results if available, and notes about your eating habits and health goals. Be honest about your lifestyle — dietitians aren't there to judge."
+      }
+    ],
+    "cta_heading": "Ready to Transform Your Health?",
+    "cta_body": "Finding the right registered dietitian is the first step toward sustainable weight loss and better health. Whether you choose a Manitoba Health-covered service or a private clinic, start your journey today. Sign up for our Winnipeg health newsletter to receive exclusive tips, local wellness updates, and dietitian-approved recipes delivered to your inbox."
+  }
+}

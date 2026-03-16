@@ -135,6 +135,16 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-03-16] [Templates] Updated LocationServiceTemplate.tsx, HowToTemplate.tsx, ProductReviewTemplate.tsx — added Next.js Image component hero image rendering after h1/intro; conditional render (only if hero_image present); full-width rounded, max-height 400px, object-cover
 - [2026-03-16] [Infra] Created public/images/content/ directory with .gitkeep — images deploy with the site (not gitignored)
 
+## 2026-03-16 (CMS Content Editor)
+
+- [2026-03-16] [Admin] Updated `src/app/admin/content/page.tsx` — slug cards now link to `/admin/content/{template}/{slug}` editor; secondary "↗ Live" external link preserved
+- [2026-03-16] [Admin] Created `src/app/admin/content/[template]/[slug]/page.tsx` — server component reading content JSON, passing to ContentEditor client component with breadcrumb nav
+- [2026-03-16] [Admin] Created `src/app/admin/content/[template]/[slug]/ContentEditor.tsx` — full CMS client editor: inline-editable h1 header, two-column layout (70/30), SEO fields panel with character counters, per-field section editors (string → textarea, string[] → reorderable list, object[] → expandable cards with typed field inputs + boolean toggles, nested → JSON textarea fallback), hero image panel (preview, generate via Gemini, upload jpg/png, alt text editor, prompt display), page info panel (template badge, slug, generated-at date, word count estimate), save/regenerate/view-live buttons, status indicator
+- [2026-03-16] [Admin] Created `src/app/api/admin/content/[template]/[slug]/route.ts` — GET (read content JSON) and PUT (validate + write) with admin_session cookie auth and path.basename() traversal protection
+- [2026-03-16] [Admin] Created `src/app/api/admin/content/[template]/[slug]/generate-image/route.ts` — POST: calls Gemini REST API to generate hero image from seed-based prompt, saves to public/images/content/{template}/{slug}.jpg, patches hero_image into content JSON
+- [2026-03-16] [Admin] Created `src/app/api/admin/content/[template]/[slug]/upload-image/route.ts` — POST: accepts multipart/form-data file (jpg/png, max 5MB), saves to public/images/content/{template}/{slug}.jpg, patches hero_image.path in content JSON
+- [2026-03-16] [Admin] Created `src/app/api/admin/content/[template]/[slug]/regenerate/route.ts` — POST: dynamically imports prompt_builder.ts from scripts/, calls Claude Haiku to regenerate full page content from seed, preserves existing hero_image, writes new content to disk on success only
+
 ## Current State (2026-03-16)
 
 **Content generated: 7 pages**

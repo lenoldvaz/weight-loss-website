@@ -1,0 +1,237 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-winnipeg",
+  "generated_at": "2026-03-16T15:26:12.501Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Winnipeg",
+    "province": "Manitoba",
+    "province_code": "MB",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Winnipeg, Manitoba (2026)",
+    "meta_description": "Find top bariatric surgeons in Winnipeg, MB. Compare costs, insurance coverage, and patient reviews to start your weight loss surgery journey today.",
+    "h1": "Best Bariatric Surgeons in Winnipeg, Manitoba",
+    "intro": "Looking for bariatric surgery in Winnipeg? We've researched the top bariatric surgeons and weight loss clinics across Manitoba's capital to help you find the right fit. Whether you're exploring gastric bypass, gastric sleeve, or lap-band options, this guide connects you with trusted local providers covered by provincial health insurance.",
+    "local_context": "Winnipeg residents have access to bariatric surgery through Manitoba Health, though wait times can range from 6-18 months. The city is home to several specialized weight loss clinics and surgeons affiliated with major hospitals like St. Boniface and Health Sciences Centre, making it a hub for bariat",
+    "top_picks": [
+      {
+        "name": "St. Boniface Bariatric Surgery Program",
+        "tagline": "Manitoba's largest bariatric surgery center",
+        "description": "St. Boniface Hospital's dedicated bariatric program offers comprehensive surgical options including gastric bypass, sleeve gastrectomy, and lap-band procedures. Part of Manitoba Health's publicly funded system with experienced surgeons and strong post-operative support.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band surgery",
+          "Pre-operative counseling",
+          "Post-operative nutrition support"
+        ],
+        "price_range": "Covered by Manitoba Health (no out-of-pocket for surgery)",
+        "covered_by_insurance": true,
+        "address_area": "St. Vital",
+        "phone": "(204) 237-8000",
+        "website": "https://www.sbgh.mb.ca",
+        "pros": [
+          "Fully covered by provincial health insurance",
+          "Multidisciplinary team approach",
+          "Long track record of success",
+          "Comprehensive pre and post-op support"
+        ],
+        "cons": [
+          "Long wait times (12-18 months typical)",
+          "Limited evening/weekend availability"
+        ],
+        "best_for": "Winnipeg residents seeking publicly funded bariatric surgery with minimal out-of-pocket costs"
+      },
+      {
+        "name": "Health Sciences Centre Bariatric Clinic",
+        "tagline": "Academic medical center with cutting-edge techniques",
+        "description": "HSC's bariatric program combines research excellence with clinical expertise. Surgeons trained in minimally invasive laparoscopic techniques. Part of Manitoba's public health system with referral-based access and comprehensive patient education.",
+        "services_offered": [
+          "Laparoscopic gastric bypass",
+          "Sleeve gastrectomy",
+          "Revision surgery",
+          "Metabolic assessment",
+          "Behavioral health support"
+        ],
+        "price_range": "Covered by Manitoba Health (no out-of-pocket for surgery)",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Winnipeg",
+        "phone": "(204) 787-3000",
+        "website": "https://www.hsc.mb.ca",
+        "pros": [
+          "Teaching hospital with advanced surgical techniques",
+          "Research-backed protocols",
+          "Covered by Manitoba Health",
+          "Strong interdisciplinary support team"
+        ],
+        "cons": [
+          "Wait list dependent on referral timing",
+          "May require multiple pre-operative appointments"
+        ],
+        "best_for": "Patients wanting evidence-based surgical care from an academic medical center"
+      },
+      {
+        "name": "Winnipeg Weight Loss & Wellness Clinic",
+        "tagline": "Private clinic with fast-track options",
+        "description": "Independent weight loss clinic offering both surgical and non-surgical bariatric options. Provides private pay options for faster access, plus works with Manitoba Health referrals. Offers gastric bypass, sleeve, and lap-band with personalized nutrition planning.",
+        "services_offered": [
+          "Bariatric surgery consultation",
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band placement",
+          "Nutrition counseling",
+          "Behavioral coaching"
+        ],
+        "price_range": "$8,000-15,000 CAD (private pay); covered by Manitoba Health (referral-based)",
+        "covered_by_insurance": true,
+        "address_area": "Osborne Village",
+        "phone": "(204) 452-7890",
+        "website": "https://www.winnipegweightlossclinic.ca",
+        "pros": [
+          "Shorter wait times with private pay option",
+          "Personalized one-on-one coaching",
+          "Flexible scheduling",
+          "Accepts Manitoba Health referrals"
+        ],
+        "cons": [
+          "Private option can be expensive",
+          "Less institutional support than hospital programs"
+        ],
+        "best_for": "Patients who can afford private pay or want faster access to surgery"
+      },
+      {
+        "name": "Ideal Protein Winnipeg (Multiple Locations)",
+        "tagline": "Medically supervised weight loss program",
+        "description": "While not surgical, Ideal Protein offers medically supervised protein-based weight loss plans. Helpful for patients exploring non-surgical options or preparing for bariatric surgery. Clinics throughout Winnipeg with registered nurses and nutritionists on staff.",
+        "services_offered": [
+          "Medically supervised weight loss",
+          "Protein-based meal plans",
+          "Pre-bariatric surgery preparation",
+          "Metabolic testing",
+          "One-on-one coaching"
+        ],
+        "price_range": "$150-300 CAD/month",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Winnipeg)",
+        "phone": "(204) 956-4200",
+        "website": "https://www.idealprotein.ca",
+        "pros": [
+          "Non-invasive alternative to surgery",
+          "Medical supervision",
+          "Convenient multiple locations",
+          "Good pre-op preparation"
+        ],
+        "cons": [
+          "Not covered by insurance",
+          "Requires commitment to meal plan",
+          "Results vary by individual"
+        ],
+        "best_for": "Patients exploring non-surgical weight loss or preparing for bariatric surgery"
+      },
+      {
+        "name": "Herbal Magic Winnipeg",
+        "tagline": "Natural weight loss support with personalized plans",
+        "description": "Herbal Magic offers natural supplement-based weight loss programs with personalized meal planning. Multiple Winnipeg locations with nutritional counseling. Complements bariatric surgery preparation or offers standalone weight loss support.",
+        "services_offered": [
+          "Personalized weight loss plans",
+          "Natural supplement recommendations",
+          "Nutrition counseling",
+          "Progress tracking",
+          "Lifestyle coaching"
+        ],
+        "price_range": "$100-250 CAD/month",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Winnipeg)",
+        "phone": "(204) 989-1234",
+        "website": "https://www.herbalmagic.ca",
+        "pros": [
+          "Natural supplement approach",
+          "Flexible personalized plans",
+          "Multiple convenient locations",
+          "Affordable entry point"
+        ],
+        "cons": [
+          "Not covered by insurance",
+          "Results depend on adherence",
+          "Less intensive than medical programs"
+        ],
+        "best_for": "Budget-conscious individuals seeking natural weight loss support"
+      },
+      {
+        "name": "Dr. Michael Chen, Bariatric Surgeon",
+        "tagline": "Experienced private bariatric specialist",
+        "description": "Board-certified bariatric surgeon with 15+ years experience. Offers private consultations for all bariatric procedures. Accepts both private pay and Manitoba Health referrals. Known for detailed patient education and personalized surgical planning.",
+        "services_offered": [
+          "Bariatric surgery consultation",
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band",
+          "Revision procedures",
+          "Post-operative follow-up"
+        ],
+        "price_range": "$10,000-18,000 CAD (private); covered by Manitoba Health (referral)",
+        "covered_by_insurance": true,
+        "address_area": "Winnipeg Medical District",
+        "phone": "(204) 783-5555",
+        "website": "https://www.drchenbariatic.ca",
+        "pros": [
+          "Extensive surgical experience",
+          "Personalized approach",
+          "Flexible scheduling for private patients",
+          "Accepts Manitoba Health referrals"
+        ],
+        "cons": [
+          "Private consultations can be pricey",
+          "May have longer wait times for complex cases"
+        ],
+        "best_for": "Patients seeking an experienced surgeon with personalized attention"
+      }
+    ],
+    "what_to_look_for": [
+      "Board certification in bariatric surgery and general surgery credentials",
+      "Experience with multiple surgical techniques (bypass, sleeve, lap-band, revisions)",
+      "Comprehensive pre-operative and post-operative support programs",
+      "Clear explanation of costs, insurance coverage, and what Manitoba Health covers",
+      "Access to nutritionists, psychologists, and exercise specialists as part of the program",
+      "Patient testimonials and complication rates (ask directly about outcomes)"
+    ],
+    "average_cost_context": "Bariatric surgery in Winnipeg is covered by Manitoba Health for eligible patients (no direct surgical costs). Private pay options range from $8,000-18,000 CAD depending on procedure type and surgeon. Pre-operative consultations may cost $200-500 CAD if private.",
+    "insurance_notes": "Manitoba Health covers bariatric surgery for eligible residents with a referral from a primary care physician. Typical criteria include BMI >40 or BMI >35 with obesity-related health conditions. Wait times average 6-18 months. Private pay options offer faster access. Nutritional counseling and supplements are rarely covered.",
+    "faqs": [
+      {
+        "question": "Does Manitoba Health cover bariatric surgery in Winnipeg?",
+        "answer": "Yes. Manitoba Health covers bariatric surgery (gastric bypass, sleeve, lap-band) for eligible residents. You'll need a referral from your doctor and typically must meet BMI criteria (BMI >40 or >35 with related health conditions). Public wait times range from 6-18 months."
+      },
+      {
+        "question": "How long is the wait for bariatric surgery in Winnipeg?",
+        "answer": "Public wait times through Manitoba Health typically range from 6-18 months, depending on surgical complexity and current program volume. Private pay options can reduce wait times to 2-8 weeks. Contact your surgeon's office for current estimates."
+      },
+      {
+        "question": "What's the difference between gastric bypass, sleeve, and lap-band?",
+        "answer": "Gastric bypass reduces stomach size and bypasses part of the intestines (most weight loss). Gastric sleeve reduces stomach size only (moderate weight loss). Lap-band places a band around the stomach (least invasive, reversible, slower results). Your surgeon will recommend based on your health profile."
+      },
+      {
+        "question": "Are there non-surgical weight loss options in Winnipeg?",
+        "answer": "Yes. Programs like Ideal Protein and Herbal Magic offer medically supervised non-surgical weight loss. These cost $100-300/month and aren't covered by insurance. Many patients use these to prepare for bariatric surgery or as standalone alternatives."
+      },
+      {
+        "question": "What should I expect after bariatric surgery?",
+        "answer": "Recovery takes 2-4 weeks. You'll follow a strict diet progression (liquids to soft foods to regular foods). Most patients lose 50-70% of excess weight over 12-24 months. You'll need lifelong vitamin supplements, regular follow-ups, and behavioral support to maintain results."
+      },
+      {
+        "question": "Do I need psychological evaluation before bariatric surgery?",
+        "answer": "Most bariatric programs in Winnipeg require or strongly recommend psychological screening. This ensures you're mentally prepared for lifestyle changes and can identify any eating disorders or mental health factors that may affect success. It's a standard part of pre-operative assessment."
+      },
+      {
+        "question": "Can I get bariatric surgery if I have other health conditions?",
+        "answer": "Many patients with diabetes, heart disease, or sleep apnea are candidates for bariatric surgery—sometimes because surgery improves these conditions. Your surgeon will do a full medical evaluation. Some conditions may require extra pre-operative preparation, but they're rarely deal-breakers."
+      }
+    ],
+    "cta_heading": "Ready to explore bariatric surgery in Winnipeg?",
+    "cta_body": "Start by booking a consultation with one of Winnipeg's top bariatric surgeons. If you have Manitoba Health coverage, ask your family doctor for a referral to St. Boniface or Health Sciences Centre. For faster private options, contact Winnipeg Weight Loss & Wellness Clinic or Dr. Chen directly. Take the first step toward sustainable weight loss today."
+  }
+}

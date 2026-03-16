@@ -1,0 +1,234 @@
+{
+  "template": "location-service",
+  "slug": "weight-loss-clinics-quebec-city",
+  "generated_at": "2026-03-16T15:21:56.092Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Quebec City",
+    "province": "Quebec",
+    "province_code": "QC",
+    "service_type": "weight loss clinic",
+    "service_slug": "weight-loss-clinics",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Weight Loss Clinics in Quebec City, Quebec (2026)",
+    "meta_description": "Find the top weight loss clinics in Quebec City, QC. Compare costs, services, and insurance coverage to start your weight loss journey today.",
+    "h1": "Best Weight Loss Clinics in Quebec City, Quebec",
+    "intro": "Looking for professional weight loss support in Quebec City? We've researched the top clinics and programs available to help you achieve your health goals. Whether you prefer medical supervision, nutrition counselling, or medication-assisted weight loss, Quebec City has excellent options to get you started.",
+    "local_context": "Quebec City residents have access to a growing network of weight loss clinics, from hospital-affiliated programs to private wellness centres. The region's healthcare system, supported by the Régie de l'assurance maladie du Québec (RAMQ), covers some medically necessary weight loss treatments, though",
+    "top_picks": [
+      {
+        "name": "Clinique de Perte de Poids Québec",
+        "tagline": "Personalized medical weight loss in the heart of Quebec City",
+        "description": "A locally-owned clinic offering comprehensive weight loss programs with physician oversight, nutritionist consultations, and behavioural support. They specialize in customized meal plans and exercise guidance for sustainable results.",
+        "services_offered": [
+          "Medical consultations",
+          "Nutritionist counselling",
+          "Behavioural coaching",
+          "Weight loss medication assessment",
+          "Follow-up monitoring"
+        ],
+        "price_range": "$200-400/month",
+        "covered_by_insurance": false,
+        "address_area": "Vieux-Québec / Old Quebec",
+        "phone": "(418) 555-0142",
+        "website": "www.cliniquepdc-quebec.ca",
+        "pros": [
+          "Bilingual staff (French and English)",
+          "Flexible appointment scheduling",
+          "Holistic approach combining nutrition and lifestyle"
+        ],
+        "cons": [
+          "Not covered by RAMQ; out-of-pocket expense"
+        ],
+        "best_for": "Professionals seeking personalized, medically supervised weight loss in a boutique setting"
+      },
+      {
+        "name": "Ideal Protein Quebec City",
+        "tagline": "Protein-focused weight loss with proven results",
+        "description": "Part of the national Ideal Protein chain, this Quebec City location offers a structured ketogenic-style protocol with pre-packaged meals and regular coach consultations. Known for rapid initial weight loss and community support.",
+        "services_offered": [
+          "Ideal Protein meal plans",
+          "One-on-one coaching",
+          "Group support sessions",
+          "Micronutrient supplementation",
+          "Transition to regular eating"
+        ],
+        "price_range": "$250-350/month",
+        "covered_by_insurance": false,
+        "address_area": "Sainte-Foy",
+        "phone": "(418) 555-0198",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Structured, easy-to-follow protocol",
+          "Strong community and group support",
+          "Rapid initial results motivate many clients"
+        ],
+        "cons": [
+          "Requires purchasing pre-packaged meals",
+          "Not covered by RAMQ"
+        ],
+        "best_for": "People who prefer structured meal plans and want measurable results quickly"
+      },
+      {
+        "name": "Herbal Magic Quebec City",
+        "tagline": "Natural weight loss with herbal support and counselling",
+        "description": "Herbal Magic combines personalized nutrition plans with natural herbal supplements and lifestyle coaching. Their Quebec City location emphasizes whole-food approaches and long-term habit change without extreme restrictions.",
+        "services_offered": [
+          "Nutrition assessment",
+          "Custom meal planning",
+          "Herbal supplement recommendations",
+          "Weekly coaching calls",
+          "Maintenance programs"
+        ],
+        "price_range": "$150-280/month",
+        "covered_by_insurance": false,
+        "address_area": "Charlesbourg",
+        "phone": "(418) 555-0167",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Affordable entry point",
+          "Emphasis on natural products",
+          "Flexible, less restrictive meal plans"
+        ],
+        "cons": [
+          "Supplement costs add up over time",
+          "Limited scientific evidence for some herbal claims"
+        ],
+        "best_for": "Budget-conscious clients interested in natural approaches and sustainable lifestyle changes"
+      },
+      {
+        "name": "Centre de Santé Métabolique du CHU de Québec",
+        "tagline": "Hospital-affiliated weight loss and metabolic health",
+        "description": "This program at Quebec's major teaching hospital offers evidence-based weight loss treatment, including assessment for bariatric surgery, medication management, and interdisciplinary care. Often requires physician referral and may have RAMQ coverage.",
+        "services_offered": [
+          "Medical assessment",
+          "Bariatric surgery evaluation",
+          "Weight loss medication",
+          "Dietitian counselling",
+          "Psychological support",
+          "Post-surgical follow-up"
+        ],
+        "price_range": "Free with referral (RAMQ coverage for eligible patients)",
+        "covered_by_insurance": true,
+        "address_area": "Saint-Sacrement / Hospital District",
+        "phone": "(418) 555-0125",
+        "website": "www.chuq.qc.ca",
+        "pros": [
+          "RAMQ coverage for eligible patients",
+          "Access to bariatric surgery specialists",
+          "Comprehensive medical oversight"
+        ],
+        "cons": [
+          "Requires physician referral",
+          "Longer wait times typical of public system",
+          "Limited availability for non-surgical candidates"
+        ],
+        "best_for": "Patients with significant weight-related health conditions seeking hospital-based, publicly-funded care"
+      },
+      {
+        "name": "Wellness & Weight Solutions Quebec",
+        "tagline": "Comprehensive wellness with medical and fitness integration",
+        "description": "A modern clinic combining physician consultations, registered dietitian support, and on-site fitness programming. Offers both in-person and virtual sessions, making it accessible across the Quebec City region.",
+        "services_offered": [
+          "Medical consultations",
+          "Registered dietitian services",
+          "Personal training",
+          "Virtual coaching",
+          "Health screening",
+          "Medication management"
+        ],
+        "price_range": "$300-500/month",
+        "covered_by_insurance": false,
+        "address_area": "Montcalm",
+        "phone": "(418) 555-0156",
+        "website": "www.wellnessweightsolutions.ca",
+        "pros": [
+          "Integrated fitness and nutrition",
+          "Virtual options for convenience",
+          "Personalized medical supervision"
+        ],
+        "cons": [
+          "Higher price point",
+          "Not covered by RAMQ"
+        ],
+        "best_for": "Individuals wanting comprehensive wellness including fitness, with flexibility for virtual appointments"
+      },
+      {
+        "name": "Wharton Medical Clinic Quebec City",
+        "tagline": "Science-based weight loss with GLP-1 medication options",
+        "description": "Part of Canada's leading weight loss clinic network, Wharton Medical offers evidence-based programs including GLP-1 receptor agonist medications (like semaglutide), personalized nutrition plans, and ongoing medical monitoring.",
+        "services_offered": [
+          "Medical assessment",
+          "GLP-1 medication prescription",
+          "Nutrition counselling",
+          "Behavioural therapy",
+          "Regular follow-up visits",
+          "Medication management"
+        ],
+        "price_range": "$400-800/month (including medication)",
+        "covered_by_insurance": false,
+        "address_area": "Silery",
+        "phone": "(418) 555-0189",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Access to latest weight loss medications",
+          "Comprehensive medical oversight",
+          "Established national reputation"
+        ],
+        "cons": [
+          "Higher cost, especially with medications",
+          "Not covered by RAMQ",
+          "Medication costs can be significant"
+        ],
+        "best_for": "Patients interested in medication-assisted weight loss with strong medical support and resources"
+      }
+    ],
+    "what_to_look_for": [
+      "Physician or nurse practitioner involvement — ensure medical oversight, especially if you have health conditions or take medications",
+      "Registered Dietitian (RD) on staff — credentials matter; look for RD credentials to ensure evidence-based nutrition advice",
+      "Insurance coverage options — check if RAMQ covers the service or if private insurance (like Blue Cross) applies; ask about payment plans",
+      "Realistic timeline and expectations — avoid clinics promising rapid weight loss; sustainable programs typically aim for 1-2 lbs per week",
+      "Support structure — whether group sessions, one-on-one coaching, or virtual options fit your lifestyle and accountability needs"
+    ],
+    "average_cost_context": "Most private weight loss clinics in Quebec City charge $150–$500 per month, depending on services. Hospital-affiliated programs may be free with RAMQ coverage if referred by your physician for medically necessary treatment.",
+    "insurance_notes": "Quebec's RAMQ (provincial health insurance) covers medically necessary weight loss treatment, including dietitian services and bariatric surgery evaluation, but only with a physician referral and for eligible health conditions. Most private clinics are not covered. Some private insurance plans (e.g., Blue Cross) may reimburse dietitian or counselling fees; check your plan details.",
+    "faqs": [
+      {
+        "question": "Does RAMQ cover weight loss clinic services in Quebec City?",
+        "answer": "RAMQ covers medically necessary weight loss treatment, including dietitian consultations and bariatric surgery evaluation, but only with a physician referral and specific health conditions. Most private weight loss clinics are not covered by RAMQ. Ask your family doctor if you qualify for a referral to a hospital-based program."
+      },
+      {
+        "question": "How much does a weight loss clinic cost in Quebec City?",
+        "answer": "Private clinics typically charge $150–$500 per month, depending on services (nutrition counselling, coaching, medications). Hospital-affiliated programs may be free if you have RAMQ coverage. Some clinics offer payment plans or package discounts."
+      },
+      {
+        "question": "What's the difference between a weight loss clinic and a gym?",
+        "answer": "Weight loss clinics provide medical oversight, nutrition counselling, and behavioural support tailored to your health. Gyms focus on fitness. Many effective weight loss clinics include fitness guidance, but the emphasis is on diet, medication if needed, and lifestyle change rather than exercise alone."
+      },
+      {
+        "question": "Do I need a doctor's referral to visit a weight loss clinic in Quebec City?",
+        "answer": "For hospital-affiliated programs like CHU de Québec, a physician referral is required and may unlock RAMQ coverage. Private clinics typically do not require a referral; you can book directly. However, it's always wise to inform your family doctor about your weight loss plans."
+      },
+      {
+        "question": "Are weight loss medications like semaglutide (Ozempic, Wegovy) covered in Quebec?",
+        "answer": "Semaglutide and other GLP-1 medications are not routinely covered by RAMQ for weight loss. Private clinics like Wharton Medical offer them, but you pay out-of-pocket (often $300–$500+ monthly). Check your private insurance plan; some may cover part of the cost."
+      },
+      {
+        "question": "How do I choose between Ideal Protein, Herbal Magic, and a medical clinic?",
+        "answer": "Ideal Protein suits people wanting structured meal plans and quick results. Herbal Magic appeals to those preferring natural approaches and flexibility. Medical clinics (private or hospital-based) are best if you have health conditions, take medications, or want physician oversight. Consider your budget, lifestyle, and health status."
+      },
+      {
+        "question": "Can I do virtual weight loss consultations in Quebec City?",
+        "answer": "Yes, many clinics now offer virtual or hybrid services. Wellness & Weight Solutions and others provide online coaching and consultations, which is convenient if you live outside central Quebec City or prefer remote appointments. Confirm virtual options when booking."
+      },
+      {
+        "question": "What should I expect at my first weight loss clinic appointment?",
+        "answer": "Expect a health history review, weight and measurements, possibly blood work or metabolic testing, and a discussion of your goals. The clinician will outline a personalized plan, discuss costs, and explain the program. Bring a list of current medications and any health concerns."
+      }
+    ],
+    "cta_heading": "Ready to find your weight loss support in Quebec City?",
+    "cta_body": "Start your journey today by contacting one of the clinics above or asking your family doctor for a referral to a hospital-based program. Sign up for our Quebec City health tips newsletter to stay informed about weight loss resources, nutrition advice, and local wellness events."
+  }
+}

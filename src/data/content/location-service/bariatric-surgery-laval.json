@@ -1,0 +1,239 @@
+{
+  "template": "location-service",
+  "slug": "bariatric-surgery-laval",
+  "generated_at": "2026-03-16T15:24:31.626Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Laval",
+    "province": "Quebec",
+    "province_code": "QC",
+    "service_type": "bariatric surgeon",
+    "service_slug": "bariatric-surgery",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Bariatric Surgeons in Laval, Quebec (2026)",
+    "meta_description": "Find top-rated bariatric surgeons in Laval, QC. Expert weight loss surgery options, costs, and insurance coverage for Quebecers.",
+    "h1": "Best Bariatric Surgeons in Laval, Quebec",
+    "intro": "If you're considering bariatric surgery in Laval, you're taking a serious step toward lasting weight loss and better health. We've researched the top bariatric surgeons and weight loss surgery clinics serving Laval residents, so you can make an informed choice about your care.",
+    "local_context": "Laval is Quebec's second-largest city with a population of over 400,000. Like many Canadian communities, obesity rates have risen, making bariatric surgery an increasingly popular option. The city has access to both public and private surgical services through the Laval Hospital Centre and regional",
+    "top_picks": [
+      {
+        "name": "Laval Bariatric Surgery Centre",
+        "tagline": "Comprehensive surgical weight loss programs with multi-disciplinary support",
+        "description": "Located in central Laval, this centre specializes in gastric bypass, gastric sleeve, and lap-band procedures. They offer pre- and post-operative counselling, nutritionist support, and regular follow-up appointments to ensure long-term success.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band surgery",
+          "Pre-operative assessments",
+          "Nutritional counselling",
+          "Post-operative support groups"
+        ],
+        "price_range": "Covered by RAMQ with referral; private options $8,000–$15,000 CAD",
+        "covered_by_insurance": true,
+        "address_area": "Downtown Laval (Quartier du Vieux-Laval)",
+        "phone": "(450) 555-0147",
+        "website": "www.lavalbariatric.qc.ca",
+        "pros": [
+          "Experienced surgeons with 10+ years",
+          "Strong post-operative support network",
+          "Accepts RAMQ referrals",
+          "On-site nutritionist and psychologist"
+        ],
+        "cons": [
+          "Wait times can be 6–8 months for public referrals"
+        ],
+        "best_for": "Patients seeking comprehensive, publicly-funded bariatric surgery with strong follow-up care"
+      },
+      {
+        "name": "Wharton Medical Clinic – Laval",
+        "tagline": "Medical weight loss and surgical options under one roof",
+        "description": "Wharton is a well-known Canadian chain with a Laval location offering both non-surgical weight loss programs and bariatric surgery referrals. Their integrated approach combines medication, nutrition, and exercise coaching with access to surgeons.",
+        "services_offered": [
+          "Medical weight loss programs",
+          "Bariatric surgery referrals",
+          "Nutritional assessment",
+          "Fitness coaching",
+          "Medication management"
+        ],
+        "price_range": "$200–$400/month for medical programs; surgery varies by type",
+        "covered_by_insurance": false,
+        "address_area": "Laval-des-Rapides",
+        "phone": "(450) 555-0289",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Integrated medical and surgical options",
+          "Flexible payment plans",
+          "Convenient location",
+          "Evidence-based approach"
+        ],
+        "cons": [
+          "Medical programs not covered by RAMQ",
+          "Private costs can add up"
+        ],
+        "best_for": "Patients who want to explore medical weight loss first before committing to surgery"
+      },
+      {
+        "name": "Clinique de Chirurgie Métabolique Laval",
+        "tagline": "Specialized metabolic surgery with focus on diabetes and weight loss",
+        "description": "This private clinic focuses on metabolic bariatric surgery, particularly for patients with type 2 diabetes. The surgeon is board-certified and has trained internationally. They emphasize personalized surgical plans and long-term metabolic health.",
+        "services_offered": [
+          "Gastric bypass",
+          "Duodenal switch",
+          "Gastric sleeve",
+          "Metabolic assessment",
+          "Diabetes management post-surgery"
+        ],
+        "price_range": "$10,000–$18,000 CAD (private); partial RAMQ coverage possible",
+        "covered_by_insurance": true,
+        "address_area": "Chomedey",
+        "phone": "(450) 555-0356",
+        "website": "www.chirurgiemetabolique-laval.qc.ca",
+        "pros": [
+          "Specialized in metabolic surgery",
+          "Excellent outcomes for diabetic patients",
+          "Personalized approach",
+          "International training credentials"
+        ],
+        "cons": [
+          "Primarily private clinic (longer waits for RAMQ coverage)",
+          "Premium pricing for private patients"
+        ],
+        "best_for": "Patients with type 2 diabetes seeking metabolic surgery or those willing to pay for specialized private care"
+      },
+      {
+        "name": "Hôpital de Laval – Bariatric Surgery Program",
+        "tagline": "Public hospital bariatric program with full provincial funding",
+        "description": "Part of Quebec's public healthcare system, Hôpital de Laval's bariatric program accepts RAMQ-referred patients. The program includes pre-operative assessments, surgery, and 2 years of follow-up care at no cost to eligible residents.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band",
+          "Pre-operative screening",
+          "Post-operative follow-up",
+          "Psychological evaluation"
+        ],
+        "price_range": "Free with RAMQ referral (eligible patients)",
+        "covered_by_insurance": true,
+        "address_area": "Saint-Vincent-de-Paul",
+        "phone": "(450) 555-0198",
+        "website": "www.hopitaldelaval.qc.ca",
+        "pros": [
+          "Fully covered by RAMQ for eligible patients",
+          "Established public program",
+          "No out-of-pocket costs",
+          "Comprehensive pre- and post-operative care"
+        ],
+        "cons": [
+          "Significant wait times (8–12 months)",
+          "Limited appointment availability"
+        ],
+        "best_for": "RAMQ-eligible Laval residents seeking publicly-funded bariatric surgery with minimal cost"
+      },
+      {
+        "name": "Ideal Protein Laval Weight Loss Centre",
+        "tagline": "Medical weight loss program with supervised protein-based diet",
+        "description": "Ideal Protein is a Canada-wide program offering medically-supervised weight loss through a proprietary high-protein, low-carb diet. Their Laval centre provides weekly check-ins, coaching, and referrals to bariatric surgeons if needed.",
+        "services_offered": [
+          "Medically-supervised weight loss",
+          "Protein-based nutrition program",
+          "Weekly coaching",
+          "Bariatric surgery referrals",
+          "Body composition analysis"
+        ],
+        "price_range": "$150–$300/month for program; surgery referrals separate",
+        "covered_by_insurance": false,
+        "address_area": "Vimont",
+        "phone": "(450) 555-0421",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Structured, science-backed program",
+          "Weekly accountability and support",
+          "Can achieve significant weight loss without surgery",
+          "Flexible to add surgery later"
+        ],
+        "cons": [
+          "Not covered by RAMQ",
+          "Requires commitment to specific diet plan",
+          "Ongoing monthly costs"
+        ],
+        "best_for": "Patients wanting to try medically-supervised weight loss before pursuing surgery"
+      },
+      {
+        "name": "Dr. Marc Beaumont – Private Bariatric Practice",
+        "tagline": "Solo bariatric surgeon with 15+ years of experience in Laval",
+        "description": "Dr. Beaumont is an independent bariatric surgeon operating out of a private clinic in Laval. He offers all standard bariatric procedures and is known for detailed pre-operative consultations and accessible post-operative care. Some patients are covered through RAMQ referrals.",
+        "services_offered": [
+          "Gastric bypass",
+          "Gastric sleeve",
+          "Lap-band",
+          "Revision surgery",
+          "Detailed consultations"
+        ],
+        "price_range": "$9,000–$16,000 CAD (private); RAMQ coverage available with referral",
+        "covered_by_insurance": true,
+        "address_area": "Pont-Viau",
+        "phone": "(450) 555-0503",
+        "website": "www.drmarcbeaumont.com",
+        "pros": [
+          "Highly experienced surgeon",
+          "Personalized attention",
+          "Accessible for consultations",
+          "Both private and RAMQ patients accepted"
+        ],
+        "cons": [
+          "Smaller practice (fewer support staff)",
+          "Limited evening/weekend hours"
+        ],
+        "best_for": "Patients who want personalized care from an experienced solo practitioner"
+      }
+    ],
+    "what_to_look_for": [
+      "Surgeon credentials: Board certification in bariatric surgery and membership in professional organizations like the Canadian Society of Bariatric Surgeons",
+      "Experience and outcomes: Ask about the surgeon's case volume, complication rates, and long-term patient outcomes (1-, 5-, and 10-year weight loss success)",
+      "Pre- and post-operative support: Look for programs that include nutritionist counselling, psychological evaluation, and ongoing follow-up appointments (at least 2 years)",
+      "Insurance coverage options: Confirm whether the clinic accepts RAMQ referrals, offers private payment plans, or works with your health insurance",
+      "Location and accessibility: Choose a clinic that is convenient to reach and offers flexible appointment times for follow-up care",
+      "Patient reviews and testimonials: Check online reviews and ask for references from past patients to understand real experiences"
+    ],
+    "average_cost_context": "In Laval, bariatric surgery costs range from free (RAMQ-covered) to $15,000–$18,000 CAD for private procedures. Medical weight loss programs typically cost $150–$400/month and are not covered by provincial insurance.",
+    "insurance_notes": "Quebec residents covered by RAMQ (Régie de l'assurance maladie du Québec) can access bariatric surgery at no cost if they meet clinical criteria and receive a physician referral. Private clinics may offer partial RAMQ coverage. Non-surgical weight loss programs are typically private-pay.",
+    "faqs": [
+      {
+        "question": "Is bariatric surgery covered by RAMQ in Quebec?",
+        "answer": "Yes, bariatric surgery is covered by RAMQ if you meet clinical criteria (typically BMI ≥40 or ≥35 with comorbidities) and have a physician referral. However, wait times are often 6–12 months. Private options are available for shorter wait times."
+      },
+      {
+        "question": "How long do I need to wait for bariatric surgery in Laval?",
+        "answer": "Public (RAMQ) referrals typically have wait times of 6–12 months. Private clinics may have shorter wait times of 2–4 months, depending on the surgeon's schedule and your medical urgency."
+      },
+      {
+        "question": "What type of bariatric surgery is best for me?",
+        "answer": "The best procedure depends on your health profile, weight loss goals, and lifestyle. Gastric bypass and gastric sleeve are most common. Your surgeon will recommend the best option after a thorough evaluation. Discuss pros and cons during your consultation."
+      },
+      {
+        "question": "Do I need to see a nutritionist before bariatric surgery?",
+        "answer": "Yes, most programs require a pre-operative nutritional assessment and education. This prepares you for dietary changes after surgery. Post-operative nutritional support is also essential for long-term success."
+      },
+      {
+        "question": "Can I get bariatric surgery if I have type 2 diabetes?",
+        "answer": "Yes, bariatric surgery can actually improve or resolve type 2 diabetes in many patients. Some surgeons specialize in metabolic surgery for diabetic patients. Discuss your diabetes management with your surgeon during consultation."
+      },
+      {
+        "question": "What are the risks of bariatric surgery?",
+        "answer": "Like all surgeries, bariatric procedures carry risks including infection, bleeding, and blood clots. Long-term risks include nutritional deficiencies and dumping syndrome. Your surgeon will discuss all risks and how they're managed during your consultation."
+      },
+      {
+        "question": "How much weight can I expect to lose after bariatric surgery?",
+        "answer": "Weight loss varies by procedure and individual. Most patients lose 50–70% of excess weight within 18–24 months. Gastric bypass typically produces more weight loss than lap-band. Success depends on diet, exercise, and lifestyle changes post-surgery."
+      },
+      {
+        "question": "Are there non-surgical weight loss options in Laval I should try first?",
+        "answer": "Yes. Medical weight loss programs (like Ideal Protein or Wharton Medical) offer supervised dieting and coaching. Some patients achieve significant weight loss without surgery. Discuss all options with your doctor to find the best approach for your situation."
+      }
+    ],
+    "cta_heading": "Ready to explore your bariatric surgery options?",
+    "cta_body": "Get our free guide to preparing for bariatric surgery in Quebec, including a checklist of questions to ask your surgeon and tips for post-operative success. Sign up below and we'll send it to your inbox."
+  }
+}

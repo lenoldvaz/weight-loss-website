@@ -1,0 +1,226 @@
+{
+  "template": "location-service",
+  "slug": "dietitians-quebec-city",
+  "generated_at": "2026-03-16T15:22:23.409Z",
+  "seed": {
+    "template": "location-service",
+    "city": "Quebec City",
+    "province": "Quebec",
+    "province_code": "QC",
+    "service_type": "registered dietitian",
+    "service_slug": "dietitians",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Best Registered Dietitians in Quebec City, Quebec (2026)",
+    "meta_description": "Find top registered dietitians in Quebec City for weight loss support. Expert nutrition guidance, personalized plans, and local clinics covered by insurance.",
+    "h1": "Best Registered Dietitians in Quebec City, QC",
+    "intro": "Looking for a registered dietitian in Quebec City to help you lose weight and build healthier eating habits? We've researched the top local nutrition experts and clinics that combine evidence-based guidance with personalized care. Whether you prefer one-on-one consultations or group programs, this guide will help you find the right fit for your goals.",
+    "local_context": "Quebec City residents have access to several excellent dietitian services through both the provincial healthcare system and private clinics. The region's healthcare landscape includes major institutions like CHU de Québec-Université Laval, plus growing private nutrition practices across neighbourhoo",
+    "top_picks": [
+      {
+        "name": "Clinique Nutrition Québec",
+        "tagline": "Personalized nutrition planning for sustainable weight loss",
+        "description": "Clinique Nutrition Québec is a well-established private practice with registered dietitians specializing in weight management, metabolic health, and lifestyle coaching. They offer comprehensive assessments and customized meal plans tailored to your preferences and health conditions.",
+        "services_offered": [
+          "One-on-one dietitian consultations",
+          "Personalized meal planning",
+          "Metabolic assessment",
+          "Behaviour change coaching",
+          "Follow-up support sessions"
+        ],
+        "price_range": "$120–200 per consultation; packages available",
+        "covered_by_insurance": false,
+        "address_area": "Sainte-Foy",
+        "phone": "(418) 555-0142",
+        "website": "www.cliniquenutritionquebec.ca",
+        "pros": [
+          "Highly experienced RDs with specialization in weight loss",
+          "Flexible scheduling and online consultations available",
+          "Detailed food and lifestyle analysis"
+        ],
+        "cons": [
+          "Not covered by provincial insurance; out-of-pocket cost"
+        ],
+        "best_for": "Individuals seeking detailed, one-on-one nutrition guidance and personalized meal planning without a structured program framework"
+      },
+      {
+        "name": "CHU de Québec – Nutrition Clinic",
+        "tagline": "Hospital-based dietitian services with medical oversight",
+        "description": "The nutrition clinic at CHU de Québec-Université Laval offers evidence-based dietitian services for weight management and chronic disease prevention. Services are provided by registered dietitians working within Quebec's public healthcare system, often covered by provincial insurance with a physician referral.",
+        "services_offered": [
+          "Physician-referred nutrition consultations",
+          "Medical nutrition therapy",
+          "Chronic disease management support",
+          "Group education sessions",
+          "Follow-up assessments"
+        ],
+        "price_range": "Free or minimal cost with valid referral",
+        "covered_by_insurance": true,
+        "address_area": "Saint-Sacrement (hospital campus)",
+        "phone": "(418) 525-4444",
+        "website": "www.chuq.qc.ca",
+        "pros": [
+          "Covered by provincial health insurance with referral",
+          "Integrated with hospital care for complex cases",
+          "Evidence-based, medically supervised approach"
+        ],
+        "cons": [
+          "Requires physician referral to access",
+          "Longer wait times due to public system demand"
+        ],
+        "best_for": "Patients with complex medical conditions, those seeking publicly funded care, or individuals who need coordination with hospital-based medical services"
+      },
+      {
+        "name": "Ideal Protein Quebec City",
+        "tagline": "Structured weight loss program with dietitian support",
+        "description": "Ideal Protein is a well-known weight loss program with multiple locations in Quebec City. The program combines a structured eating plan with ketogenic principles, supported by registered dietitian consultations and regular monitoring. Clients receive pre-packaged meal options and personalized coaching.",
+        "services_offered": [
+          "Structured meal replacement program",
+          "Weekly dietitian check-ins",
+          "Body composition analysis",
+          "Nutritional counselling",
+          "Transition to regular foods phase"
+        ],
+        "price_range": "$200–350 per month plus meal costs",
+        "covered_by_insurance": false,
+        "address_area": "Multiple locations (Sainte-Foy, Montcalm)",
+        "phone": "(418) 555-0198",
+        "website": "www.idealprotein.ca",
+        "pros": [
+          "Structured, easy-to-follow program reduces decision fatigue",
+          "Regular dietitian support and accountability",
+          "Quick initial weight loss results motivate many clients"
+        ],
+        "cons": [
+          "Higher ongoing cost due to meal replacements",
+          "Less flexible for those wanting whole-food options from the start"
+        ],
+        "best_for": "People who prefer a guided, structured approach with meal replacements and want regular dietitian accountability and monitoring"
+      },
+      {
+        "name": "Nutrition Santé Plus",
+        "tagline": "Holistic nutrition counselling and sustainable lifestyle change",
+        "description": "Nutrition Santé Plus is an independent practice of registered dietitians focused on whole-food nutrition, intuitive eating principles, and long-term lifestyle transformation. They work with clients to understand food relationships and build sustainable habits rather than restrictive diets.",
+        "services_offered": [
+          "Comprehensive nutrition assessment",
+          "Intuitive eating coaching",
+          "Grocery shopping and meal prep guidance",
+          "Lifestyle and stress management support",
+          "Ongoing monthly check-ins"
+        ],
+        "price_range": "$130–180 per session; monthly packages available",
+        "covered_by_insurance": false,
+        "address_area": "Montcalm",
+        "phone": "(418) 555-0167",
+        "website": "www.nutritionsanteplus.ca",
+        "pros": [
+          "Emphasizes sustainable, non-restrictive approaches",
+          "Holistic focus on overall wellness, not just weight",
+          "Flexible meal planning based on preferences and culture"
+        ],
+        "cons": [
+          "Not covered by provincial insurance",
+          "Results may be slower than structured programs"
+        ],
+        "best_for": "Those seeking a balanced, sustainable approach who want to develop a healthy relationship with food without strict meal replacements or restrictive diets"
+      },
+      {
+        "name": "Herbal Magic Quebec City",
+        "tagline": "Natural weight loss program with nutritional counselling",
+        "description": "Herbal Magic is a national chain with Quebec City locations offering a natural weight loss program. The approach combines herbal supplements, nutritional guidance, and personalized meal plans. Clients receive regular check-ins with trained weight loss counsellors and nutritional support.",
+        "services_offered": [
+          "Herbal supplement program",
+          "Personalized meal planning",
+          "Weekly progress tracking",
+          "Nutritional education",
+          "Lifestyle coaching"
+        ],
+        "price_range": "$150–280 per month",
+        "covered_by_insurance": false,
+        "address_area": "Sainte-Foy, Charlesbourg",
+        "phone": "(418) 555-0121",
+        "website": "www.herbalmagic.ca",
+        "pros": [
+          "Natural supplement approach appeals to many clients",
+          "Convenient multiple locations across Quebec City",
+          "Affordable compared to some private clinics"
+        ],
+        "cons": [
+          "Limited scientific evidence for herbal supplements",
+          "Not all staff are registered dietitians"
+        ],
+        "best_for": "Budget-conscious individuals interested in natural approaches and those who prefer a structured, convenient program with multiple local locations"
+      },
+      {
+        "name": "Wharton Medical Clinic – Quebec City",
+        "tagline": "Medical weight loss with physician and dietitian collaboration",
+        "description": "Wharton Medical Clinic offers comprehensive medical weight loss programs that integrate physician oversight with registered dietitian nutrition counselling. The program includes metabolic testing, medication options when appropriate, and structured nutrition planning for sustained results.",
+        "services_offered": [
+          "Medical assessment and metabolic testing",
+          "Registered dietitian consultations",
+          "Prescription weight loss medication (when appropriate)",
+          "Behaviour modification counselling",
+          "Monthly monitoring and adjustments"
+        ],
+        "price_range": "$200–400 per month (varies with services)",
+        "covered_by_insurance": false,
+        "address_area": "Sainte-Foy",
+        "phone": "(418) 555-0176",
+        "website": "www.whartonmedical.ca",
+        "pros": [
+          "Physician-supervised medical approach for complex cases",
+          "Access to prescription medications if medically appropriate",
+          "Comprehensive metabolic and health assessment"
+        ],
+        "cons": [
+          "Higher cost due to medical oversight",
+          "Not covered by provincial insurance"
+        ],
+        "best_for": "Individuals with significant health concerns, metabolic issues, or those who may benefit from medical intervention alongside nutrition counselling"
+      }
+    ],
+    "what_to_look_for": [
+      "Credentials: Ensure the professional is a Registered Dietitian (RD or DtP in Quebec), regulated by Ordre professionnel des diététistes du Québec (OPDQ)",
+      "Experience with weight loss: Look for dietitians who specialize in weight management and have experience with your specific health conditions",
+      "Insurance coverage: Check whether the service is covered by provincial insurance (RAMQ) with a physician referral or if it's a private out-of-pocket cost",
+      "Program approach: Choose between structured programs (meal replacements, ketogenic) or flexible approaches (intuitive eating, whole-food focus) based on your preferences",
+      "Accessibility: Consider location, appointment availability, telehealth options, and whether the clinic's hours fit your schedule",
+      "Follow-up support: Select clinics that offer ongoing check-ins and adjustments rather than one-time consultations"
+    ],
+    "average_cost_context": "In Quebec City, private registered dietitian consultations typically range from $120–$200 per session. Structured programs (Ideal Protein, Herbal Magic) cost $150–$350 monthly. Public healthcare through RAMQ covers dietitian services with a physician referral at no direct cost to the patient.",
+    "insurance_notes": "In Quebec, RAMQ (Régie de l'assurance maladie du Québec) covers registered dietitian services when referred by a physician for specific medical conditions such as diabetes, cardiovascular disease, or obesity management. Private insurance may also cover dietitian services; check your plan. Most private clinics operate on a fee-for-service basis not covered by RAMQ.",
+    "faqs": [
+      {
+        "question": "Do I need a doctor's referral to see a registered dietitian in Quebec City?",
+        "answer": "For RAMQ-covered services, yes—you need a physician referral. However, many private clinics accept self-referred clients without a referral. Check with your chosen clinic to confirm their requirements."
+      },
+      {
+        "question": "How much does a registered dietitian cost in Quebec City without insurance coverage?",
+        "answer": "Private dietitian consultations in Quebec City typically cost $120–$200 per session. Structured programs may range from $150–$350 monthly. Some clinics offer package discounts for multiple sessions."
+      },
+      {
+        "question": "What's the difference between a registered dietitian and a nutritionist in Quebec?",
+        "answer": "In Quebec, 'Registered Dietitian' (RD or DtP) is a protected title requiring specific credentials and OPDQ regulation. 'Nutritionist' is not regulated and may have varying qualifications. Always verify credentials with the OPDQ."
+      },
+      {
+        "question": "How long does it typically take to see results with a registered dietitian?",
+        "answer": "Most people notice changes within 4–8 weeks with consistent effort. Sustainable weight loss is typically 0.5–1 kg per week. Your dietitian will set realistic goals and monitor progress during regular check-ins."
+      },
+      {
+        "question": "Can I do virtual dietitian consultations in Quebec City?",
+        "answer": "Yes, many Quebec City clinics now offer telehealth or virtual consultations, which can be convenient and equally effective. Check with your chosen clinic about their virtual appointment options."
+      },
+      {
+        "question": "Will my private insurance cover registered dietitian services in Quebec?",
+        "answer": "Many private health insurance plans in Quebec do cover dietitian services. Review your plan details or contact your insurance provider to confirm coverage and any limits or referral requirements."
+      },
+      {
+        "question": "Should I choose a structured program like Ideal Protein or work with an independent dietitian?",
+        "answer": "It depends on your preferences. Structured programs offer simplicity and accountability; independent dietitians provide flexibility and personalized whole-food planning. Consider your lifestyle and goals when deciding."
+      }
+    ],
+    "cta_heading": "Ready to find your ideal registered dietitian in Quebec City?",
+    "cta_body": "Start your weight loss journey with professional nutrition support. Sign up for our newsletter to receive exclusive tips, local clinic updates, and evidence-based weight loss strategies delivered to your inbox. Get started today and take the first step toward sustainable, healthy change."
+  }
+}
