@@ -3,6 +3,7 @@ import { buildPrompt, buildSlug, SYSTEM_PROMPT } from "./prompt_builder.js";
 import { validateContent } from "./validate.js";
 import { writeContent, contentExists, updateContentWithImage } from "./write_content.js";
 import { generateImage, saveImage, imageExists, buildImagePrompt } from "./image_generator.js";
+import { shouldGenerateImage } from "./image_priority.js";
 import type { AnySeed, GenerationResult } from "./types.js";
 
 const MODEL = "claude-haiku-4-5-20251001";
@@ -57,8 +58,8 @@ async function generateOne(seed: AnySeed): Promise<GenerationResult> {
       if (validation.valid && validation.data) {
         writeContent(template, slug, seed, validation.data);
 
-        // Generate hero image if API key is available and image doesn't exist yet
-        if (!imageExists(template, slug)) {
+        // Generate hero image only for priority slugs (~10% of pages)
+        if (shouldGenerateImage(slug) && !imageExists(template, slug)) {
           try {
             const imageData = await generateImage(seed);
             if (imageData) {

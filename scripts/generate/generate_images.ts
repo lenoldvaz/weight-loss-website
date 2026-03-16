@@ -13,6 +13,7 @@ import fs from "fs";
 import path from "path";
 import { generateImage, saveImage, imageExists, buildImagePrompt } from "./image_generator.js";
 import { updateContentWithImage } from "./write_content.js";
+import { shouldGenerateImage } from "./image_priority.js";
 import type { AnySeed } from "./types.js";
 
 // ─── Load .env.local (same pattern as run.ts) ─────────────────────────────────
@@ -67,11 +68,14 @@ function getContentFilesWithoutImage(template: string): ContentRecord[] {
     const record = JSON.parse(raw) as ContentRecord;
     const content = record.content as Record<string, unknown>;
 
+    // Skip if not in priority list (~10% of pages get images)
+    const slug = file.replace(".json", "");
+    if (!shouldGenerateImage(slug)) continue;
+
     // Skip if hero_image already set in the JSON
     if (content.hero_image != null) continue;
 
     // Also skip if the image file physically exists already
-    const slug = file.replace(".json", "");
     if (imageExists(template, slug)) continue;
 
     results.push(record);
