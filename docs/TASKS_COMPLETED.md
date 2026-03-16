@@ -145,12 +145,33 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-03-16] [Admin] Created `src/app/api/admin/content/[template]/[slug]/upload-image/route.ts` — POST: accepts multipart/form-data file (jpg/png, max 5MB), saves to public/images/content/{template}/{slug}.jpg, patches hero_image.path in content JSON
 - [2026-03-16] [Admin] Created `src/app/api/admin/content/[template]/[slug]/regenerate/route.ts` — POST: dynamically imports prompt_builder.ts from scripts/, calls Claude Haiku to regenerate full page content from seed, preserves existing hero_image, writes new content to disk on success only
 
+- [2026-03-16] [Pipeline] Created `scripts/generate/image_priority.ts` — curated list of ~50 priority slugs that get hero images (~10% of total pages); shouldGenerateImage() used by both content_generator.ts and generate_images.ts; covers top 8 cities × 3 services, all product reviews, top how-to guides
+- [2026-03-16] [Infra] GEMINI_API_KEY added to .env.local and Vercel environment variables
+
 ## Current State (2026-03-16)
 
-**Content generated: 7 pages**
-- location-service (5): weight-loss-clinics-toronto, bariatric-surgery-toronto, dietitians-toronto, dietitians-ottawa, weight-loss-clinics-ottawa
+**Content generated: 52 pages**
+- location-service (49): all major Canadian cities covered (Toronto, Vancouver, Montreal, Calgary, Ottawa, Edmonton, Mississauga, Hamilton, London, Surrey, Burnaby, Victoria, Winnipeg, Halifax, Laval, Quebec City, Red Deer) × 3 services
 - how-to (1): how-to-lose-belly-fat
 - product-review (1): ozempic-review
+- Seeds remaining: ~24 how-to, ~17 product-review
+
+**All 9 page templates complete:**
+- LocationServiceTemplate, HowToTemplate, ProductReviewTemplate (Phase 3)
+- ComparisonTemplate, DemographicTopicTemplate, ConditionTopicTemplate, BestListTemplate, TrendingArticleTemplate, LocationProductTemplate (Phase 4)
+- Seeds needed: comparison, demographic-topic, condition-topic, best-list, trending-article, location-product
+
+**Admin panel features:**
+- Login + auth middleware
+- Taxonomy browser + editor
+- Schema viewer
+- Content browser → CMS editor per page (edit text, generate/upload images, regenerate via Claude)
+
+**Next priorities:**
+1. Finish generating how-to + product-review pages (`npm run generate -- --all`)
+2. Generate hero images for priority pages (`npx tsx scripts/generate/generate_images.ts --all`)
+3. Build seed files for 6 remaining templates
+4. Add Tiptap rich text to admin editor (bold, italic, links on text fields)
 
 **Seeds remaining to generate: ~96**
 - location-service: ~55 remaining of 60

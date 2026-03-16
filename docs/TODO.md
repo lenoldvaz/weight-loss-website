@@ -8,24 +8,18 @@
 
 ## 🔲 Immediate (do these now)
 
-### DNS — SSL broken on www.weight-loss.ca
-- [ ] In Cloudflare DNS: set `A` record `@` → `76.76.21.21` to **grey cloud (DNS-only)**
-- [ ] In Cloudflare DNS: set `CNAME` record `www` → `cname.vercel-dns.com` to **grey cloud (DNS-only)**
-- Orange cloud = Cloudflare proxies SSL = Vercel can't issue its own cert = ERR_SSL_VERSION_OR_CIPHER_MISMATCH
-
 ### Content generation
-- [ ] Run `npm run generate -- --all` to generate remaining ~96 pages (leave running ~35 min)
-- [ ] After done: `git add src/data/content/ && git commit -m "content: batch 1" && git push`
+- [ ] Finish generating remaining pages: `npm run generate -- --all` (how-to + product-review still needed)
+- [ ] Generate priority hero images: `npx tsx scripts/generate/generate_images.ts --all`
+- [ ] After done: `git add src/data/content/ public/images/ && git commit -m "content: batch + images" && git push`
 
 ---
 
 ## 🔲 Next Up (build tasks)
 
-### Images
-- [ ] Build Nano Banana 2 (Google Imagen / Gemini 3.1 Flash Image) image generation pipeline
-  - Add `hero_image_query` to seeds, generate image after content, store `hero_image: { url, alt }` in JSON
-  - Cost: ~$0.067/image at 1K res → ~$7 for current 103 seeds, ~$200 for 3,000 pages
-  - Same GCP project (academic-empire-462216-p6) already configured
+### Content & Templates
+- [ ] Build seed files for 6 new templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product) — unlocks ~200+ more pages
+- [ ] Add Tiptap rich text editor to admin CMS for body/intro fields (bold, italic, links)
 
 ### Analytics
 - [ ] Create Microsoft Clarity project at clarity.microsoft.com — save Project ID as `NEXT_PUBLIC_CLARITY_ID`
@@ -52,6 +46,11 @@
 
 ## ✅ Done
 
+- [x] Fix Cloudflare DNS (grey cloud) — SSL confirmed on weight-loss.ca and www ✅
+- [x] GEMINI_API_KEY added to .env.local and Vercel ✅
+- [x] All 9 page templates built and wired ✅
+- [x] CMS editor in admin panel (edit, regenerate, image generate/upload) ✅
+- [x] Hero image pipeline built (Nano Banana 2, priority list ~10% of pages) ✅
 - [x] Register weight-loss.ca domain
 - [x] Create Vercel account and link to GitHub repo (auto-deploy on push ✅)
 - [x] Create GitHub repo (github.com/lenoldvaz/weight-loss-website)

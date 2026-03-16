@@ -139,19 +139,32 @@
 - [x] 2026-03-16 — /admin login page + cookie-based auth middleware
 - [x] 2026-03-16 — Taxonomy browser + editor (string-array, object-array, keyed-object modes)
 - [x] 2026-03-16 — Schema viewer (read-only field/constraint display)
-- [x] 2026-03-16 — Content browser (pages grouped by template, live links)
-- [x] 2026-03-16 — ADMIN_PASSWORD set in .env.local and Vercel ✅
+- [x] 2026-03-16 — Content browser → CMS editor per page
+- [x] 2026-03-16 — CMS editor: edit all fields, character counters, generate/upload images, regenerate page via Claude
+- [x] 2026-03-16 — ADMIN_PASSWORD + GEMINI_API_KEY set in .env.local and Vercel ✅
 
-**Content generated so far: 7 pages**
-- location-service: 5 (weight-loss-clinics-toronto, bariatric-surgery-toronto, dietitians-toronto, dietitians-ottawa, weight-loss-clinics-ottawa)
-- how-to: 1 (how-to-lose-belly-fat)
-- product-review: 1 (ozempic-review)
+**All 9 page templates ✅**
+- [x] 2026-03-16 — ComparisonTemplate, DemographicTopicTemplate, ConditionTopicTemplate
+- [x] 2026-03-16 — BestListTemplate, TrendingArticleTemplate, LocationProductTemplate
+- [x] 2026-03-16 — [slug]/page.tsx wired for all 9 templates
+
+**Hero image pipeline ✅**
+- [x] 2026-03-16 — Nano Banana 2 (Gemini) image generation integrated into content pipeline
+- [x] 2026-03-16 — Priority image list (~50 slugs, ~10% of total pages)
+- [x] 2026-03-16 — Standalone backfill: `npx tsx scripts/generate/generate_images.ts --all`
+- [x] 2026-03-16 — Hero image rendering in LocationService, HowTo, ProductReview templates
+
+**Content generated: 52 pages**
+- location-service: 49 pages (all major Canadian cities × 3 services) ✅
+- how-to: 1/25
+- product-review: 1/18
 
 **Remaining Phase 3**
-- [ ] Fix Cloudflare DNS — set A @ and CNAME www to grey cloud (DNS-only) so Vercel provisions SSL
-- [ ] Confirm weight-loss.ca + www.weight-loss.ca resolve with valid SSL
-- [ ] Generate remaining pages: ~55 location-service, ~24 how-to, ~17 product-review (~96 remaining)
-- [ ] Add hero images to generated pages (Nano Banana 2 / Google Imagen API, ~$0.067/image at 1K)
+- [x] 2026-03-16 — DNS fixed (Cloudflare grey cloud), SSL confirmed on weight-loss.ca and www ✅
+- [ ] Generate remaining how-to (~24) and product-review (~17) pages
+- [ ] Generate hero images for priority pages (`npx tsx scripts/generate/generate_images.ts --all`)
+- [ ] Build seed files for 6 new templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product)
+- [ ] Add Tiptap rich text editor to admin CMS (bold, italic, links on body fields)
 - [ ] Mobile-responsive design verified (visual QA)
 - [ ] Core Web Vitals check (LCP < 2.5s)
 
