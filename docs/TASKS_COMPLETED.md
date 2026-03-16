@@ -148,6 +148,12 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-03-16] [Pipeline] Created `scripts/generate/image_priority.ts` — curated list of ~50 priority slugs that get hero images (~10% of total pages); shouldGenerateImage() used by both content_generator.ts and generate_images.ts; covers top 8 cities × 3 services, all product reviews, top how-to guides
 - [2026-03-16] [Infra] GEMINI_API_KEY added to .env.local and Vercel environment variables
 
+## 2026-03-16 (Rich Text Editor)
+
+- [2026-03-16] [Admin] Installed Tiptap packages: @tiptap/react, @tiptap/pm, @tiptap/starter-kit, @tiptap/extension-link, @tiptap/extension-placeholder
+- [2026-03-16] [Admin] Created `src/app/admin/content/[template]/[slug]/RichTextEditor.tsx` — Tiptap rich text editor component with StarterKit (bold, italic, H2/H3, bullet/ordered lists, blockquote) + Link extension (target=_blank, rel=nofollow noreferrer) + Placeholder; toolbar with active-state highlighting; link prompt via window.prompt; clear formatting button; client-only with 'use client' directive
+- [2026-03-16] [Admin] Updated `src/app/admin/content/[template]/[slug]/ContentEditor.tsx` — added dynamic import of RichTextEditor (ssr: false); added isRichTextField() helper with RICH_TEXT_TOP_LEVEL, RICH_TEXT_SUFFIXES, and RICH_TEXT_OBJECT_FIELDS sets; FieldSection now renders RichTextEditor for matching top-level string fields; ObjectCardEditor now renders RichTextEditor for matching object-field string keys; all SEO/short/string-array fields remain as plain inputs
+
 ## Current State (2026-03-16)
 
 **Content generated: 52 pages**
@@ -182,3 +188,12 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 1. Fix Cloudflare DNS grey cloud → resolve SSL error on www.weight-loss.ca
 2. Run `npm run generate -- --all` to generate remaining ~96 pages
 3. Build Nano Banana 2 image generation into the pipeline
+
+## 2026-03-16 (Admin Panel Improvements)
+
+- [2026-03-16] [Admin] Updated `src/app/admin/taxonomy/[file]/TaxonomyEditor.tsx` — added "View JSON" toggle button (Edit/View JSON segmented control) at top of editor; JSON view mode renders a syntax-highlighted read-only `<pre>` block using a regex-based `highlightJson()` function with Tailwind text colors: keys=indigo-300, strings=green-400, numbers=amber-400, booleans=purple-400, null/punctuation=gray-500; Save button disabled in JSON view mode
+- [2026-03-16] [Admin] Updated `src/app/admin/schemas/page.tsx` — added `SCHEMA_DESCRIPTIONS` map with entries for all 9 templates (location-service, location-product, product-review, comparison, how-to, demographic-topic, condition-topic, best-list, trending-article); each entry has description, example page title, and key fields with plain-English explanations; displayed as a styled card above each schema's field table
+- [2026-03-16] [Admin] Created `src/app/api/admin/content/seeds-manifest.ts` — static module exporting `SEED_SLUGS: Record<string, string[]>` with all seed slugs for location-service (60), how-to (25), and product-review (18) templates, derived using the same buildSlug logic as prompt_builder.ts
+- [2026-03-16] [Admin] Created `src/app/api/admin/content/status/route.ts` — GET handler returning `{ [template]: string[] }` map of generated slugs per template; reads from src/data/content/ on disk; requires admin_session cookie
+- [2026-03-16] [Admin] Created `src/app/api/admin/content/generate/route.ts` — POST handler accepting `{ template, slug }`; loads matching seed via dynamic import of seed JS files, builds prompt via prompt_builder.js, calls Claude Haiku, validates via validate.js, writes content record to disk; returns `{ ok: true, slug }` on success; requires admin_session cookie
+- [2026-03-16] [Admin] Rebuilt `src/app/admin/content/page.tsx` as client component — fetches /api/admin/content/status on load to populate generated/pending status; renders all seeds from SEED_SLUGS manifest (not just generated pages); per-template section shows progress bar (X/Y generated); table columns: Slug | Status (green Generated / yellow Pending badges) | Actions (Edit+View Live for generated; Generate button with loading spinner for pending; red error message on failure); Generate button calls POST /api/admin/content/generate with live status update on success

@@ -19,7 +19,7 @@
 
 ### Content & Templates
 - [ ] Build seed files for 6 new templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product) — unlocks ~200+ more pages
-- [ ] Add Tiptap rich text editor to admin CMS for body/intro fields (bold, italic, links)
+- [x] Add Tiptap rich text editor to admin CMS for body/intro fields (bold, italic, links) ✅
 
 ### Analytics
 - [ ] Create Microsoft Clarity project at clarity.microsoft.com — save Project ID as `NEXT_PUBLIC_CLARITY_ID`
@@ -66,3 +66,4 @@
 - [x] Add service account as Owner in Google Search Console ✅
 - [x] Set `ADMIN_PASSWORD=qwedsa@123!` in `.env.local` and Vercel ✅
 - [x] Admin panel live at weight-loss.ca/admin ✅
+- [x] Tiptap rich text editor integrated in admin CMS (bold, italic, H2/H3, lists, blockquote, links) ✅

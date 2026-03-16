@@ -1,7 +1,61 @@
 "use client";
 
 import { useState, useRef, useCallback, useEffect } from "react";
+import dynamic from "next/dynamic";
 import type { ContentRecord } from "@/lib/content";
+
+// Tiptap is client-only — load dynamically to avoid SSR issues
+const RichTextEditor = dynamic(() => import("./RichTextEditor"), { ssr: false });
+
+// ─── Rich-text field detection ────────────────────────────────────────────────
+
+/**
+ * Top-level field names that should use the rich text editor.
+ */
+const RICH_TEXT_TOP_LEVEL = new Set([
+  "intro",
+  "local_context",
+  "description",
+  "body",
+  "overview",
+  "summary",
+  "quick_answer",
+  "verdict_summary",
+  "answer",
+  "best_for",
+  "canadian_context",
+  "canadian_note",
+  "expert_note",
+  "methodology",
+  "average_cost_context",
+  "insurance_notes",
+  "cta_body",
+]);
+
+/**
+ * Suffix patterns that indicate a rich-text field regardless of prefix.
+ */
+const RICH_TEXT_SUFFIXES = ["_body", "_content", "_text"];
+
+/**
+ * Field names inside object array items (e.g. top_picks, faqs, steps) that
+ * should use the rich text editor.
+ */
+const RICH_TEXT_OBJECT_FIELDS = new Set([
+  "description",
+  "answer",
+  "body",
+  "details",
+  "tip",
+  "canadian_note",
+  "best_for",
+]);
+
+function isRichTextField(fieldName: string, inObjectCard = false): boolean {
+  if (inObjectCard) return RICH_TEXT_OBJECT_FIELDS.has(fieldName);
+  if (RICH_TEXT_TOP_LEVEL.has(fieldName)) return true;
+  return RICH_TEXT_SUFFIXES.some((suffix) => fieldName.endsWith(suffix));
+}
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -243,11 +297,18 @@ function ObjectCardEditor({
               return (
                 <div key={key}>
                   <label className="block text-xs font-medium text-gray-500 mb-1">{key}</label>
-                  <AutoTextarea
-                    value={value}
-                    onChange={(v) => updateField(key, v)}
-                    minRows={1}
-                  />
+                  {isRichTextField(key, true) ? (
+                    <RichTextEditor
+                      value={value}
+                      onChange={(html) => updateField(key, html)}
+                    />
+                  ) : (
+                    <AutoTextarea
+                      value={value}
+                      onChange={(v) => updateField(key, v)}
+                      minRows={1}
+                    />
+                  )}
                 </div>
               );
             }
@@ -401,16 +462,24 @@ function FieldSection({
   const [isOpen, setIsOpen] = useState(true);
 
   if (isString) {
+    const useRichText = isRichTextField(fieldKey, false);
     return (
       <div className="space-y-1.5">
         <label className="block text-sm font-medium text-gray-700 capitalize">
           {fieldKey.replace(/_/g, " ")}
         </label>
-        <AutoTextarea
-          value={value as string}
-          onChange={(v) => onChange(v)}
-          minRows={2}
-        />
+        {useRichText ? (
+          <RichTextEditor
+            value={value as string}
+            onChange={(html) => onChange(html)}
+          />
+        ) : (
+          <AutoTextarea
+            value={value as string}
+            onChange={(v) => onChange(v)}
+            minRows={2}
+          />
+        )}
       </div>
     );
   }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 
 interface TaxonomyEditorProps {
   fileSlug: string;
@@ -8,6 +8,80 @@ interface TaxonomyEditorProps {
 }
 
 type SaveStatus = "idle" | "saving" | "saved" | "error";
+type ViewMode = "edit" | "json";
+
+// ─── JSON syntax highlighter ─────────────────────────────────────────────────
+
+function highlightJson(json: string): React.ReactNode[] {
+  // Tokenise the JSON string into segments and return JSX spans
+  const nodes: React.ReactNode[] = [];
+  // Regex captures: string values, numbers, booleans, null, punctuation, keys
+  const tokenRegex =
+    /("(?:[^"\\]|\\.)*"\s*:)|("(?:[^"\\]|\\.)*")|(true|false)|(null)|(-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?)|([{}\[\],:])/g;
+
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let keyIndex = 0;
+
+  while ((match = tokenRegex.exec(json)) !== null) {
+    // Any unmatched gap (whitespace / newlines) goes through as-is
+    if (match.index > lastIndex) {
+      nodes.push(json.slice(lastIndex, match.index));
+    }
+    lastIndex = tokenRegex.lastIndex;
+
+    const [full, keyToken, stringToken, boolToken, nullToken, numberToken, punctToken] = match;
+
+    if (keyToken) {
+      // "key": — split into key part and colon
+      const colon = keyToken.lastIndexOf(":");
+      const keyPart = keyToken.slice(0, colon).trimEnd();
+      const rest = keyToken.slice(colon);
+      nodes.push(
+        <span key={`k-${keyIndex++}`} className="text-indigo-300">{keyPart}</span>
+      );
+      nodes.push(
+        <span key={`p-${keyIndex++}`} className="text-gray-500">{rest}</span>
+      );
+    } else if (stringToken !== undefined) {
+      nodes.push(
+        <span key={`s-${keyIndex++}`} className="text-green-400">{stringToken}</span>
+      );
+    } else if (boolToken !== undefined) {
+      nodes.push(
+        <span key={`b-${keyIndex++}`} className="text-purple-400">{boolToken}</span>
+      );
+    } else if (nullToken !== undefined) {
+      nodes.push(
+        <span key={`n-${keyIndex++}`} className="text-gray-500">{nullToken}</span>
+      );
+    } else if (numberToken !== undefined) {
+      nodes.push(
+        <span key={`num-${keyIndex++}`} className="text-amber-400">{numberToken}</span>
+      );
+    } else if (punctToken !== undefined) {
+      nodes.push(
+        <span key={`pu-${keyIndex++}`} className="text-gray-500">{full}</span>
+      );
+    }
+  }
+
+  // Trailing text
+  if (lastIndex < json.length) {
+    nodes.push(json.slice(lastIndex));
+  }
+
+  return nodes;
+}
+
+function JsonViewer({ data }: { data: unknown }) {
+  const json = JSON.stringify(data, null, 2);
+  return (
+    <pre className="overflow-x-auto text-xs font-mono leading-relaxed bg-gray-950 border border-gray-800 rounded-lg p-5 whitespace-pre">
+      {highlightJson(json)}
+    </pre>
+  );
+}
 
 // ─── Simple string-array editor ─────────────────────────────────────────────
 
@@ -249,6 +323,7 @@ export default function TaxonomyEditor({ fileSlug, initialData }: TaxonomyEditor
   const [data, setData] = useState<unknown>(initialData);
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const [viewMode, setViewMode] = useState<ViewMode>("edit");
 
   const handleSave = useCallback(async () => {
     setSaveStatus("saving");
@@ -282,14 +357,39 @@ export default function TaxonomyEditor({ fileSlug, initialData }: TaxonomyEditor
 
   return (
     <div className="space-y-6">
-      {/* Save bar */}
-      <div className="flex items-center justify-between">
+      {/* Top bar: count + view toggle + save */}
+      <div className="flex items-center justify-between gap-3 flex-wrap">
         <p className="text-sm text-gray-400">
           {Array.isArray(data)
             ? `${(data as unknown[]).length} items`
             : `${Object.keys(data as object).length} top-level keys`}
         </p>
+
         <div className="flex items-center gap-3">
+          {/* View mode toggle */}
+          <div className="flex rounded overflow-hidden border border-gray-700">
+            <button
+              onClick={() => setViewMode("edit")}
+              className={`px-3 py-1.5 text-xs font-medium transition-colors ${
+                viewMode === "edit"
+                  ? "bg-indigo-600 text-white"
+                  : "bg-gray-900 text-gray-400 hover:text-white"
+              }`}
+            >
+              Edit
+            </button>
+            <button
+              onClick={() => setViewMode("json")}
+              className={`px-3 py-1.5 text-xs font-medium transition-colors border-l border-gray-700 ${
+                viewMode === "json"
+                  ? "bg-indigo-600 text-white"
+                  : "bg-gray-900 text-gray-400 hover:text-white"
+              }`}
+            >
+              View JSON
+            </button>
+          </div>
+
           {saveStatus === "error" && (
             <p className="text-red-400 text-sm">{errorMessage}</p>
           )}
@@ -298,7 +398,7 @@ export default function TaxonomyEditor({ fileSlug, initialData }: TaxonomyEditor
           )}
           <button
             onClick={handleSave}
-            disabled={saveStatus === "saving"}
+            disabled={saveStatus === "saving" || viewMode === "json"}
             className="bg-indigo-600 hover:bg-indigo-500 disabled:bg-indigo-800 disabled:cursor-not-allowed text-white rounded px-4 py-2 text-sm font-medium transition-colors"
           >
             {saveStatus === "saving" ? "Saving…" : "Save to disk"}
@@ -306,24 +406,30 @@ export default function TaxonomyEditor({ fileSlug, initialData }: TaxonomyEditor
         </div>
       </div>
 
-      {/* Editor */}
-      {isStringArray && (
-        <StringArrayEditor
-          items={data as string[]}
-          onChange={setData}
-        />
-      )}
-      {isObjectArray && (
-        <ObjectArrayEditor
-          items={data as Record<string, unknown>[]}
-          onChange={setData}
-        />
-      )}
-      {isKeyedObject && (
-        <KeyedObjectEditor
-          data={data as Record<string, unknown>}
-          onChange={setData}
-        />
+      {/* Content area */}
+      {viewMode === "json" ? (
+        <JsonViewer data={data} />
+      ) : (
+        <>
+          {isStringArray && (
+            <StringArrayEditor
+              items={data as string[]}
+              onChange={setData}
+            />
+          )}
+          {isObjectArray && (
+            <ObjectArrayEditor
+              items={data as Record<string, unknown>[]}
+              onChange={setData}
+            />
+          )}
+          {isKeyedObject && (
+            <KeyedObjectEditor
+              data={data as Record<string, unknown>}
+              onChange={setData}
+            />
+          )}
+        </>
       )}
     </div>
   );
