@@ -1,0 +1,154 @@
+name: Submit New Pages to Google Search Console
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/data/content/**/*.json"
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # need parent commit to diff
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Get new/modified content files
+        id: files
+        run: |
+          # Find JSON files added or modified in this push under src/data/content/
+          CHANGED=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'src/data/content/**/*.json' || true)
+          echo "changed_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          echo "Files changed: $CHANGED"
+
+      - name: Submit URLs to Google Indexing API
+        if: steps.files.outputs.changed_files != ''
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SITE_URL: https://weight-loss.ca
+        run: |
+          node - <<'SCRIPT'
+          const https = require("https");
+          const crypto = require("crypto");
+
+          const svcAccount = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
+          const siteUrl = process.env.SITE_URL;
+
+          // Build JWT for Google auth
+          function base64url(buf) {
+            return buf.toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, "");
+          }
+
+          async function getAccessToken() {
+            const now = Math.floor(Date.now() / 1000);
+            const header = base64url(Buffer.from(JSON.stringify({ alg: "RS256", typ: "JWT" })));
+            const payload = base64url(Buffer.from(JSON.stringify({
+              iss: svcAccount.client_email,
+              scope: "https://www.googleapis.com/auth/indexing",
+              aud: "https://oauth2.googleapis.com/token",
+              exp: now + 3600,
+              iat: now,
+            })));
+            const sign = crypto.createSign("RSA-SHA256");
+            sign.update(`${header}.${payload}`);
+            const sig = base64url(sign.sign(svcAccount.private_key));
+            const jwt = `${header}.${payload}.${sig}`;
+
+            return new Promise((resolve, reject) => {
+              const body = `grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=${jwt}`;
+              const req = https.request({
+                hostname: "oauth2.googleapis.com",
+                path: "/token",
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              }, (res) => {
+                let data = "";
+                res.on("data", (c) => (data += c));
+                res.on("end", () => {
+                  const parsed = JSON.parse(data);
+                  if (parsed.access_token) resolve(parsed.access_token);
+                  else reject(new Error(`Auth failed: ${data}`));
+                });
+              });
+              req.on("error", reject);
+              req.write(body);
+              req.end();
+            });
+          }
+
+          async function submitUrl(token, url) {
+            return new Promise((resolve, reject) => {
+              const body = JSON.stringify({ url, type: "URL_UPDATED" });
+              const req = https.request({
+                hostname: "indexing.googleapis.com",
+                path: "/v3/urlNotifications:publish",
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  Authorization: `Bearer ${token}`,
+                },
+              }, (res) => {
+                let data = "";
+                res.on("data", (c) => (data += c));
+                res.on("end", () => resolve({ status: res.statusCode, body: data }));
+              });
+              req.on("error", reject);
+              req.write(body);
+              req.end();
+            });
+          }
+
+          // Convert file path to URL slug
+          // src/data/content/location-service/weight-loss-clinics-toronto.json
+          // → https://weight-loss.ca/weight-loss-clinics-toronto
+          function fileToUrl(filePath) {
+            const match = filePath.match(/src\/data\/content\/[^/]+\/(.+)\.json$/);
+            if (!match) return null;
+            return `${siteUrl}/${match[1]}`;
+          }
+
+          async function main() {
+            const changedFiles = (process.env.CHANGED_FILES || "").trim().split("\n").filter(Boolean);
+            if (changedFiles.length === 0) {
+              console.log("No content files changed.");
+              return;
+            }
+
+            const token = await getAccessToken();
+            console.log("Auth token obtained.");
+
+            for (const file of changedFiles) {
+              const url = fileToUrl(file);
+              if (!url) { console.log(`Skipping unrecognised path: ${file}`); continue; }
+              try {
+                const result = await submitUrl(token, url);
+                console.log(`  ${result.status === 200 ? "✓" : "✗"} ${url} → ${result.status} ${result.body}`);
+              } catch (err) {
+                console.error(`  ✗ ${url} → ${err.message}`);
+              }
+              // Small delay to avoid hammering the API
+              await new Promise(r => setTimeout(r, 500));
+            }
+
+            // Also ping the sitemap
+            try {
+              const result = await submitUrl(token, `${siteUrl}/sitemap.xml`);
+              console.log(`  Sitemap ping → ${result.status}`);
+            } catch (e) {
+              console.error("  Sitemap ping failed:", e.message);
+            }
+          }
+
+          main().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+        env:
+          CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
