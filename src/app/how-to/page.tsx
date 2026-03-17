@@ -85,7 +85,7 @@ export default function HowToIndexPage() {
             {pages.map(({ slug, record }) => (
               <li key={slug}>
                 <Link
-                  href={`/how-to/${slug}`}
+                  href={`/${slug}`}
                   className="group flex items-start gap-3 rounded-2xl border border-[var(--color-forest-100)] bg-white p-5 shadow-sm hover:border-[var(--color-forest-300)] hover:shadow-md transition-all"
                 >
                   <span className="mt-1 shrink-0 flex h-7 w-7 items-center justify-center rounded-full bg-[var(--color-forest-100)] text-[var(--color-forest-700)] text-xs font-bold">

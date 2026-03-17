@@ -10,9 +10,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
     { url: baseUrl, lastModified: now, changeFrequency: "daily", priority: 1 },
-    { url: `${baseUrl}/clinics`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
-    { url: `${baseUrl}/how-to`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
-    { url: `${baseUrl}/reviews`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
+    { url: `${baseUrl}/clinics`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/how-to`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/reviews`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/editorial-policy`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${baseUrl}/privacy-policy`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
   ];
 
   // Priority by template
