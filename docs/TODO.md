@@ -20,6 +20,8 @@
 ### Content & Templates
 - [ ] Build seed files for 6 new templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product) — unlocks ~200+ more pages
 - [x] Add Tiptap rich text editor to admin CMS for body/intro fields (bold, italic, links) ✅
+- [x] Build About, Editorial Policy, Contact, Privacy Policy pages (E-E-A-T) ✅
+- [x] Enhance hub pages (clinics, reviews, how-to) with JSON-LD schema + SEO content + cross-links ✅
 
 ### Analytics
 - [ ] Create Microsoft Clarity project at clarity.microsoft.com — save Project ID as `NEXT_PUBLIC_CLARITY_ID`
