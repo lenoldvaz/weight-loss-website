@@ -1,7 +1,7 @@
 # weight-loss.ca — Live Project Plan
 
 **Last Updated**: 2026-03-16
-**Current Phase**: Phase 3 — Page Templates & Generation Pipeline
+**Current Phase**: Phase 4 — SEO & Indexing
 
 ---
 
@@ -154,33 +154,52 @@
 - [x] 2026-03-16 — Standalone backfill: `npx tsx scripts/generate/generate_images.ts --all`
 - [x] 2026-03-16 — Hero image rendering in LocationService, HowTo, ProductReview templates
 
-**Content generated: 52 pages**
-- location-service: 49 pages (all major Canadian cities × 3 services) ✅
-- how-to: 1/25
-- product-review: 1/18
+**Content generated: 103/103 pages ✅**
+- location-service: 60/60 ✅
+- how-to: 25/25 ✅
+- product-review: 18/18 ✅
 
-**Remaining Phase 3**
+**Phase 3 ✅ COMPLETE**
 - [x] 2026-03-16 — DNS fixed (Cloudflare grey cloud), SSL confirmed on weight-loss.ca and www ✅
-- [ ] Generate remaining how-to (~24) and product-review (~17) pages
-- [ ] Generate hero images for priority pages (`npx tsx scripts/generate/generate_images.ts --all`)
-- [ ] Build seed files for 6 new templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product)
-- [ ] Add Tiptap rich text editor to admin CMS (bold, italic, links on body fields)
+- [x] 2026-03-16 — All 103 seed pages generated and deployed ✅
+- [x] 2026-03-16 — Tiptap rich text editor added to admin CMS (bold, italic, H2/H3, lists, blockquote, links) ✅
+- [ ] Generate hero images for priority pages (`npx tsx scripts/generate/generate_images.ts --all`) — deferred
 - [ ] Mobile-responsive design verified (visual QA)
 - [ ] Core Web Vitals check (LCP < 2.5s)
 
 ---
 
-## Phase 4 — Scale to 3,000 Pages
-*Goal: All 9 page templates live, 3,000+ pages indexed*
+## Phase 4 — SEO & Indexing
+*Goal: All 103 live pages indexed by Google, E-E-A-T established, backlinks begun*
 
-- [ ] Complete all 9 React page templates
-- [ ] Generate full first batch (~3,000 pages) across all templates
-- [ ] Auto-sitemap updated to include all generated pages
-- [ ] Internal linking strategy implemented across all templates
-- [ ] E-E-A-T pages built: About, Authors, Editorial Policy
-- [ ] Affiliate links integrated (Amazon.ca, iHerb, Felix, HelloFresh)
-- [ ] Monitor GSC for indexing progress
-- [ ] Core Web Vitals verified at scale
+**E-E-A-T & trust pages ✅**
+- [x] 2026-03-16 — /about — editorial team bios, mission, affiliate disclosure, Organization schema ✅
+- [x] 2026-03-16 — /editorial-policy — source hierarchy, medical review process, correction policy ✅
+- [x] 2026-03-16 — /contact — four email categories, medical disclaimer ✅
+- [x] 2026-03-16 — /privacy-policy — PIPEDA-compliant Canadian privacy policy ✅
+
+**Hub pages enhanced ✅**
+- [x] 2026-03-16 — /clinics — BreadcrumbList + ItemList JSON-LD, SEO content, cross-links ✅
+- [x] 2026-03-16 — /reviews — BreadcrumbList + ItemList JSON-LD, review methodology, cross-links ✅
+- [x] 2026-03-16 — /how-to — BreadcrumbList + ItemList JSON-LD, Canadian context, cross-links ✅
+
+**Sitemap & crawlability ✅**
+- [x] 2026-03-16 — sitemap.xml updated with all static pages (about, editorial-policy, contact, privacy-policy) ✅
+- [x] 2026-03-16 — robots.txt confirmed correct (admin blocked, sitemap URL referenced) ✅
+- [x] 2026-03-16 — Fixed how-to hub page link bug (/how-to/slug → /slug) ✅
+
+**Keyword data & admin ✅**
+- [x] 2026-03-16 — DataForSEO keyword data fetched for all 83 tracked slugs ✅
+- [x] 2026-03-16 — Admin content browser: Traffic/Volume/CPC columns, sort/filter controls ✅
+
+**Remaining Phase 4**
+- [ ] Submit sitemap.xml in Google Search Console (Lenold action)
+- [ ] Manually request indexing for top 10 priority pages in GSC (Lenold action — daily batches of 10)
+- [ ] Structured data on individual article pages (Article/HowTo/Review schema per template)
+- [ ] Verify RelatedLinks component is wired into all 9 templates
+- [ ] Core Web Vitals check (LCP < 2.5s)
+- [ ] Get 3–5 quality Canadian backlinks (Lenold action — HARO, guest posts, clinic outreach)
+- [ ] Set up GA4 + GTM (Lenold action — GTM-TG5WJTV7 + G-GWXLDMY1ZB already created, needs wiring)
 
 ---
 
@@ -251,8 +270,13 @@
 | weight-loss.ca domain added + DNS updated | 2026-03-16 | ✅ Done |
 | 25 taxonomy files complete | 2026-03-16 | ✅ Done |
 | 9 Zod schemas complete | 2026-03-16 | ✅ Done |
-| DNS propagation confirmed | TBD | ⬜ Pending |
-| Google Search Console verified | TBD | ⬜ Pending |
+| DNS propagation confirmed | 2026-03-16 | ✅ Done |
+| Google Search Console verified | 2026-03-16 | ✅ Done |
+| 103 seed pages generated + live | 2026-03-16 | ✅ Done |
+| E-E-A-T pages live (about, editorial, contact, privacy) | 2026-03-16 | ✅ Done |
+| Sitemap submitted to GSC | TBD | ⬜ Pending (Lenold) |
+| First 10 pages manually indexed in GSC | TBD | ⬜ Pending (Lenold) |
+| First Google rankings visible | TBD | ⬜ Pending |
 | First 500 pages generated + live | TBD | ⬜ Pending |
 | 3,000 pages live | TBD | ⬜ Pending |
 | First Google rankings | TBD | ⬜ Pending |
