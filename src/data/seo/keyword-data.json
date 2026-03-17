@@ -1,0 +1,929 @@
+{
+  "weight-loss-clinics-toronto": {
+    "keyword": "weight loss clinics toronto",
+    "volume": 480,
+    "kd": 0,
+    "cpc": 7.54,
+    "competition": "UNKNOWN",
+    "traffic_potential": 144,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "dietitians-toronto": {
+    "keyword": "dietitians toronto",
+    "volume": 590,
+    "kd": 0,
+    "cpc": 3.69,
+    "competition": "UNKNOWN",
+    "traffic_potential": 177,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "bariatric-surgery-toronto": {
+    "keyword": "bariatric surgery toronto",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "weight-loss-clinics-ottawa": {
+    "keyword": "weight loss clinics ottawa",
+    "volume": 210,
+    "kd": 0,
+    "cpc": 6.29,
+    "competition": "UNKNOWN",
+    "traffic_potential": 63,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "dietitians-ottawa": {
+    "keyword": "dietitians ottawa",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 4.01,
+    "competition": "UNKNOWN",
+    "traffic_potential": 96,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "bariatric-surgery-ottawa": {
+    "keyword": "bariatric surgery ottawa",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "weight-loss-clinics-mississauga": {
+    "keyword": "weight loss clinics mississauga",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 7.75,
+    "competition": "UNKNOWN",
+    "traffic_potential": 96,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "dietitians-mississauga": {
+    "keyword": "dietitians mississauga",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 3.57,
+    "competition": "UNKNOWN",
+    "traffic_potential": 51,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "bariatric-surgery-mississauga": {
+    "keyword": "bariatric surgery mississauga",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "weight-loss-clinics-hamilton": {
+    "keyword": "weight loss clinics hamilton",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "dietitians-hamilton": {
+    "keyword": "dietitians hamilton",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 3.61,
+    "competition": "UNKNOWN",
+    "traffic_potential": 27,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "bariatric-surgery-hamilton": {
+    "keyword": "bariatric surgery hamilton",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "weight-loss-clinics-london": {
+    "keyword": "weight loss clinics london",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 3.21,
+    "competition": "UNKNOWN",
+    "traffic_potential": 3,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "dietitians-london": {
+    "keyword": "dietitians london",
+    "volume": 20,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 6,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "bariatric-surgery-london": {
+    "keyword": "bariatric surgery london",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "weight-loss-clinics-vancouver": {
+    "keyword": "weight loss clinics vancouver",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 6.96,
+    "competition": "UNKNOWN",
+    "traffic_potential": 51,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "dietitians-vancouver": {
+    "keyword": "dietitians vancouver",
+    "volume": 590,
+    "kd": 0,
+    "cpc": 2.84,
+    "competition": "UNKNOWN",
+    "traffic_potential": 177,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "bariatric-surgery-vancouver": {
+    "keyword": "bariatric surgery vancouver",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "weight-loss-clinics-surrey": {
+    "keyword": "weight loss clinics surrey",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "dietitians-surrey": {
+    "keyword": "dietitians surrey",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 2.87,
+    "competition": "UNKNOWN",
+    "traffic_potential": 42,
+    "fetched_at": "2026-03-17T04:49:56.743Z"
+  },
+  "bariatric-surgery-surrey": {
+    "keyword": "bariatric surgery surrey",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-burnaby": {
+    "keyword": "weight loss clinics burnaby",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-burnaby": {
+    "keyword": "dietitians burnaby",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 2.97,
+    "competition": "UNKNOWN",
+    "traffic_potential": 12,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-burnaby": {
+    "keyword": "bariatric surgery burnaby",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-victoria": {
+    "keyword": "weight loss clinics victoria",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-victoria": {
+    "keyword": "dietitians victoria",
+    "volume": 210,
+    "kd": 0,
+    "cpc": 2.56,
+    "competition": "UNKNOWN",
+    "traffic_potential": 63,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-victoria": {
+    "keyword": "bariatric surgery victoria",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-calgary": {
+    "keyword": "weight loss clinics calgary",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 7.52,
+    "competition": "UNKNOWN",
+    "traffic_potential": 96,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-calgary": {
+    "keyword": "dietitians calgary",
+    "volume": 1000,
+    "kd": 0,
+    "cpc": 5.43,
+    "competition": "UNKNOWN",
+    "traffic_potential": 300,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-calgary": {
+    "keyword": "bariatric surgery calgary",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-edmonton": {
+    "keyword": "weight loss clinics edmonton",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 7.15,
+    "competition": "UNKNOWN",
+    "traffic_potential": 96,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-edmonton": {
+    "keyword": "dietitians edmonton",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 3.05,
+    "competition": "UNKNOWN",
+    "traffic_potential": 96,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-edmonton": {
+    "keyword": "bariatric surgery edmonton",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-red-deer": {
+    "keyword": "weight loss clinics red deer",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-red-deer": {
+    "keyword": "dietitians red deer",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-red-deer": {
+    "keyword": "bariatric surgery red deer",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-montreal": {
+    "keyword": "weight loss clinics montreal",
+    "volume": 110,
+    "kd": 0,
+    "cpc": 7.74,
+    "competition": "UNKNOWN",
+    "traffic_potential": 33,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-montreal": {
+    "keyword": "dietitians montreal",
+    "volume": 210,
+    "kd": 0,
+    "cpc": 2.63,
+    "competition": "UNKNOWN",
+    "traffic_potential": 63,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-montreal": {
+    "keyword": "bariatric surgery montreal",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-quebec-city": {
+    "keyword": "weight loss clinics quebec city",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-quebec-city": {
+    "keyword": "dietitians quebec city",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-quebec-city": {
+    "keyword": "bariatric surgery quebec city",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-laval": {
+    "keyword": "weight loss clinics laval",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-laval": {
+    "keyword": "dietitians laval",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-laval": {
+    "keyword": "bariatric surgery laval",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-winnipeg": {
+    "keyword": "weight loss clinics winnipeg",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 3.75,
+    "competition": "UNKNOWN",
+    "traffic_potential": 42,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-winnipeg": {
+    "keyword": "dietitians winnipeg",
+    "volume": 390,
+    "kd": 0,
+    "cpc": 3.54,
+    "competition": "UNKNOWN",
+    "traffic_potential": 117,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-winnipeg": {
+    "keyword": "bariatric surgery winnipeg",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-halifax": {
+    "keyword": "weight loss clinics halifax",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-halifax": {
+    "keyword": "dietitians halifax",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 2.61,
+    "competition": "UNKNOWN",
+    "traffic_potential": 42,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-halifax": {
+    "keyword": "bariatric surgery halifax",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-saskatoon": {
+    "keyword": "weight loss clinics saskatoon",
+    "volume": 30,
+    "kd": 0,
+    "cpc": 4.01,
+    "competition": "UNKNOWN",
+    "traffic_potential": 9,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-saskatoon": {
+    "keyword": "dietitians saskatoon",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 2.71,
+    "competition": "UNKNOWN",
+    "traffic_potential": 51,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-saskatoon": {
+    "keyword": "bariatric surgery saskatoon",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-regina": {
+    "keyword": "weight loss clinics regina",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 3,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-regina": {
+    "keyword": "dietitians regina",
+    "volume": 110,
+    "kd": 0,
+    "cpc": 4.08,
+    "competition": "UNKNOWN",
+    "traffic_potential": 33,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-regina": {
+    "keyword": "bariatric surgery regina",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "weight-loss-clinics-st.-john's": {
+    "keyword": "weight loss clinics st. john's",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "dietitians-st.-john's": {
+    "keyword": "dietitians st. john's",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "bariatric-surgery-st.-john's": {
+    "keyword": "bariatric surgery st. john's",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-belly-fat": {
+    "keyword": "how to lose belly fat",
+    "volume": 8100,
+    "kd": 0,
+    "cpc": 0.89,
+    "competition": "UNKNOWN",
+    "traffic_potential": 2430,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-belly-fat-fast": {
+    "keyword": "how to lose belly fat fast",
+    "volume": 880,
+    "kd": 0,
+    "cpc": 1.17,
+    "competition": "UNKNOWN",
+    "traffic_potential": 264,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-love-handles": {
+    "keyword": "how to lose love handles",
+    "volume": 720,
+    "kd": 0,
+    "cpc": 1.11,
+    "competition": "UNKNOWN",
+    "traffic_potential": 216,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-face-fat": {
+    "keyword": "how to lose face fat",
+    "volume": 8100,
+    "kd": 0,
+    "cpc": 0.47,
+    "competition": "UNKNOWN",
+    "traffic_potential": 2430,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-thigh-fat": {
+    "keyword": "how to lose thigh fat",
+    "volume": 1000,
+    "kd": 0,
+    "cpc": 0.94,
+    "competition": "UNKNOWN",
+    "traffic_potential": 300,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-arm-fat": {
+    "keyword": "how to lose arm fat",
+    "volume": 1300,
+    "kd": 0,
+    "cpc": 0.86,
+    "competition": "UNKNOWN",
+    "traffic_potential": 390,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-weight-after-40": {
+    "keyword": "how to lose weight after 40",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 2.36,
+    "competition": "UNKNOWN",
+    "traffic_potential": 51,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-weight-after-50": {
+    "keyword": "how to lose weight after 50",
+    "volume": 70,
+    "kd": 0,
+    "cpc": 0.92,
+    "competition": "UNKNOWN",
+    "traffic_potential": 21,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-weight-after-pregnancy": {
+    "keyword": "how to lose weight after pregnancy",
+    "volume": 210,
+    "kd": 0,
+    "cpc": 2.01,
+    "competition": "UNKNOWN",
+    "traffic_potential": 63,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-weight-with-pcos": {
+    "keyword": "how to lose weight with pcos",
+    "volume": 720,
+    "kd": 0,
+    "cpc": 2.01,
+    "competition": "UNKNOWN",
+    "traffic_potential": 216,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-weight-with-hypothyroidism": {
+    "keyword": "how to lose weight with hypothyroidism",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 0.95,
+    "competition": "UNKNOWN",
+    "traffic_potential": 96,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-weight-with-a-desk-job": {
+    "keyword": "how to lose weight with a desk job",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 3,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-start-intermittent-fasting": {
+    "keyword": "how to start intermittent fasting",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 0.9,
+    "competition": "UNKNOWN",
+    "traffic_potential": 51,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-count-macros-for-weight-loss": {
+    "keyword": "how to count macros for weight loss",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 1.34,
+    "competition": "UNKNOWN",
+    "traffic_potential": 27,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-start-a-keto-diet-in-canada": {
+    "keyword": "how to start a keto diet in canada",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-weight-on-a-budget-in-canada": {
+    "keyword": "how to lose weight on a budget in canada",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-weight-without-exercise": {
+    "keyword": "how to lose weight without exercise",
+    "volume": 1300,
+    "kd": 0,
+    "cpc": 1.78,
+    "competition": "UNKNOWN",
+    "traffic_potential": 390,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-break-a-weight-loss-plateau": {
+    "keyword": "how to break a weight loss plateau",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 0.05,
+    "competition": "UNKNOWN",
+    "traffic_potential": 51,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-get-ozempic-for-weight-loss-in-canada": {
+    "keyword": "how to get ozempic for weight loss in canada",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-10-pounds-in-a-month": {
+    "keyword": "how to lose 10 pounds in a month",
+    "volume": 1300,
+    "kd": 0,
+    "cpc": 1.47,
+    "competition": "UNKNOWN",
+    "traffic_potential": 390,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-lose-20-pounds": {
+    "keyword": "how to lose 20 pounds",
+    "volume": 590,
+    "kd": 0,
+    "cpc": 1.82,
+    "competition": "UNKNOWN",
+    "traffic_potential": 177,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-stop-emotional-eating": {
+    "keyword": "how to stop emotional eating",
+    "volume": 260,
+    "kd": 0,
+    "cpc": 0.85,
+    "competition": "UNKNOWN",
+    "traffic_potential": 78,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-speed-up-metabolism": {
+    "keyword": "how to speed up metabolism",
+    "volume": 1300,
+    "kd": 0,
+    "cpc": 0.83,
+    "competition": "UNKNOWN",
+    "traffic_potential": 390,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-meal-prep-for-weight-loss": {
+    "keyword": "how to meal prep for weight loss",
+    "volume": 30,
+    "kd": 0,
+    "cpc": 1.27,
+    "competition": "UNKNOWN",
+    "traffic_potential": 9,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "how-to-walk-for-weight-loss": {
+    "keyword": "how to walk for weight loss",
+    "volume": 110,
+    "kd": 0,
+    "cpc": 0.04,
+    "competition": "UNKNOWN",
+    "traffic_potential": 33,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "ozempic-review": {
+    "keyword": "ozempic review",
+    "volume": 480,
+    "kd": 0,
+    "cpc": 7.72,
+    "competition": "UNKNOWN",
+    "traffic_potential": 144,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "wegovy-review": {
+    "keyword": "wegovy review",
+    "volume": 590,
+    "kd": 0,
+    "cpc": 2.78,
+    "competition": "UNKNOWN",
+    "traffic_potential": 177,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "saxenda-review": {
+    "keyword": "saxenda review",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 21.73,
+    "competition": "UNKNOWN",
+    "traffic_potential": 42,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "mounjaro-review": {
+    "keyword": "mounjaro review",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 3.19,
+    "competition": "UNKNOWN",
+    "traffic_potential": 96,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "contrave-review": {
+    "keyword": "contrave review",
+    "volume": 880,
+    "kd": 0,
+    "cpc": 3.63,
+    "competition": "UNKNOWN",
+    "traffic_potential": 264,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "phenq-review": {
+    "keyword": "phenq review",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 1.72,
+    "competition": "UNKNOWN",
+    "traffic_potential": 27,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "hydroxycut-review": {
+    "keyword": "hydroxycut review",
+    "volume": 210,
+    "kd": 0,
+    "cpc": 0.35,
+    "competition": "UNKNOWN",
+    "traffic_potential": 63,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "leanbean-review": {
+    "keyword": "leanbean review",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 3,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "berberine-review": {
+    "keyword": "berberine review",
+    "volume": 260,
+    "kd": 0,
+    "cpc": 0.65,
+    "competition": "UNKNOWN",
+    "traffic_potential": 78,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "garcinia-cambogia-review": {
+    "keyword": "garcinia cambogia review",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 0.32,
+    "competition": "UNKNOWN",
+    "traffic_potential": 12,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "hellofresh-canada-review": {
+    "keyword": "hellofresh canada review",
+    "volume": 110,
+    "kd": 0,
+    "cpc": 8.55,
+    "competition": "UNKNOWN",
+    "traffic_potential": 33,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "jenny-craig-canada-review": {
+    "keyword": "jenny craig canada review",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "noom-review": {
+    "keyword": "noom review",
+    "volume": 880,
+    "kd": 0,
+    "cpc": 4.76,
+    "competition": "UNKNOWN",
+    "traffic_potential": 264,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "ww-weight-watchers-canada-review": {
+    "keyword": "ww weight watchers canada review",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 0,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "myfitnesspal-review": {
+    "keyword": "myfitnesspal review",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 1.52,
+    "competition": "UNKNOWN",
+    "traffic_potential": 51,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "cronometer-review": {
+    "keyword": "cronometer review",
+    "volume": 110,
+    "kd": 0,
+    "cpc": 0,
+    "competition": "UNKNOWN",
+    "traffic_potential": 33,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "orgain-organic-protein-review": {
+    "keyword": "orgain organic protein review",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0.6,
+    "competition": "UNKNOWN",
+    "traffic_potential": 3,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  },
+  "optimum-nutrition-gold-standard-whey-review": {
+    "keyword": "optimum nutrition gold standard whey review",
+    "volume": 20,
+    "kd": 0,
+    "cpc": 0.13,
+    "competition": "UNKNOWN",
+    "traffic_potential": 6,
+    "fetched_at": "2026-03-17T04:50:08.983Z"
+  }
+}

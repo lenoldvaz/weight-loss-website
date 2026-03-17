@@ -17,6 +17,20 @@ interface RowState {
 type SlugStateMap = Record<string, RowState>;
 type TemplateStateMap = Record<string, SlugStateMap>;
 
+interface KeywordData {
+  keyword: string;
+  volume: number;
+  kd: number;
+  cpc: number;
+  traffic_potential: number;
+}
+
+type KeywordMap = Record<string, KeywordData>;
+
+type SortKey = "traffic_potential" | "volume" | "cpc" | "kd" | "none";
+type SortDir = "asc" | "desc";
+type StatusFilter = "all" | "generated" | "pending";
+
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
 function templateToRoutePrefix(template: string): string {
@@ -32,6 +46,17 @@ function templateLabel(template: string): string {
   return template
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function fmt(n: number | undefined): string {
+  if (n === undefined || n === null) return "—";
+  if (n >= 1000) return `${(n / 1000).toFixed(1)}k`;
+  return String(n);
+}
+
+function fmtCpc(n: number | undefined): string {
+  if (n === undefined || n === null || n === 0) return "—";
+  return `$${n.toFixed(2)}`;
 }
 
 // ─── Progress bar ─────────────────────────────────────────────────────────────
@@ -59,11 +84,13 @@ function SlugRow({
   slug,
   template,
   rowState,
+  kwData,
   onGenerate,
 }: {
   slug: string;
   template: string;
   rowState: RowState;
+  kwData: KeywordData | undefined;
   onGenerate: (template: string, slug: string) => void;
 }) {
   const prefix = templateToRoutePrefix(template);
@@ -90,6 +117,27 @@ function SlugRow({
             Pending
           </span>
         )}
+      </td>
+
+      {/* Traffic potential */}
+      <td className="px-5 py-2.5 tabular-nums">
+        {kwData ? (
+          <span className={`text-xs font-medium ${kwData.traffic_potential >= 500 ? "text-emerald-400" : kwData.traffic_potential >= 100 ? "text-yellow-400" : "text-gray-500"}`}>
+            {fmt(kwData.traffic_potential)}
+          </span>
+        ) : (
+          <span className="text-xs text-gray-700">—</span>
+        )}
+      </td>
+
+      {/* Volume */}
+      <td className="px-5 py-2.5 tabular-nums">
+        <span className="text-xs text-gray-400">{kwData ? fmt(kwData.volume) : "—"}</span>
+      </td>
+
+      {/* CPC */}
+      <td className="px-5 py-2.5 tabular-nums">
+        <span className="text-xs text-gray-400">{kwData ? fmtCpc(kwData.cpc) : "—"}</span>
       </td>
 
       {/* Actions */}
@@ -160,16 +208,49 @@ function TemplateSection({
   template,
   slugs,
   slugStates,
+  keywordMap,
+  sortKey,
+  sortDir,
+  statusFilter,
+  minVolume,
   onGenerate,
 }: {
   template: string;
   slugs: string[];
   slugStates: SlugStateMap;
+  keywordMap: KeywordMap;
+  sortKey: SortKey;
+  sortDir: SortDir;
+  statusFilter: StatusFilter;
+  minVolume: number;
   onGenerate: (template: string, slug: string) => void;
 }) {
   const [open, setOpen] = useState(true);
   const generatedCount = slugs.filter((s) => slugStates[s]?.generated).length;
   const label = templateLabel(template);
+
+  // Filter
+  let filtered = slugs.filter((slug) => {
+    const state = slugStates[slug];
+    if (statusFilter === "generated" && !state?.generated) return false;
+    if (statusFilter === "pending" && state?.generated) return false;
+    const kw = keywordMap[slug];
+    if (minVolume > 0 && (!kw || kw.volume < minVolume)) return false;
+    return true;
+  });
+
+  // Sort
+  if (sortKey !== "none") {
+    filtered = [...filtered].sort((a, b) => {
+      const ka = keywordMap[a];
+      const kb = keywordMap[b];
+      const va = ka?.[sortKey] ?? -1;
+      const vb = kb?.[sortKey] ?? -1;
+      return sortDir === "desc" ? vb - va : va - vb;
+    });
+  }
+
+  if (filtered.length === 0) return null;
 
   return (
     <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
@@ -181,6 +262,9 @@ function TemplateSection({
         <div className="flex items-center gap-4">
           <span className="text-base font-semibold text-white">{label}</span>
           <ProgressBar generated={generatedCount} total={slugs.length} />
+          {filtered.length !== slugs.length && (
+            <span className="text-xs text-gray-600">({filtered.length} shown)</span>
+          )}
         </div>
         <span className="text-gray-600 text-xs select-none">{open ? "▲" : "▼"}</span>
       </button>
@@ -197,17 +281,27 @@ function TemplateSection({
                   Status
                 </th>
                 <th className="text-left px-5 py-2 text-xs text-gray-500 font-medium uppercase tracking-wider">
+                  Traffic
+                </th>
+                <th className="text-left px-5 py-2 text-xs text-gray-500 font-medium uppercase tracking-wider">
+                  Volume
+                </th>
+                <th className="text-left px-5 py-2 text-xs text-gray-500 font-medium uppercase tracking-wider">
+                  CPC
+                </th>
+                <th className="text-left px-5 py-2 text-xs text-gray-500 font-medium uppercase tracking-wider">
                   Actions
                 </th>
               </tr>
             </thead>
             <tbody>
-              {slugs.map((slug) => (
+              {filtered.map((slug) => (
                 <SlugRow
                   key={slug}
                   slug={slug}
                   template={template}
                   rowState={slugStates[slug] ?? { generated: false, generateStatus: "idle", errorMessage: "" }}
+                  kwData={keywordMap[slug]}
                   onGenerate={onGenerate}
                 />
               ))}
@@ -219,11 +313,136 @@ function TemplateSection({
   );
 }
 
+// ─── Sort/Filter bar ──────────────────────────────────────────────────────────
+
+function SortFilterBar({
+  sortKey,
+  sortDir,
+  statusFilter,
+  minVolume,
+  onSortChange,
+  onStatusChange,
+  onMinVolumeChange,
+  onHighValue,
+  onClearFilters,
+  keywordRefreshing,
+  onRefreshKeywords,
+}: {
+  sortKey: SortKey;
+  sortDir: SortDir;
+  statusFilter: StatusFilter;
+  minVolume: number;
+  onSortChange: (key: SortKey, dir: SortDir) => void;
+  onStatusChange: (s: StatusFilter) => void;
+  onMinVolumeChange: (n: number) => void;
+  onHighValue: () => void;
+  onClearFilters: () => void;
+  keywordRefreshing: boolean;
+  onRefreshKeywords: () => void;
+}) {
+  const sortOptions: { label: string; key: SortKey; dir: SortDir }[] = [
+    { label: "Traffic ↓", key: "traffic_potential", dir: "desc" },
+    { label: "Traffic ↑", key: "traffic_potential", dir: "asc" },
+    { label: "Volume ↓", key: "volume", dir: "desc" },
+    { label: "CPC ↓", key: "cpc", dir: "desc" },
+    { label: "KD ↑", key: "kd", dir: "asc" },
+    { label: "Default", key: "none", dir: "desc" },
+  ];
+
+  const activeSort = sortOptions.find((o) => o.key === sortKey && o.dir === sortDir);
+
+  return (
+    <div className="flex flex-wrap items-center gap-3 mb-6 p-4 bg-gray-900 border border-gray-800 rounded-lg">
+      {/* Sort */}
+      <div className="flex items-center gap-2">
+        <span className="text-xs text-gray-500 uppercase tracking-wider">Sort</span>
+        <select
+          value={`${sortKey}:${sortDir}`}
+          onChange={(e) => {
+            const [k, d] = e.target.value.split(":") as [SortKey, SortDir];
+            onSortChange(k, d);
+          }}
+          className="text-xs bg-gray-800 border border-gray-700 text-gray-300 rounded px-2 py-1"
+        >
+          {sortOptions.map((o) => (
+            <option key={`${o.key}:${o.dir}`} value={`${o.key}:${o.dir}`}>
+              {o.label}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div className="w-px h-4 bg-gray-700" />
+
+      {/* Status filter */}
+      <div className="flex items-center gap-1">
+        {(["all", "generated", "pending"] as StatusFilter[]).map((s) => (
+          <button
+            key={s}
+            onClick={() => onStatusChange(s)}
+            className={`text-xs px-2.5 py-1 rounded transition-colors ${
+              statusFilter === s
+                ? "bg-indigo-700 text-white"
+                : "text-gray-400 hover:text-gray-200 hover:bg-gray-800"
+            }`}
+          >
+            {s.charAt(0).toUpperCase() + s.slice(1)}
+          </button>
+        ))}
+      </div>
+
+      <div className="w-px h-4 bg-gray-700" />
+
+      {/* Min volume */}
+      <div className="flex items-center gap-2">
+        <span className="text-xs text-gray-500">Min vol</span>
+        <select
+          value={minVolume}
+          onChange={(e) => onMinVolumeChange(Number(e.target.value))}
+          className="text-xs bg-gray-800 border border-gray-700 text-gray-300 rounded px-2 py-1"
+        >
+          <option value={0}>Any</option>
+          <option value={100}>100+</option>
+          <option value={500}>500+</option>
+          <option value={1000}>1,000+</option>
+          <option value={5000}>5,000+</option>
+        </select>
+      </div>
+
+      <div className="w-px h-4 bg-gray-700" />
+
+      {/* Quick filters */}
+      <button
+        onClick={onHighValue}
+        className="text-xs px-2.5 py-1 rounded bg-emerald-900 border border-emerald-700 text-emerald-300 hover:bg-emerald-800 transition-colors"
+      >
+        High value
+      </button>
+      <button
+        onClick={onClearFilters}
+        className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
+      >
+        Clear
+      </button>
+
+      <div className="flex-1" />
+
+      {/* Refresh keyword data */}
+      <button
+        onClick={onRefreshKeywords}
+        disabled={keywordRefreshing}
+        className="text-xs px-3 py-1.5 rounded border border-gray-700 text-gray-400 hover:text-gray-200 hover:border-gray-500 transition-colors disabled:opacity-40"
+      >
+        {keywordRefreshing ? "Refreshing…" : "Refresh keyword data"}
+      </button>
+    </div>
+  );
+}
+
 // ─── Main page ────────────────────────────────────────────────────────────────
 
 export default function ContentPage() {
   const [templateStates, setTemplateStates] = useState<TemplateStateMap>(() => {
-    // Initialise all rows as pending
     const initial: TemplateStateMap = {};
     for (const [template, slugs] of Object.entries(SEED_SLUGS)) {
       initial[template] = {};
@@ -235,6 +454,14 @@ export default function ContentPage() {
   });
 
   const [statusLoaded, setStatusLoaded] = useState(false);
+  const [keywordMap, setKeywordMap] = useState<KeywordMap>({});
+  const [keywordRefreshing, setKeywordRefreshing] = useState(false);
+
+  // Sort/filter state
+  const [sortKey, setSortKey] = useState<SortKey>("traffic_potential");
+  const [sortDir, setSortDir] = useState<SortDir>("desc");
+  const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
+  const [minVolume, setMinVolume] = useState(0);
 
   // Load generated status on mount
   useEffect(() => {
@@ -251,10 +478,7 @@ export default function ContentPage() {
             next[template] = { ...next[template] };
             for (const slug of generatedSlugs) {
               if (next[template][slug]) {
-                next[template][slug] = {
-                  ...next[template][slug],
-                  generated: true,
-                };
+                next[template][slug] = { ...next[template][slug], generated: true };
               }
             }
           }
@@ -267,8 +491,43 @@ export default function ContentPage() {
     void loadStatus();
   }, []);
 
+  // Load keyword data on mount
+  useEffect(() => {
+    async function loadKeywords() {
+      try {
+        const res = await fetch("/api/admin/keywords");
+        if (!res.ok) return;
+        const data = (await res.json()) as KeywordMap;
+        setKeywordMap(data);
+      } catch {
+        // keyword data optional
+      }
+    }
+    void loadKeywords();
+  }, []);
+
+  const handleRefreshKeywords = useCallback(async () => {
+    setKeywordRefreshing(true);
+    try {
+      await fetch("/api/admin/keywords", { method: "POST" });
+      // Poll for updated data after a delay
+      setTimeout(async () => {
+        try {
+          const res = await fetch("/api/admin/keywords");
+          if (res.ok) {
+            const data = (await res.json()) as KeywordMap;
+            setKeywordMap(data);
+          }
+        } finally {
+          setKeywordRefreshing(false);
+        }
+      }, 5000);
+    } catch {
+      setKeywordRefreshing(false);
+    }
+  }, []);
+
   const handleGenerate = useCallback(async (template: string, slug: string) => {
-    // Mark as loading
     setTemplateStates((prev) => ({
       ...prev,
       [template]: {
@@ -326,8 +585,10 @@ export default function ContentPage() {
 
   return (
     <div className="p-8">
-      <h1 className="text-2xl font-semibold text-white mb-2">Content Browser</h1>
-      <p className="text-gray-400 text-sm mb-8">
+      <div className="flex items-center justify-between mb-2">
+        <h1 className="text-2xl font-semibold text-white">Content Browser</h1>
+      </div>
+      <p className="text-gray-400 text-sm mb-6">
         {statusLoaded ? (
           <>
             {totalGenerated} / {totalSeeds} pages generated across {templates.length} templates
@@ -337,6 +598,30 @@ export default function ContentPage() {
         )}
       </p>
 
+      <SortFilterBar
+        sortKey={sortKey}
+        sortDir={sortDir}
+        statusFilter={statusFilter}
+        minVolume={minVolume}
+        onSortChange={(k, d) => { setSortKey(k); setSortDir(d); }}
+        onStatusChange={setStatusFilter}
+        onMinVolumeChange={setMinVolume}
+        onHighValue={() => {
+          setSortKey("traffic_potential");
+          setSortDir("desc");
+          setMinVolume(100);
+          setStatusFilter("all");
+        }}
+        onClearFilters={() => {
+          setSortKey("traffic_potential");
+          setSortDir("desc");
+          setStatusFilter("all");
+          setMinVolume(0);
+        }}
+        keywordRefreshing={keywordRefreshing}
+        onRefreshKeywords={handleRefreshKeywords}
+      />
+
       <div className="space-y-6">
         {templates.map((template) => (
           <TemplateSection
@@ -344,6 +629,11 @@ export default function ContentPage() {
             template={template}
             slugs={SEED_SLUGS[template]}
             slugStates={templateStates[template] ?? {}}
+            keywordMap={keywordMap}
+            sortKey={sortKey}
+            sortDir={sortDir}
+            statusFilter={statusFilter}
+            minVolume={minVolume}
             onGenerate={handleGenerate}
           />
         ))}
