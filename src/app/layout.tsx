@@ -72,9 +72,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: "https://weight-loss.ca",
-  },
 };
 
 export default function RootLayout({

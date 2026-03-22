@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "weight-loss.ca — Canada's #1 Weight Loss Resource (Coming Soon)",
   description:
     "The most comprehensive, evidence-based weight loss resource for Canadians. Expert reviews, clinic directories, Canadian pricing, and Health Canada-aligned guidance. Launching soon.",
+  alternates: { canonical: "https://weight-loss.ca" },
 };
 
 const trustBadges = [
