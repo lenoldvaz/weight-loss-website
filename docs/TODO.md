@@ -1,102 +1,118 @@
-# weight-loss.ca — Lenold's Action Items
+# weight-loss.ca — TODO
 
-**Last Updated**: 2026-03-16
-
-> Only items that require **Lenold's** action: account signups, DNS changes, approvals, credentials, decisions. Build tasks are tracked in `PLAN.md`.
-
----
-
-## 🔲 Immediate (do these now)
-
-### Indexing (Lenold actions — highest priority)
-- [ ] Submit sitemap at search.google.com/search-console → Sitemaps → `https://weight-loss.ca/sitemap.xml`
-- [ ] Manually request indexing for top 10 pages in GSC URL Inspection (see list below), then 10/day for next few days
-  1. `https://weight-loss.ca/`
-  2. `https://weight-loss.ca/clinics`
-  3. `https://weight-loss.ca/how-to`
-  4. `https://weight-loss.ca/reviews`
-  5. `https://weight-loss.ca/how-to-lose-belly-fat`
-  6. `https://weight-loss.ca/how-to-lose-face-fat`
-  7. `https://weight-loss.ca/how-to-speed-up-metabolism`
-  8. `https://weight-loss.ca/how-to-lose-weight-without-exercise`
-  9. `https://weight-loss.ca/contrave-review`
-  10. `https://weight-loss.ca/dietitians-calgary`
-
-### Hero images
-- [ ] Generate priority hero images: `npx tsx scripts/generate/generate_images.ts --all`
+**Last Updated**: 2026-03-28
+**Site age**: 12 days | **Indexed**: 5/111 pages | **Impressions**: 95 | **Clicks**: 0
 
 ---
 
-## 🔲 Next Up (build tasks)
+## 📅 Daily Routine
 
-### SEO & Indexing
-- [ ] Add structured data (Article/HowTo/Review schema) to individual article page templates
-- [ ] Verify RelatedLinks component is wired into all 9 page templates
-- [ ] Core Web Vitals check — run PageSpeed Insights on top 5 pages (target LCP < 2.5s)
-- [ ] Get 3–5 quality Canadian backlinks (HARO/Connectively responses, clinic outreach, guest posts)
+### Lenold — daily (5 min)
+- [ ] GSC → URL Inspection → request indexing for 10 pages (quota resets daily)
+- [ ] Check if any new pages appeared in GSC analytics
 
-### Analytics (Lenold actions)
-- [ ] Confirm GA4 (G-GWXLDMY1ZB) + GTM (GTM-TG5WJTV7) are firing on production
-- [ ] Create Microsoft Clarity project at clarity.microsoft.com — save Project ID as `NEXT_PUBLIC_CLARITY_ID`
-- [ ] Create Plausible account at plausible.io — add weight-loss.ca
-
-### Content & Templates
-- [ ] Build seed files for 6 new templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product) — defer until month 2-3 when first batch is indexed
-- [x] Add Tiptap rich text editor to admin CMS for body/intro fields (bold, italic, links) ✅
-- [x] Build About, Editorial Policy, Contact, Privacy Policy pages (E-E-A-T) ✅
-- [x] Enhance hub pages (clinics, reviews, how-to) with JSON-LD schema + SEO content + cross-links ✅
-
-### Analytics
-- [ ] Create Microsoft Clarity project at clarity.microsoft.com — save Project ID as `NEXT_PUBLIC_CLARITY_ID`
-- [ ] Create Plausible account at plausible.io — add weight-loss.ca
+### Claude — on request
+- `npx tsx scripts/seo/gsc.ts coverage` — check indexing status
+- `npx tsx scripts/seo/gsc.ts analytics` — check clicks/impressions
+- `npx tsx scripts/seo/gsc.ts inspect <url>` — inspect any specific page
 
 ---
 
-## 🔲 Later
+## 🔴 This Week (urgent)
 
-### Reddit
-- [ ] Create Reddit API app at reddit.com/prefs/apps (Phase 6 — trending pipeline)
+### Lenold
+- [ ] GSC → request indexing for `/clinics` and `/reviews` — still showing redirect error from old crawl (Mar 17), need fresh crawl now that 308 redirect is fixed
+- [ ] GSC → request indexing batch 2 (10 pages today):
+  1. `https://weight-loss.ca/clinics`
+  2. `https://weight-loss.ca/reviews`
+  3. `https://weight-loss.ca/how-to-speed-up-metabolism`
+  4. `https://weight-loss.ca/how-to-lose-weight-without-exercise`
+  5. `https://weight-loss.ca/dietitians-calgary`
+  6. `https://weight-loss.ca/dietitians-toronto`
+  7. `https://weight-loss.ca/noom-review`
+  8. `https://weight-loss.ca/wegovy-review`
+  9. `https://weight-loss.ca/how-to-lose-arm-fat`
+  10. `https://weight-loss.ca/how-to-lose-thigh-fat`
+- [ ] Verify GA4 is firing: open weight-loss.ca in browser → GA4 Realtime report → confirm pageview appears
+- [ ] Vercel → delete old www sitemap from GSC (submit `https://weight-loss.ca/sitemap.xml` as the only one)
 
-### Affiliates (start when 50+ pages are live)
-- [ ] Apply to Amazon.ca affiliate program (associates.amazon.ca)
+### Claude
+- [ ] Audit internal linking — verify hub pages link to all content pages (Google can't discover the 98 unindexed pages without links)
+- [ ] Check RelatedLinks component is wired in all 9 templates
+- [ ] Add `lastModified` from actual file mtime to sitemap (currently all pages show same timestamp — fix to reflect real update dates)
+
+---
+
+## 🟡 This Month (week 2–4)
+
+### Lenold — backlinks (single biggest unlock)
+- [ ] Sign up for Connectively (connectively.us — replacement for HARO) — respond to health/nutrition journalist queries 3x/week
+- [ ] Email 5 Canadian dietitian blogs offering a guest post or data collaboration
+- [ ] Submit weight-loss.ca to Canadian health directories (CARP, Canadian Obesity Network partner pages)
+- [ ] Reach out to 3 Canadian weight loss clinics to link to your city page (offer free listing)
+
+### Lenold — analytics
+- [ ] Create Microsoft Clarity project at clarity.microsoft.com → add `NEXT_PUBLIC_CLARITY_ID` to Vercel env vars
+- [ ] Confirm Plausible or keep GA4 (decision: pick one as primary dashboard)
+
+### Claude — content quality
+- [ ] Improve `/contrave-review` — currently position 41 with 40 impressions, closest to page 1. Add comparison table, update dosing info, strengthen Canadian angle (OHIP coverage, cost in CAD)
+- [ ] Improve `/berberine-review` — position 60, 13 impressions. Same treatment.
+- [ ] Add `Article` JSON-LD schema to how-to pages (currently only HowTo + FAQPage schema)
+- [ ] Add `Review` + `Product` JSON-LD to all product-review pages
+- [ ] Core Web Vitals audit — run PageSpeed Insights, fix any LCP > 2.5s issues
+
+---
+
+## 🟢 Month 2–3 (once first batch indexed)
+
+### Lenold
+- [ ] Apply to Amazon.ca affiliate program (associates.amazon.ca) — add links to product review pages
 - [ ] Apply to iHerb affiliate program
-- [ ] Apply to HelloFresh Canada and GoodFood referral programs
+- [ ] Apply to HelloFresh Canada affiliate program
+- [ ] Create Google AdSense account (activate at ~5,000 sessions/month)
 
-### Advertising (activate at ~5,000 sessions/month)
-- [ ] Create Google AdSense account — save Publisher ID as `NEXT_PUBLIC_ADSENSE_CLIENT_ID`
-- [ ] Create Google Ad Manager (GAM) network — save Network Code as `NEXT_PUBLIC_GAM_NETWORK_CODE`
-- [ ] Submit Mediavine application (at 50,000 sessions/month)
+### Claude
+- [ ] Build seed files for 6 new templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product) — unlocks ~200+ more pages
+- [ ] Generate those ~200 pages
+- [ ] Weekly trending pipeline (scripts/trending/) — 50 new articles/week automated
+- [ ] Build homepage properly (replace "coming soon" with real content: featured reviews, top how-tos, province selector)
+
+---
+
+## 📊 Goals & Milestones
+
+| Milestone | Target | Status |
+|-----------|--------|--------|
+| 10 pages indexed | Week 2 | 🔄 In progress (5/10) |
+| 50 pages indexed | Week 4 | ⬜ |
+| All 111 pages indexed | Month 2 | ⬜ |
+| First click in GSC | Month 1–2 | ⬜ |
+| Position ≤ 20 on any keyword | Month 2–3 | ⬜ (`contrave-review` at 41 now) |
+| 500 sessions/month | Month 3–4 | ⬜ |
+| 5,000 sessions/month (ads) | Month 6 | ⬜ |
+| 50,000 sessions/month (Mediavine) | Month 12 | ⬜ |
 
 ---
 
 ## ✅ Done
 
-- [x] Fix Cloudflare DNS (grey cloud) — SSL confirmed on weight-loss.ca and www ✅
-- [x] GEMINI_API_KEY added to .env.local and Vercel ✅
-- [x] All 9 page templates built and wired ✅
-- [x] CMS editor in admin panel (edit, regenerate, image generate/upload) ✅
-- [x] Hero image pipeline built (Nano Banana 2, priority list ~10% of pages) ✅
+- [x] Fix www → non-www domain redirect (Vercel: 308 permanent, confirmed 200 OK on all pages) ✅
+- [x] Fix Cloudflare DNS (grey cloud) — SSL confirmed ✅
+- [x] Submit non-www sitemap to GSC (`https://weight-loss.ca/sitemap.xml`, 111 pages) ✅
+- [x] GSC redirect errors fixed on /how-to, /how-to-lose-belly-fat, /how-to-lose-face-fat, /contrave-review ✅
 - [x] All 103 seed pages generated and live (60 location-service, 25 how-to, 18 product-review) ✅
-- [x] DataForSEO keyword data fetched for all slugs (volume, CPC, traffic_potential) ✅
-- [x] Admin content browser with keyword data columns, sort/filter controls ✅
-- [x] About page with E-E-A-T signals (editorial team, medical reviewer, credentials) ✅
-- [x] Editorial Policy page (source hierarchy, medical review process, affiliate disclosure) ✅
-- [x] Contact + Privacy Policy (PIPEDA) pages ✅
-- [x] Hub pages enhanced with JSON-LD schema + SEO content + cross-links ✅
-- [x] Sitemap updated with all static pages ✅
-- [x] Register weight-loss.ca domain ✅
-- [x] Create Vercel account and link to GitHub repo (auto-deploy on push ✅)
-- [x] Create GitHub repo (github.com/lenoldvaz/weight-loss-website) ✅
-- [x] Create DataForSEO account (accounts@discovery-kitchen.com) ✅
-- [x] Obtain Google Ads developer token ✅
-- [x] Create Google Cloud service account (academic-empire-462216-p6) and download JSON key ✅
-- [x] Complete Google Ads OAuth flow (Client ID + Secret + Refresh Token) ✅
-- [x] Verify domain in Google Search Console (DNS TXT record added) ✅
-- [x] GTM container created — ID: `GTM-TG5WJTV7` ✅
-- [x] GA4 property created — Measurement ID: `G-GWXLDMY1ZB` ✅
-- [x] Add Anthropic API key to `.env.local` ✅
-- [x] Add `GOOGLE_SERVICE_ACCOUNT_JSON` secret to GitHub repo Actions secrets ✅
-- [x] Add service account as Owner in Google Search Console ✅
-- [x] Set `ADMIN_PASSWORD=qwedsa@123!` in `.env.local` and Vercel ✅
-- [x] Admin panel live at weight-loss.ca/admin ✅
-- [x] Tiptap rich text editor integrated in admin CMS (bold, italic, H2/H3, lists, blockquote, links) ✅
+- [x] E-E-A-T pages: About, Editorial Policy, Contact, Privacy Policy ✅
+- [x] Hub pages enhanced with JSON-LD + SEO content + cross-links ✅
+- [x] Admin content browser with keyword data, sort/filter ✅
+- [x] DataForSEO keyword data for all 83 tracked slugs ✅
+- [x] All 9 page templates built ✅
+- [x] Admin CMS with Tiptap rich text editor ✅
+- [x] Hero image pipeline (Gemini, priority list) ✅
+- [x] GitHub Actions auto-indexing on content push ✅
+- [x] GSC script (`scripts/seo/gsc.ts`) — direct API access for coverage, analytics, inspect, sitemaps ✅
+- [x] sitemap.xml — dynamic, covers all 111 pages ✅
+- [x] robots.txt — admin blocked, sitemap referenced ✅
+- [x] Google service account as GSC Owner ✅
+- [x] GA4 + GTM installed ✅
+- [x] Register weight-loss.ca + Vercel + GitHub ✅
