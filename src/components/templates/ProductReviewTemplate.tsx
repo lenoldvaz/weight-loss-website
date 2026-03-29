@@ -275,26 +275,29 @@ export default function ProductReviewTemplate({ record, related }: Props) {
         {/* vs Alternatives */}
         {c.vs_alternatives && c.vs_alternatives.length > 0 && (
           <section aria-labelledby="alternatives-heading" className="mb-8">
-            <h2 id="alternatives-heading" className="font-display text-xl font-bold text-[var(--color-bark)] mb-4">
-              How It Compares
+            <h2 id="alternatives-heading" className="font-display text-xl font-bold text-[var(--color-bark)] mb-2">
+              How It Compares to Alternatives
             </h2>
-            <div className="overflow-hidden rounded-xl border border-[var(--color-forest-100)]">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-[var(--color-parchment)]">
-                    <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--color-bark)]">Alternative</th>
-                    <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--color-bark)]">Comparison</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-[var(--color-forest-50)]">
-                  {c.vs_alternatives.map((alt, i) => (
-                    <tr key={i} className="even:bg-[var(--color-forest-50)]">
-                      <td className="px-4 py-3 font-medium text-[var(--color-bark)]">{alt.name}</td>
-                      <td className="px-4 py-3 text-[var(--color-bark-soft)]">{alt.comparison_note}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+            <p className="text-sm text-[var(--color-bark-muted)] mb-4">
+              Comparing {c.key_facts.product_type.split("(")[0].trim()} to other weight loss options available in Canada.
+            </p>
+            <div className="space-y-3">
+              {c.vs_alternatives.map((alt, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl border border-[var(--color-forest-100)] bg-white p-4"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[var(--color-forest-100)] text-xs font-bold text-[var(--color-forest-700)]">
+                      {i + 1}
+                    </span>
+                    <div>
+                      <p className="font-semibold text-sm text-[var(--color-bark)] mb-1">{alt.name}</p>
+                      <p className="text-sm text-[var(--color-bark-soft)] leading-relaxed">{alt.comparison_note}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </section>
         )}

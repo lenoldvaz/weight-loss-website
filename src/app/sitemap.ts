@@ -1,22 +1,36 @@
 import type { MetadataRoute } from "next";
 import { getAllSlugs } from "@/lib/content";
+import fs from "fs";
+import path from "path";
+
+function getFileMtime(template: string, slug: string): Date {
+  try {
+    const filePath = path.join(
+      process.cwd(),
+      "src/data/content",
+      template,
+      `${slug}.json`
+    );
+    return fs.statSync(filePath).mtime;
+  } catch {
+    return new Date();
+  }
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl =
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://weight-loss.ca";
 
-  const now = new Date();
-
-  // Static pages
+  // Static pages with accurate dates
   const staticPages: MetadataRoute.Sitemap = [
-    { url: baseUrl, lastModified: now, changeFrequency: "daily", priority: 1 },
-    { url: `${baseUrl}/clinics`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/how-to`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/reviews`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/editorial-policy`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${baseUrl}/privacy-policy`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
+    { url: baseUrl, lastModified: new Date("2026-03-28"), changeFrequency: "daily", priority: 1 },
+    { url: `${baseUrl}/clinics`, lastModified: new Date("2026-03-28"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/how-to`, lastModified: new Date("2026-03-28"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/reviews`, lastModified: new Date("2026-03-28"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/about`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/editorial-policy`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.5 },
+    { url: `${baseUrl}/contact`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.5 },
+    { url: `${baseUrl}/privacy-policy`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.3 },
   ];
 
   // Priority by template
@@ -32,10 +46,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "trending-article": 0.7,
   };
 
-  // All generated content pages
+  // Content pages with real file modification times
   const contentPages: MetadataRoute.Sitemap = getAllSlugs().map(({ slug, template }) => ({
     url: `${baseUrl}/${slug}`,
-    lastModified: now,
+    lastModified: getFileMtime(template, slug),
     changeFrequency: "weekly",
     priority: priorityMap[template] ?? 0.7,
   }));

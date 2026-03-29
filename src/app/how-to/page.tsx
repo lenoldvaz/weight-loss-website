@@ -41,7 +41,7 @@ export default function HowToIndexPage() {
           "@type": "ListItem",
           position: i + 1,
           name: getContentTitle(record),
-          url: `https://weight-loss.ca/how-to/${slug}`,
+          url: `https://weight-loss.ca/${slug}`,
         })),
       }
     : null;

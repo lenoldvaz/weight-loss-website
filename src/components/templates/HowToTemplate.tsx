@@ -18,8 +18,30 @@ interface Props {
 export default function HowToTemplate({ record, related }: Props) {
   const c = record.content as HowTo;
 
-  // JSON-LD: HowTo + FAQPage
+  // JSON-LD: Article + HowTo + FAQPage
+  const pageUrl = `https://weight-loss.ca/${record.slug}`;
   const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: c.h1,
+      description: c.meta_description,
+      url: pageUrl,
+      datePublished: record.generated_at.split("T")[0],
+      dateModified: record.generated_at.split("T")[0],
+      author: {
+        "@type": "Organization",
+        name: "weight-loss.ca",
+        url: "https://weight-loss.ca",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "weight-loss.ca",
+        url: "https://weight-loss.ca",
+        logo: { "@type": "ImageObject", url: "https://weight-loss.ca/logo.png" },
+      },
+      mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
+    },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
