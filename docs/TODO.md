@@ -8,38 +8,17 @@
 
 These unlock features already built but not yet active. Do in this order.
 
-### 1. Create `semaglutide_news` table in Supabase
-Go to Supabase dashboard → SQL Editor → run:
-```sql
-create table semaglutide_news (
-  id uuid primary key default gen_random_uuid(),
-  title text not null,
-  url text not null unique,
-  source text,
-  published_at timestamptz,
-  summary text,
-  fetched_at timestamptz default now()
-);
-alter table semaglutide_news enable row level security;
-create policy "Public read access" on semaglutide_news for select to anon using (true);
-```
-
-### 2. Add `CRON_SECRET` to Vercel
-Vercel dashboard → Project → Settings → Environment Variables:
-- Key: `CRON_SECRET`
-- Value: any random string — generate one with `openssl rand -hex 32`
-
-### 3. Add `RESEND_API_KEY` to Vercel
-- Go to resend.com → create an account → get API key
-- Add `RESEND_API_KEY` to Vercel environment variables
-- In Resend: add `weight-loss.ca` as a sending domain (requires DNS records — Vercel handles DNS if domain is there)
+### ~~1. Create `semaglutide_news` table in Supabase~~ ✅ Done
+### ~~2. Add `CRON_SECRET` to Vercel~~ ✅ Done
+### ~~3. Add `RESEND_API_KEY` to Vercel~~ ✅ Done
 
 ### 4. Trigger first news fetch
-After Supabase table is created, hit this URL in a browser (no auth needed before CRON_SECRET is set):
-```
-https://weight-loss.ca/api/cron/fetch-news
+Run this in your terminal — replace `YOUR_CRON_SECRET` with the value you set in Vercel:
+```bash
+curl -H "Authorization: Bearer YOUR_CRON_SECRET" https://weight-loss.ca/api/cron/fetch-news
 ```
 Should return `{"ok":true,"fetched":XX,"new":XX}`. Then `/semaglutide-news` will show articles.
+The cron will also run automatically every day at 8am ET without you doing anything.
 
 ### 5. Submit new pages to GSC for indexing
 Go to GSC → URL Inspection → request indexing for each:

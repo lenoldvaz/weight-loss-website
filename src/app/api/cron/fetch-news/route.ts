@@ -65,7 +65,7 @@ function parseItems(xml: string): Article[] {
 async function fetchRss(query: string): Promise<Article[]> {
   try {
     const res = await fetch(rssUrl(query), {
-      headers: { "User-Agent": "weight-loss.ca news aggregator" },
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" },
       signal: AbortSignal.timeout(8000),
     });
     if (!res.ok) return [];
