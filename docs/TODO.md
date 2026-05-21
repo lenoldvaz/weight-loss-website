@@ -11,29 +11,33 @@ Canada just became the first G7 country to approve generic semaglutide. This is 
 ### Completed this session ✅
 - [x] `/generic-semaglutide-canada` — trending article explainer (JSON created, auto-routed)
 - [x] `/how-to-get-generic-semaglutide-in-canada` — how-to guide (JSON created, auto-routed)
-- [x] `/generic-semaglutide-canada-tracker` — ISR tracker page (standalone route, Supabase-ready)
-- [x] Sitemap updated — tracker page added at priority 0.95
+- [x] `/generic-semaglutide-canada-tracker` — ISR tracker page (standalone route, Supabase-ready) with provider pricing, Decision Widget, Price Alert Form, Latest News widget
+- [x] `/semaglutide-news` — automated news archive page (ISR, groups by date)
+- [x] `/api/cron/fetch-news` — Vercel cron handler fetching 3 Google News RSS feeds daily
+- [x] `vercel.json` — cron schedule (12pm UTC / 8am ET daily)
+- [x] Sitemap updated — tracker at 0.95, `/semaglutide-news` at 0.8 daily
+- [x] Email capture wired up — `/api/subscribe` stores to Supabase + Resend confirmation
+- [x] Homepage banner added — breaking news strip linking to tracker
 
 ### Next — do these immediately
-- [ ] **Lenold**: Submit new URLs to GSC for indexing (3 new pages above)
-- [ ] **Lenold**: Set up Supabase project and add env vars to Vercel (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`) — tracker page falls back to seed data until then
-- [ ] **Claude**: Create Supabase table SQL for tracker (run in Supabase dashboard):
+- [ ] **Lenold**: Run this SQL in Supabase dashboard to create the news table:
   ```sql
-  create table generic_semaglutide_generics (
+  create table semaglutide_news (
     id uuid primary key default gen_random_uuid(),
-    brand_name text not null,
-    manufacturer text not null,
-    approved_date date,
-    launched_date date,
-    price_cad_low numeric,
-    price_cad_high numeric,
-    indication text not null,
-    status text not null,
-    available_at text,
-    notes text,
-    updated_at timestamptz default now()
+    title text not null,
+    url text not null unique,
+    source text,
+    published_at timestamptz,
+    summary text,
+    fetched_at timestamptz default now()
   );
+  alter table semaglutide_news enable row level security;
+  create policy "Public read access" on semaglutide_news for select to anon using (true);
   ```
+- [ ] **Lenold**: Add `CRON_SECRET` env var in Vercel dashboard (Project Settings → Environment Variables) — generate any random string, e.g. `openssl rand -hex 32`
+- [ ] **Lenold**: Add `RESEND_API_KEY` in Vercel dashboard + verify weight-loss.ca domain in Resend dashboard
+- [ ] **Lenold**: After deploy, trigger first news fetch manually: `curl https://weight-loss.ca/api/cron/fetch-news` (no auth needed until CRON_SECRET is set on Vercel)
+- [ ] **Lenold**: Submit new URLs to GSC for indexing (`/semaglutide-news`, `/generic-semaglutide-canada-tracker`)
 - [ ] **Claude** (Week 2): Create `/generic-semaglutide-vs-ozempic` comparison page JSON using `ComparisonTemplate`
 - [ ] **Claude** (Week 3): Create `/generic-semaglutide-weight-loss-canada` article
 - [ ] **Claude** (Week 3–4): Update `ozempic-review.json` — add callout about generic availability + price comparison

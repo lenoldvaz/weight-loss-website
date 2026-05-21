@@ -38,6 +38,7 @@ docs/*.json
 !package-lock.json
 !tsconfig.json
 !next.config.json
+!vercel.json
 
 # Allow all JSON inside src/ (taxonomy, schemas, generated content)
 !src/**/*.json

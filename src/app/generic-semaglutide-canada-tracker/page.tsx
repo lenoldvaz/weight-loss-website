@@ -18,6 +18,36 @@ export const metadata: Metadata = {
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
+type NewsSnippet = {
+  id: string;
+  title: string;
+  url: string;
+  source: string | null;
+  published_at: string | null;
+  summary: string | null;
+};
+
+async function fetchRecentNews(): Promise<NewsSnippet[]> {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !key) return [];
+  try {
+    const res = await fetch(
+      `${url}/rest/v1/semaglutide_news?order=published_at.desc.nullslast&limit=5`,
+      { headers: { apikey: key, Authorization: `Bearer ${key}` }, next: { revalidate: 3600 } }
+    );
+    if (!res.ok) return [];
+    return (await res.json()) as NewsSnippet[];
+  } catch {
+    return [];
+  }
+}
+
+function cleanNewsSource(source: string | null): string {
+  if (!source) return "News";
+  return source.replace(/\s*-\s*(Google News|CA)$/i, "").trim();
+}
+
 export type GenericEntry = {
   id: string;
   brand_name: string;
@@ -132,9 +162,10 @@ const jsonLd = [
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default async function GenericSemaglutideTrackerPage() {
-  const [generics, providers] = await Promise.all([
+  const [generics, providers, recentNews] = await Promise.all([
     supabaseFetch<GenericEntry>("generic_semaglutide_generics", "approved_date.asc.nullslast", SEED_GENERICS),
     supabaseFetch<ProviderEntry>("semaglutide_providers", "sort_order.asc", SEED_PROVIDERS),
+    fetchRecentNews(),
   ]);
 
   const lastUpdated = "May 21, 2026";
@@ -345,6 +376,48 @@ export default async function GenericSemaglutideTrackerPage() {
             </div>
           </div>
         </section>
+
+        {/* ── Latest News ──────────────────────────────────────────────────── */}
+        {recentNews.length > 0 && (
+          <section className="border-t border-slate-100 bg-slate-50 px-4 py-10">
+            <div className="max-w-4xl mx-auto">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="font-display text-lg font-semibold text-slate-900">Latest News</h2>
+                <a href="/semaglutide-news" className="text-sm text-[var(--color-forest-600)] hover:text-[var(--color-forest-700)] font-medium transition-colors">
+                  See all →
+                </a>
+              </div>
+              <div className="space-y-2">
+                {recentNews.map((article) => (
+                  <a
+                    key={article.id}
+                    href={article.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start gap-3 bg-white border border-slate-200 rounded-xl px-4 py-3 hover:border-slate-300 hover:shadow-sm transition-all group"
+                  >
+                    <div className="flex-1 min-w-0">
+                      <div className="flex flex-wrap items-center gap-2 mb-1">
+                        <span className="text-xs bg-slate-100 text-slate-600 font-medium px-2 py-0.5 rounded-full">
+                          {cleanNewsSource(article.source)}
+                        </span>
+                        {article.published_at && (
+                          <span className="text-xs text-slate-400">
+                            {new Date(article.published_at).toLocaleDateString("en-CA", { month: "short", day: "numeric" })}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-sm font-medium text-slate-900 leading-snug group-hover:text-[var(--color-forest-700)] transition-colors line-clamp-2">
+                        {article.title}
+                      </p>
+                    </div>
+                    <span className="shrink-0 text-slate-300 group-hover:text-slate-500 transition-colors mt-1">→</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* ── Related guides ────────────────────────────────────────────────── */}
         <section className="max-w-4xl mx-auto px-4 py-10">

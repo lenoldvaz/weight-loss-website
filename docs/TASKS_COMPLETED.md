@@ -216,3 +216,9 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-05-21] [Content] Created `src/data/content/how-to/how-to-get-generic-semaglutide-in-canada.json` — 6-step guide to switching from Ozempic to generic semaglutide, covering prescription wording, provincial drug plan coverage, pharmacy stock, and common mistakes
 - [2026-05-21] [Feature] Created `src/app/generic-semaglutide-canada-tracker/page.tsx` — standalone ISR tracker page (revalidates hourly) listing all Health Canada-approved generics with status badges, pricing, launch dates, and FAQ; falls back to seed data until Supabase is configured
 - [2026-05-21] [SEO] Updated `src/app/sitemap.ts` — added `/generic-semaglutide-canada-tracker` as a static page (priority 0.95, weekly); bumped trending-article priority from 0.7 to 0.9
+- [2026-05-21] [Feature] Created `src/app/api/cron/fetch-news/route.ts` — Vercel cron handler that fetches 3 Google News RSS feeds (generic semaglutide canada, generic ozempic canada, apo-semaglutide canada), parses XML with inline regex, deduplicates by URL, inserts new articles into Supabase `semaglutide_news` table; authenticated with CRON_SECRET env var
+- [2026-05-21] [Feature] Created `src/app/semaglutide-news/page.tsx` — ISR news archive page grouping articles by date with source badge, relative date, title, summary snippet, and external link; shows article count in hero
+- [2026-05-21] [Feature] Added Latest News widget to `src/app/generic-semaglutide-canada-tracker/page.tsx` — shows 5 most recent articles from Supabase `semaglutide_news` table with "See all →" link; hidden if no articles yet
+- [2026-05-21] [Config] Created `vercel.json` — cron schedule for `/api/cron/fetch-news` at 12pm UTC (8am ET) daily
+- [2026-05-21] [SEO] Updated `src/app/sitemap.ts` — added `/semaglutide-news` static entry (priority 0.8, daily)
+- [2026-05-21] [Config] Updated `.env.local` — added `CRON_SECRET` placeholder
