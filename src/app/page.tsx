@@ -4,9 +4,9 @@ import Footer from "@/components/Footer";
 import EmailCaptureForm from "@/components/EmailCaptureForm";
 
 export const metadata: Metadata = {
-  title: "weight-loss.ca — Canada's #1 Weight Loss Resource (Coming Soon)",
+  title: "weight-loss.ca — Canada's #1 Weight Loss Resource",
   description:
-    "The most comprehensive, evidence-based weight loss resource for Canadians. Expert reviews, clinic directories, Canadian pricing, and Health Canada-aligned guidance. Launching soon.",
+    "Canada's most comprehensive weight loss resource. Expert reviews of Ozempic, Wegovy & GLP-1 medications, clinic directories across every province, Canadian pricing, and Health Canada-aligned guidance.",
   alternates: { canonical: "https://weight-loss.ca" },
 };
 
@@ -80,6 +80,26 @@ export default function Home() {
     <div className="flex min-h-screen flex-col bg-[var(--color-cream)]">
       <Header />
 
+      {/* Breaking news banner */}
+      <a
+        href="/generic-semaglutide-canada-tracker"
+        className="block bg-[var(--color-forest-800)] hover:bg-[var(--color-forest-900)] transition-colors"
+      >
+        <div className="mx-auto max-w-6xl px-4 py-2.5 flex items-center justify-center gap-2.5 text-sm">
+          <span className="shrink-0 inline-flex items-center gap-1 bg-green-400 text-green-950 text-xs font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">
+            New
+          </span>
+          <span className="text-white font-medium">
+            Generic Ozempic is now available in Canada from $149/mo
+          </span>
+          <span className="hidden sm:inline text-[var(--color-forest-300)]">·</span>
+          <span className="hidden sm:inline text-[var(--color-forest-300)] text-xs">
+            Canada is the first G7 country to approve it
+          </span>
+          <span className="text-[var(--color-forest-300)] ml-1">→</span>
+        </div>
+      </a>
+
       <main className="flex-1">
         {/* Hero */}
         <section
@@ -140,7 +160,7 @@ export default function Home() {
           </div>
 
           <div className="relative mx-auto max-w-4xl text-center">
-            {/* Coming soon pill */}
+            {/* Live pill */}
             <div
               className="animate-fade-up opacity-0 animation-delay-100 mb-6 inline-flex items-center gap-2 rounded-full border border-[var(--color-forest-200)] bg-white/80 px-4 py-1.5 text-xs font-semibold tracking-widest text-[var(--color-forest-700)] uppercase shadow-sm backdrop-blur-sm"
             >
@@ -148,7 +168,7 @@ export default function Home() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-forest-500)] opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-forest-600)]" />
               </span>
-              Coming Soon
+              Canada&apos;s Weight Loss Resource
             </div>
 
             {/* Main headline */}
