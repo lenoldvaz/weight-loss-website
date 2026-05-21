@@ -4,119 +4,166 @@
 
 ---
 
-## 🚨 URGENT — Generic Semaglutide Launch (Week of May 19, 2026)
+## 🔴 DO FIRST — Supabase & Vercel Setup (30 min)
 
-Canada just became the first G7 country to approve generic semaglutide. This is the biggest GLP-1 story in Canada in years — act now while search volume is spiking.
+These unlock features already built but not yet active. Do in this order.
 
-### Completed this session ✅
-- [x] `/generic-semaglutide-canada` — trending article explainer (JSON created, auto-routed)
-- [x] `/how-to-get-generic-semaglutide-in-canada` — how-to guide (JSON created, auto-routed)
-- [x] `/generic-semaglutide-canada-tracker` — ISR tracker page (standalone route, Supabase-ready) with provider pricing, Decision Widget, Price Alert Form, Latest News widget
-- [x] `/semaglutide-news` — automated news archive page (ISR, groups by date)
-- [x] `/api/cron/fetch-news` — Vercel cron handler fetching 3 Google News RSS feeds daily
-- [x] `vercel.json` — cron schedule (12pm UTC / 8am ET daily)
-- [x] Sitemap updated — tracker at 0.95, `/semaglutide-news` at 0.8 daily
-- [x] Email capture wired up — `/api/subscribe` stores to Supabase + Resend confirmation
-- [x] Homepage banner added — breaking news strip linking to tracker
+### 1. Create `semaglutide_news` table in Supabase
+Go to Supabase dashboard → SQL Editor → run:
+```sql
+create table semaglutide_news (
+  id uuid primary key default gen_random_uuid(),
+  title text not null,
+  url text not null unique,
+  source text,
+  published_at timestamptz,
+  summary text,
+  fetched_at timestamptz default now()
+);
+alter table semaglutide_news enable row level security;
+create policy "Public read access" on semaglutide_news for select to anon using (true);
+```
 
-### Next — do these immediately
-- [ ] **Lenold**: Run this SQL in Supabase dashboard to create the news table:
-  ```sql
-  create table semaglutide_news (
-    id uuid primary key default gen_random_uuid(),
-    title text not null,
-    url text not null unique,
-    source text,
-    published_at timestamptz,
-    summary text,
-    fetched_at timestamptz default now()
-  );
-  alter table semaglutide_news enable row level security;
-  create policy "Public read access" on semaglutide_news for select to anon using (true);
-  ```
-- [ ] **Lenold**: Add `CRON_SECRET` env var in Vercel dashboard (Project Settings → Environment Variables) — generate any random string, e.g. `openssl rand -hex 32`
-- [ ] **Lenold**: Add `RESEND_API_KEY` in Vercel dashboard + verify weight-loss.ca domain in Resend dashboard
-- [ ] **Lenold**: After deploy, trigger first news fetch manually: `curl https://weight-loss.ca/api/cron/fetch-news` (no auth needed until CRON_SECRET is set on Vercel)
-- [ ] **Lenold**: Submit new URLs to GSC for indexing (`/semaglutide-news`, `/generic-semaglutide-canada-tracker`)
-- [ ] **Claude** (Week 2): Create `/generic-semaglutide-vs-ozempic` comparison page JSON using `ComparisonTemplate`
-- [ ] **Claude** (Week 3): Create `/generic-semaglutide-weight-loss-canada` article
-- [ ] **Claude** (Week 3–4): Update `ozempic-review.json` — add callout about generic availability + price comparison
-- [ ] **Claude** (Week 3–4): Create `/generic-semaglutide-coverage-by-province` guide
+### 2. Add `CRON_SECRET` to Vercel
+Vercel dashboard → Project → Settings → Environment Variables:
+- Key: `CRON_SECRET`
+- Value: any random string — generate one with `openssl rand -hex 32`
 
----
+### 3. Add `RESEND_API_KEY` to Vercel
+- Go to resend.com → create an account → get API key
+- Add `RESEND_API_KEY` to Vercel environment variables
+- In Resend: add `weight-loss.ca` as a sending domain (requires DNS records — Vercel handles DNS if domain is there)
 
-## 📅 Daily Routine
+### 4. Trigger first news fetch
+After Supabase table is created, hit this URL in a browser (no auth needed before CRON_SECRET is set):
+```
+https://weight-loss.ca/api/cron/fetch-news
+```
+Should return `{"ok":true,"fetched":XX,"new":XX}`. Then `/semaglutide-news` will show articles.
 
-### Lenold — daily (5 min)
-- [ ] GSC → URL Inspection → request indexing for 10 pages (quota resets daily)
-- [ ] Check if any new pages appeared in GSC analytics
-
-### Claude — on request
-- `npx tsx scripts/seo/gsc.ts coverage` — check indexing status
-- `npx tsx scripts/seo/gsc.ts analytics` — check clicks/impressions
-- `npx tsx scripts/seo/gsc.ts inspect <url>` — inspect any specific page
+### 5. Submit new pages to GSC for indexing
+Go to GSC → URL Inspection → request indexing for each:
+1. `https://weight-loss.ca/glp1-prices`
+2. `https://weight-loss.ca/coverage-checker`
+3. `https://weight-loss.ca/savings-cards`
+4. `https://weight-loss.ca/telehealth`
+5. `https://weight-loss.ca/semaglutide-news`
+6. `https://weight-loss.ca/generic-semaglutide-canada-tracker`
+7. `https://weight-loss.ca/generic-semaglutide-canada`
+8. `https://weight-loss.ca/how-to-get-generic-semaglutide-in-canada`
 
 ---
 
-## 🔴 This Week (urgent)
+## 🟡 This Week
 
 ### Lenold
-- [ ] GSC → request indexing for `/clinics` and `/reviews` — still showing redirect error from old crawl (Mar 17), need fresh crawl now that 308 redirect is fixed
-- [ ] GSC → request indexing batch 2 (10 pages today):
-  1. `https://weight-loss.ca/clinics`
-  2. `https://weight-loss.ca/reviews`
-  3. `https://weight-loss.ca/how-to-speed-up-metabolism`
-  4. `https://weight-loss.ca/how-to-lose-weight-without-exercise`
-  5. `https://weight-loss.ca/dietitians-calgary`
-  6. `https://weight-loss.ca/dietitians-toronto`
-  7. `https://weight-loss.ca/noom-review`
-  8. `https://weight-loss.ca/wegovy-review`
-  9. `https://weight-loss.ca/how-to-lose-arm-fat`
-  10. `https://weight-loss.ca/how-to-lose-thigh-fat`
-- [ ] Verify GA4 is firing: open weight-loss.ca in browser → GA4 Realtime report → confirm pageview appears
-- [ ] Vercel → delete old www sitemap from GSC (submit `https://weight-loss.ca/sitemap.xml` as the only one)
+- [ ] Verify GA4 firing: open weight-loss.ca → GA4 Realtime → confirm pageview appears
+- [ ] Check `/sitemap.xml` in browser — confirm all new pages appear (glp1-prices, telehealth, savings-cards, coverage-checker)
+- [ ] Visit each new page on mobile and desktop — screenshot any layout issues and share with Claude
+- [ ] GSC: submit `https://weight-loss.ca/sitemap.xml` if not already submitted as primary sitemap
 
-### Claude
-- [ ] Audit internal linking — verify hub pages link to all content pages (Google can't discover the 98 unindexed pages without links)
-- [ ] Check RelatedLinks component is wired in all 9 templates
-- [ ] Add `lastModified` from actual file mtime to sitemap (currently all pages show same timestamp — fix to reflect real update dates)
+### Claude (on request)
+- [ ] Create `/glp1-prices` Supabase table SQL so prices can be updated without deploys:
+  ```sql
+  create table glp1_prices (
+    id uuid primary key default gen_random_uuid(),
+    pharmacy_name text not null,
+    pharmacy_type text not null,
+    province text not null,
+    drug_name text not null,
+    dosage text,
+    price_cad numeric,
+    dispensing_fee numeric default 0,
+    requires_rx boolean default true,
+    is_estimate boolean default false,
+    url text,
+    notes text,
+    verified_at date,
+    updated_at timestamptz default now()
+  );
+  alter table glp1_prices enable row level security;
+  create policy "Public read access" on glp1_prices for select to anon using (true);
+  ```
+- [ ] Fix `/clinics` and `/reviews` hub pages — still showing old redirect errors in GSC. Request fresh crawl after fix.
+- [ ] Internal linking audit — the 4 new pages (glp1-prices, telehealth, savings-cards, coverage-checker) need to be linked from existing content pages
 
 ---
 
-## 🟡 This Month (week 2–4)
+## 🟠 Month 1 — Content Gaps (Claude builds these)
 
-### Lenold — backlinks (single biggest unlock)
-- [ ] Sign up for Connectively (connectively.us — replacement for HARO) — respond to health/nutrition journalist queries 3x/week
-- [ ] Email 5 Canadian dietitian blogs offering a guest post or data collaboration
-- [ ] Submit weight-loss.ca to Canadian health directories (CARP, Canadian Obesity Network partner pages)
+These are high-traffic keyword opportunities we don't have pages for yet.
+
+### Missing comparison pages
+- [ ] `/generic-semaglutide-vs-ozempic` — comparison JSON using ComparisonTemplate (search volume: high)
+- [ ] `/ozempic-vs-mounjaro-canada` — head-to-head with CAD prices
+- [ ] `/wegovy-vs-ozempic-canada` — semaglutide dose comparison
+
+### Missing articles
+- [ ] `/generic-semaglutide-weight-loss-canada` — off-label use explainer with doctor quotes
+- [ ] `/generic-semaglutide-coverage-by-province` — province-by-province formulary guide (long-form)
+- [ ] `/how-much-does-ozempic-cost-in-canada` — exact pricing by pharmacy (drives price comparison traffic)
+- [ ] `/is-ozempic-covered-by-insurance-canada` — coverage guide (feeds coverage checker)
+- [ ] `/mounjaro-canada-price` — Mounjaro pricing page
+
+### Update existing pages
+- [ ] `ozempic-review.json` — add callout about generic availability + price comparison table
+- [ ] `wegovy-review.json` — update with current CAD pricing and Poviztra (authorized generic)
+
+---
+
+## 🟡 Month 1 — SEO & Technical
+
+### Lenold — backlinks (biggest unlock for ranking)
+- [ ] Sign up for Connectively (connectively.us — replaced HARO) — respond to health/diet journalist queries 3×/week
+- [ ] Email 5 Canadian dietitian blogs offering a guest post or data use
+- [ ] Submit weight-loss.ca to Canadian health directories (CARP, Canadian Obesity Network)
 - [ ] Reach out to 3 Canadian weight loss clinics to link to your city page (offer free listing)
 
 ### Lenold — analytics
-- [ ] Create Microsoft Clarity project at clarity.microsoft.com → add `NEXT_PUBLIC_CLARITY_ID` to Vercel env vars
-- [ ] Confirm Plausible or keep GA4 (decision: pick one as primary dashboard)
+- [ ] Create Microsoft Clarity project at clarity.microsoft.com → add `NEXT_PUBLIC_CLARITY_ID` to Vercel
+- [ ] Confirm GA4 primary dashboard is set up — check Sessions and Top Pages are recording
 
-### Claude — content quality
-- [ ] Improve `/contrave-review` — currently position 41 with 40 impressions, closest to page 1. Add comparison table, update dosing info, strengthen Canadian angle (OHIP coverage, cost in CAD)
-- [ ] Improve `/berberine-review` — position 60, 13 impressions. Same treatment.
-- [ ] Add `Article` JSON-LD schema to how-to pages (currently only HowTo + FAQPage schema)
+### Claude — SEO fixes
+- [ ] Add `lastModified` from actual file mtime to sitemap (all pages currently show same date — this hurts crawl prioritisation)
+- [ ] Add `Article` JSON-LD to all how-to pages
 - [ ] Add `Review` + `Product` JSON-LD to all product-review pages
-- [ ] Core Web Vitals audit — run PageSpeed Insights, fix any LCP > 2.5s issues
+- [ ] Core Web Vitals: run PageSpeed Insights on `/glp1-prices` and `/` — fix any LCP > 2.5s
+- [ ] Improve `/contrave-review` (position 41, closest to page 1) — add comparison table, stronger Canadian angle
+- [ ] Improve `/berberine-review` (position 60, 13 impressions)
 
 ---
 
-## 🟢 Month 2–3 (once first batch indexed)
+## 🟢 Month 2–3 — Monetisation
 
-### Lenold
-- [ ] Apply to Amazon.ca affiliate program (associates.amazon.ca) — add links to product review pages
-- [ ] Apply to iHerb affiliate program
-- [ ] Apply to HelloFresh Canada affiliate program
-- [ ] Create Google AdSense account (activate at ~5,000 sessions/month)
+### Lenold — affiliate programs
+- [ ] Apply: Amazon.ca Associates (associates.amazon.ca) — link from supplement review pages
+- [ ] Apply: iHerb affiliate program
+- [ ] Apply: HelloFresh Canada affiliate
+- [ ] Consider: direct clinic affiliate deals (weight loss clinics often pay $50–150/referral)
 
-### Claude
-- [ ] Build seed files for 6 new templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product) — unlocks ~200+ more pages
-- [ ] Generate those ~200 pages
-- [ ] Weekly trending pipeline (scripts/trending/) — 50 new articles/week automated
-- [ ] Build homepage properly (replace "coming soon" with real content: featured reviews, top how-tos, province selector)
+### Lenold — ads
+- [ ] Create Google AdSense account — activate when site hits ~5,000 sessions/month
+- [ ] Research Mediavine/Raptive requirements (Mediavine = 50k sessions/mo minimum)
+
+### Claude — scale content
+- [ ] Build seed files for remaining templates (comparison, demographic-topic, condition-topic, best-list, trending-article, location-product) — unlocks ~200 more pages
+- [ ] Generate those 200 pages in batches (max 500/day to avoid spam signals)
+- [ ] Weekly trending pipeline (`scripts/trending/`) — 50 new articles/week automated
+
+---
+
+## 📅 Daily Routine (Lenold — 5 min/day)
+
+- [ ] GSC → URL Inspection → request indexing for 10 pages (quota resets daily)
+- [ ] Check if new pages appeared in GSC Search Results
+- [ ] Scan `/semaglutide-news` for any big breaking stories to share on social
+
+### Claude — on request
+```bash
+npx tsx scripts/seo/gsc.ts coverage   # check indexing status
+npx tsx scripts/seo/gsc.ts analytics  # clicks/impressions
+npx tsx scripts/seo/gsc.ts inspect <url>  # inspect a page
+```
 
 ---
 
@@ -124,35 +171,49 @@ Canada just became the first G7 country to approve generic semaglutide. This is 
 
 | Milestone | Target | Status |
 |-----------|--------|--------|
-| 10 pages indexed | Week 2 | 🔄 In progress (5/10) |
+| 10 pages indexed | Week 2 | 🔄 In progress |
+| New pages indexed (glp1-prices, telehealth, etc.) | Week 3 | ⬜ |
 | 50 pages indexed | Week 4 | ⬜ |
-| All 111 pages indexed | Month 2 | ⬜ |
-| First click in GSC | Month 1–2 | ⬜ |
-| Position ≤ 20 on any keyword | Month 2–3 | ⬜ (`contrave-review` at 41 now) |
+| First click from `/glp1-prices` or `/coverage-checker` | Month 1–2 | ⬜ |
+| Position ≤ 20 on any GLP-1 keyword | Month 2–3 | ⬜ |
 | 500 sessions/month | Month 3–4 | ⬜ |
-| 5,000 sessions/month (ads) | Month 6 | ⬜ |
+| 5,000 sessions/month (AdSense) | Month 6 | ⬜ |
 | 50,000 sessions/month (Mediavine) | Month 12 | ⬜ |
 
 ---
 
 ## ✅ Done
 
-- [x] Fix www → non-www domain redirect (Vercel: 308 permanent, confirmed 200 OK on all pages) ✅
-- [x] Fix Cloudflare DNS (grey cloud) — SSL confirmed ✅
-- [x] Submit non-www sitemap to GSC (`https://weight-loss.ca/sitemap.xml`, 111 pages) ✅
-- [x] GSC redirect errors fixed on /how-to, /how-to-lose-belly-fat, /how-to-lose-face-fat, /contrave-review ✅
-- [x] All 103 seed pages generated and live (60 location-service, 25 how-to, 18 product-review) ✅
-- [x] E-E-A-T pages: About, Editorial Policy, Contact, Privacy Policy ✅
-- [x] Hub pages enhanced with JSON-LD + SEO content + cross-links ✅
-- [x] Admin content browser with keyword data, sort/filter ✅
-- [x] DataForSEO keyword data for all 83 tracked slugs ✅
-- [x] All 9 page templates built ✅
-- [x] Admin CMS with Tiptap rich text editor ✅
-- [x] Hero image pipeline (Gemini, priority list) ✅
-- [x] GitHub Actions auto-indexing on content push ✅
-- [x] GSC script (`scripts/seo/gsc.ts`) — direct API access for coverage, analytics, inspect, sitemaps ✅
-- [x] sitemap.xml — dynamic, covers all 111 pages ✅
-- [x] robots.txt — admin blocked, sitemap referenced ✅
-- [x] Google service account as GSC Owner ✅
-- [x] GA4 + GTM installed ✅
-- [x] Register weight-loss.ca + Vercel + GitHub ✅
+### Site rebuild (May 2026)
+- [x] Full design system overhaul — Inter font, dark hero sections, clean zinc/white palette
+- [x] Header redesigned — 6 nav links (Prices, Coverage, Savings Cards, Telehealth, Tracker, News)
+- [x] Footer redesigned — 3-column with Compare / Tracking / Company sections
+- [x] Homepage redesigned — dark hero, feature grid, price preview table (no more "coming soon")
+- [x] `/glp1-prices` — filterable price comparison (28 listings, 6 drugs, 15+ pharmacies, client-side filter/sort)
+- [x] `/savings-cards` — all 4 Canadian manufacturer programs (Novo Nordisk Care, innoviCares, myzepbound, mymounjaro)
+- [x] `/telehealth` — 10 Canadian telehealth providers compared (consult fee, provinces, drug availability)
+- [x] `/coverage-checker` — interactive 4-step provincial coverage tool (province × drug × insurance × T2D)
+- [x] Sitemap — 4 new pages added (glp1-prices at priority 1.0)
+
+### Automated news pipeline (May 2026)
+- [x] `/semaglutide-news` — daily news archive (ISR, grouped by date, source badges)
+- [x] `/api/cron/fetch-news` — Vercel cron: 3 Google News RSS feeds, deduplication, Supabase insert
+- [x] `vercel.json` — cron schedule (daily 12pm UTC / 8am ET)
+- [x] Latest News widget on tracker page (5 most recent, "See all →" link)
+
+### Generic semaglutide content (May 2026)
+- [x] `/generic-semaglutide-canada` — full explainer article
+- [x] `/how-to-get-generic-semaglutide-in-canada` — 6-step guide
+- [x] `/generic-semaglutide-canada-tracker` — ISR tracker with provider pricing, Decision Widget, Price Alert Form
+- [x] Email subscribe → `/api/subscribe` → Supabase storage + Resend confirmation
+
+### Infrastructure (March 2026)
+- [x] Fix www → non-www redirect (308 permanent)
+- [x] Submit sitemap to GSC (111 pages)
+- [x] E-E-A-T pages: About, Editorial Policy, Contact, Privacy Policy
+- [x] Hub pages with JSON-LD + SEO content
+- [x] Admin CMS with Tiptap editor + DataForSEO keyword data
+- [x] GA4 + GTM installed
+- [x] GSC script for coverage/analytics/inspect
+- [x] GitHub Actions auto-indexing on content push
+- [x] 103 seed pages generated (60 location-service, 25 how-to, 18 product-review)
