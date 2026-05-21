@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/shared/JsonLd";
 import DecisionWidget from "./DecisionWidget";
+import PriceAlertForm from "./PriceAlertForm";
 
 export const revalidate = 3600;
 
@@ -261,19 +262,10 @@ export default async function GenericSemaglutideTrackerPage() {
           </p>
         </section>
 
-        {/* ── Fix #8 — Price-drop alert CTA ────────────────────────────────── */}
+        {/* Price-drop alert CTA */}
         <section className="bg-gradient-to-r from-slate-800 to-slate-900 px-4 py-8">
-          <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-4">
-            <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Prices are falling — get notified when they drop</p>
-              <p className="text-slate-400 text-sm">We update this tracker weekly. Get an email when new generics are approved or prices change.</p>
-            </div>
-            <a
-              href="/#early-access"
-              className="shrink-0 bg-white text-slate-900 font-semibold text-sm px-5 py-2.5 rounded-xl hover:bg-slate-100 transition-colors whitespace-nowrap"
-            >
-              Get price alerts →
-            </a>
+          <div className="max-w-4xl mx-auto">
+            <PriceAlertForm variant="banner" />
           </div>
         </section>
 
@@ -446,15 +438,7 @@ function ProviderCard({ p, bestValue, comingSoon = false }: { p: ProviderEntry; 
               Visit site →
             </a>
           )}
-          {/* Fix #8: Notify me on coming soon cards */}
-          {comingSoon && (
-            <a
-              href="/#early-access"
-              className="text-xs text-slate-500 hover:text-slate-700 underline whitespace-nowrap"
-            >
-              Notify me when live
-            </a>
-          )}
+          {comingSoon && <PriceAlertForm variant="card" />}
         </div>
       </div>
 
