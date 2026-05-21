@@ -31,11 +31,25 @@ function extractAttr(xml: string, tag: string, attr: string): string {
   return (m?.[1] ?? "").trim();
 }
 
-function stripHtml(s: string) {
-  return s.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+function decodeEntities(s: string) {
+  return s
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
 }
 
-// Google News wraps the real URL in a redirect — extract source domain from <source> tag
+function stripHtml(s: string) {
+  return decodeEntities(s).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function cleanTitle(title: string, source: string): string {
+  // Remove " - Source Name" suffix Google News appends to titles
+  return title.replace(new RegExp(`\\s*[-–]\\s*${source.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`, "i"), "").trim();
+}
+
 function parseSource(itemXml: string): string {
   const s = extractTag(itemXml, "source");
   return s || "Unknown";
@@ -44,20 +58,26 @@ function parseSource(itemXml: string): string {
 function parseItems(xml: string): Article[] {
   const items = xml.match(/<item>([\s\S]*?)<\/item>/gi) ?? [];
   return items.flatMap((item) => {
-    const title = stripHtml(extractTag(item, "title"));
+    const rawTitle = stripHtml(extractTag(item, "title"));
     const link = extractTag(item, "link") || extractAttr(item, "link", "href");
     const pubDate = extractTag(item, "pubDate");
-    const description = stripHtml(extractTag(item, "description")).slice(0, 400) || null;
     const source = parseSource(item);
 
-    if (!title || !link) return [];
+    if (!rawTitle || !link) return [];
+
+    const title = cleanTitle(rawTitle, source);
+
+    // Google News descriptions are redirect links, not real summaries — discard them
+    const rawDesc = stripHtml(extractTag(item, "description"));
+    const isGoogleRedirect = rawDesc.includes("news.google.com") || rawDesc.includes("CBMi");
+    const summary = isGoogleRedirect || rawDesc.length < 40 ? null : rawDesc.slice(0, 300);
 
     return [{
       title,
       url: link,
       source,
       published_at: pubDate ? new Date(pubDate).toISOString() : null,
-      summary: description,
+      summary,
     }];
   });
 }
