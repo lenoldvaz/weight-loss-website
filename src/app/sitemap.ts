@@ -31,6 +31,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/editorial-policy`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/contact`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/privacy-policy`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.3 },
+    { url: `${baseUrl}/glp1-prices`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 1.0 },
+    { url: `${baseUrl}/coverage-checker`, lastModified: new Date("2026-05-21"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/savings-cards`, lastModified: new Date("2026-05-21"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/telehealth`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/generic-semaglutide-canada-tracker`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 0.95 },
     { url: `${baseUrl}/semaglutide-news`, lastModified: new Date("2026-05-21"), changeFrequency: "daily", priority: 0.8 },
   ];

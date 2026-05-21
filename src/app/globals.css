@@ -2,10 +2,10 @@
 
 @theme {
   /* Typography */
-  --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-display: "Inter", system-ui, -apple-system, sans-serif;
   --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
 
-  /* Brand — Forest Green */
+  /* Brand — Green */
   --color-forest-50: #f0fdf4;
   --color-forest-100: #dcfce7;
   --color-forest-200: #bbf7d0;
@@ -18,16 +18,31 @@
   --color-forest-900: #14532d;
   --color-forest-950: #052e16;
 
-  /* Warm neutrals */
-  --color-cream: #fffbf0;
-  --color-parchment: #f5f0e8;
-  --color-sand-100: #fef3c7;
-  --color-sand-200: #fde68a;
+  /* Dark surfaces (for hero sections) */
+  --color-dark-950: #09090b;
+  --color-dark-900: #0f1013;
+  --color-dark-800: #18181b;
+  --color-dark-700: #27272a;
+  --color-dark-600: #3f3f46;
 
-  /* Text */
-  --color-bark: #1a0f07;
-  --color-bark-soft: #3d2b1f;
-  --color-bark-muted: #7a6155;
+  /* Clean neutrals */
+  --color-zinc-50:  #fafafa;
+  --color-zinc-100: #f4f4f5;
+  --color-zinc-200: #e4e4e7;
+  --color-zinc-300: #d4d4d8;
+  --color-zinc-400: #a1a1aa;
+  --color-zinc-500: #71717a;
+  --color-zinc-600: #52525b;
+  --color-zinc-700: #3f3f46;
+  --color-zinc-800: #27272a;
+  --color-zinc-900: #18181b;
+
+  /* Legacy aliases — keep so old pages don't break */
+  --color-cream: #fafafa;
+  --color-parchment: #f4f4f5;
+  --color-bark: #18181b;
+  --color-bark-soft: #3f3f46;
+  --color-bark-muted: #71717a;
 }
 
 @layer base {
@@ -37,8 +52,8 @@
 
   html {
     font-family: var(--font-sans);
-    background-color: var(--color-cream);
-    color: var(--color-bark);
+    background-color: #ffffff;
+    color: var(--color-zinc-900);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
@@ -46,8 +61,8 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    line-height: 1.15;
-    letter-spacing: -0.02em;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
   }
 
   ::selection {
@@ -58,43 +73,28 @@
 
 /* Animations */
 @keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes fade-in {
   from { opacity: 0; }
-  to { opacity: 1; }
+  to   { opacity: 1; }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  33% { transform: translateY(-12px) rotate(1.5deg); }
-  66% { transform: translateY(-6px) rotate(-1deg); }
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
 }
 
 @keyframes shimmer {
-  0% { background-position: -200% center; }
-  100% { background-position: 200% center; }
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
 }
 
-.animate-fade-up {
-  animation: fade-up 0.7s ease forwards;
-}
-
-.animate-fade-in {
-  animation: fade-in 0.6s ease forwards;
-}
-
-.animate-float {
-  animation: float 8s ease-in-out infinite;
-}
+.animate-fade-up  { animation: fade-up 0.6s ease forwards; }
+.animate-fade-in  { animation: fade-in 0.5s ease forwards; }
+.animate-float    { animation: float 6s ease-in-out infinite; }
 
 .animation-delay-100 { animation-delay: 100ms; }
 .animation-delay-200 { animation-delay: 200ms; }

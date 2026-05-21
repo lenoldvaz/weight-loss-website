@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { Playfair_Display, DM_Sans } from "next/font/google";
+import { Inter, DM_Sans } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-TG5WJTV7";
 const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID ?? "G-GWXLDMY1ZB";
 
-const playfairDisplay = Playfair_Display({
+const inter = Inter({
   variable: "--font-display",
   subsets: ["latin"],
   display: "swap",
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 const dmSans = DM_Sans({
@@ -82,7 +82,7 @@ export default function RootLayout({
   return (
     <html
       lang="en-CA"
-      className={`${playfairDisplay.variable} ${dmSans.variable}`}
+      className={`${inter.variable} ${dmSans.variable}`}
     >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
