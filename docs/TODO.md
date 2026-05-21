@@ -1,7 +1,43 @@
 # weight-loss.ca — TODO
 
-**Last Updated**: 2026-03-28
-**Site age**: 12 days | **Indexed**: 5/111 pages | **Impressions**: 95 | **Clicks**: 0
+**Last Updated**: 2026-05-21
+
+---
+
+## 🚨 URGENT — Generic Semaglutide Launch (Week of May 19, 2026)
+
+Canada just became the first G7 country to approve generic semaglutide. This is the biggest GLP-1 story in Canada in years — act now while search volume is spiking.
+
+### Completed this session ✅
+- [x] `/generic-semaglutide-canada` — trending article explainer (JSON created, auto-routed)
+- [x] `/how-to-get-generic-semaglutide-in-canada` — how-to guide (JSON created, auto-routed)
+- [x] `/generic-semaglutide-canada-tracker` — ISR tracker page (standalone route, Supabase-ready)
+- [x] Sitemap updated — tracker page added at priority 0.95
+
+### Next — do these immediately
+- [ ] **Lenold**: Submit new URLs to GSC for indexing (3 new pages above)
+- [ ] **Lenold**: Set up Supabase project and add env vars to Vercel (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`) — tracker page falls back to seed data until then
+- [ ] **Claude**: Create Supabase table SQL for tracker (run in Supabase dashboard):
+  ```sql
+  create table generic_semaglutide_generics (
+    id uuid primary key default gen_random_uuid(),
+    brand_name text not null,
+    manufacturer text not null,
+    approved_date date,
+    launched_date date,
+    price_cad_low numeric,
+    price_cad_high numeric,
+    indication text not null,
+    status text not null,
+    available_at text,
+    notes text,
+    updated_at timestamptz default now()
+  );
+  ```
+- [ ] **Claude** (Week 2): Create `/generic-semaglutide-vs-ozempic` comparison page JSON using `ComparisonTemplate`
+- [ ] **Claude** (Week 3): Create `/generic-semaglutide-weight-loss-canada` article
+- [ ] **Claude** (Week 3–4): Update `ozempic-review.json` — add callout about generic availability + price comparison
+- [ ] **Claude** (Week 3–4): Create `/generic-semaglutide-coverage-by-province` guide
 
 ---
 

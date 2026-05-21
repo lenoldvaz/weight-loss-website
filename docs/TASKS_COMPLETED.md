@@ -209,3 +209,10 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-03-16] [SEO] Updated `src/app/clinics/page.tsx` — added BreadcrumbList + ItemList JSON-LD schema, "what to look for" and "types of programs" content sections, cross-links to reviews/how-to/about hub pages
 - [2026-03-16] [SEO] Updated `src/app/reviews/page.tsx` — added BreadcrumbList + ItemList JSON-LD schema, "how we review" scoring methodology section (5 dimensions), cross-links to clinics/how-to/about hub pages
 - [2026-03-16] [SEO] Updated `src/app/how-to/page.tsx` — added BreadcrumbList + ItemList JSON-LD schema, "built for Canada" content section highlighting Canadian-specific context, category cards (medications/diet/exercise), cross-links to clinics/reviews/editorial-policy hub pages
+
+## 2026-05-21
+
+- [2026-05-21] [Content] Created `src/data/content/trending-article/generic-semaglutide-canada.json` — main explainer article: "Generic Ozempic Is Now Available in Canada" covering both Health Canada approvals (Dr. Reddy's Apr 28, Apotex May 1), pricing ($100–150 vs $250–500), T2D-only indication nuance, bioequivalence, and upcoming generics pipeline
+- [2026-05-21] [Content] Created `src/data/content/how-to/how-to-get-generic-semaglutide-in-canada.json` — 6-step guide to switching from Ozempic to generic semaglutide, covering prescription wording, provincial drug plan coverage, pharmacy stock, and common mistakes
+- [2026-05-21] [Feature] Created `src/app/generic-semaglutide-canada-tracker/page.tsx` — standalone ISR tracker page (revalidates hourly) listing all Health Canada-approved generics with status badges, pricing, launch dates, and FAQ; falls back to seed data until Supabase is configured
+- [2026-05-21] [SEO] Updated `src/app/sitemap.ts` — added `/generic-semaglutide-canada-tracker` as a static page (priority 0.95, weekly); bumped trending-article priority from 0.7 to 0.9

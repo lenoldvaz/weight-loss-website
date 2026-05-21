@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/editorial-policy`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/contact`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/privacy-policy`, lastModified: new Date("2026-03-28"), changeFrequency: "monthly", priority: 0.3 },
+    { url: `${baseUrl}/generic-semaglutide-canada-tracker`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 0.95 },
   ];
 
   // Priority by template
@@ -43,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "demographic-topic": 0.7,
     "condition-topic": 0.8,
     "best-list": 0.8,
-    "trending-article": 0.7,
+    "trending-article": 0.9,
   };
 
   // Content pages with real file modification times
