@@ -229,3 +229,5 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-05-21] [SEO] Updated `src/app/sitemap.ts` — added 6 new generic semaglutide cluster pages with priorities 0.85–0.95; expanded HARDCODED_SLUGS set
 - [2026-05-21] [SEO] Updated `ozempic-review.json` — added generic semaglutide as first vs_alternatives entry, updated price references, verdict summary, cost rating, added related_topics
 - [2026-05-21] [SEO] Updated `wegovy-review.json` — added generic semaglutide vs_alternatives entry comparing 1mg vs 2.4mg, added related_topics
+- [2026-05-22] [SEO] Extended `scripts/seo/gsc.ts` — added `report`, `queries`, `wins`, `check-indexed`, `queue`, `sitemap-resubmit` commands; full weekly digest in one command
+- [2026-05-22] [SEO] Resubmitted sitemap.xml to GSC via API — Google will re-download updated sitemap with 125+ pages
