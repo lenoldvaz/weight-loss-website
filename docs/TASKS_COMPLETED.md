@@ -222,3 +222,10 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-05-21] [Config] Created `vercel.json` — cron schedule for `/api/cron/fetch-news` at 12pm UTC (8am ET) daily
 - [2026-05-21] [SEO] Updated `src/app/sitemap.ts` — added `/semaglutide-news` static entry (priority 0.8, daily)
 - [2026-05-21] [Config] Updated `.env.local` — added `CRON_SECRET` placeholder
+- [2026-05-21] [SEO] Created `src/data/content/comparison/generic-semaglutide-vs-ozempic.json` — comparison page targeting "generic semaglutide vs ozempic canada"; 10-row comparison table, 6 category winners, 7 FAQs
+- [2026-05-21] [SEO] Created `src/data/content/trending-article/generic-semaglutide-weight-loss-canada.json` — off-label weight loss guide; covers telehealth options, provincial coverage, vs Wegovy comparison
+- [2026-05-21] [SEO] Created `src/data/content/trending-article/generic-semaglutide-coverage-by-province.json` — province-by-province drug plan coverage guide with formulary status per province
+- [2026-05-21] [SEO] Created province pages: `generic-semaglutide-ontario.json`, `generic-semaglutide-bc.json`, `generic-semaglutide-alberta.json` — geo-targeted pages for top 3 provinces
+- [2026-05-21] [SEO] Updated `src/app/sitemap.ts` — added 6 new generic semaglutide cluster pages with priorities 0.85–0.95; expanded HARDCODED_SLUGS set
+- [2026-05-21] [SEO] Updated `ozempic-review.json` — added generic semaglutide as first vs_alternatives entry, updated price references, verdict summary, cost rating, added related_topics
+- [2026-05-21] [SEO] Updated `wegovy-review.json` — added generic semaglutide vs_alternatives entry comparing 1mg vs 2.4mg, added related_topics

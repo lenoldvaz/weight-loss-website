@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import HomePricePreview from "@/components/HomePricePreview";
 
 export const metadata: Metadata = {
   title: "GLP-1 Price Comparison Canada — Ozempic, Wegovy & Generic Semaglutide",
@@ -61,19 +62,6 @@ const FEATURES = [
   },
 ];
 
-const PRICE_PREVIEW = [
-  { rank: 1, pharmacy: "Hims & Hers", type: "Telehealth", drug: "Generic Semaglutide", price: "$149", note: "Consultation included", href: "/glp1-prices" },
-  { rank: 2, pharmacy: "Felix Health", type: "Telehealth", drug: "Generic Semaglutide", price: "$150", note: "Consultation included", href: "/glp1-prices" },
-  { rank: 3, pharmacy: "Shoppers Drug Mart", type: "Retail", drug: "Generic Semaglutide", price: "$114", note: "Own Rx needed", href: "/glp1-prices" },
-  { rank: 4, pharmacy: "Costco Pharmacy", type: "Retail", drug: "Ozempic 1mg", price: "$230", note: "Membership required", href: "/glp1-prices" },
-  { rank: 5, pharmacy: "London Drugs", type: "Retail", drug: "Ozempic 1mg", price: "$260", note: "BC, AB, SK, MB", href: "/glp1-prices" },
-];
-
-const TYPE_STYLE: Record<string, string> = {
-  Telehealth: "bg-blue-50 text-blue-700",
-  Retail: "bg-zinc-100 text-zinc-600",
-  Online: "bg-indigo-50 text-indigo-700",
-};
 
 export default function Home() {
   return (
@@ -199,56 +187,7 @@ export default function Home() {
         </section>
 
         {/* ── Price Preview Table ───────────────────────────────────────────── */}
-        <section className="px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl">
-            <div className="flex items-end justify-between mb-6">
-              <div>
-                <p className="text-xs font-bold uppercase tracking-widest text-zinc-400 mb-1">Lowest prices right now</p>
-                <h2 className="font-display text-2xl font-black text-zinc-900">Today&apos;s Best GLP-1 Prices</h2>
-              </div>
-              <Link href="/glp1-prices" className="text-sm font-semibold text-[var(--color-forest-600)] hover:text-[var(--color-forest-700)] transition-colors hidden sm:block">
-                Full comparison →
-              </Link>
-            </div>
-
-            <div className="overflow-hidden rounded-2xl border border-zinc-200">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-zinc-50 border-b border-zinc-200">
-                    <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-zinc-400">#</th>
-                    <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-zinc-400">Pharmacy</th>
-                    <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-zinc-400 hidden sm:table-cell">Drug</th>
-                    <th className="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wide text-zinc-400">Price/mo</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-zinc-100">
-                  {PRICE_PREVIEW.map((row) => (
-                    <tr key={row.rank} className="hover:bg-zinc-50 transition-colors">
-                      <td className="px-4 py-3.5 text-zinc-400 font-mono text-xs">{row.rank}</td>
-                      <td className="px-4 py-3.5">
-                        <div className="font-semibold text-zinc-900">{row.pharmacy}</div>
-                        <div className="flex items-center gap-1.5 mt-0.5">
-                          <span className={`text-xs font-medium px-1.5 py-0.5 rounded-md ${TYPE_STYLE[row.type]}`}>{row.type}</span>
-                          <span className="text-xs text-zinc-400">{row.note}</span>
-                        </div>
-                      </td>
-                      <td className="px-4 py-3.5 text-zinc-600 hidden sm:table-cell">{row.drug}</td>
-                      <td className="px-4 py-3.5 text-right">
-                        <span className="text-lg font-black text-zinc-900">{row.price}</span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-              <div className="bg-zinc-50 border-t border-zinc-200 px-4 py-3 flex items-center justify-between">
-                <p className="text-xs text-zinc-400">Prices verified May 2026 · CAD · Includes all fees</p>
-                <Link href="/glp1-prices" className="text-xs font-bold text-[var(--color-forest-600)] hover:text-[var(--color-forest-700)]">
-                  See all 15+ pharmacies →
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
+        <HomePricePreview />
 
         {/* ── Why trust us ─────────────────────────────────────────────────── */}
         <section className="bg-[var(--color-dark-950)] px-4 py-16 sm:px-6 lg:px-8">

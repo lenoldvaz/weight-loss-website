@@ -78,22 +78,33 @@ export function getAllSlugs(): Array<{ slug: string; template: TemplateName }> {
   return results;
 }
 
-/** Get related content records for internal linking — same template first, then others */
+/** Get related content records for internal linking.
+ *  If preferredSlugs is provided, those are loaded first (honoring related_topics from JSON).
+ *  Remaining slots are filled with same-template pages. */
 export function getRelatedContent(
   template: TemplateName,
   currentSlug: string,
-  limit = 4
+  limit = 4,
+  preferredSlugs: string[] = []
 ): ContentRecord[] {
-  const all = getAllSlugs().filter((s) => s.slug !== currentSlug);
+  const preferred = preferredSlugs
+    .filter((s) => s !== currentSlug)
+    .slice(0, limit)
+    .map((s) => findContent(s))
+    .filter((r): r is ContentRecord => r !== null);
+
+  if (preferred.length >= limit) return preferred.slice(0, limit);
+
+  const preferredSet = new Set(preferredSlugs);
+  const all = getAllSlugs().filter((s) => s.slug !== currentSlug && !preferredSet.has(s.slug));
   const sameTemplate = all.filter((s) => s.template === template);
-  const others = all.filter((s) => s.template !== template);
-  const picks = [
-    ...sameTemplate.slice(0, limit - 1),
-    ...others.slice(0, 2),
-  ].slice(0, limit);
-  return picks
+  const remaining = limit - preferred.length;
+  const fills = sameTemplate
+    .slice(0, remaining)
     .map(({ template: t, slug }) => getContent(t, slug))
     .filter((r): r is ContentRecord => r !== null);
+
+  return [...preferred, ...fills].slice(0, limit);
 }
 
 /** Human-readable label for a content record, used in related links */

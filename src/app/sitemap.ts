@@ -37,7 +37,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/telehealth`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/generic-semaglutide-canada-tracker`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 0.95 },
     { url: `${baseUrl}/semaglutide-news`, lastModified: new Date("2026-05-21"), changeFrequency: "daily", priority: 0.8 },
+    // Generic semaglutide content cluster — explicitly prioritised above template defaults
+    { url: `${baseUrl}/generic-semaglutide-canada`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 1.0 },
+    { url: `${baseUrl}/how-to-get-generic-semaglutide-in-canada`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/generic-semaglutide-vs-ozempic`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 0.95 },
+    { url: `${baseUrl}/generic-semaglutide-weight-loss-canada`, lastModified: new Date("2026-05-21"), changeFrequency: "weekly", priority: 0.95 },
+    { url: `${baseUrl}/generic-semaglutide-coverage-by-province`, lastModified: new Date("2026-05-21"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/generic-semaglutide-ontario`, lastModified: new Date("2026-05-21"), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${baseUrl}/generic-semaglutide-bc`, lastModified: new Date("2026-05-21"), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${baseUrl}/generic-semaglutide-alberta`, lastModified: new Date("2026-05-21"), changeFrequency: "monthly", priority: 0.85 },
   ];
+
+  // Slugs already hardcoded above — exclude from auto-generated list to avoid duplicates
+  const HARDCODED_SLUGS = new Set([
+    "generic-semaglutide-canada",
+    "how-to-get-generic-semaglutide-in-canada",
+    "generic-semaglutide-vs-ozempic",
+    "generic-semaglutide-weight-loss-canada",
+    "generic-semaglutide-coverage-by-province",
+    "generic-semaglutide-ontario",
+    "generic-semaglutide-bc",
+    "generic-semaglutide-alberta",
+  ]);
 
   // Priority by template
   const priorityMap: Record<string, number> = {
@@ -52,13 +73,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "trending-article": 0.9,
   };
 
-  // Content pages with real file modification times
-  const contentPages: MetadataRoute.Sitemap = getAllSlugs().map(({ slug, template }) => ({
-    url: `${baseUrl}/${slug}`,
-    lastModified: getFileMtime(template, slug),
-    changeFrequency: "weekly",
-    priority: priorityMap[template] ?? 0.7,
-  }));
+  // Content pages with real file modification times (skip slugs hardcoded above)
+  const contentPages: MetadataRoute.Sitemap = getAllSlugs()
+    .filter(({ slug }) => !HARDCODED_SLUGS.has(slug))
+    .map(({ slug, template }) => ({
+      url: `${baseUrl}/${slug}`,
+      lastModified: getFileMtime(template, slug),
+      changeFrequency: "weekly",
+      priority: priorityMap[template] ?? 0.7,
+    }));
 
   return [...staticPages, ...contentPages];
 }

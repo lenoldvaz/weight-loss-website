@@ -28,6 +28,7 @@ const DRUGS = [
   "Zepbound",
 ];
 
+
 const PROVINCES = [
   "All provinces",
   "Ontario",
@@ -95,15 +96,20 @@ export default function PriceTable({ rows }: { rows: PriceRow[] }) {
     <div>
       {/* Filters */}
       <div className="mb-6 flex flex-wrap gap-3">
-        <div>
-          <label className="sr-only">Drug</label>
-          <select
-            value={drug}
-            onChange={(e) => setDrug(e.target.value)}
-            className="h-9 rounded-lg border border-zinc-300 bg-white px-3 text-sm text-zinc-900 focus:outline-none focus:ring-2 focus:ring-[var(--color-forest-400)] cursor-pointer"
-          >
-            {DRUGS.map((d) => <option key={d}>{d}</option>)}
-          </select>
+        <div className="flex flex-wrap gap-1.5">
+          {DRUGS.map((tab) => (
+            <button
+              key={tab}
+              onClick={() => setDrug(tab)}
+              className={`rounded-lg px-4 py-1.5 text-sm font-semibold transition-colors ${
+                drug === tab
+                  ? "bg-zinc-900 text-white"
+                  : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
+              }`}
+            >
+              {tab === "All drugs" ? "All" : tab}
+            </button>
+          ))}
         </div>
 
         <div>

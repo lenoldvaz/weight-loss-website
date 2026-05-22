@@ -13,7 +13,7 @@
     "page_title": "Ozempic Review (2026): Does It Work for Weight Loss in Canada?",
     "meta_description": "Is Ozempic right for your weight loss goals? Our 2026 Canadian review covers clinical effectiveness, cost in CAD, side effects, and how to get a prescription.",
     "h1": "Ozempic for Weight Loss in Canada: 2026 Review",
-    "verdict_summary": "Ozempic works well for weight loss (5–15% body weight) but is approved for T2D — Wegovy is the approved weight-loss version. At $300–450/month self-pay, cost remains the main barrier for Canadians.",
+    "verdict_summary": "Ozempic works well for weight loss (5–15% body weight) but is approved for T2D — Wegovy is the approved weight-loss version. Generic semaglutide (Apo-Semaglutide) is now available in Canada from $114/month — the same drug at one-third the cost. If you're paying out of pocket, the generic is the better choice.",
     "overall_score": 8.0,
     "recommended": true,
     "best_for": "Canadians with type 2 diabetes or obesity-related health conditions who want medically supervised, evidence-backed weight management",
@@ -23,7 +23,7 @@
       "product_type": "GLP-1 receptor agonist (semaglutide)",
       "manufacturer": "Novo Nordisk",
       "health_canada_status": "Health Canada-approved for type 2 diabetes management (0.5mg, 1mg, 2mg doses). Not approved for weight loss — Wegovy (semaglutide 2.4mg) is the Health Canada-approved weight loss version.",
-      "price_cad": "$300–450/month (self-pay); covered by some provincial and employer drug plans for T2D",
+      "price_cad": "$250–350/month (self-pay, 0.5–1mg); covered by some provincial and employer drug plans for T2D. Generic semaglutide (same drug) is now available from $114/month — see the Generic Semaglutide Tracker for current pricing.",
       "where_to_buy": ["Licensed Canadian pharmacies (prescription required)", "Costco Pharmacy", "Shoppers Drug Mart", "London Drugs", "Independent pharmacies"],
       "prescription_required": true
     },
@@ -46,7 +46,7 @@
       {
         "category": "Cost Value",
         "score": 6.0,
-        "notes": "At $300–450/month self-pay, it is expensive. Ontario Drug Benefit covers it for T2D patients. Many employer drug plans provide partial coverage. Not currently covered for weight loss alone under most provincial plans."
+        "notes": "At $250–350/month self-pay, it is expensive — but generic semaglutide (same drug, Health Canada-approved) is now available from $114/month. Unless your drug plan covers Ozempic with a low copay, the generic is the better value. ODB covers Ozempic for T2D patients; not covered for weight loss under most provincial plans."
       },
       {
         "category": "Ease of Use",
@@ -82,6 +82,10 @@
     "who_should_consider": "Canadians with a BMI of 30+ (or 27+ with weight-related health conditions like T2D, hypertension, or sleep apnea) who have not achieved adequate results with diet and exercise alone. Most beneficial for those with T2D who need both blood sugar and weight management. A licensed physician must assess suitability before prescribing.",
     "canadian_availability": "Ozempic is available at pharmacies across Canada with a valid prescription. Telehealth services like Felix Health, Maple, and Teladoc can provide online consultations and prescriptions, often within days. Ontario Drug Benefit covers Ozempic for eligible T2D patients. BC PharmaCare and Alberta Blue Cross also cover it under specific criteria. For weight loss use specifically, coverage is limited — check your employer drug plan.",
     "vs_alternatives": [
+      {
+        "name": "Generic Semaglutide (Apo-Semaglutide / Dr. Reddy's)",
+        "comparison_note": "Health Canada-approved in April–May 2026 — same molecule, same dose, same weekly injection, same side effects. Bioequivalent to Ozempic by regulatory definition. Costs approximately $114/month vs. $250–350 for Ozempic. Unless your drug plan covers Ozempic with a low copay, the generic is the clear choice for out-of-pocket patients."
+      },
       {
         "name": "Wegovy (semaglutide 2.4mg)",
         "comparison_note": "Same molecule as Ozempic but at a higher dose specifically approved for weight management. Produces greater average weight loss (15–17% vs 5–10%). More expensive (~$400–500/month). Now available in Canada."
@@ -126,6 +130,12 @@
       }
     ],
     "cta_heading": "Wondering if Ozempic is right for you?",
-    "cta_body": "Subscribe to our newsletter for weekly updates on GLP-1 medications in Canada — including coverage changes, new options like Mounjaro, and tips for getting a prescription fast."
+    "cta_body": "Subscribe to our newsletter for weekly updates on GLP-1 medications in Canada — including coverage changes, new options like Mounjaro, and tips for getting a prescription fast.",
+    "related_topics": [
+      "generic-semaglutide-canada",
+      "generic-semaglutide-vs-ozempic",
+      "how-to-get-generic-semaglutide-in-canada",
+      "wegovy-review"
+    ]
   }
 }

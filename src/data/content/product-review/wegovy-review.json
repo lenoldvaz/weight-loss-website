@@ -92,8 +92,12 @@
     "canadian_availability": "Wegovy is available by prescription across Canada through community and specialty pharmacies. Cost ranges $300–$400/month; Ontario covers semaglutide through ODB only for type 2 diabetes management, not weight loss. Other provinces offer limited coverage. Private insurance may partially cover; check your plan. Novo Nordisk offers patient assistance programs for eligible low-income Canadians. Requires initial physician consultation and ongoing monitoring.",
     "vs_alternatives": [
       {
+        "name": "Generic Semaglutide (Apo-Semaglutide / Dr. Reddy's)",
+        "comparison_note": "Health Canada approved April–May 2026. Same molecule as Ozempic 1mg — not Wegovy 2.4mg. Costs approximately $114/month vs. $300–400 for Wegovy. If your goal is moderate weight loss (8–10%) and cost is a concern, generic semaglutide off-label is a meaningful option. If you need 15%+ weight loss, Wegovy's 2.4mg dose remains more effective. No generic Wegovy equivalent is expected before 2027."
+      },
+      {
         "name": "Ozempic (semaglutide for diabetes)",
-        "comparison_note": "Same active ingredient as Wegovy but approved for type 2 diabetes; lower doses; similar effectiveness but different indication and cost structure"
+        "comparison_note": "Same active ingredient as Wegovy but approved for type 2 diabetes; lower doses (max 1mg vs 2.4mg for Wegovy); costs $250–350/month brand-name. Generic semaglutide equivalent now available from $114/month."
       },
       {
         "name": "Saxenda (liraglutide)",
@@ -143,6 +147,12 @@
       }
     ],
     "cta_heading": "Ready to Learn More About Wegovy?",
-    "cta_body": "Talk to your doctor or a registered dietitian about whether Wegovy is right for you. Bring this review to your appointment, discuss your health history, and explore whether you qualify for provincial coverage or patient assistance programs. Weight loss is a journey—professional guidance ensures the safest, most effective approach."
+    "cta_body": "Talk to your doctor or a registered dietitian about whether Wegovy is right for you. Bring this review to your appointment, discuss your health history, and explore whether you qualify for provincial coverage or patient assistance programs. Weight loss is a journey—professional guidance ensures the safest, most effective approach.",
+    "related_topics": [
+      "generic-semaglutide-weight-loss-canada",
+      "generic-semaglutide-vs-ozempic",
+      "generic-semaglutide-canada",
+      "ozempic-review"
+    ]
   }
 }

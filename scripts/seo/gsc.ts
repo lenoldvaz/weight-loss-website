@@ -8,6 +8,8 @@
  *   npx tsx scripts/seo/gsc.ts analytics --days=90
  *   npx tsx scripts/seo/gsc.ts sitemaps           — sitemap status
  *   npx tsx scripts/seo/gsc.ts errors             — pages with crawl errors
+ *   npx tsx scripts/seo/gsc.ts index              — request indexing for all new pages
+ *   npx tsx scripts/seo/gsc.ts index <url>        — request indexing for a specific URL
  */
 
 import * as fs from "fs";
@@ -51,6 +53,7 @@ async function getAccessToken(svc: { client_email: string; private_key: string }
         scope: [
           "https://www.googleapis.com/auth/webmasters.readonly",
           "https://www.googleapis.com/auth/webmasters",
+          "https://www.googleapis.com/auth/indexing",
         ].join(" "),
         aud: "https://oauth2.googleapis.com/token",
         exp: now + 3600,
@@ -373,6 +376,58 @@ async function cmdErrors(token: string) {
   }
 }
 
+// New pages added in May 2026 rebuild — submit these to the Indexing API
+const NEW_PAGES = [
+  "https://weight-loss.ca/glp1-prices",
+  "https://weight-loss.ca/coverage-checker",
+  "https://weight-loss.ca/savings-cards",
+  "https://weight-loss.ca/telehealth",
+  "https://weight-loss.ca/semaglutide-news",
+  "https://weight-loss.ca/generic-semaglutide-canada-tracker",
+  "https://weight-loss.ca/generic-semaglutide-canada",
+  "https://weight-loss.ca/how-to-get-generic-semaglutide-in-canada",
+];
+
+async function cmdIndex(token: string, urls: string[]) {
+  console.log(`\n🚀 INDEXING REQUESTS — ${urls.length} URL(s)\n` + "─".repeat(60));
+
+  let ok = 0;
+  let failed = 0;
+
+  for (const url of urls) {
+    process.stdout.write(`  Submitting ${url.replace("https://weight-loss.ca", "")}...`);
+    try {
+      const res = await apiPost(
+        token,
+        "https://indexing.googleapis.com/v3/urlNotifications:publish",
+        { url, type: "URL_UPDATED" }
+      ) as { urlNotificationMetadata?: { url: string; latestUpdate?: { url: string; type: string; notifyTime: string } }; error?: { message: string; status: string } };
+
+      if (res.error) {
+        console.log(` ❌ ${res.error.status}: ${res.error.message}`);
+        failed++;
+      } else {
+        const notifyTime = res.urlNotificationMetadata?.latestUpdate?.notifyTime?.slice(0, 19) ?? "submitted";
+        console.log(` ✅ ${notifyTime}`);
+        ok++;
+      }
+    } catch (e) {
+      console.log(` ❌ ${e}`);
+      failed++;
+    }
+    // Indexing API quota: 200 req/day, no burst limit — 500ms spacing is safe
+    await new Promise((r) => setTimeout(r, 500));
+  }
+
+  console.log("\n" + "─".repeat(60));
+  console.log(`✅ Submitted: ${ok}  ❌ Failed: ${failed}`);
+  if (ok > 0) console.log("\nGoogle typically crawls submitted URLs within 24–48 hours.");
+  if (failed > 0) {
+    console.log("\n⚠️  Failed URLs may need the service account added as a verified owner in GSC.");
+    console.log("   GSC → Settings → Users and permissions → Add user (your service account email)");
+  }
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -406,8 +461,18 @@ async function main() {
     case "errors":
       await cmdErrors(token);
       break;
+    case "index": {
+      const urlArg = args[1];
+      if (urlArg) {
+        const url = urlArg.startsWith("http") ? urlArg : `https://weight-loss.ca/${urlArg}`;
+        await cmdIndex(token, [url]);
+      } else {
+        await cmdIndex(token, NEW_PAGES);
+      }
+      break;
+    }
     default:
-      console.log("Commands: analytics, coverage, inspect <url>, sitemaps, errors");
+      console.log("Commands: analytics, coverage, inspect <url>, sitemaps, errors, index [url]");
   }
 }
 

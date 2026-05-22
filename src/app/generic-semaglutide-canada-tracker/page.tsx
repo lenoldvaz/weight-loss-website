@@ -424,7 +424,7 @@ export default async function GenericSemaglutideTrackerPage() {
           <h2 className="font-display text-lg font-semibold text-slate-900 mb-4">Related Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { href: "/generic-semaglutide-canada", title: "Generic Ozempic in Canada: Full Explainer", desc: "Everything about the new generics — approvals, pricing, and what it means for you." },
+              { href: "/generic-semaglutide-canada", title: "Generic Semaglutide in Canada: Pricing & Availability", desc: "Everything about the new generics — Health Canada approvals, $114/mo pricing, and who qualifies." },
               { href: "/how-to-get-generic-semaglutide-in-canada", title: "How to Get Generic Semaglutide", desc: "Step-by-step: switch from Ozempic, get a prescription, and save $150+/mo." },
               { href: "/ozempic-review", title: "Ozempic Review (Canada)", desc: "In-depth review of brand-name semaglutide for weight loss." },
               { href: "/wegovy-review", title: "Wegovy Review (Canada)", desc: "Review of semaglutide 2.4mg — the weight loss formulation." },

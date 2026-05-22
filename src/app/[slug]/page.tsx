@@ -67,7 +67,8 @@ export default async function SlugPage({ params }: PageProps) {
     notFound();
   }
 
-  const related = getRelatedContent(record.template, slug, 4);
+  const preferredSlugs = (record.content as { related_topics?: string[] }).related_topics ?? [];
+  const related = getRelatedContent(record.template, slug, 4, preferredSlugs);
 
   switch (record.template) {
     case "location-service":
