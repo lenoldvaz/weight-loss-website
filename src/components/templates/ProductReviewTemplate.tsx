@@ -55,8 +55,20 @@ function RatingBar({ category, score, notes }: { category: string; score: number
 export default function ProductReviewTemplate({ record, related }: Props) {
   const c = record.content as ProductReview;
 
-  // JSON-LD: Product + Review + FAQPage
+  // JSON-LD: BreadcrumbList + Product/Review + FAQPage
+  const pageUrl = `https://weight-loss.ca/${record.slug}`;
+  const breadcrumbLabel = getTemplateBreadcrumb(record.template);
+
   const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://weight-loss.ca" },
+        { "@type": "ListItem", position: 2, name: breadcrumbLabel, item: "https://weight-loss.ca/reviews" },
+        { "@type": "ListItem", position: 3, name: c.h1, item: pageUrl },
+      ],
+    },
     {
       "@context": "https://schema.org",
       "@type": "Product",
@@ -72,7 +84,7 @@ export default function ProductReviewTemplate({ record, related }: Props) {
           bestRating: 10,
           worstRating: 1,
         },
-        author: { "@type": "Organization", name: "weight-loss.ca" },
+        author: { "@type": "Organization", name: "weight-loss.ca", url: "https://weight-loss.ca" },
         datePublished: record.generated_at.split("T")[0],
       },
     },

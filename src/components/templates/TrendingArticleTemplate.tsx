@@ -17,23 +17,35 @@ interface Props {
 export default function TrendingArticleTemplate({ record, related }: Props) {
   const c = record.content as TrendingArticle;
 
+  const pageUrl = `https://weight-loss.ca/${record.slug}`;
+  const breadcrumbLabel = getTemplateBreadcrumb(record.template);
+
   const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://weight-loss.ca" },
+        { "@type": "ListItem", position: 2, name: breadcrumbLabel, item: "https://weight-loss.ca/news" },
+        { "@type": "ListItem", position: 3, name: c.h1, item: pageUrl },
+      ],
+    },
     {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
       headline: c.h1,
       description: c.meta_description,
+      url: pageUrl,
       datePublished: c.publish_date,
       dateModified: c.last_updated,
-      author: { "@type": "Organization", name: "weight-loss.ca" },
+      author: { "@type": "Organization", name: "weight-loss.ca", url: "https://weight-loss.ca" },
       publisher: {
         "@type": "Organization",
         name: "weight-loss.ca",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://weight-loss.ca/logo.png",
-        },
+        url: "https://weight-loss.ca",
+        logo: { "@type": "ImageObject", url: "https://weight-loss.ca/logo.png" },
       },
+      mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
     },
     {
       "@context": "https://schema.org",

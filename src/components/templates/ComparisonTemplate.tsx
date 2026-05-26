@@ -17,7 +17,29 @@ interface Props {
 export default function ComparisonTemplate({ record, related }: Props) {
   const c = record.content as Comparison;
 
+  const pageUrl = `https://weight-loss.ca/${record.slug}`;
+  const breadcrumbLabel = getTemplateBreadcrumb(record.template);
+
   const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://weight-loss.ca" },
+        { "@type": "ListItem", position: 2, name: breadcrumbLabel, item: "https://weight-loss.ca/comparisons" },
+        { "@type": "ListItem", position: 3, name: c.h1, item: pageUrl },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: c.h1,
+      description: c.meta_description,
+      url: pageUrl,
+      dateModified: record.generated_at.split("T")[0],
+      author: { "@type": "Organization", name: "weight-loss.ca", url: "https://weight-loss.ca" },
+      publisher: { "@type": "Organization", name: "weight-loss.ca", url: "https://weight-loss.ca" },
+    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",

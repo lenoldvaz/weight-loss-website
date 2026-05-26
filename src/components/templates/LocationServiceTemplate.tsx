@@ -18,8 +18,19 @@ interface Props {
 export default function LocationServiceTemplate({ record, related }: Props) {
   const c = record.content as LocationService;
 
-  // JSON-LD: ItemList of local businesses + FAQPage
+  // JSON-LD: BreadcrumbList + ItemList of local businesses + FAQPage
+  const pageUrl = `https://weight-loss.ca/${record.slug}`;
+  const breadcrumbLabel = getTemplateBreadcrumb(record.template);
   const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://weight-loss.ca" },
+        { "@type": "ListItem", position: 2, name: breadcrumbLabel, item: "https://weight-loss.ca/clinics" },
+        { "@type": "ListItem", position: 3, name: c.h1, item: pageUrl },
+      ],
+    },
     {
       "@context": "https://schema.org",
       "@type": "ItemList",

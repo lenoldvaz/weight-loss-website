@@ -1,0 +1,73 @@
+{
+  "template": "trending-article",
+  "slug": "generic-semaglutide-manitoba",
+  "generated_at": "2026-05-22T00:00:00.000Z",
+  "seed": {
+    "template": "trending-article",
+    "topic": "generic semaglutide in Manitoba",
+    "audience": "Manitoba residents using or considering semaglutide for diabetes or weight loss",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Generic Semaglutide in Manitoba (2026): Manitoba Pharmacare Coverage & Cost",
+    "meta_description": "Generic semaglutide is available in Manitoba from $114/month. Does Manitoba Pharmacare cover it? Here's the formulary status, patient cost, and how to get a prescription in Manitoba.",
+    "h1": "Generic Semaglutide in Manitoba: Pharmacare Coverage, Cost & How to Get It",
+    "publish_date": "2026-05-22",
+    "last_updated": "2026-05-22",
+    "reading_time_minutes": 4,
+    "quick_summary": "Generic semaglutide is available at Manitoba pharmacies from approximately $114/month. Manitoba Pharmacare covers semaglutide for Type 2 diabetes and is expected to add the generic to its formulary within 60–90 days of the May 2026 Health Canada approval. Out-of-pocket cost without coverage: $114–150/month.",
+    "intro": "Manitoba has a provincial drug benefit program (Manitoba Pharmacare) with an income-tested deductible structure, meaning many Manitobans pay less than the full drug cost even for non-formulary drugs. For Manitoba residents paying out of pocket for Ozempic, generic semaglutide at $114/month is a significant cost reduction. Here's what you need to know.",
+    "body_sections": [
+      {
+        "heading": "Manitoba Pharmacare and Generic Semaglutide",
+        "body": "Manitoba Pharmacare uses an income-tested deductible — the higher your income, the higher your annual deductible before Pharmacare starts covering costs. After reaching your deductible, Pharmacare pays 100% of eligible drug costs for the rest of the year. Semaglutide (Ozempic) is listed on the Manitoba Pharmacare formulary for Type 2 diabetes. Generic semaglutide is expected to be added within 60–90 days of the May 2026 Health Canada approval. For Manitoba residents who have already met their annual Pharmacare deductible, generic semaglutide will be covered at $0 cost once listed. For those who haven't met their deductible, the $114/month generic price still applies — but it counts toward your deductible and reduces how much you pay for subsequent drugs. Manitoba also has a number of drug programs for specific populations: Pharmacare for Healthy Living covers medications for lower-income Manitobans with specific conditions; the Income Assistance Drug Program covers social assistance recipients at no cost.",
+        "key_point": "Manitoba Pharmacare will list generic semaglutide within 60–90 days. After your income-tested deductible is met, it is covered at $0."
+      },
+      {
+        "heading": "Out-of-Pocket Cost and Pharmacy Availability in Manitoba",
+        "body": "Without Pharmacare coverage, generic semaglutide costs approximately $114–150/month at Manitoba pharmacies. Shoppers Drug Mart, Rexall, Sobeys Pharmacy (in some locations), and independent pharmacies in Winnipeg and across Manitoba are receiving Apo-Semaglutide and Dr. Reddy's generic stock. Smaller communities outside Winnipeg may have a 2–3 week lag before stock arrives — call your local pharmacy to confirm. For Manitoba First Nations and Métis residents covered under the Non-Insured Health Benefits (NIHB) program: the NIHB covers semaglutide for T2D with prior authorization, and is expected to add generic semaglutide at the federal level once the national formulary update is processed."
+      },
+      {
+        "heading": "Getting Generic Semaglutide for Weight Loss in Manitoba",
+        "body": "Manitoba physicians and nurse practitioners can prescribe generic semaglutide off-label for weight loss — the same way Ozempic has been prescribed for weight loss across Canada. Manitoba Pharmacare does not cover semaglutide for weight management, so out-of-pocket cost applies at $114–150/month. Manitoba has a strong network of primary care and obesity medicine specialists. The Winnipeg Regional Health Authority (WRHA) operates obesity medicine clinics where you can receive a comprehensive assessment and prescription. Telehealth options for Manitoba residents: Felix Health, Hims & Hers Canada, and Maple are licensed to serve Manitoba patients and can issue prescriptions virtually without a GP appointment."
+      }
+    ],
+    "key_takeaways": [
+      "Generic semaglutide is available at Manitoba pharmacies from $114/month out of pocket.",
+      "Manitoba Pharmacare formulary listing expected within 60–90 days of May 2026 approval.",
+      "After your income-tested Pharmacare deductible is met, generic semaglutide is covered at $0.",
+      "NIHB (First Nations/Métis) covers semaglutide for T2D — generic expected to be added at the federal level.",
+      "Manitoba Pharmacare does not cover semaglutide for weight loss. Off-label use is $114–150/month out of pocket."
+    ],
+    "canadian_context": "Manitoba has one of the highest rates of Type 2 diabetes in Canada, particularly among Indigenous communities. The arrival of affordable generic semaglutide at $114/month is particularly significant in Manitoba, where healthcare access in rural and remote areas is limited and medication costs have historically been a barrier. The Manitoba Pharmacare deductible model means that for many Manitobans, once the annual deductible is met, covered drugs are entirely free — making the formulary addition of generic semaglutide particularly impactful.",
+    "sources": [
+      {
+        "title": "Manitoba Pharmacare",
+        "publisher": "Manitoba Health",
+        "url": "https://www.gov.mb.ca/health/pharmacare/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does Manitoba Pharmacare cover generic semaglutide?",
+        "answer": "Manitoba Pharmacare covers semaglutide for T2D and is expected to add the generic within 60–90 days of Health Canada approval. Once listed, Manitoba residents who have met their annual income-tested deductible will receive it at $0 cost. Call Manitoba Pharmacare at 1-800-742-6605 to check current listing status."
+      },
+      {
+        "question": "How much does generic semaglutide cost in Manitoba without coverage?",
+        "answer": "Approximately $114–150/month at Manitoba pharmacies. This compares to $250–350/month for brand-name Ozempic. The generic price counts toward your Manitoba Pharmacare deductible even before the drug is listed on the formulary."
+      },
+      {
+        "question": "Can I use generic semaglutide for weight loss in Manitoba?",
+        "answer": "Yes — Manitoba physicians can prescribe it off-label for weight loss. Manitoba Pharmacare will not cover weight loss use. Telehealth platforms including Felix Health, Hims & Hers, and Maple can issue Manitoba prescriptions for weight loss without a GP appointment."
+      }
+    ],
+    "cta_heading": "Track Generic Semaglutide Prices Across Manitoba",
+    "cta_body": "Our Generic Semaglutide Tracker shows current pricing at pharmacies and telehealth providers across Canada — updated weekly.",
+    "related_topics": [
+      "generic-semaglutide-canada",
+      "generic-semaglutide-coverage-by-province",
+      "how-to-get-generic-semaglutide-in-canada",
+      "generic-semaglutide-weight-loss-canada"
+    ]
+  }
+}

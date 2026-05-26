@@ -91,21 +91,27 @@
     "canadian_availability": "Contrave is available through licensed Canadian pharmacies with a valid prescription. It has been approved by Health Canada since 2014 under the brand name Contrave (naltrexone HCl/bupropion HCl extended-release).\n\n**Provincial drug coverage (2026):**\n- **Ontario (ODB):** Not routinely covered. Exception Drug Status (EDS) possible in some cases — requires application.\n- **BC PharmaCare:** Not on the formulary. Regular Special Authority may apply in select cases.\n- **Alberta (NIHB):** Not listed. Off-formulary access requires special approval.\n- **Quebec (RAMQ):** Not covered under public plan.\n- **Nova Scotia, Manitoba, Saskatchewan:** Not routinely covered by provincial plans.\n- **Private insurance:** Some employer group benefit plans provide partial coverage — check your benefits booklet.\n\n**Cost without coverage:** Approximately –/month (,600–,400/year). Manufacturer patient support programs may offer savings — ask your pharmacist about the Contrave Savings Program.\n\n**Where to get a prescription:** Family doctors, obesity medicine specialists, and online telehealth platforms (e.g., Maple, Felix Health) can prescribe Contrave in Canada. Bring records of prior weight loss attempts for the strongest case with provincial special authority applications.",
     "vs_alternatives": [
       {
-        "name": "Ozempic/Wegovy (semaglutide)",
-        "comparison_note": "GLP-1 agonist with stronger weight loss (10-15%+) but higher cost and injection-based delivery. Growing evidence of cardiovascular benefits. More difficult to obtain in Canada; limited provincial coverage."
+        "name": "Generic Semaglutide (Apo-Semaglutide — now $114/month)",
+        "comparison_note": "Health Canada approved May 2026. Same drug as Ozempic at one-third the cost. Produces 8–10% average weight loss vs. Contrave's 3–5%. Weekly injection vs. Contrave's twice-daily pill. If you can manage injections, generic semaglutide gives meaningfully better weight loss results at a comparable out-of-pocket price — and with no seizure risk, no drug interactions with antidepressants, and no blood pressure concerns."
       },
       {
-        "name": "Saxenda (liraglutide)",
-        "comparison_note": "GLP-1 agonist with 4-6% weight loss, injectable, similar cost to Contrave. Fewer drug interactions than Contrave but requires daily injections."
+        "name": "Ozempic / Wegovy (brand-name semaglutide)",
+        "comparison_note": "GLP-1 agonist with stronger weight loss (10–15%+ at 2.4mg Wegovy dose) but $250–500/month out of pocket for Ozempic, $400–600 for Wegovy. Now largely superseded for out-of-pocket patients by generic semaglutide at $114/month. Better choice if your drug plan covers Ozempic specifically."
+      },
+      {
+        "name": "Saxenda (liraglutide 3mg)",
+        "comparison_note": "GLP-1 agonist (daily injection), 4–6% weight loss. Approved for weight management in Canada. Similar cost to Contrave (~$200–300/month). Less effective than semaglutide generics, but Health Canada-approved for obesity (not off-label like generic semaglutide for weight loss)."
       },
       {
         "name": "Orlistat (Xenical)",
-        "comparison_note": "Over-the-counter lipase inhibitor with minimal weight loss (2-3%), fewer side effects, and lower cost. Less effective than Contrave but more accessible and affordable."
-      },
-      {
-        "name": "Lifestyle modification alone (structured programs)",
-        "comparison_note": "No medication cost but requires significant time and effort. Can achieve 5-10% weight loss with intensive counseling; ideal first-line approach, often combined with medication."
+        "comparison_note": "Over-the-counter lipase inhibitor, 2–3% weight loss. No prescription needed, lowest cost (~$60–80/month). Significant GI side effects. Least effective option but most accessible."
       }
+    ],
+    "related_topics": [
+      "generic-semaglutide-weight-loss-canada",
+      "generic-semaglutide-vs-ozempic",
+      "ozempic-review",
+      "wegovy-review"
     ],
     "faqs": [
       {

@@ -1,0 +1,73 @@
+{
+  "template": "trending-article",
+  "slug": "generic-semaglutide-quebec",
+  "generated_at": "2026-05-22T00:00:00.000Z",
+  "seed": {
+    "template": "trending-article",
+    "topic": "generic semaglutide in Quebec",
+    "audience": "Quebec residents using or considering semaglutide for diabetes or weight loss",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Generic Semaglutide in Quebec (2026): RAMQ Coverage, Cost & Where to Get It",
+    "meta_description": "Generic semaglutide is now available in Quebec from $114/month. Does RAMQ cover it? Here's the formulary status, out-of-pocket costs, and how to get a prescription in Quebec.",
+    "h1": "Generic Semaglutide in Quebec: RAMQ Coverage, Cost & How to Get It",
+    "publish_date": "2026-05-22",
+    "last_updated": "2026-05-22",
+    "reading_time_minutes": 4,
+    "quick_summary": "Generic semaglutide (Apo-Semaglutide, Dr. Reddy's) is available at Quebec pharmacies from approximately $114/month. RAMQ typically takes 3–6 months to add new generics to its formulary — generic semaglutide is expected to appear on the RAMQ list by Q3 2026. In the meantime, it is available out of pocket at any Quebec pharmacy.",
+    "intro": "Quebec has the largest French-speaking population in Canada and its own drug benefit system under RAMQ (Régie de l'assurance maladie du Québec). For Quebec residents currently paying $250–350/month for brand-name Ozempic, or those who have been unable to afford it, generic semaglutide's arrival in May 2026 changes the math significantly. Here's what Quebec residents need to know.",
+    "body_sections": [
+      {
+        "heading": "RAMQ and Generic Semaglutide: What to Expect",
+        "body": "RAMQ (the provincial drug plan that covers most Quebec residents) already covers semaglutide for Type 2 diabetes under its Liste de médicaments. Brand-name Ozempic was listed on RAMQ after approval, and generic semaglutide will follow the same path. However, RAMQ's formulary update process is slower than most other provinces — typically 3–6 months after Health Canada approval. This means generic semaglutide is expected to appear on the RAMQ formulary by Q3 2026 (August–September 2026). Quebec residents with private insurance through an employer or association (la mutuelles, assurances collectives) should check their private plan — many private plans in Quebec add generics quickly because they lower premium costs. RAMQ copay structure: RAMQ beneficiaries pay a monthly premium and a copay on each prescription. For generic drugs, the copay is typically lower than for brand-name alternatives. Eligible RAMQ beneficiaries who currently receive Ozempic will pay a lower copay once the generic is listed.",
+        "key_point": "RAMQ will list generic semaglutide by Q3 2026. Until then, it is available at Quebec pharmacies for $114–150/month out of pocket."
+      },
+      {
+        "heading": "Out-of-Pocket Cost in Quebec Without RAMQ Coverage",
+        "body": "Without RAMQ coverage, generic semaglutide costs approximately $114–150/month at Quebec pharmacies. This is the current price under the national generic drug pricing framework set by the pan-Canadian Pharmaceutical Alliance (pCPA). Quebec pharmacies stocking generic semaglutide include Jean Coutu, Pharmaprix (Shoppers Drug Mart's Quebec brand), Uniprix, Proxim, and independent pharmacies. Stock is rolling out across Quebec as of late May 2026 — call ahead to confirm local availability. For Quebec residents without RAMQ coverage for semaglutide (typically working-age adults with lower incomes who must use RAMQ as the payer of last resort), private insurance through an employer or union is often more comprehensive. Check your group benefits for semaglutide coverage. Off-label use for weight loss: RAMQ does not cover semaglutide for weight management — only for Type 2 diabetes. Paying out of pocket at $114–150/month is the realistic option for weight loss use in Quebec."
+      },
+      {
+        "heading": "How Quebec Residents Can Switch from Ozempic to Generic",
+        "body": "Under Quebec's drug interchangeability rules, pharmacists may substitute an approved generic for the brand-name product when a prescription does not specify 'pas de substitution' (no substitution). This means many Quebec residents on Ozempic may be able to have their pharmacist switch to the generic directly, without requiring a new prescription from their doctor. Ask your Jean Coutu, Pharmaprix, or Uniprix pharmacist: 'Est-ce que vous pouvez me donner le semaglutide générique?' (Can I get the generic semaglutide?). If RAMQ hasn't yet listed the generic, the pharmacist will note that coverage isn't in effect yet and provide the out-of-pocket price. Telehealth options for Quebec residents: Appimed, Maple, and Felix Health all offer virtual consultations and prescriptions in French and English for Quebec residents. These can be useful if you don't have a family doctor or want a faster consultation for an off-label weight loss prescription."
+      }
+    ],
+    "key_takeaways": [
+      "Generic semaglutide is available at Quebec pharmacies from $114/month out of pocket.",
+      "RAMQ formulary listing expected by Q3 2026 (August–September). Until then, out-of-pocket or private insurance applies.",
+      "Quebec pharmacists can often substitute the generic without a new prescription — ask your pharmacist directly.",
+      "RAMQ covers semaglutide for T2D only. Weight loss use is out of pocket ($114–150/month).",
+      "Jean Coutu, Pharmaprix (Shoppers), Uniprix, and Proxim are all receiving generic semaglutide stock."
+    ],
+    "canadian_context": "Quebec's RAMQ system is unique in Canada in that it requires all residents without group insurance to enroll in the public plan. This means RAMQ coverage decisions affect a broader proportion of the Quebec population than provincial plans in other provinces, which are more targeted to low-income or senior populations. The RAMQ's slower formulary update process is a known issue — the generic semaglutide listing will likely proceed through the Comité scientifique d'évaluation des médicaments aux fins d'inscription (CSEMI) review process, which takes time but is thorough.",
+    "sources": [
+      {
+        "title": "Liste de médicaments RAMQ",
+        "publisher": "Régie de l'assurance maladie du Québec",
+        "url": "https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/medicaments-couverts"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Est-ce que RAMQ couvre le sémaglutide générique? / Does RAMQ cover generic semaglutide?",
+        "answer": "RAMQ covers semaglutide for Type 2 diabetes and is expected to add generic semaglutide to its formulary by Q3 2026. Until then, generic semaglutide is available at Quebec pharmacies for approximately $114–150/month out of pocket. Private insurance through an employer or union may cover it sooner — check your group benefits plan."
+      },
+      {
+        "question": "Where can I get generic semaglutide in Quebec?",
+        "answer": "As of late May 2026, Jean Coutu, Pharmaprix (Shoppers Drug Mart), Uniprix, and Proxim pharmacies across Quebec are receiving stock of Apo-Semaglutide and Dr. Reddy's generic. Call ahead to confirm availability at your local pharmacy."
+      },
+      {
+        "question": "Can I get a generic semaglutide prescription for weight loss in Quebec?",
+        "answer": "Yes — Quebec physicians can prescribe semaglutide off-label for weight loss. RAMQ will not cover this use. Out-of-pocket cost is $114–150/month for the generic. Telehealth platforms including Maple and Felix Health offer virtual consultations and can issue Quebec prescriptions in French or English."
+      }
+    ],
+    "cta_heading": "Track Generic Semaglutide Prices in Quebec",
+    "cta_body": "Our Generic Semaglutide Tracker shows current pricing at pharmacies across Quebec and the rest of Canada — updated weekly.",
+    "related_topics": [
+      "generic-semaglutide-canada",
+      "generic-semaglutide-coverage-by-province",
+      "how-to-get-generic-semaglutide-in-canada",
+      "generic-semaglutide-weight-loss-canada"
+    ]
+  }
+}
