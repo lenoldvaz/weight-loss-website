@@ -9,7 +9,6 @@
  */
 
 export const dynamic = "force-dynamic";
-export const revalidate = 3600;
 
 const SITE_BASE = "https://weight-loss.ca";
 
@@ -31,13 +30,13 @@ function escapeXml(str: string): string {
 
 async function fetchNewsArticles(): Promise<NewsRow[]> {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (!url || !key) return [];
 
   try {
     const res = await fetch(
       `${url}/rest/v1/semaglutide_news?select=id,title,published_at,source_name&order=published_at.desc&limit=1000`,
-      { headers: { apikey: key, Authorization: `Bearer ${key}` }, next: { revalidate: 3600 } }
+      { headers: { apikey: key, Authorization: `Bearer ${key}` } }
     );
     if (!res.ok) return [];
     return (await res.json()) as NewsRow[];
