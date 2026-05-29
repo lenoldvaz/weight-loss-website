@@ -77,8 +77,8 @@ export async function GET() {
   </url>`;
   });
 
+  void debugMsg; // used during debugging, kept to avoid TS unused-var
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<!-- debug: ${debugMsg} articles:${articles.length} -->
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
