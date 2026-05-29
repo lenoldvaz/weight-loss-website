@@ -35,7 +35,7 @@
         "Currently approved only for Type 2 diabetes — off-label for weight loss requires doctor discussion"
       ],
       "best_for": "Canadians paying out-of-pocket for Ozempic, those whose drug plan doesn't cover Ozempic, or anyone starting semaglutide for the first time on a budget.",
-      "cost_cad": "~$114/month (public drug plan ceiling with 2 generics approved). Telehealth with prescription included: $149/month (Hims & Hers).",
+      "cost_cad": "~$114/month at retail (bring own Rx). All-in with telehealth: PocketPills $114/mo (cheapest, free delivery), Hims & Hers $149/mo, Felix Health ~$150/mo.",
       "availability_canada": "Available across Canada at Shoppers Drug Mart, Rexall, London Drugs, Costco Pharmacy, and most independent pharmacies as of late May 2026. Call ahead to confirm local stock.",
       "score": 9
     },
@@ -101,7 +101,7 @@
       { "attribute": "Manufacturer", "option_a_value": "Apotex (Apo-Semaglutide) / Dr. Reddy's", "option_b_value": "Novo Nordisk" },
       { "attribute": "Health Canada approval", "option_a_value": "April–May 2026", "option_b_value": "2018" },
       { "attribute": "Monthly cost (out of pocket)", "option_a_value": "~$114", "option_b_value": "$250–500+" },
-      { "attribute": "Telehealth (Rx included)", "option_a_value": "$149 (Hims & Hers)", "option_b_value": "$271 (Felix Health)" },
+      { "attribute": "Telehealth (Rx included)", "option_a_value": "$114 (PocketPills) · $149 (Hims) · $150 (Felix)", "option_b_value": "$271 (Felix brand Ozempic)" },
       { "attribute": "Bioequivalent to each other?", "option_a_value": "Yes — confirmed by Health Canada", "option_b_value": "Yes — the reference standard" },
       { "attribute": "Dosing schedule", "option_a_value": "Once weekly subcutaneous injection", "option_b_value": "Once weekly subcutaneous injection" },
       { "attribute": "Approved indication", "option_a_value": "Type 2 diabetes (off-label for weight loss)", "option_b_value": "Type 2 diabetes (off-label for weight loss)" },
