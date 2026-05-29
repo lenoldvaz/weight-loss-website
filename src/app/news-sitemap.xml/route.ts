@@ -12,7 +12,7 @@ type NewsRow = {
   id: string;
   title: string;
   published_at: string;
-  source_name: string;
+  source: string;
 };
 
 function escapeXml(str: string): string {
@@ -37,7 +37,7 @@ export async function GET() {
     debugMsg = `missing-env url=${!!supabaseUrl} key=${!!key}`;
   } else {
     try {
-      const endpoint = `${supabaseUrl}/rest/v1/semaglutide_news?select=id,title,published_at,source_name&order=published_at.desc&limit=500`;
+      const endpoint = `${supabaseUrl}/rest/v1/semaglutide_news?select=id,title,published_at,source&order=published_at.desc&limit=500`;
       const res = await fetch(endpoint, {
         headers: {
           apikey: key,
@@ -61,7 +61,7 @@ export async function GET() {
   const urls = articles.map((a) => {
     const loc     = `${SITE_BASE}/semaglutide-news`;
     const pubDate = new Date(a.published_at).toISOString();
-    const name    = escapeXml((a.source_name ?? "weight-loss.ca").slice(0, 100));
+    const name    = escapeXml((a.source ?? "weight-loss.ca").slice(0, 100));
     const title   = escapeXml((a.title ?? "").slice(0, 200));
 
     return `  <url>
