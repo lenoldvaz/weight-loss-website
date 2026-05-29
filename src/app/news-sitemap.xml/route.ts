@@ -1,10 +1,6 @@
 /**
  * Google News Sitemap — /news-sitemap.xml
- *
- * Serves a valid Google News sitemap for all articles in the semaglutide_news
- * Supabase table. Google News only indexes articles from the past 2 days, but
- * a full sitemap helps with discovery.
- *
+ * Serves a valid Google News sitemap for semaglutide articles in Supabase.
  * Reference: https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap
  */
 
@@ -13,14 +9,14 @@ export const dynamic = "force-dynamic";
 const SITE_BASE = "https://weight-loss.ca";
 
 type NewsRow = {
-  id: number;
+  id: string;
   title: string;
   published_at: string;
   source_name: string;
 };
 
 function escapeXml(str: string): string {
-  return str
+  return (str ?? "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
@@ -28,32 +24,46 @@ function escapeXml(str: string): string {
     .replace(/'/g, "&apos;");
 }
 
-async function fetchNewsArticles(): Promise<NewsRow[]> {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  // Prefer service role key (available server-side); fall back to anon key
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!url || !key) return [];
-
-  try {
-    const res = await fetch(
-      `${url}/rest/v1/semaglutide_news?select=id,title,published_at,source_name&order=published_at.desc&limit=1000`,
-      { headers: { apikey: key, Authorization: `Bearer ${key}` } }
-    );
-    if (!res.ok) return [];
-    return (await res.json()) as NewsRow[];
-  } catch {
-    return [];
-  }
-}
-
 export async function GET() {
-  const articles = await fetchNewsArticles();
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
+  const serviceKey  = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
+  const anonKey     = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+  const key = serviceKey || anonKey;
+
+  let articles: NewsRow[] = [];
+  let debugMsg = "";
+
+  if (!supabaseUrl || !key) {
+    debugMsg = `missing-env url=${!!supabaseUrl} key=${!!key}`;
+  } else {
+    try {
+      const endpoint = `${supabaseUrl}/rest/v1/semaglutide_news?select=id,title,published_at,source_name&order=published_at.desc&limit=500`;
+      const res = await fetch(endpoint, {
+        headers: {
+          apikey: key,
+          Authorization: `Bearer ${key}`,
+          Accept: "application/json",
+        },
+        cache: "no-store",
+      });
+
+      if (res.ok) {
+        const data = await res.json() as NewsRow[];
+        articles = Array.isArray(data) ? data : [];
+        debugMsg = `ok count=${articles.length}`;
+      } else {
+        debugMsg = `http-${res.status}`;
+      }
+    } catch (e) {
+      debugMsg = `error:${String(e).slice(0, 80)}`;
+    }
+  }
 
   const urls = articles.map((a) => {
-    const loc = `${SITE_BASE}/semaglutide-news`;
+    const loc     = `${SITE_BASE}/semaglutide-news`;
     const pubDate = new Date(a.published_at).toISOString();
-    const name = escapeXml((a.source_name ?? "weight-loss.ca").slice(0, 100));
-    const title = escapeXml((a.title ?? "").slice(0, 200));
+    const name    = escapeXml((a.source_name ?? "weight-loss.ca").slice(0, 100));
+    const title   = escapeXml((a.title ?? "").slice(0, 200));
 
     return `  <url>
     <loc>${escapeXml(loc)}</loc>
@@ -68,9 +78,8 @@ export async function GET() {
   </url>`;
   });
 
-  // De-duplicate loc entries — news sitemap allows multiple entries per URL only if titles differ
-  // Google News cares about titles, not loc uniqueness
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<!-- debug: ${debugMsg} articles:${articles.length} -->
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
@@ -80,7 +89,7 @@ ${urls.join("\n")}
   return new Response(xml, {
     headers: {
       "Content-Type": "application/xml; charset=utf-8",
-      "Cache-Control": "public, max-age=3600, stale-while-revalidate=86400",
+      "Cache-Control": "no-store",
     },
   });
 }
