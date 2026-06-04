@@ -49,6 +49,23 @@ export default function TrendingArticleTemplate({ record, related }: Props) {
     },
     {
       "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      name: c.h1,
+      description: c.meta_description,
+      url: pageUrl,
+      datePublished: c.publish_date,
+      dateModified: c.last_updated,
+      about: { "@type": "Drug", name: "Semaglutide" },
+      audience: { "@type": "Patient" },
+      lastReviewed: c.last_updated,
+      reviewedBy: { "@type": "Organization", name: "weight-loss.ca", url: "https://weight-loss.ca" },
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", ".quick-summary", ".key-takeaways"],
+      },
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       mainEntity: c.faqs.map((faq) => ({
         "@type": "Question",

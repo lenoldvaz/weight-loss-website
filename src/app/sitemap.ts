@@ -48,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/generic-semaglutide-alberta`, lastModified: new Date("2026-05-21"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${baseUrl}/generic-semaglutide-quebec`, lastModified: new Date("2026-05-22"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${baseUrl}/generic-semaglutide-manitoba`, lastModified: new Date("2026-05-22"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/generic-ozempic-canada`, lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 1.0 },
   ];
 
   // Slugs already hardcoded above — exclude from auto-generated list to avoid duplicates
@@ -62,6 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "generic-semaglutide-alberta",
     "generic-semaglutide-quebec",
     "generic-semaglutide-manitoba",
+    "generic-ozempic-canada",
   ]);
 
   // Priority by template

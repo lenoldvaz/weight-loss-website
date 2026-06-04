@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HomePricePreview from "@/components/HomePricePreview";
+import JsonLd from "@/components/shared/JsonLd";
 
 export const metadata: Metadata = {
   title: "GLP-1 Price Comparison Canada — Ozempic, Wegovy & Generic Semaglutide",
@@ -63,9 +64,33 @@ const FEATURES = [
 ];
 
 
+const HOME_JSON_LD = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "weight-loss.ca",
+    url: "https://weight-loss.ca",
+    description: "Canada's independent GLP-1 and weight loss medication resource. Generic semaglutide pricing, coverage checker, and clinic directory.",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: { "@type": "EntryPoint", urlTemplate: "https://weight-loss.ca/glp1-prices?q={search_term_string}" },
+      "query-input": "required name=search_term_string",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "weight-loss.ca",
+    url: "https://weight-loss.ca",
+    logo: { "@type": "ImageObject", url: "https://weight-loss.ca/logo.png" },
+    sameAs: [],
+  },
+];
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-white">
+      <JsonLd data={HOME_JSON_LD} />
       <Header />
 
       <main className="flex-1">

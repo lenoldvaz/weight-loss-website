@@ -1,0 +1,60 @@
+# weight-loss.ca
+
+> Canada's independent resource for GLP-1 weight loss medications, generic semaglutide pricing, and evidence-based weight management information. Updated weekly with real pharmacy prices and Health Canada approvals.
+
+## What this site covers
+
+- **Generic semaglutide in Canada** — pricing, availability, provincial drug plan coverage, telehealth options
+- **GLP-1 medication reviews** — Ozempic, Wegovy, Mounjaro, Saxenda, Contrave (Canadian pricing in CAD)
+- **Weight loss clinic directories** — Canadian cities (Calgary, Toronto, Vancouver, Edmonton, Montreal)
+- **How-to guides** — practical weight loss and medication access guides for Canadians
+- **News tracker** — daily feed of semaglutide and GLP-1 news from Canadian sources
+
+## Key facts (as of June 2026)
+
+- Generic semaglutide approved in Canada: Apo-Semaglutide (Apotex, May 2026) and Dr. Reddy's Semaglutide Injection (April 2026)
+- Canada is the first G7 country to approve generic semaglutide
+- Generic semaglutide retail price: $88–$114/month (vs $250–$500 for brand-name Ozempic)
+- Cheapest all-in option (consultation + medication + delivery): PocketPills at $114/month
+- Provincial drug plans cover generic semaglutide for Type 2 diabetes only — not weight loss
+- 8+ additional generic submissions under Health Canada review; prices projected to fall to $70–$90/month with 3+ generics
+
+## Most useful pages
+
+- /generic-semaglutide-canada — main explainer: approvals, pricing, who qualifies
+- /generic-ozempic-canada — comprehensive guide: what is it, costs, provincial coverage, vs Wegovy/Mounjaro
+- /generic-semaglutide-canada-tracker — live price comparison: 10+ pharmacies and telehealth providers
+- /generic-semaglutide-vs-ozempic — side-by-side comparison with cost table
+- /generic-semaglutide-weight-loss-canada — off-label use for weight loss: telehealth options, insurance reality
+- /how-to-get-generic-semaglutide-in-canada — step-by-step access guide
+- /generic-semaglutide-coverage-by-province — province-by-province drug plan status
+- /generic-semaglutide-ontario — Ontario ODB coverage guide
+- /generic-semaglutide-bc — BC PharmaCare coverage guide
+- /generic-semaglutide-alberta — Alberta ADBL coverage guide
+- /generic-semaglutide-quebec — RAMQ coverage guide
+- /ozempic-review — full Canadian review with pricing and coverage
+- /wegovy-review — full Canadian review
+- /glp1-prices — live GLP-1 drug price comparison table
+- /coverage-checker — provincial drug plan coverage checker
+- /semaglutide-news — daily news feed (350+ articles)
+
+## Telehealth providers (Canada, June 2026)
+
+| Provider | Price | Consultation included | Ships to |
+|---|---|---|---|
+| PocketPills | $114/mo | Yes | All provinces |
+| Hims & Hers | $149/mo | Yes | All provinces |
+| Felix Health | ~$150/mo | Yes | All provinces |
+| Phoenix Health | ~$114/mo | Yes | All provinces |
+| Maple | $69 consult + pharmacy | Yes | All provinces + territories |
+
+## Sitemap
+
+- https://weight-loss.ca/sitemap.xml — all 127+ content pages
+- https://weight-loss.ca/news-sitemap.xml — 350+ news articles (Google News format)
+
+## About
+
+weight-loss.ca is an independent Canadian health publication. All drug pricing is sourced from pharmacy price checks and telehealth provider listings. Content is updated weekly. Not affiliated with any pharmaceutical manufacturer, pharmacy, or telehealth provider.
+
+Contact: len@discovery-kitchen.com
