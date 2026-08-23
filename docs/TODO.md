@@ -2,6 +2,8 @@
 
 **Last Updated**: 2026-08-23
 
+> **See [`docs/WEEKLY_SCHEDULE.md`](./WEEKLY_SCHEDULE.md) for the standing weekly operating cadence** (daily/weekly/monthly recurring tasks, split between Lenold and Claude). This file remains the point-in-time backlog; the schedule doc is the recurring rhythm.
+
 ---
 
 ## 🔴 DO FIRST — Supabase & Vercel Setup (30 min)
