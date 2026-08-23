@@ -231,3 +231,19 @@ Format: `- [YYYY-MM-DD] [Category] Description`
 - [2026-05-21] [SEO] Updated `wegovy-review.json` — added generic semaglutide vs_alternatives entry comparing 1mg vs 2.4mg, added related_topics
 - [2026-05-22] [SEO] Extended `scripts/seo/gsc.ts` — added `report`, `queries`, `wins`, `check-indexed`, `queue`, `sitemap-resubmit` commands; full weekly digest in one command
 - [2026-05-22] [SEO] Resubmitted sitemap.xml to GSC via API — Google will re-download updated sitemap with 125+ pages
+
+## 2026-08-23
+
+- [2026-08-23] [Audit] Reconciled `docs/TODO.md`/`docs/PLAN.md` against actual git history and live site — confirmed several previously-listed items were already done (sitemap `lastModified` fix, JSON-LD on all templates, `/clinics` and `/reviews` no longer redirect-erroring, `generic-semaglutide-vs-ozempic`/`-weight-loss-canada`/`-coverage-by-province` already built)
+- [2026-08-23] [Bugfix] Fixed `src/data/content/product-review/contrave-review.json` — repaired mangled dollar-sign price strings ("–/month", ",600–,400/year" → correct $ figures) in `verdict_summary` and `canadian_availability`, likely from a bad prior find/replace
+- [2026-08-23] [Bugfix] Fixed `src/data/content/product-review/berberine-review.json` — `verdict_summary` was truncated mid-sentence; rewrote complete summary and added missing `related_topics` field
+- [2026-08-23] [Bugfix] Fixed `src/data/content/product-review/wegovy-review.json` — `verdict_summary` was truncated mid-sentence; rewrote complete summary; trimmed `vs_alternatives` from 5 to 4 entries (schema max) by removing the weakest comparator (Phentermine)
+- [2026-08-23] [SEO] Created `src/data/content/comparison/ozempic-vs-mounjaro-canada.json` — head-to-head comparison, 5 category winners, 9-row comparison table, 6 FAQs
+- [2026-08-23] [SEO] Created `src/data/content/comparison/wegovy-vs-ozempic-canada.json` — same-molecule/different-dose explainer comparison, 5 category winners, 8-row comparison table, 6 FAQs
+- [2026-08-23] [SEO] Created `src/data/content/trending-article/mounjaro-canada-price.json` — CAD pricing breakdown by dose, pharmacy, and insurance coverage
+- [2026-08-23] [SEO] Created `src/data/content/trending-article/how-much-does-ozempic-cost-in-canada.json` — brand vs. generic pricing guide with telehealth comparison
+- [2026-08-23] [SEO] Created `src/data/content/trending-article/is-ozempic-covered-by-insurance-canada.json` — provincial + private insurance coverage guide by diagnosis
+- [2026-08-23] [SEO] Internal linking audit — added new comparison/pricing/coverage pages to `related_topics` on `ozempic-review.json`, `wegovy-review.json`, `mounjaro-review.json` (which had no `related_topics` field at all previously)
+- [2026-08-23] [Validation] Wrote and ran a one-off Zod validation script against all new/edited content JSON — all 8 files pass their schemas; caught and fixed 8 length-constraint violations before commit
+- [2026-08-23] [Build] Ran full `npm run build` — 150 static pages generated cleanly, no errors
+- [2026-08-23] [Deploy] Created `scripts/deploy/glp1_prices_migration.sql` — `glp1_prices` table DDL + RLS policy + full seed INSERT of the current 27-row hardcoded `SEED_PRICES` array from `src/app/glp1-prices/page.tsx`, so `/glp1-prices` can read live from Supabase instead of always falling back to hardcoded data (this table was never actually created despite being on the TODO list — root cause of user's "why is this hardcoded" question)

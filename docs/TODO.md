@@ -1,6 +1,6 @@
 # weight-loss.ca — TODO
 
-**Last Updated**: 2026-05-21
+**Last Updated**: 2026-08-23
 
 ---
 
@@ -37,56 +37,29 @@ Go to GSC → URL Inspection → request indexing for each:
 
 ### Lenold
 - [ ] Verify GA4 firing: open weight-loss.ca → GA4 Realtime → confirm pageview appears
-- [ ] Check `/sitemap.xml` in browser — confirm all new pages appear (glp1-prices, telehealth, savings-cards, coverage-checker)
+- [ ] Check `/sitemap.xml` in browser — confirm all new pages appear
 - [ ] Visit each new page on mobile and desktop — screenshot any layout issues and share with Claude
 - [ ] GSC: submit `https://weight-loss.ca/sitemap.xml` if not already submitted as primary sitemap
+- [ ] **Run `scripts/deploy/glp1_prices_migration.sql` in the Supabase SQL Editor** — this is why `/glp1-prices` still shows hardcoded data instead of live pricing (see `docs/DEPLOYMENT.md` → Database section for details). Takes 2 minutes, no code deploy needed after.
 
 ### Claude (on request)
-- [ ] Create `/glp1-prices` Supabase table SQL so prices can be updated without deploys:
-  ```sql
-  create table glp1_prices (
-    id uuid primary key default gen_random_uuid(),
-    pharmacy_name text not null,
-    pharmacy_type text not null,
-    province text not null,
-    drug_name text not null,
-    dosage text,
-    price_cad numeric,
-    dispensing_fee numeric default 0,
-    requires_rx boolean default true,
-    is_estimate boolean default false,
-    url text,
-    notes text,
-    verified_at date,
-    updated_at timestamptz default now()
-  );
-  alter table glp1_prices enable row level security;
-  create policy "Public read access" on glp1_prices for select to anon using (true);
-  ```
-- [ ] Fix `/clinics` and `/reviews` hub pages — still showing old redirect errors in GSC. Request fresh crawl after fix.
-- [ ] Internal linking audit — the 4 new pages (glp1-prices, telehealth, savings-cards, coverage-checker) need to be linked from existing content pages
+- [x] 2026-08-23 — ~~Create `/glp1-prices` Supabase table SQL~~ Done — see `scripts/deploy/glp1_prices_migration.sql` (includes full seed data, not just empty schema). Waiting on Lenold to run it in Supabase.
+- [x] 2026-08-23 — ~~Fix `/clinics` and `/reviews` hub pages~~ Confirmed already fixed — both return HTTP 200, no redirect errors. This item was stale.
+- [x] 2026-08-23 — ~~Internal linking audit~~ Confirmed homepage already links glp1-prices/coverage-checker/savings-cards/telehealth; closed related_topics gaps on ozempic-review, wegovy-review, mounjaro-review (had none), berberine-review
 
 ---
 
-## 🟠 Month 1 — Content Gaps (Claude builds these)
+## 🟠 Month 1 — Content Gaps — ✅ COMPLETE (2026-08-23)
 
-These are high-traffic keyword opportunities we don't have pages for yet.
-
-### Missing comparison pages
-- [ ] `/generic-semaglutide-vs-ozempic` — comparison JSON using ComparisonTemplate (search volume: high)
-- [ ] `/ozempic-vs-mounjaro-canada` — head-to-head with CAD prices
-- [ ] `/wegovy-vs-ozempic-canada` — semaglutide dose comparison
-
-### Missing articles
-- [ ] `/generic-semaglutide-weight-loss-canada` — off-label use explainer with doctor quotes
-- [ ] `/generic-semaglutide-coverage-by-province` — province-by-province formulary guide (long-form)
-- [ ] `/how-much-does-ozempic-cost-in-canada` — exact pricing by pharmacy (drives price comparison traffic)
-- [ ] `/is-ozempic-covered-by-insurance-canada` — coverage guide (feeds coverage checker)
-- [ ] `/mounjaro-canada-price` — Mounjaro pricing page
-
-### Update existing pages
-- [ ] `ozempic-review.json` — add callout about generic availability + price comparison table
-- [ ] `wegovy-review.json` — update with current CAD pricing and Poviztra (authorized generic)
+- [x] `/generic-semaglutide-vs-ozempic` — was already built 2026-05-21
+- [x] `/ozempic-vs-mounjaro-canada` — built 2026-08-23
+- [x] `/wegovy-vs-ozempic-canada` — built 2026-08-23
+- [x] `/generic-semaglutide-weight-loss-canada` — was already built 2026-05-21
+- [x] `/generic-semaglutide-coverage-by-province` — was already built 2026-05-21
+- [x] `/how-much-does-ozempic-cost-in-canada` — built 2026-08-23
+- [x] `/is-ozempic-covered-by-insurance-canada` — built 2026-08-23
+- [x] `/mounjaro-canada-price` — built 2026-08-23
+- [x] `ozempic-review.json` / `wegovy-review.json` — already had generic-semaglutide pricing; also fixed truncated `verdict_summary` on both (data corruption found during audit) and updated related_topics
 
 ---
 
@@ -103,12 +76,12 @@ These are high-traffic keyword opportunities we don't have pages for yet.
 - [ ] Confirm GA4 primary dashboard is set up — check Sessions and Top Pages are recording
 
 ### Claude — SEO fixes
-- [ ] Add `lastModified` from actual file mtime to sitemap (all pages currently show same date — this hurts crawl prioritisation)
-- [ ] Add `Article` JSON-LD to all how-to pages
-- [ ] Add `Review` + `Product` JSON-LD to all product-review pages
+- [x] 2026-08-23 — ~~Add `lastModified` from actual file mtime to sitemap~~ Confirmed already done (`getFileMtime()` in `src/app/sitemap.ts`) — this item was stale
+- [x] 2026-08-23 — ~~Add Article/Review/Product JSON-LD~~ Confirmed already wired into all 9 templates via `JsonLd` component — this item was stale
 - [ ] Core Web Vitals: run PageSpeed Insights on `/glp1-prices` and `/` — fix any LCP > 2.5s
+- [x] 2026-08-23 — Fixed data corruption found while improving `/contrave-review` and `/berberine-review`: mangled `$` price strings (contrave) and a mid-sentence-truncated verdict summary (berberine). Content quality issue, not a ranking-position issue — still worth adding a comparison table to contrave next.
 - [ ] Improve `/contrave-review` (position 41, closest to page 1) — add comparison table, stronger Canadian angle
-- [ ] Improve `/berberine-review` (position 60, 13 impressions)
+- [ ] Improve `/berberine-review` (position 60, 13 impressions) — evidence summary and pricing are solid now; consider adding a table comparing it to Ozempic/generic semaglutide
 
 ---
 

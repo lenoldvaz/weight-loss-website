@@ -1,0 +1,155 @@
+{
+  "template": "comparison",
+  "slug": "ozempic-vs-mounjaro-canada",
+  "generated_at": "2026-08-23T00:00:00.000Z",
+  "seed": {
+    "template": "comparison",
+    "topic": "ozempic vs mounjaro canada",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Ozempic vs. Mounjaro in Canada (2026): Which Works Better?",
+    "meta_description": "Ozempic vs. Mounjaro compared for Canadians: weight loss results, CAD pricing, coverage, and side effects. See which GLP-1/GIP medication fits your goals.",
+    "h1": "Ozempic vs. Mounjaro: Which Is Right for You in Canada?",
+
+    "quick_verdict": "Mounjaro produces greater average weight loss than Ozempic — roughly 20–22% vs. 10–15% — via a dual-hormone mechanism. Ozempic is cheaper with a generic from $114/month; Mounjaro costs more but wins on results.",
+    "overall_winner": "Mounjaro",
+    "winner_reason": "Superior average weight loss in the SURMOUNT and SURPASS trial programs, plus stronger appetite suppression reported by users — but only wins if you can absorb the higher monthly cost, since Ozempic has a much cheaper generic-equivalent path.",
+
+    "intro": "Ozempic and Mounjaro are the two most talked-about injectable weight loss medications in Canada in 2026. Both are approved for type 2 diabetes and prescribed off-label for weight loss. The core difference: Ozempic targets one gut hormone receptor, Mounjaro targets two — driving greater average weight loss.",
+
+    "option_a": {
+      "name": "Ozempic (semaglutide)",
+      "tagline": "The established option — and now available as a cheap generic",
+      "overview": "Ozempic has been prescribed in Canada since 2018 and is Health Canada-approved for type 2 diabetes. It's a GLP-1 receptor agonist, mimicking a gut hormone that reduces appetite and slows digestion. Since May 2026, a bioequivalent generic (Apo-Semaglutide) has been available from roughly $114/month, making Ozempic's underlying drug the more affordable of the two options by a wide margin.",
+      "pros": [
+        "Generic semaglutide available from ~$114/month — Mounjaro has no generic yet",
+        "8 years of real-world Canadian prescribing history and safety data",
+        "Wider pharmacy stock and fewer supply disruptions than Mounjaro",
+        "More provincial drug plans have Ozempic on formulary for T2D",
+        "Familiar FlexTouch pen device"
+      ],
+      "cons": [
+        "Lower average weight loss than Mounjaro in head-to-head studies (10–15% vs. 20–22%)",
+        "Single-hormone mechanism may plateau sooner for some patients",
+        "Brand-name Ozempic still costs $250–350/month if the generic isn't in stock locally"
+      ],
+      "best_for": "Canadians who want the lowest-cost GLP-1 option, are starting their first weight loss medication, or whose drug plan already covers Ozempic.",
+      "cost_cad": "Generic semaglutide ~$114/month; brand-name Ozempic $250–350/month self-pay.",
+      "availability_canada": "Widely available at all major Canadian pharmacy chains; generic now stocked at Shoppers, Rexall, London Drugs, Costco.",
+      "score": 8
+    },
+
+    "option_b": {
+      "name": "Mounjaro (tirzepatide)",
+      "tagline": "The stronger result — at a higher price",
+      "overview": "Mounjaro is a dual GIP/GLP-1 receptor agonist approved by Health Canada for type 2 diabetes in 2023, and widely prescribed off-label for weight loss. Its dual-hormone mechanism produced the largest average weight loss of any approved injectable in Canada to date. No generic tirzepatide is available or expected before 2028–2029.",
+      "pros": [
+        "Highest average weight loss of any approved GLP-1/GIP medication — 20–22% of body weight in SURMOUNT trials",
+        "Dual hormone mechanism may work for patients who plateau on semaglutide",
+        "Once-weekly injection, same convenience as Ozempic",
+        "Growing prescribing base among Canadian obesity medicine specialists"
+      ],
+      "cons": [
+        "$350–450+/month out of pocket — no generic alternative exists",
+        "Newer to the Canadian market with less long-term real-world data than Ozempic",
+        "Periodic supply constraints, especially for higher-dose pens",
+        "Fewer provincial drug plans cover Mounjaro than Ozempic"
+      ],
+      "best_for": "Canadians who have plateaued on semaglutide, want the strongest available weight loss result, and can afford the higher monthly cost.",
+      "cost_cad": "$350–450/month self-pay; no generic equivalent available in Canada as of 2026.",
+      "availability_canada": "Available at major pharmacy chains and through telehealth providers; supply is improving but less consistent than Ozempic/generic semaglutide.",
+      "score": 8
+    },
+
+    "category_winners": [
+      {
+        "category": "Weight loss effectiveness",
+        "winner": "Mounjaro",
+        "reason": "SURMOUNT-1 showed 20–22% average body weight loss at the highest tirzepatide dose, compared to 10–15% for semaglutide at the Ozempic dose — a meaningful real-world difference for patients seeking maximum results."
+      },
+      {
+        "category": "Cost (out of pocket)",
+        "winner": "Ozempic",
+        "reason": "Generic semaglutide at ~$114/month is roughly one-third the cost of Mounjaro, which has no generic and no imminent path to one."
+      },
+      {
+        "category": "Drug plan coverage",
+        "winner": "Ozempic",
+        "reason": "Ozempic has been on provincial formularies since 2018; Mounjaro coverage is expanding but still less common, especially for weight-loss (off-label) use."
+      },
+      {
+        "category": "Supply reliability",
+        "winner": "Ozempic",
+        "reason": "8 years of Canadian distribution plus now two generic manufacturers means Ozempic/generic semaglutide has the most consistent pharmacy stock."
+      },
+      {
+        "category": "Side effect tolerability",
+        "winner": "Tie",
+        "reason": "Both drugs share similar GI side effects (nausea, vomiting, constipation). Some patients tolerate one better than the other individually, but there's no consistent population-level advantage either way."
+      }
+    ],
+
+    "comparison_table": [
+      { "attribute": "Mechanism", "option_a_value": "GLP-1 receptor agonist", "option_b_value": "Dual GIP/GLP-1 receptor agonist" },
+      { "attribute": "Average weight loss (trials)", "option_a_value": "10–15% (1mg Ozempic dose)", "option_b_value": "20–22% (15mg tirzepatide dose)" },
+      { "attribute": "Health Canada approval", "option_a_value": "2018 (T2D)", "option_b_value": "2023 (T2D)" },
+      { "attribute": "Generic available", "option_a_value": "Yes — ~$114/month", "option_b_value": "No" },
+      { "attribute": "Monthly cost (brand)", "option_a_value": "$250–350", "option_b_value": "$350–450+" },
+      { "attribute": "Dosing schedule", "option_a_value": "Once weekly injection", "option_b_value": "Once weekly injection" },
+      { "attribute": "Approved indication", "option_a_value": "Type 2 diabetes (off-label weight loss)", "option_b_value": "Type 2 diabetes (off-label weight loss)" },
+      { "attribute": "Provincial coverage", "option_a_value": "Widely covered for T2D", "option_b_value": "More limited, expanding" },
+      { "attribute": "Common side effects", "option_a_value": "Nausea, vomiting, constipation", "option_b_value": "Nausea, vomiting, constipation (similar rates)" }
+    ],
+
+    "choose_a_if": [
+      "You want the lowest possible monthly cost via generic semaglutide",
+      "Your drug plan already covers Ozempic for type 2 diabetes",
+      "You're starting your first GLP-1 medication and want the most established option",
+      "You want the widest pharmacy availability across Canada"
+    ],
+    "choose_b_if": [
+      "You've plateaued on semaglutide and want a stronger option",
+      "Maximum weight loss is your top priority and cost is secondary",
+      "Your doctor recommends the dual-hormone mechanism for your metabolic profile",
+      "Your drug plan covers Mounjaro specifically"
+    ],
+
+    "canadian_context": "Both drugs are approved by Health Canada for type 2 diabetes and prescribed off-label for weight loss — neither has a Health Canada weight-loss indication the way Wegovy and Zepbound do in other markets, though Zepbound (tirzepatide's weight-loss branded version) is under review in Canada. With generic semaglutide now on the market at roughly one-third Ozempic's price, the cost gap between the two drug classes has widened significantly in 2026. Mounjaro remains protected by patent until at least the late 2020s, so Canadians should expect the price gap to persist for several years.",
+
+    "faqs": [
+      {
+        "question": "Is Mounjaro more effective than Ozempic for weight loss?",
+        "answer": "In head-to-head and comparative trial data, Mounjaro (tirzepatide) produces greater average weight loss — roughly 20–22% of body weight versus 10–15% for Ozempic (semaglutide) at standard doses. Individual results vary, and some patients respond better to one drug than the other."
+      },
+      {
+        "question": "Is there a generic version of Mounjaro in Canada?",
+        "answer": "No. As of 2026, no generic tirzepatide is approved in Canada, and none is expected before the patent expires later in the decade. Ozempic's active ingredient (semaglutide) does have a Health Canada-approved generic available from roughly $114/month."
+      },
+      {
+        "question": "Can I switch from Ozempic to Mounjaro?",
+        "answer": "Yes, with medical supervision. Your doctor will typically start you on a low Mounjaro dose and titrate up over several weeks, similar to starting any new GLP-1/GIP medication, rather than doing a direct dose conversion."
+      },
+      {
+        "question": "Which is cheaper in Canada, Ozempic or Mounjaro?",
+        "answer": "Ozempic is cheaper, especially since generic semaglutide launched in May 2026 at approximately $114/month. Brand-name Mounjaro costs $350–450+/month with no generic alternative."
+      },
+      {
+        "question": "Does insurance cover Mounjaro in Canada?",
+        "answer": "Some provincial and private drug plans cover Mounjaro for type 2 diabetes, but coverage is less widespread than for Ozempic. Coverage for off-label weight loss use is limited for both drugs. Check your specific plan's formulary."
+      },
+      {
+        "question": "Are the side effects different between Ozempic and Mounjaro?",
+        "answer": "Both drugs cause similar gastrointestinal side effects — nausea, vomiting, constipation, and diarrhea — especially during dose titration. Neither has a clearly better side effect profile at the population level; individual tolerance varies."
+      }
+    ],
+
+    "cta_heading": "Compare Live GLP-1 Prices Across Canada",
+    "cta_body": "See current pricing for Ozempic, generic semaglutide, Mounjaro, and Wegovy at 15+ Canadian pharmacies and telehealth providers — updated regularly.",
+    "related_topics": [
+      "ozempic-review",
+      "mounjaro-review",
+      "generic-semaglutide-vs-ozempic"
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "template": "comparison",
+  "slug": "wegovy-vs-ozempic-canada",
+  "generated_at": "2026-08-23T00:00:00.000Z",
+  "seed": {
+    "template": "comparison",
+    "topic": "wegovy vs ozempic canada",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Wegovy vs. Ozempic in Canada (2026): Same Drug, Different Purpose",
+    "meta_description": "Wegovy vs. Ozempic explained for Canadians: same active ingredient, different dose and approved use. Which one should you ask your doctor about?",
+    "h1": "Wegovy vs. Ozempic: What's Actually Different in Canada",
+
+    "quick_verdict": "Wegovy and Ozempic are the same drug — semaglutide, same manufacturer. Wegovy is approved for weight management at a higher 2.4mg dose; Ozempic tops out at 1mg for diabetes. Wegovy loses more weight but costs more; Ozempic's generic is cheaper.",
+    "overall_winner": "Depends on goal",
+    "winner_reason": "Wegovy wins on maximum weight loss and on-label legitimacy for that purpose. Ozempic — particularly generic semaglutide — wins on cost and availability. Neither is a universal winner; the right choice depends on your dose needs and budget.",
+
+    "intro": "Wegovy and Ozempic cause constant confusion because they're the same drug — semaglutide, made by Novo Nordisk — sold under two brand names for two different approved purposes. Understanding the real difference (dose, approval, price) helps you have a more informed conversation with your doctor and avoid overpaying for a prescription that doesn't match your situation.",
+
+    "option_a": {
+      "name": "Wegovy",
+      "tagline": "Semaglutide at the higher, weight-loss-specific dose",
+      "overview": "Wegovy is semaglutide dosed up to 2.4mg weekly, Health Canada-approved since 2021 specifically for chronic weight management in adults with obesity or overweight with weight-related conditions. It's the only semaglutide product with an on-label weight-loss indication in Canada, which matters for some insurance approval processes.",
+      "pros": [
+        "On-label for weight management — not an off-label use like Ozempic for weight loss",
+        "Highest average weight loss of the two options: 15–22% of body weight at 2.4mg",
+        "Purpose-built dose titration schedule for weight management specifically",
+        "Some private insurers require on-label indication for any coverage consideration"
+      ],
+      "cons": [
+        "$300–400+/month out of pocket — more expensive than generic semaglutide",
+        "Limited provincial drug plan coverage even though it's on-label for weight loss",
+        "No generic version — semaglutide generics currently only match the lower Ozempic-equivalent doses",
+        "Less pharmacy stock consistency than Ozempic/generic semaglutide"
+      ],
+      "best_for": "Canadians who want the maximum semaglutide dose specifically approved for weight loss, and whose insurer requires an on-label prescription for any possible reimbursement consideration.",
+      "cost_cad": "$300–400/month self-pay; limited coverage even under private plans.",
+      "availability_canada": "Available at major pharmacy chains and telehealth providers across Canada, though less consistently stocked than Ozempic.",
+      "score": 8
+    },
+
+    "option_b": {
+      "name": "Ozempic",
+      "tagline": "Semaglutide at diabetes doses — cheaper, and now generic",
+      "overview": "Ozempic is semaglutide dosed up to 1mg weekly, Health Canada-approved for type 2 diabetes management since 2018 and widely prescribed off-label for weight loss. Since May 2026, a bioequivalent generic (Apo-Semaglutide) is available at Ozempic's dose strengths for roughly $114/month.",
+      "pros": [
+        "Generic semaglutide available from ~$114/month — the cheapest way to access this drug class",
+        "Widest pharmacy availability and longest Canadian track record (since 2018)",
+        "Better provincial drug plan coverage, since it's on-label for type 2 diabetes",
+        "Still produces meaningful weight loss (10–15% average) for many patients"
+      ],
+      "cons": [
+        "Off-label for weight loss — some insurers won't consider coverage for this use",
+        "Lower maximum dose than Wegovy, which caps average weight loss below Wegovy's results",
+        "Brand-name Ozempic (if the generic isn't stocked) still costs $250–350/month"
+      ],
+      "best_for": "Canadians focused on cost, those with type 2 diabetes who also want weight loss benefit, and anyone comfortable with an off-label weight-loss prescription.",
+      "cost_cad": "Generic semaglutide ~$114/month; brand-name $250–350/month.",
+      "availability_canada": "Widely available across Canada; generic now stocked at all major pharmacy chains.",
+      "score": 8
+    },
+
+    "category_winners": [
+      {
+        "category": "Weight loss effectiveness",
+        "winner": "Wegovy",
+        "reason": "The 2.4mg dose produces 15–22% average body weight loss versus 10–15% for Ozempic's 1mg maximum dose — a direct result of the higher, weight-management-specific dosing."
+      },
+      {
+        "category": "Cost (out of pocket)",
+        "winner": "Ozempic",
+        "reason": "Generic semaglutide at ~$114/month is less than half the cost of Wegovy, which has no generic equivalent at its higher dose."
+      },
+      {
+        "category": "On-label legitimacy for weight loss",
+        "winner": "Wegovy",
+        "reason": "Wegovy is the only one of the two Health Canada-approved specifically for weight management, which can matter for certain insurance reimbursement or prior-authorization processes."
+      },
+      {
+        "category": "Pharmacy availability",
+        "winner": "Ozempic",
+        "reason": "8 years of Canadian distribution plus two generic manufacturers gives Ozempic/generic semaglutide the most consistent stock nationwide."
+      },
+      {
+        "category": "Drug plan coverage",
+        "winner": "Ozempic",
+        "reason": "Because it's approved for type 2 diabetes, Ozempic is on far more provincial and private formularies than Wegovy, even though Wegovy is technically the on-label weight-loss product."
+      }
+    ],
+
+    "comparison_table": [
+      { "attribute": "Active ingredient", "option_a_value": "Semaglutide", "option_b_value": "Semaglutide (same drug)" },
+      { "attribute": "Manufacturer", "option_a_value": "Novo Nordisk", "option_b_value": "Novo Nordisk" },
+      { "attribute": "Maximum dose", "option_a_value": "2.4mg weekly", "option_b_value": "1mg weekly (2mg in some markets)" },
+      { "attribute": "Health Canada approval", "option_a_value": "2021 — chronic weight management", "option_b_value": "2018 — type 2 diabetes" },
+      { "attribute": "Average weight loss (trials)", "option_a_value": "15–22%", "option_b_value": "10–15%" },
+      { "attribute": "Generic available", "option_a_value": "No", "option_b_value": "Yes — ~$114/month" },
+      { "attribute": "Monthly cost (brand)", "option_a_value": "$300–400+", "option_b_value": "$250–350" },
+      { "attribute": "Provincial coverage", "option_a_value": "Limited, even though on-label", "option_b_value": "Widely covered for T2D" }
+    ],
+
+    "choose_a_if": [
+      "You want the maximum approved semaglutide dose for weight loss specifically",
+      "Your insurer requires an on-label indication to even consider partial coverage",
+      "You've plateaued at Ozempic's 1mg dose and want to go higher",
+      "Cost is not the primary constraint"
+    ],
+    "choose_b_if": [
+      "You want the lowest cost via generic semaglutide",
+      "You have type 2 diabetes and want a drug plan that's more likely to cover it",
+      "You're comfortable with an off-label weight-loss prescription",
+      "You want the most widely available option at your local pharmacy"
+    ],
+
+    "canadian_context": "The Wegovy vs. Ozempic confusion is common because they're identical molecules from the same manufacturer, differing only in maximum approved dose and labelled indication. Health Canada's separate approvals mean provincial drug plans often treat them very differently for coverage purposes — Ozempic is far more likely to be reimbursed because diabetes coverage is more established than obesity-medication coverage across Canadian formularies. With generic semaglutide now available at Ozempic's dose strengths, many Canadians are choosing the cheaper off-label route unless they specifically need Wegovy's higher dose.",
+
+    "faqs": [
+      {
+        "question": "Is Wegovy just a higher dose of Ozempic?",
+        "answer": "Essentially, yes. Both are semaglutide made by Novo Nordisk. Wegovy is approved at doses up to 2.4mg specifically for weight management, while Ozempic tops out at 1mg and is approved for type 2 diabetes. The drug itself is identical — only the dose and approved indication differ."
+      },
+      {
+        "question": "Can my doctor just prescribe me a higher dose of Ozempic instead of Wegovy?",
+        "answer": "In practice, some doctors do prescribe Ozempic off-label at doses approaching Wegovy levels, but Ozempic isn't manufactured or approved above 1–2mg. If you need the full 2.4mg dose, Wegovy is the product designed for that."
+      },
+      {
+        "question": "Is generic Wegovy available in Canada?",
+        "answer": "No. As of 2026, generic semaglutide is only available at Ozempic's dose strengths (up to 1mg), not at Wegovy's higher 2.4mg weight-management dose. No generic Wegovy equivalent is expected before the patent expires."
+      },
+      {
+        "question": "Which is cheaper, Wegovy or Ozempic, in Canada?",
+        "answer": "Ozempic is cheaper, especially with generic semaglutide available from roughly $114/month. Brand-name Wegovy costs $300–400+/month with no generic alternative."
+      },
+      {
+        "question": "Does insurance cover Wegovy better than Ozempic since it's the official weight-loss drug?",
+        "answer": "Not necessarily. Despite being the on-label weight-management product, Wegovy is often less well covered by Canadian drug plans than Ozempic, because diabetes medication coverage is more established. Check your specific plan's formulary — coverage varies significantly."
+      },
+      {
+        "question": "Should I ask my doctor for Wegovy or Ozempic?",
+        "answer": "It depends on your goal and budget. If cost is the priority and you don't need the maximum dose, ask about Ozempic or generic semaglutide. If you want the highest approved dose specifically for weight management and cost is less of a barrier, Wegovy is the purpose-built option. Discuss both with your doctor."
+      }
+    ],
+
+    "cta_heading": "See Live Semaglutide Pricing Across Canada",
+    "cta_body": "Compare current prices for Wegovy, Ozempic, and generic semaglutide at 15+ Canadian pharmacies and telehealth providers.",
+    "related_topics": [
+      "ozempic-review",
+      "wegovy-review",
+      "generic-semaglutide-vs-ozempic"
+    ]
+  }
+}

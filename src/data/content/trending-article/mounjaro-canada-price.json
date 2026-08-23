@@ -1,0 +1,99 @@
+{
+  "template": "trending-article",
+  "slug": "mounjaro-canada-price",
+  "generated_at": "2026-08-23T00:00:00.000Z",
+  "seed": {
+    "template": "trending-article",
+    "topic": "mounjaro canada price",
+    "year": 2026
+  },
+  "content": {
+    "page_title": "Mounjaro Price in Canada (2026): Real CAD Costs by Pharmacy",
+    "meta_description": "How much does Mounjaro cost in Canada in 2026? Real CAD pricing by dose and pharmacy, insurance coverage, and how it compares to Ozempic.",
+    "h1": "How Much Does Mounjaro Cost in Canada?",
+
+    "publish_date": "2026-08-23",
+    "last_updated": "2026-08-23",
+    "reading_time_minutes": 6,
+
+    "quick_summary": "Mounjaro costs approximately $350–$450/month in Canada without insurance, varying by dose. No generic tirzepatide exists, so this price won't drop meaningfully before the late 2020s.",
+
+    "intro": "Mounjaro is one of the most requested weight-loss medications in Canada right now, and pricing is the number one question we get from readers. Unlike Ozempic, there's no cheaper generic version to fall back on — so understanding exactly what you'll pay, at which dose, and whether your insurance will help is essential before you start. Here's the real breakdown.",
+
+    "body_sections": [
+      {
+        "heading": "Mounjaro pricing by dose",
+        "body": "Mounjaro is dosed in six strengths: 2.5mg, 5mg, 7.5mg, 10mg, 12.5mg, and 15mg, taken as a once-weekly injection. Price generally increases with dose, though many Canadian pharmacies price all strengths similarly per pen box since dosing is titrated up over months. Starting doses (2.5mg–5mg) typically run $325–$375/month, while maintenance doses (10mg–15mg) run $400–$450/month.",
+        "key_point": "Expect your monthly cost to rise as your doctor titrates your dose upward over the first 3–5 months of treatment."
+      },
+      {
+        "heading": "Why there's no cheaper generic option",
+        "body": "Tirzepatide, Mounjaro's active ingredient, remains under patent protection in Canada. Unlike semaglutide (Ozempic's active ingredient), which lost patent protection in Canada in 2026 after Novo Nordisk let a maintenance fee lapse, tirzepatide's patent runs into the late 2020s. No generic manufacturer has an approved or pending Health Canada submission for tirzepatide as of mid-2026.",
+        "key_point": "Don't expect a generic Mounjaro option before 2028 at the earliest — plan your budget around brand pricing."
+      },
+      {
+        "heading": "Pharmacy price comparison",
+        "body": "Pricing varies modestly between major Canadian pharmacy chains. Costco Pharmacy and independent pharmacies often price slightly below chain drugstores due to lower dispensing fees. Telehealth providers that bundle consultation with prescription (Felix Health, Hims & Hers, PocketPills) typically charge $370–$450/month all-in, which includes the physician consultation fee — often competitive with getting a standalone prescription plus retail pharmacy pricing separately.",
+        "key_point": "Always ask your pharmacy for the exact price including dispensing fee before filling — fees range from $8 to $15 across provinces."
+      },
+      {
+        "heading": "Insurance and drug plan coverage",
+        "body": "Mounjaro is covered by a growing number of private insurance plans for type 2 diabetes, but coverage for off-label weight-loss use remains limited. Provincial public drug plans (ODB, PharmaCare, etc.) cover Mounjaro for T2D in some cases, subject to special authorization criteria. If your plan doesn't cover it, ask your pharmacist about Eli Lilly's patient support program, which may offer savings for eligible patients.",
+        "key_point": "Call your insurer's benefits line before starting — pre-authorization requirements are common for Mounjaro."
+      },
+      {
+        "heading": "How Mounjaro pricing compares to alternatives",
+        "body": "At $350–450/month, Mounjaro costs roughly $100 more per month than brand-name Ozempic ($250–350) and nearly four times more than generic semaglutide (~$114/month). If cost is your primary constraint, generic semaglutide is significantly cheaper, though it may produce somewhat less weight loss on average. Mounjaro remains the choice for patients prioritizing maximum results over cost.",
+        "key_point": "If budget is tight, ask your doctor whether generic semaglutide could be a reasonable starting point before moving to Mounjaro."
+      }
+    ],
+
+    "key_takeaways": [
+      "Mounjaro costs $350–450/month in Canada without insurance, rising with dose",
+      "No generic tirzepatide exists yet — don't expect a cheaper alternative before 2028",
+      "Telehealth bundles (consultation + Rx) are often competitively priced against standalone pharmacy fills",
+      "Insurance coverage for weight-loss use is limited; T2D coverage is more common",
+      "Generic semaglutide (~$114/month) remains the cheapest GLP-1/GIP option if cost is the deciding factor"
+    ],
+
+    "canadian_context": "Mounjaro's Canadian pricing sits within the Patented Medicine Prices Review Board (PMPRB) framework, which caps launch prices relative to international comparator countries but doesn't force reductions the way generic competition does. Because tirzepatide has no Canadian generic competitor, its price has stayed comparatively stable since launch, unlike semaglutide, which saw a roughly 50% price drop once generics entered the market in 2026.",
+
+    "sources": [
+      { "title": "Mounjaro Product Monograph", "publisher": "Health Canada", "url": "https://health-products.canada.ca/dpd-bdpp/index-eng.jsp" },
+      { "title": "SURMOUNT-1 Trial Results", "publisher": "New England Journal of Medicine" }
+    ],
+
+    "related_topics": [
+      "mounjaro-review",
+      "ozempic-vs-mounjaro-canada",
+      "glp1-prices",
+      "generic-semaglutide-canada-tracker"
+    ],
+
+    "faqs": [
+      {
+        "question": "How much does Mounjaro cost per month in Canada?",
+        "answer": "Approximately $350–$450 per month without insurance, depending on dose. Starting doses tend to be cheaper than maintenance doses."
+      },
+      {
+        "question": "Is there a generic version of Mounjaro in Canada?",
+        "answer": "No. Tirzepatide, Mounjaro's active ingredient, remains under patent in Canada with no generic expected before the late 2020s."
+      },
+      {
+        "question": "Does insurance cover Mounjaro in Canada?",
+        "answer": "Coverage varies. Many private plans cover it for type 2 diabetes with prior authorization; coverage for off-label weight-loss use is less common. Check your specific plan."
+      },
+      {
+        "question": "Is Mounjaro cheaper through telehealth or a regular pharmacy?",
+        "answer": "Pricing is often similar once you account for consultation fees. Telehealth providers bundle the physician visit into their monthly price, which can be competitive with paying separately for a doctor's visit and pharmacy fill."
+      },
+      {
+        "question": "Why is Mounjaro more expensive than Ozempic?",
+        "answer": "Mounjaro has no generic competitor, while Ozempic's active ingredient (semaglutide) now has Health Canada-approved generics from roughly $114/month, pulling the effective price of that drug class down significantly."
+      }
+    ],
+
+    "cta_heading": "Compare Mounjaro Pricing Across Canadian Pharmacies",
+    "cta_body": "See current GLP-1 and GIP medication pricing at 15+ Canadian pharmacies and telehealth providers, updated regularly."
+  }
+}

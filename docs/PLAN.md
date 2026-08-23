@@ -1,6 +1,6 @@
 # weight-loss.ca — Live Project Plan
 
-**Last Updated**: 2026-03-16
+**Last Updated**: 2026-08-23
 **Current Phase**: Phase 4 — SEO & Indexing
 
 ---
@@ -195,11 +195,23 @@
 **Remaining Phase 4**
 - [ ] Submit sitemap.xml in Google Search Console (Lenold action)
 - [ ] Manually request indexing for top 10 priority pages in GSC (Lenold action — daily batches of 10)
-- [ ] Structured data on individual article pages (Article/HowTo/Review schema per template)
-- [ ] Verify RelatedLinks component is wired into all 9 templates
+- [x] 2026-08-23 — Structured data on individual article pages — JsonLd component already wired into all 9 templates (confirmed via audit)
+- [x] 2026-08-23 — Verify RelatedLinks component is wired into all 9 templates — confirmed, and closed gaps where `related_topics` was missing (mounjaro-review) or stale (ozempic-review, wegovy-review, berberine-review)
 - [ ] Core Web Vitals check (LCP < 2.5s)
 - [ ] Get 3–5 quality Canadian backlinks (Lenold action — HARO, guest posts, clinic outreach)
 - [ ] Set up GA4 + GTM (Lenold action — GTM-TG5WJTV7 + G-GWXLDMY1ZB already created, needs wiring)
+
+**Month 1 content gaps — 2026-08-23 ✅ COMPLETE**
+- [x] 2026-08-23 — `ozempic-vs-mounjaro-canada` comparison page
+- [x] 2026-08-23 — `wegovy-vs-ozempic-canada` comparison page
+- [x] 2026-08-23 — `generic-semaglutide-vs-ozempic` (was already built 2026-05-21)
+- [x] 2026-08-23 — `mounjaro-canada-price` pricing article
+- [x] 2026-08-23 — `how-much-does-ozempic-cost-in-canada` pricing article
+- [x] 2026-08-23 — `is-ozempic-covered-by-insurance-canada` coverage article
+- [x] 2026-08-23 — `generic-semaglutide-weight-loss-canada` (was already built 2026-05-21)
+- [x] 2026-08-23 — `generic-semaglutide-coverage-by-province` (was already built 2026-05-21)
+- [x] 2026-08-23 — Fixed data corruption in `ozempic-review.json`/`wegovy-review.json`/`contrave-review.json`/`berberine-review.json` (mangled prices, truncated summaries) while updating related_topics
+- [x] 2026-08-23 — `/clinics` and `/reviews` redirect-error bug — confirmed already fixed (both return HTTP 200), TODO was stale
 
 ---
 

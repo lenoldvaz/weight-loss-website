@@ -13,7 +13,7 @@
     "page_title": "Wegovy Review 2026 — Does It Work for Weight Loss in Canada?",
     "meta_description": "Evidence-based Wegovy review for Canadians. Learn how this GLP-1 injection works, costs, side effects, and whether it's right for you.",
     "h1": "Wegovy Review 2026: Effectiveness, Cost & Safety in Canada",
-    "verdict_summary": "Wegovy is a clinically proven GLP-1 medication that helps many Canadians lose significant weight when combined with lifestyle changes. Strong evidence supports its use, but cost, side effects, and pre",
+    "verdict_summary": "Wegovy helps many Canadians lose significant weight (15–22%) with strong clinical evidence behind it, but cost ($300–$400/month), side effects, and limited provincial coverage remain real barriers.",
     "overall_score": 7.8,
     "recommended": true,
     "best_for": "Adults with BMI ≥27 (with weight-related conditions) or BMI ≥30, committed to lifestyle changes, who can afford or access coverage, and tolerate injectable medications",
@@ -106,10 +106,6 @@
       {
         "name": "Orlistat (Xenical)",
         "comparison_note": "Over-the-counter lipase inhibitor; minimal weight loss (3–5%); fewer side effects but much less effective than Wegovy; no prescription needed"
-      },
-      {
-        "name": "Phentermine",
-        "comparison_note": "Older appetite suppressant; short-term use only (12 weeks); modest weight loss; more side effects; lower cost but less evidence"
       }
     ],
     "faqs": [
@@ -152,7 +148,8 @@
       "generic-semaglutide-weight-loss-canada",
       "generic-semaglutide-vs-ozempic",
       "generic-semaglutide-canada",
-      "ozempic-review"
+      "ozempic-review",
+      "wegovy-vs-ozempic-canada"
     ]
   }
 }

@@ -215,9 +215,7 @@ ANTHROPIC_API_KEY=sk-ant-...
 
 ---
 
-## Database — Supabase (Phase 3+)
-
-_Not needed until clinic directory feature is built._
+## Database — Supabase (in use since 2026-05-21)
 
 | Field                | Value                             |
 | -------------------- | --------------------------------- |
@@ -227,6 +225,14 @@ _Not needed until clinic directory feature is built._
 | Anon key env var     | `NEXT_PUBLIC_SUPABASE_ANON_KEY`   |
 | Service key env var  | `SUPABASE_SERVICE_ROLE_KEY`       |
 | Database URL env var | `DATABASE_URL`                    |
+
+**Tables in use:**
+- `semaglutide_news` — daily news pipeline (`/api/cron/fetch-news`), used by `/semaglutide-news`
+- `subscribers` — email capture from `/api/subscribe`
+
+**Tables NOT yet created (pending — see below):**
+- `glp1_prices` — **this is why `/glp1-prices` always shows hardcoded data.** `src/app/glp1-prices/page.tsx` already tries to read from this table first and only falls back to the hardcoded `SEED_PRICES` array when the table is missing or empty. The table has never been created, so it always falls back.
+  - **To fix:** run `scripts/deploy/glp1_prices_migration.sql` in the Supabase SQL Editor (dashboard → SQL Editor → New query → paste → Run). It creates the table, sets up public read RLS, and seeds it with the current 27 hardcoded price rows so nothing is lost in the cutover. After running it, the page will start reading live data automatically (revalidates hourly) — no code deploy needed.
 
 ---
 
